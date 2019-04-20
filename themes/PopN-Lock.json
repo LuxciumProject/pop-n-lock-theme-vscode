@@ -2088,7 +2088,7 @@
     "titleBar.activeForeground": "#DCA9",
     "titleBar.inactiveForeground": "#DCA5",
     "titleBar.activeBackground": "#19172C",
-    "titleBar.inactiveBackground": "#1D1028",
+    "titleBar.inactiveBackground": "#19172C",
     "titleBar.border": "#7160",
 
     "breadcrumb.background": "#1D2545",
@@ -2220,7 +2220,7 @@
 
     "editorBracketMatch.background": "#AE44",
     "editorBracketMatch.border": "#AE4A",
-    "editorRuler.foreground": "#F433",
+    "editorRuler.foreground": "#F431",
     "dropdown.border": "#7169",
     "dropdown.listBackground": "#19152F",
 
