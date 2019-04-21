@@ -15,7 +15,9 @@ export const asyncAnonymArowFunction = async () => {
   checker = true;
   checker = false;
   checker.valueOf();
-  return variable1;
+  const some = new ClassName({ value: "value" });
+  some.otherMethodeValue;
+  return { some, variable1 };
 };
 
 interface argument {
@@ -32,7 +34,7 @@ export default class ClassName extends ParentClass implements IInterface {
     ) {
       this.value = parametre.value;
     }
-    this.value = " parametre.value;";
+    this.value = "parametre.value;";
   }
   public async asyncMethode() {
     const variable1 = 10;
