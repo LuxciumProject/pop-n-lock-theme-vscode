@@ -1,3 +1,29 @@
+/*
+class
+function
+import
+export
+const
+let
+new
+async
+await
+arrow =>
+
+comments
+return
+defaut
+from
+as
+*
+strings
+variable name
+function names
+class names
+
+
+*/
+
 class ParentClass {}
 interface IInterface {
   value: string;
