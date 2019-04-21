@@ -865,6 +865,16 @@
     },
     {
       "scope": [
+        "source.ts constant.numeric",
+        "source.ts constant.numeric.binary",
+        "source.ts constant.numeric.decimal",
+        "source.ts constant.numeric.hex",
+        "source.ts constant.numeric.octal"
+      ],
+      "settings": { "foreground": "#B93558", "fontStyle": "" }
+    },
+    {
+      "scope": [
         "source.ts constant",
         "source.ts constant.character.escape.backslash.regexp",
         "source.ts constant.character.numeric.regexp",
@@ -878,7 +888,8 @@
         "source.ts constant.other.description.jsdoc",
         "source.ts constant.other.email.link.underline.jsdoc",
         "source.ts constant.rgb-value",
-        "source.ts constant.sha.git-rebase"
+        "source.ts constant.sha.git-rebase",
+        "source.ts constant.character.escape"
       ],
       "settings": { "foreground": "#B93558", "fontStyle": "" }
     },
@@ -894,23 +905,12 @@
 
     {
       "scope": ["source.ts constant.language.undefined"],
-      "settings": { "foreground": "#B93558", "fontStyle": "" }
+      "settings": { "foreground": "#B93558", "fontStyle": "bold" }
     },
 
     {
       "scope": ["source.ts constant.language.null"],
-      "settings": { "foreground": "#B93558", "fontStyle": "" }
-    },
-
-    {
-      "scope": [
-        "source.ts constant.numeric",
-        "source.ts constant.numeric.binary",
-        "source.ts constant.numeric.decimal",
-        "source.ts constant.numeric.hex",
-        "source.ts constant.numeric.octal"
-      ],
-      "settings": { "foreground": "#B93558", "fontStyle": "" }
+      "settings": { "foreground": "#B93558", "fontStyle": "bold" }
     },
 
     {
@@ -922,137 +922,47 @@
       "scope": ["source.ts constant.language.infinity"],
       "settings": { "foreground": "#B93558", "fontStyle": "" }
     },
-
-    {
-      "scope": ["source.ts constant.character.escape"],
-      "settings": { "foreground": "#B93558", "fontStyle": "" }
-    },
-    {
-      "scope": ["source.ts support.class"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.class.builtin"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
     {
       "scope": ["source.ts support.class.console"],
       "settings": { "foreground": "#fe8019", "fontStyle": "" }
-    },
-    {
-      "scope": ["source.ts support.class.node"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.class.promise"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.constant"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.constant.json"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.constant.math"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.constant.property-value.css"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.constant.property.math"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.function"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.function.builtin"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts support.function.console"],
       "settings": { "foreground": "#fe8019", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts support.function.git-rebase"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.function.json"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.function.math"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.function.process"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.property-value"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.property-value.scss"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.type"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.type.builtin"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.type.object.module"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.type.primitive"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.type.property-name"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.type.property-name.css"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.variable"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.variable.object.node"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.variable.object.process"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.variable.property"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.variable.property.importmeta"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.variable.property.process"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.ts support.variable.property.target"],
+      "scope": [
+        "source.ts support.class",
+        "source.ts support.class.builtin",
+        "source.ts support.class.node",
+        "source.ts support.class.promise",
+        "source.ts support.constant",
+        "source.ts support.constant.json",
+        "source.ts support.constant.math",
+        "source.ts support.constant.property-value.css",
+        "source.ts support.constant.property.math",
+        "source.ts support.function",
+        "source.ts support.function.builtin",
+        "source.ts support.function.git-rebase",
+        "source.ts support.function.json",
+        "source.ts support.function.math",
+        "source.ts support.function.process",
+        "source.ts support.property-value",
+        "source.ts support.property-value.scss",
+        "source.ts support.type",
+        "source.ts support.type.builtin",
+        "source.ts support.type.object.module",
+        "source.ts support.type.primitive",
+        "source.ts support.type.property-name",
+        "source.ts support.type.property-name.css",
+        "source.ts support.variable",
+        "source.ts support.variable.object.node",
+        "source.ts support.variable.object.process",
+        "source.ts support.variable.property",
+        "source.ts support.variable.property.importmeta",
+        "source.ts support.variable.property.process",
+        "source.ts support.variable.property.target"
+      ],
       "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
     },
     {
