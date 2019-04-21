@@ -1,29 +1,3 @@
-/*
-class
-function
-import
-export
-const
-let
-new
-async
-await
-arrow =>
-
-comments
-return
-defaut
-from
-as
-*
-strings
-variable name
-function names
-class names
-
-
-*/
-
 class ParentClass {}
 interface IInterface {
   value: string;
@@ -63,13 +37,17 @@ export default class ClassName extends ParentClass implements IInterface {
   public async asyncMethode() {
     const variable1 = 10;
     let variable2: string;
-    variable2 = variable1.toFixed(2);
+    variable2 = await variable1.toFixed(2);
     return variable2;
   }
-
+  public set otherMethodeValue(some) {
+    this._othervalue = some;
+    console.log(some);
+  }
   public get otherMethodeValue() {
     return this._otherMethode();
   }
+  public _othervalue: any;
   private _otherMethode() {
     try {
       return {
@@ -81,6 +59,31 @@ export default class ClassName extends ParentClass implements IInterface {
   }
 }
 
+/*
+class
+function
+import
+export
+const
+let
+new
+async
+await
+arrow =>
+
+comments
+return
+defaut
+from
+as
+*
+strings
+variable name
+function names
+class names
+
+
+*/
 /*
 
 abstract
