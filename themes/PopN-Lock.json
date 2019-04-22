@@ -695,7 +695,6 @@
         "source.ts support.type",
         "source.ts support.type.builtin",
         "source.ts support.type.object.module",
-        "source.ts support.type.primitive",
         "source.ts support.type.property-name",
         "source.ts support.type.property-name.css",
         "source.ts support.variable",
@@ -746,8 +745,11 @@
       "settings": { "foreground": "#EBDBB2", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts entity.name.type"],
-      "settings": { "foreground": "#d3869b", "fontStyle": "" }
+      "scope": [
+        "source.ts support.type.primitive",
+        "source.ts entity.name.type"
+      ],
+      "settings": { "foreground": "#fabd2f", "fontStyle": "" }
     },
     /*
         string
