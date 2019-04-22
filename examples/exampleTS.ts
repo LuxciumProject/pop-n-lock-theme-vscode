@@ -1,29 +1,34 @@
+/// <reference path="../backup/types/index2.ts" />
 class ParentClass {}
-interface IInterface {
+interface Interface {
   value: string;
 }
 
 async function asyncFunction() {
   const variable1 = 2 + 10;
   let variable2: string = "this is a string indeed";
-  variable2 = variable1.toFixed(2);
+  variable2 = variable1.toFixed(200 - 400);
   return variable2;
 }
+asyncFunction.prototype.somemethode = async () => {};
+
 export const asyncAnonymArowFunction = async () => {
   const variable1 = await asyncFunction();
   let checker: boolean;
   checker = true;
   checker = false;
   checker.valueOf();
-  const some = new ClassName({ value: "value" });
+  const gabriel = checker ? 48 : 47;
+  const some = new ClassName({ value: "value", gabriel });
   some.otherMethodeValue;
   return { some, variable1 };
 };
 
 interface argument {
   value: string | number;
+  gabriel: number;
 }
-export default class ClassName extends ParentClass implements IInterface {
+export default class ClassName extends ParentClass implements Interface {
   public value: string;
 
   public constructor(parametre: argument) {
@@ -39,7 +44,7 @@ export default class ClassName extends ParentClass implements IInterface {
   public async asyncMethode() {
     const variable1 = 10;
     let variable2: string;
-    variable2 = await variable1.toFixed(2);
+    variable2 = await variable1.toFixed(2_000);
     return variable2;
   }
   public set otherMethodeValue(some) {
@@ -60,7 +65,7 @@ export default class ClassName extends ParentClass implements IInterface {
     }
   }
 }
-
+// comment
 /*
 class
 function
