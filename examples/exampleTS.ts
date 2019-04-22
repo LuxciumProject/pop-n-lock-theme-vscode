@@ -1,9 +1,13 @@
-/// <reference path="../backup/types/index2.ts" />
+import { love } from "./../backup/types/index2";
+
+export async function notMuch(ValueIn: string) {
+  return { ValueIn, love };
+}
+
 class ParentClass {}
 interface Interface {
   value: string;
 }
-
 async function asyncFunction() {
   const variable1 = 2 + 10;
   let variable2: string = "this is a string indeed";
@@ -65,97 +69,3 @@ export default class ClassName extends ParentClass implements Interface {
     }
   }
 }
-// comment
-/*
-class
-function
-import
-export
-const
-let
-new
-async
-await
-arrow =>
-
-comments
-return
-defaut
-from
-as
-*
-strings
-variable name
-function names
-class names
-
-
-*/
-/*
-
-abstract
-arguments
-await*
-boolean
-break
-byte
-case
-// catch
-char
-// class*
-// const
-continue
-debugger
-default
-delete
-do
-double
-else
-enum*
-eval
-// export*
-// extends*
-// false
-final
-finally
-float
-for
-// function
-goto
-// if
-// implements
-import*
-in
-instanceof
-int
-// interface
-// let*
-long
-native
-// new
-null
-package
-// private
-protected
-// public
-// return
-short
-static
-// super*
-switch
-synchronized
-this
-// throw
-throws
-transient
-// true
-// try
-typeof
-var
-void
-volatile
-while
-with
-yield
-
-*/
