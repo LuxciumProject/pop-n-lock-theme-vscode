@@ -869,18 +869,6 @@
       "settings": { "foreground": "#4F74D8", "fontStyle": "bold" }
     },
     {
-      "scope": [],
-      "settings": { "foreground": "#C42C3E", "fontStyle": "" }
-    },
-    {
-      "scope": [],
-      "settings": { "foreground": "#C42C3E", "fontStyle": "" }
-    },
-    {
-      "scope": ["source.ts storage"],
-      "settings": { "foreground": "#f4FF3e", "fontStyle": "" }
-    },
-    {
       "scope": [
         "source.ts keyword.operator.new",
         "source.ts keyword.control.new"
@@ -888,7 +876,7 @@
       "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
     },
     {
-      "scope": ["source.ts storage.modifier"],
+      "scope": ["source.ts storage", "source.ts storage.modifier"],
       "settings": { "foreground": "#fe8019", "fontStyle": "" }
     },
     {
