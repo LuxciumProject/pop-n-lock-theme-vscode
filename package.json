@@ -1,18 +1,18 @@
 {
   "name": "pop-n-lock-typescript-theme-vscode",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "publisher": "Luxcium",
   "engines": {
     "vscode": "^1.12.0"
   },
   "license": "MIT",
-  "displayName": "Pop N' Lock Theme by Luxcium ?¨",
+  "displayName": "Pop N' Lock Theme by Luxcium ?ï¿½",
   "description": "??Perfectly balanced TypeScript theme with vivid colours.",
   "categories": [
     "Themes"
   ],
-  "_teteDeDragon": "?? U+1F432 tête de dragon Unicode : UTF-8: F0 9F 90 B2",
-  "_etincelles": " ? U+2728 étincelles Unicode : UTF-8: E2 9C A8",
+  "_teteDeDragon": "?? U+1F432 tï¿½te de dragon Unicode : UTF-8: F0 9F 90 B2",
+  "_etincelles": " ? U+2728 ï¿½tincelles Unicode : UTF-8: E2 9C A8",
   "keywords": [
     "pop",
     "theme",
@@ -28,7 +28,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Pop N' Lock Theme by Luxcium ?¨",
+        "label": "Pop N' Lock Theme by Luxcium ?ï¿½",
         "uiTheme": "vs-dark",
         "path": "./themes/PopN-Lock.json"
       }
@@ -82,7 +82,7 @@
   },
   "__metadata": {
     "id": "e9677069-69cb-4942-ba29-54429a6cb4af",
-    "publisherDisplayName": "Luxcium ?¨",
+    "publisherDisplayName": "Luxcium ?ï¿½",
     "publisherId": "896dbdcd-d417-4c51-8ff0-ec82723b0706"
   }
 }
