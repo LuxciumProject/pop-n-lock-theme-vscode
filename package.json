@@ -44,6 +44,17 @@
     ],
     "languages": [
       {
+        "id": "javascript",
+        "aliases": [
+          "Javascript (Luxcium)"
+        ],
+        "extensions": [
+          ".js",
+          ".jsx"
+        ],
+        "configuration": "./src/languages/language-configuration.js.json"
+      },
+      {
         "id": "typescript",
         "aliases": [
           "TypeScript (Luxcium)"
@@ -52,6 +63,33 @@
           ".ts"
         ],
         "configuration": "./src/languages/language-configuration.ts.json"
+      },
+      {
+        "id": "typescriptreact",
+        "aliases": [
+          "Typescript React (Luxcium)"
+        ],
+        "extensions": [
+          ".tsx"
+        ],
+        "configuration": "./src/languages/language-configuration.tsx.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "javascript",
+        "scopeName": "source.js",
+        "path": "./src/syntaxes/ms/JavaScript.tmLanguage.json"
+      },
+      {
+        "language": "typescript",
+        "scopeName": "source.ts",
+        "path": "./src/syntaxes/ms/TypeScript.tmLanguage.json"
+      },
+      {
+        "language": "typescriptreact",
+        "scopeName": "source.tsx",
+        "path": "./src/syntaxes/ms/TypeScriptReact.tmLanguage.json"
       }
     ]
   },
