@@ -3547,35 +3547,20 @@ VARIABLE PROPERTIES LIKE
       "scope": ["comment.line.shebang"],
       "settings": { "foreground": "#EDB4", "fontStyle": "italic" }
     },
-    /* YAML
-
-    punctuation.definition.comment.yaml
-    comment.line.number-sign.yaml
-    source.yaml
-
-    comment.line.number-sign.yaml
-    source.yaml
-    */
+    /* YAML */
     {
       "name": "YAML Comment",
-      "scope": ["source.yaml comment"],
+      "scope": ["source.yaml comment.line.number-sign"],
       "settings": { "foreground": "#666f", "fontStyle": "" }
     },
     {
       // comment.line.number-sign.yaml
       "name": "YAML Comment Punctuation",
-      "scope": ["source.yaml punctuation.definition.comment"],
+      "scope": [
+        "source.yaml comment.line.number-sign punctuation.definition.comment"
+      ],
       "settings": { "foreground": "#369C", "fontStyle": "" }
     },
-    /*     {
-      "scope": ["comment.line.number-sign.yaml"],
-      "settings": { "foreground": "#666f", "fontStyle": "" }
-    },
-    {
-      "scope": ["punctuation.definition.comment.yaml"],
-      "settings": { "foreground": "#369C", "fontStyle": "" }
-    },
-    */
     {
       "scope": ["comment"],
       "settings": { "foreground": "#666f", "fontStyle": "" }
