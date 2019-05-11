@@ -457,5 +457,14 @@ source.ts
       }
     ],
 
-
+ "grammars": [
+      {
+        "language": "TypeScript (Luxcium)",
+        "scopeName": "source.ts",
+        "injectTo": [
+          "source.ts"
+        ],
+        "path": ".src/syntax/luxcium-typescript.tmGrammar.json"
+      }
+    ]
 */

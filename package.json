@@ -53,15 +53,6 @@
         ],
         "configuration": "./src/languages/language-configuration.ts.json"
       }
-    ],
-    "grammars": [
-      {
-        "scopeName": "source.ts",
-        "injectTo": [
-          "source.ts"
-        ],
-        "path": ".src/syntax/luxcium-typescript.tmGrammar.json"
-      }
     ]
   },
   "scripts": {
