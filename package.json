@@ -28,7 +28,7 @@
       {
         "label": "Pop N' Lock Theme by Luxcium ✨",
         "uiTheme": "vs-dark",
-        "path": ".src/themes/PopN-Lock.json"
+        "path": "./src/themes/PopN-Lock.json"
       }
     ],
     "colors": [
@@ -40,6 +40,57 @@
           "light": "errorForeground",
           "highContrast": "#010203"
         }
+      }
+    ],
+    "languages": [
+      {
+        "id": "javascript",
+        "aliases": [
+          "JavaScript (Luxcium)"
+        ],
+        "extensions": [
+          ".js",
+          ".esx"
+        ],
+        "configuration": "./src/languages/language-configuration.js.json"
+      },
+      {
+        "id": "javascriptreact",
+        "aliases": [
+          "JavaScript React (Luxcium)"
+        ],
+        "extensions": [
+          ".jsx",
+          ".esx"
+        ],
+        "configuration": "./src/languages/language-configuration.jsx.json"
+      },
+      {
+        "id": "typescript",
+        "aliases": [
+          "TypeScript (Luxcium)"
+        ],
+        "extensions": [
+          ".ts"
+        ],
+        "configuration": "./src/languages/language-configuration.ts.json"
+      },
+      {
+        "id": "typescriptreact",
+        "aliases": [
+          "TypeScript React (Luxcium)"
+        ],
+        "extensions": [
+          ".tsx"
+        ],
+        "configuration": "./src/languages/language-configuration.tsx.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "NOT-IN-SERVICE-YET-will-set-typescript",
+        "scopeName": "source.ts-NOT-IN-SERVICE-YET",
+        "path": "./src/syntax/luxcium-typescript.tmGrammar.json"
       }
     ]
   },

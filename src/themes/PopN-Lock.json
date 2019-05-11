@@ -3538,6 +3538,19 @@ VARIABLE PROPERTIES LIKE
     // "COMMENTS ----------------------------------------",
     // "COMMENTS ----------------------------------------",
     // "COMMENTS ----------------------------------------",
+    /* YAML */
+    {
+      "name": "YAML Comment",
+      "scope": ["source.yaml comment.line.number-sign"],
+      "settings": { "foreground": "#369F", "fontStyle": "" }
+    },
+    {
+      "name": "YAML Comment Punctuation",
+      "scope": [
+        "source.yaml comment.line.number-sign punctuation.definition.comment"
+      ],
+      "settings": { "foreground": "#F15F", "fontStyle": "" }
+    },
     /* SHEBANG */
     {
       "scope": ["comment.line.shebang punctuation.definition.comment"],
@@ -3546,20 +3559,6 @@ VARIABLE PROPERTIES LIKE
     {
       "scope": ["comment.line.shebang"],
       "settings": { "foreground": "#EDB4", "fontStyle": "italic" }
-    },
-    /* YAML */
-    {
-      "name": "YAML Comment",
-      "scope": ["source.yaml comment.line.number-sign"],
-      "settings": { "foreground": "#666f", "fontStyle": "" }
-    },
-    {
-      // comment.line.number-sign.yaml
-      "name": "YAML Comment Punctuation",
-      "scope": [
-        "source.yaml comment.line.number-sign punctuation.definition.comment"
-      ],
-      "settings": { "foreground": "#369C", "fontStyle": "" }
     },
     {
       "scope": ["comment"],

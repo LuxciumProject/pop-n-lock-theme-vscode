@@ -94,7 +94,8 @@ async function asyncFunction() {
 
   const variable1 = 2 + 10;
   let message: string = "this is a string indeed";
-  message = 'this is a "string" indeed';
+  message = 'this is a ${"string"}  indeed';
+  message = `this is a  ${"string"}   indeed`;
   const variable3 = new Greeter(message);
 
   const variable2 = await variable1.toFixed(200 - 400);
