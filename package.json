@@ -24,6 +24,13 @@
   },
   "preview": false,
   "contributes": {
+    "themes": [
+      {
+        "label": "Pop N' Lock Theme by Luxcium ✨",
+        "uiTheme": "vs-dark",
+        "path": ".src/themes/PopN-Lock.json"
+      }
+    ],
     "colors": [
       {
         "id": "superstatus.error",
@@ -33,13 +40,6 @@
           "light": "errorForeground",
           "highContrast": "#010203"
         }
-      }
-    ],
-    "themes": [
-      {
-        "label": "Pop N' Lock Theme by Luxcium ✨",
-        "uiTheme": "vs-dark",
-        "path": "./themes/PopN-Lock.json"
       }
     ]
   },

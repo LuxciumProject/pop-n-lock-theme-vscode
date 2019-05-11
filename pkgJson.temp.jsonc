@@ -1,0 +1,51 @@
+// "languages": [
+//     {
+//       "id": "javascript",
+//       "aliases": [
+//         "JavaScript (Luxcium)"
+//       ],
+//       "extensions": [
+//         ".js",
+//         ".esx"
+//       ],
+//       "configuration": ".themes/languages/language-configuration.js.json"
+//     },
+//     {
+//       "id": "javascriptreact",
+//       "aliases": [
+//         "JavaScript React (Luxcium)"
+//       ],
+//       "extensions": [
+//         ".jsx",
+//         ".esx"
+//       ],
+//       "configuration": ".themes/languages/language-configuration.jsx.json"
+//     },
+//     {
+//       "id": "typescript",
+//       "aliases": [
+//         "TypeScript (Luxcium)"
+//       ],
+//       "extensions": [
+//         ".ts"
+//       ],
+//       "configuration": ".themes/languages/language-configuration.ts.json"
+//     },
+//     {
+//       "id": "typescriptreact",
+//       "aliases": [
+//         "TypeScript React (Luxcium)"
+//       ],
+//       "extensions": [
+//         ".tsx"
+//       ],
+//       "configuration": ".themes/languages/language-configuration.tsx.json"
+//     }
+//   ],
+//   "grammars": [
+//     {
+//       "language": "typescript",
+//       "scopeName": "source.ts",
+//       "path": ".themes/syntax/luxcium-typescript.json"
+//     }
+//   ],

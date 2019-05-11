@@ -3538,7 +3538,44 @@ VARIABLE PROPERTIES LIKE
     // "COMMENTS ----------------------------------------",
     // "COMMENTS ----------------------------------------",
     // "COMMENTS ----------------------------------------",
+    /* SHEBANG */
+    {
+      "scope": ["comment.line.shebang punctuation.definition.comment"],
+      "settings": { "foreground": "#F153", "fontStyle": "bold underline" }
+    },
+    {
+      "scope": ["comment.line.shebang"],
+      "settings": { "foreground": "#EDB4", "fontStyle": "italic" }
+    },
+    /* YAML
 
+    punctuation.definition.comment.yaml
+    comment.line.number-sign.yaml
+    source.yaml
+
+    comment.line.number-sign.yaml
+    source.yaml
+    */
+    {
+      "name": "YAML Comment",
+      "scope": ["source.yaml comment"],
+      "settings": { "foreground": "#666f", "fontStyle": "" }
+    },
+    {
+      // comment.line.number-sign.yaml
+      "name": "YAML Comment Punctuation",
+      "scope": ["source.yaml punctuation.definition.comment"],
+      "settings": { "foreground": "#369C", "fontStyle": "" }
+    },
+    /*     {
+      "scope": ["comment.line.number-sign.yaml"],
+      "settings": { "foreground": "#666f", "fontStyle": "" }
+    },
+    {
+      "scope": ["punctuation.definition.comment.yaml"],
+      "settings": { "foreground": "#369C", "fontStyle": "" }
+    },
+    */
     {
       "scope": ["comment"],
       "settings": { "foreground": "#666f", "fontStyle": "" }
@@ -3548,7 +3585,7 @@ VARIABLE PROPERTIES LIKE
         "comment.block punctuation.definition.comment",
         "comment.block"
       ],
-      "settings": { "foreground": "#53Fd", "fontStyle": "" }
+      "settings": { "foreground": "#53Ed", "fontStyle": "" }
     },
     {
       "scope": [
@@ -3658,14 +3695,7 @@ VARIABLE PROPERTIES LIKE
       "scope": ["source.json invalid.illegal.newline"],
       "settings": { "foreground": "#B35f", "fontStyle": "" }
     },
-    {
-      "scope": ["comment.line.shebang punctuation.definition.comment"],
-      "settings": { "foreground": "#F153", "fontStyle": "bold underline" }
-    },
-    {
-      "scope": ["comment.line.shebang"],
-      "settings": { "foreground": "#EDB4", "fontStyle": "italic" }
-    },
+
     //"JSDOCs ------------------------------------",
     //"JSDOCs ------------------------------------",
     //"JSDOCs ------------------------------------",
