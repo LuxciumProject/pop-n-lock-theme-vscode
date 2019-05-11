@@ -138,7 +138,7 @@ function delayedHello(
 export class ClassName extends ParentClass implements IInterface {
   public value: string;
   public values: Tada;
-
+  thomas: any;
   public constructor(parametre: Arguments) {
     super();
     if (
@@ -163,7 +163,35 @@ export class ClassName extends ParentClass implements IInterface {
   public get otherMethodeValue() {
     return this._otherMethode();
   }
-  public _othervalue: any;
+  /*
+(public)
+storage.modifier.ts
+meta.class.ts
+source.ts
+
+(public methode)
+storage.modifier.ts
+meta.method.declaration.ts
+meta.class.ts
+source.ts
+
+(private)
+storage.modifier.ts
+meta.class.ts
+source.ts
+
+(private methode)
+storage.modifier.ts
+meta.method.declaration.ts
+meta.class.ts
+source.ts
+*/
+  public othervalue: any;
+  public static staticValue: any;
+  private _othervalue: any;
+  public otherMethode() {
+    //
+  }
   private _otherMethode() {
     try {
       const popo: string = "ceci est un canon";
@@ -171,7 +199,16 @@ export class ClassName extends ParentClass implements IInterface {
       mice = "ichy";
       console.log("mice", mice);
       return {
-        values: [450, null, NaN, Infinity, this, true, false, undefined],
+        values: [
+          450,
+          null,
+          NaN,
+          Infinity,
+          this._othervalue,
+          true,
+          false,
+          undefined
+        ],
         popo,
         souris: mice
       };
