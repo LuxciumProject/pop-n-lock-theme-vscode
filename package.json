@@ -31,17 +31,6 @@
         "path": "./src/themes/PopN-Lock.json"
       }
     ],
-    "colors": [
-      {
-        "id": "superstatus.error",
-        "description": "Color for error message in the status bar.",
-        "defaults": {
-          "dark": "errorForeground",
-          "light": "errorForeground",
-          "highContrast": "#010203"
-        }
-      }
-    ],
     "languages": [
       {
         "id": "javascript",
@@ -73,23 +62,6 @@
           ".tsx"
         ],
         "configuration": "./src/languages/language-configuration.tsx.json"
-      }
-    ],
-    "grammars": [
-      {
-        "language": "javascript",
-        "scopeName": "source.js",
-        "path": "./src/syntaxes/ms/JavaScript.tmLanguage.json"
-      },
-      {
-        "language": "typescript",
-        "scopeName": "source.ts",
-        "path": "./src/syntaxes/ms/TypeScript.tmLanguage.json"
-      },
-      {
-        "language": "typescriptreact",
-        "scopeName": "source.tsx",
-        "path": "./src/syntaxes/ms/TypeScriptReact.tmLanguage.json"
       }
     ]
   },
