@@ -174,18 +174,14 @@
     "editorSuggestWidget.highlightForeground": "#4AEf",
     "editorSuggestWidget.selectedBackground": "#4AE4",
     /* *** *** *** *** */
-    "editorHint.foreground": "#EDAf",
-    "editorHint.border": "#48A2",
-    /* *** *** *** *** */
-    "editorInfo.foreground": "#48Ac",
-    "editorInfo.foreground": "#48Ac",
-    "editorInfo.border": "#48A2",
-    /* *** *** *** *** */
-    "editorWarning.foreground": "#F15f",
-    "editorWarning.border": "#48A2",
-    /* *** *** *** *** */
-    "editorError.foreground": "#F15f",
-    "editorError.border": "#48A2",
+    "editorHint.foreground": "#FB3F",
+    "editorHint.border": "#FB34",
+    "editorInfo.foreground": "#4AEF",
+    "editorInfo.border": "#4AE5",
+    "editorWarning.foreground": "#BD2F",
+    "editorWarning.border": "#BD24",
+    "editorError.foreground": "#F15F",
+    "editorError.border": "#F154",
     /* *** *** *** *** */
     "editorWidget.background": "#1D2555DD",
     "editorWidget.border": "#DCA3",
