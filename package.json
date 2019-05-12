@@ -28,20 +28,29 @@
       {
         "label": "Pop N' Lock Theme by Luxcium ✨",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/PopN-Lock.json"
+        "path": "./src/themes/Pop-N-Lock.json"
       }
     ],
     "languages": [
       {
         "id": "javascript",
         "aliases": [
-          "Javascript (Luxcium)"
+          "JavaScript (Luxcium)"
         ],
         "extensions": [
-          ".js",
+          ".js"
+        ],
+        "configuration": "./src/languages/js.language-configuration.json"
+      },
+      {
+        "id": "javascript",
+        "aliases": [
+          "JavaScript React (Luxcium)"
+        ],
+        "extensions": [
           ".jsx"
         ],
-        "configuration": "./src/languages/language-configuration.js.json"
+        "configuration": "./src/languages/jsx.language-configuration.json"
       },
       {
         "id": "typescript",
@@ -51,17 +60,48 @@
         "extensions": [
           ".ts"
         ],
-        "configuration": "./src/languages/language-configuration.ts.json"
+        "configuration": "./src/languages/ts.language-configuration.json"
       },
       {
-        "id": "typescriptreact",
+        "id": "json",
         "aliases": [
-          "Typescript React (Luxcium)"
+          "JSON"
         ],
         "extensions": [
-          ".tsx"
+          ".json"
         ],
-        "configuration": "./src/languages/language-configuration.tsx.json"
+        "configuration": "./src/languages/json.language-configuration.json"
+      },
+      {
+        "id": "jsonc",
+        "aliases": [
+          "JSON with Comments"
+        ],
+        "extensions": [
+          ".jsonc"
+        ],
+        "configuration": "./src/languages/json.language-configuration.json"
+      },
+      {
+        "id": "html",
+        "aliases": [
+          "HTML"
+        ],
+        "extensions": [
+          ".html",
+          ".htm"
+        ],
+        "configuration": "./src/languages/html.language-configuration.json"
+      },
+      {
+        "id": "css",
+        "aliases": [
+          "CSS"
+        ],
+        "extensions": [
+          ".css"
+        ],
+        "configuration": "./src/languages/css.language-configuration.json"
       }
     ]
   },
