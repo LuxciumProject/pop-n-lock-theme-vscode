@@ -12,7 +12,7 @@ CSS, JS, TypeScript and more). **Please let us know about any problems to be res
 
 ## TypeScript
 
-[![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TypeScript.png) Click to enlarge the image [Do not get scared each colour has its purpose] (v3.11.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TypeScript.png)
+[![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TypeScript.png) You will be impressed how intutive it is when you will discover how each colour has its purpose [Click to enlarge the image] (v3.11.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TypeScript.png)
 
 ## JavaScript
 
