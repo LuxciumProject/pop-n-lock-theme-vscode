@@ -8,6 +8,12 @@
   "license": "MIT",
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
   "description": "🐲Perfectly balanced TypeScript theme with vivid colours.",
+  "scripts": {
+    "release:major": "npm version major && vsce package && vsce publish",
+    "release:minor": "npm version minor && vsce package && vsce publish",
+    "release:patch": "npm version patch && vsce package && vsce publish",
+    "release": "vsce package && vsce publish"
+  },
   "categories": [
     "Themes"
   ],
@@ -125,12 +131,6 @@
         "configuration": "./src/languages/css.language-configuration.json"
       }
     ]
-  },
-  "scripts": {
-    "release:major": "npm version major && vsce package && vsce publish",
-    "release:minor": "npm version minor && vsce package && vsce publish",
-    "release:patch": "npm version patch && vsce package && vsce publish",
-    "release": "vsce package && vsce publish"
   },
   "icon": "Scientia-is-lux-principium-400px-TM.png",
   "homepage": "https://github.com/luxcium/pop-n-lock-theme-vscode/#readme",
