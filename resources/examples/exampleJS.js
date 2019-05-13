@@ -8,7 +8,7 @@ require("dotenv").config();
 
 const jwtSecret = process.env.JWTSECRET;
 
-const router = n ew express.Router();
+const router = new express.Router();
 const User = mongoose.model("User");
 const List = mongoose.model("List");
 const ListItem = mongoose.model("ListItem");
