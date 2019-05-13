@@ -33,6 +33,26 @@
     ],
     "languages": [
       {
+        "id": "typescript",
+        "aliases": [
+          "TypeScript (Luxcium)"
+        ],
+        "extensions": [
+          ".ts"
+        ],
+        "configuration": "./src/languages/ts.language-configuration.json"
+      },
+      {
+        "id": "typescriptreact",
+        "aliases": [
+          "TypeScript React (Luxcium)"
+        ],
+        "extensions": [
+          ".tsx"
+        ],
+        "configuration": "./src/languages/ts.language-configuration.json"
+      },
+      {
         "id": "javascript",
         "aliases": [
           "JavaScript (Luxcium)"
@@ -43,7 +63,7 @@
         "configuration": "./src/languages/js.language-configuration.json"
       },
       {
-        "id": "javascript",
+        "id": "javascriptreact",
         "aliases": [
           "JavaScript React (Luxcium)"
         ],
@@ -51,16 +71,6 @@
           ".jsx"
         ],
         "configuration": "./src/languages/jsx.language-configuration.json"
-      },
-      {
-        "id": "typescript",
-        "aliases": [
-          "TypeScript (Luxcium)"
-        ],
-        "extensions": [
-          ".ts"
-        ],
-        "configuration": "./src/languages/ts.language-configuration.json"
       },
       {
         "id": "json",
@@ -80,7 +90,7 @@
         "extensions": [
           ".jsonc"
         ],
-        "configuration": "./src/languages/json.language-configuration.json"
+        "configuration": "./src/languages/jsonc.language-configuration.json"
       },
       {
         "id": "yaml",
