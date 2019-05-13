@@ -125,7 +125,7 @@ CSS, JS, TypeScript and more). **Please let us know about any problems to be res
 }
 ```
 
-[![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TS2.png) TypeScript Screenshot (v3.11.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TS1.png)
+[![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TS1.png) TypeScript Screenshot (v3.11.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TS2.png)
 
 ## Originally based on
 
