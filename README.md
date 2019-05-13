@@ -1,6 +1,6 @@
 # Pop N' Lock Theme by Luxcium ✨
 
-## 🐲Perfectly balanced TypeScript theme with vivid colours.
+## 🐲Perfectly balanced TypeScript theme with vivid colours
 
 ## About
 
@@ -10,15 +10,15 @@ This theme is based on the design of Hedinne's Popping And Locking with vivid co
 One Dark but has changed a lot since. It is designed for web languages (HTML,
 CSS, JS, TypeScript and more). **Please let us know about any problems to be resolved or any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page**
 
-# TypeScript
+## TypeScript
 
-[![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/TS1.png) TypeScript Screenshot (v3.7.0)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/TS2.png)
+[![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/TS1.png) TypeScript Screenshot (v3.11.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/TS2.png)
 
-# JavaScript
+## JavaScript
 
 [![JavaScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/JS1.png) JavaScript Screenshot (v3.7.0)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/JS2.png)
 
-# TSX/JSX
+## TSX/JSX
 
 [![TSX/JSX](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.1/TSX-JSX.png) TSX/JSX Support Screenshot (v3.9.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.1/TSX-JSX.png)
 
@@ -125,16 +125,16 @@ CSS, JS, TypeScript and more). **Please let us know about any problems to be res
 }
 ```
 
-# Originally based on
+## Originally based on
 
 - [Hedinne's Popping And Locking (VSCode Theme)](https://github.com/hedinne/popping-and-locking-vscode)
   - [Morhetz's Gruvbox](https://github.com/morhetz/gruvbox)
   - [Jdinhlife's Gruvbox (VSCode Theme)](https://github.com/jdinhlife/vscode-theme-gruvbox)
 
-# How to report feedback and issues?
+## How to report feedback and issues
 
-You can [file an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub repo for our VS Code extension.
+### You can [file an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub repo for our VS Code extension
 
 ---
 
-##### The Luxcium Owl logo is a trademark of NeB_401.Corp LTEE (all right reserved)
+#### The Luxcium Owl logo is a trademark of NeB_401.Corp LTEE (all right reserved)
