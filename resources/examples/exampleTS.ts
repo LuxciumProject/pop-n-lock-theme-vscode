@@ -138,6 +138,7 @@ function delayedHello(
 export class ClassName extends ParentClass implements IInterface {
   public value: string;
   public values: Tada;
+  public cost: number;
   thomas: any;
   public constructor(parametre: Arguments) {
     super();
