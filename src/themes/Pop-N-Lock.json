@@ -4120,6 +4120,587 @@ source.tsx
         "text.html source meta.var.expr"
       ],
       "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+
+    // #endregion
+    // #region "script in CSS" -----------------------------------------------
+    {
+      "scope": [
+        "text.css source variable.arguments",
+        "text.css source variable.class",
+        "text.css source variable.language.arguments",
+        "text.css source variable.language",
+        "text.css source variable.name",
+        "text.css source variable.other.constant.object",
+        "text.css source variable.other.constant",
+        "text.css source variable.other.readwrite.alias",
+        "text.css source meta.array-binding-pattern-variable variable.other.constant",
+        "text.css source variable.other.readwrite",
+        "text.css source variable.other.readwrite",
+        "text.css source variable.other.regexp",
+        "text.css source variable.other",
+        "text.css source variable.parameter",
+        "text.css source meta.objectliteral meta.object.member variable.other.object",
+        "text.css source variable",
+        "text.css source meta.object-binding-pattern-variable variable.other.constant",
+        "text.css source meta.object.member meta.object-literal.key",
+        "text.css source meta.objectliteral meta.object.member",
+        "text.css source meta.var.expr meta.object-literal.key",
+        "text.css source variable.object.property",
+        "text.css source variable.other.constant.object.property",
+        "text.css source variable.other.constant.property",
+        "text.css source variable.other.object.property",
+        "text.css source variable.other.property",
+        "text.css source support.variable.property",
+        "text.css source support.variable.property.importmeta",
+        "text.css source support.variable.property.process",
+        "text.css source support.variable.property.target",
+        "text.css source support.type.property-name",
+        "text.css source support.type.property-name.css",
+        "text.css source support.property-value",
+        "text.css source support.property-value.scss",
+        "text.css source support.constant.property.math"
+      ],
+      "settings": { "foreground": "#8DCF" }
+    },
+    {
+      "scope": [
+        "text.css source support.function.builtin",
+        "text.css source support.function.git-rebase",
+        "text.css source support.function.json",
+        "text.css source support.function.math",
+        "text.css source support.function.process",
+        "text.css source support.function.console",
+        "text.css source meta.definition.variable entity.name.function",
+        "text.css source meta.definition.function entity.name.function",
+        "text.css source support.function",
+        "text.css source support.function",
+        "text.css source meta.definition.method",
+        "text.css source entity.name.function",
+        "text.css source entity.other.inherited-class",
+        "text.css source punctuation.definition.string.template.begin",
+        "text.css source punctuation.definition.string.template.end",
+        "text.css source punctuation.definition.string.begin",
+        "text.css source punctuation.definition.string.end",
+        "text.css source string.quoted.double punctuation.definition.string.begin",
+        "text.css source string.quoted.double punctuation.definition.string.end",
+        "text.css source string.quoted.single punctuation.definition.string.begin",
+        "text.css source string.quoted.single punctuation.definition.string.end",
+        "text.css source meta.type.declaration support.type.primitive",
+        "text.css source support.type.primitive",
+        "text.css source meta.interface support.type.primitive",
+        "text.css source type.annotation",
+        "text.css source entity.name.type"
+      ],
+      "settings": { "foreground": "#FC6F", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "text.css source string",
+        "text.css source string.constant.other.placeholder",
+        "text.css source string.entity",
+        "text.css source string.escape",
+        "text.css source string.quoted.double",
+        "text.css source string.quoted.single",
+        "text.css source string.regexp",
+        "text.css source string.tag",
+        "text.css source string.template",
+        "text.css source string.value",
+        "text.css source meta.interface variable.object.property",
+        "text.css source variable.other.enummember"
+      ],
+      "settings": { "foreground": "#DF8E", "fontStyle": "" }
+    },
+
+    {
+      "scope": [
+        "text.css source storage.type.interface",
+        "text.css source storage.type.type",
+        "text.css source storage.type.enum"
+      ],
+      "settings": { "foreground": "#D1AE", "fontStyle": "bold" }
+    },
+    {
+      "scope": [
+        "text.css source variable.other.object",
+        "text.css source entity.name.type.alias",
+        "text.css source entity.name.type.class",
+        "text.css source entity.name.type.enum",
+        "text.css source entity.name.type.interface",
+        "text.css source entity.name.type.module",
+        "text.css source punctuation.definition.parameters.begin",
+        "text.css source punctuation.definition.parameters.end",
+        "text.css source meta.brace.angle",
+        "text.css source meta.brace.round",
+        "text.css source meta.brace.square",
+        "text.css source punctuation.definition.block",
+        "text.css source meta.decorator entity.name.function",
+        "text.css source meta.decorator variable.other.readwrite",
+        "text.css source punctuation.definition.template-expression.begin",
+        "text.css source punctuation.definition.template-expression.end",
+        "text.css source punctuation.definition.binding-pattern.array",
+        "text.css source punctuation.definition.binding-pattern.object",
+        "text.css source meta.array-binding-pattern-variable variable.other.constant",
+        "text.css source meta.object-binding-pattern-variable variable.other.constant"
+      ],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source keyword.other.debugger"],
+      "settings": {
+        "foreground": "#FB5E",
+        "fontStyle": " underline"
+      }
+    },
+    {
+      "scope": ["text.css source storage.type.function.arrow"],
+      "settings": { "fontStyle": "bold" }
+    },
+    {
+      "scope": ["text.css source storage.type.function"],
+      "settings": { "fontStyle": "bold italic" }
+    },
+    {
+      "scope": [
+        "text.css source storage.type.function",
+        "text.css source storage.type.function.arrow",
+        "text.css source storage.type.class"
+      ],
+      "settings": { "foreground": "#D1AE" }
+    },
+    {
+      "scope": ["text.css source meta.method.declaration storage.type"],
+      "settings": { "foreground": "#D1AE", "fontStyle": "italic" }
+    },
+    {
+      "scope": [
+        "text.css source meta.class storage.modifier",
+        "text.css source meta.method.declaration storage.modifier"
+      ],
+      "settings": { "foreground": "#E81D", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source variable.language.super"],
+      "settings": { "foreground": "#D1AE", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["text.css source variable.language.this"],
+      "settings": { "foreground": "#C68E", "fontStyle": "italic" }
+    },
+    {
+      "scope": [
+        "text.css source keyword.control.new",
+        "text.css source keyword.operator.new"
+      ],
+      "settings": { "foreground": "#E81E", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "text.css source meta.method.declaration storage.modifier.async"
+      ],
+      "settings": { "foreground": "#E81E", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["text.css source storage.modifier.async"],
+      "settings": { "foreground": "#E81E", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["text.css source storage.type.property"],
+      "settings": { "foreground": "#E81E", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "text.css source keyword.control.import",
+        "text.css source keyword.control.export",
+        "text.css source meta.export.default keyword.control.default",
+        "text.css source keyword.control.as",
+        "text.css source keyword.control.default",
+        "text.css source keyword.control.from",
+        "text.css source keyword.control",
+        "text.css source keyword.control.anchor.regexp",
+        "text.css source keyword.control.conditional",
+        "text.css source keyword.control.less",
+        "text.css source keyword.control.loop",
+        "text.css source keyword.control.module",
+        "text.css source keyword.control.require",
+        "text.css source keyword.control.switch",
+        "text.css source keyword.control.trycatch",
+        "text.css source keyword.control.with",
+        "text.css source keyword",
+        "text.css source keyword.other",
+        "text.css source keyword.generator.asterisk",
+        "text.css source meta.block keyword.control.flow",
+        "text.css source storage.type.internaldeclaration",
+        "text.css source storage.type.namespace",
+        "text.css source storage.type.numeric.bigint",
+        "text.css source storage.type",
+        "text.css source meta.block meta.var.expr storage.type",
+        "text.css source keyword.operator.logical",
+        "text.css source punctuation.decorator"
+      ],
+      "settings": { "foreground": "#F1AE", "fontStyle": "italic" }
+    },
+    {
+      "scope": [
+        "text.css source constant",
+        "text.css source constant.character.escape.backslash.regexp",
+        "text.css source constant.character.numeric.regexp",
+        "text.css source constant.language",
+        "text.css source constant.language.import-export-all",
+        "text.css source constant.other.character-class.range.regexp",
+        "text.css source constant.other.character-class.regexp",
+        "text.css source constant.other.character-class.set.regexp",
+        "text.css source constant.rgb-value",
+        "text.css source constant.sha.git-rebase",
+        "text.css source constant.character.escape",
+        "text.css source support.constant.property-value.css",
+        "text.css source constant.numeric",
+        "text.css source constant.numeric.binary",
+        "text.css source constant.numeric.decimal",
+        "text.css source constant.numeric.hex",
+        "text.css source constant.numeric.octal"
+      ],
+      "settings": { "foreground": "#D5AE", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source constant.language.boolean.false"],
+      "settings": { "foreground": "#E43E", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["text.css source constant.language.boolean.true"],
+      "settings": { "foreground": "#7C2E", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["text.css source constant.language.undefined"],
+      "settings": { "foreground": "#B6BE", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["text.css source constant.language.null"],
+      "settings": { "foreground": "#D65E", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["text.css source constant.language.infinity"],
+      "settings": { "foreground": "#7ADE", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["text.css source constant.language.nan"],
+      "settings": { "foreground": "#7ADE", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["text.css source string.quasi"],
+      "settings": { "foreground": "#B35D", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source punctuation.quasi"],
+      "settings": { "foreground": "#B35D", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source invalid"],
+      "settings": { "foreground": "#B35D", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source invalid.deprecated"],
+      "settings": { "foreground": "#B35D", "fontStyle": "underline" }
+    },
+    {
+      "scope": ["text.css source invalid.illegal"],
+      "settings": { "foreground": "#B35D", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source invalid.illegal.newline"],
+      "settings": { "foreground": "#B35D", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source emphasis"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source header"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source keyword.other.back-reference.regexp"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source keyword.other.unit"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source markup.bold"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source markup.changed"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source markup.deleted"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source markup.heading"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source markup.inline.raw"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source markup.inserted"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source markup.italic"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source markup.punctuation.list.beginning"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source markup.punctuation.quote.beginning"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source markup.underline"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source module.node"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source new.expr"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source prototype"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source source.embedded"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source strong"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source switch-block.expr"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source switch-expression.expr"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source switch-statement.expr"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source *link*"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source *uri*"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source *url*"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source case-clause.expr "],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source case-clause.expr"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source cast.expr"],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": [],
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
+    },
+    {
+      "scope": [""],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+
+    {
+      "scope": [],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
+    },
+    {
+      "scope": ["text.css source support.type.builtin"],
+      "settings": { "foreground": "#D65E", "fontStyle": "" }
+    },
+
+    {
+      "scope": [
+        "text.css source keyword.operator.arithmetic",
+        "text.css source keyword.operator.assignment.compound.bitwise",
+        "text.css source keyword.operator.assignment.compound",
+        "text.css source keyword.operator.bitwise.shift",
+        "text.css source keyword.operator.bitwise",
+        "text.css source keyword.operator.decrement",
+        "text.css source keyword.operator.increment",
+        "text.css source keyword.operator.definiteassignment",
+        "text.css source keyword.operator",
+        "text.css source keyword.operator.comparison",
+        "text.css source keyword.operator.ternary",
+        "text.css source punctuation.separator.key-value",
+        "text.css source keyword.operator.assignment",
+        "text.css source keyword.operator.type.annotation",
+        "text.css source keyword.operator.expression.delete",
+        "text.css source keyword.operator.expression.import",
+        "text.css source keyword.operator.expression.in",
+        "text.css source keyword.operator.expression.infer",
+        "text.css source keyword.operator.expression.instanceof",
+        "text.css source keyword.operator.expression.is",
+        "text.css source keyword.operator.expression.keyof",
+        "text.css source keyword.operator.expression.of",
+        "text.css source keyword.operator.expression.typeof",
+        "text.css source keyword.operator.expression.void",
+        "text.css source keyword.operator.negation.regexp",
+        "text.css source keyword.operator.optional",
+        "text.css source keyword.operator.or.regexp",
+        "text.css source keyword.operator.quantifier.regexp",
+        "text.css source keyword.operator.relational",
+        "text.css source keyword.operator.type.modifier",
+        "text.css source keyword.operator.type",
+        "text.css source keyword.operator.spread",
+        "text.css source keyword.operator.rest"
+      ],
+      "settings": { "foreground": "#9E8E", "fontStyle": "" }
+    },
+    {
+      "scope": [],
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "text.css source punctuation.accessor.optional",
+        "text.css source punctuation.accessor",
+        "text.css source punctuation.decorator.internaldeclaration",
+        "text.css source punctuation.definition.character-class.regexp",
+        "text.css source punctuation.definition.group.assertion.regexp",
+        "text.css source punctuation.definition.group.no-capture.regexp",
+        "text.css source punctuation.definition.group.regexp",
+        "text.css source punctuation.definition.section.case-statement",
+        "text.css source punctuation.definition.typeparameters.begin",
+        "text.css source punctuation.definition.typeparameters.end",
+        "text.css source punctuation.definition.tag.directive",
+        "text.css source punctuation.destructuring",
+        "text.css source punctuation.quoted",
+        "text.css source punctuation.separator.comma",
+        "text.css source punctuation.separator.label",
+        "text.css source punctuation.separator.parameter",
+        "text.css source punctuation.tag",
+        "text.css source punctuation.whitespace.comment.leading",
+        "text.css source support.class",
+        "text.css source support.class.builtin",
+        "text.css source support.class.node",
+        "text.css source support.class.promise",
+        "text.css source support.constant",
+        "text.css source support.constant.json",
+        "text.css source support.constant.math",
+        "text.css source support.type",
+        "text.css source support.type.object.module",
+        "text.css source support.variable",
+        "text.css source support.variable.object.node",
+        "text.css source support.variable.object.process",
+        "text.css source support.class.console",
+        "text.css source entity.function",
+        "text.css source entity.name.class.static.function",
+        "text.css source entity.name.class",
+        "text.css source entity.name.function.function-call",
+        "text.css source entity.name.function.static",
+        "text.css source entity.name.function.tagged-template",
+        "text.css source entity.name.label",
+        "text.css source entity.name.method.function-call",
+        "text.css source entity.name.method",
+        "text.css source entity.name.selector",
+        "text.css source entity.name.static.function-call",
+        "text.css source entity.name.tag.directive",
+        "text.css source entity.name.tag",
+        "text.css source entity.name",
+        "text.css source entity.other.attribute-name.css",
+        "text.css source entity.other.attribute-name.directive",
+        "text.css source entity.other.attribute-name",
+        "text.css source entity.other.inherited-class",
+        "text.css source entity.static",
+        "text.css source meta.array-binding-pattern-variable",
+        "text.css source meta.array.literal",
+        "text.css source meta.arrow",
+        "text.css source meta.assertion.look-ahead.regexp",
+        "text.css source meta.assertion.look-behind.regexp",
+        "text.css source meta.assertion.negative-look-ahead.regexp",
+        "text.css source meta.assertion.negative-look-behind.regexp",
+        "text.css source meta.block",
+        "text.css source meta.cast",
+        "text.css source meta.class",
+        "text.css source meta.decorator",
+        "text.css source meta.definition.function",
+        "text.css source meta.definition.method",
+        "text.css source meta.definition.property",
+        "text.css source meta.definition.variable",
+        "text.css source meta.delimiter.decimal.period",
+        "text.css source meta.enum.declaration",
+        "text.css source meta.export",
+        "text.css source meta.export.default",
+        "text.css source meta.field.declaration",
+        "text.css source meta.function",
+        "text.css source meta.function-call",
+        "text.css source meta.function.expression",
+        "text.css source meta.group.assertion.regexp",
+        "text.css source meta.group.regexp",
+        "text.css source meta.header.diff",
+        "text.css source meta.import",
+        "text.css source meta.import-equals.external",
+        "text.css source meta.import-equals.internal",
+        "text.css source meta.indexer.declaration",
+        "text.css source meta.indexer.mappedtype.declaration",
+        "text.css source meta.interface",
+        "text.css source meta.method.declaration",
+        "text.css source meta.namespace.declaration",
+        "text.css source meta.object-binding-pattern-variable",
+        "text.css source meta.object-literal.key",
+        "text.css source meta.object.member",
+        "text.css source meta.object.type",
+        "text.css source meta.objectliteral",
+        "text.css source meta.parameter.object-binding-pattern",
+        "text.css source meta.parameter.type.variable",
+        "text.css source meta.parameters",
+        "text.css source meta.paramter.array-binding-pattern",
+        "text.css source meta.preprocessor",
+        "text.css source meta.preprocessor.numeric",
+        "text.css source meta.preprocessor.string",
+        "text.css source meta.property-group",
+        "text.css source meta.return-type",
+        "text.css source meta.return.type",
+        "text.css source meta.return.type.arrow",
+        "text.css source meta.selector",
+        "text.css source meta.structure.dictionary.key.python",
+        "text.css source meta.tag",
+        "text.css source meta.template.expression",
+        "text.css source meta.type.annotation",
+        "text.css source meta.type.constructor",
+        "text.css source meta.type.declaration",
+        "text.css source meta.type.function",
+        "text.css source meta.type.function.return",
+        "text.css source meta.type.name",
+        "text.css source meta.type.parameters",
+        "text.css source meta.type.paren.cover",
+        "text.css source meta.type.tuple",
+        "text.css source meta.var-single-variable.expr",
+        "text.css source meta.var.expr"
+      ],
+      "settings": { "foreground": "#FEBD", "fontStyle": "" }
     }
 
     // #endregion
