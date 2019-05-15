@@ -4168,7 +4168,13 @@ source.tsx
       ],
       "settings": { "foreground": "#FC6D", "fontStyle": "bold" }
     },
-
+    {
+      "name": "css PSEUDO-CLASS",
+      "scope": [
+        "source.css meta.property-list meta.property-value meta.function.color.css"
+      ],
+      "settings": { "foreground": "#FD5E", "fontStyle": "" }
+    },
     {
       "name": "css #ID",
       "scope": [
