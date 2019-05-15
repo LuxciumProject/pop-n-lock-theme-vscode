@@ -20,7 +20,7 @@ CSS, JS, TypeScript and more). **Please let us know about any problems to be res
 
 ## CSS
 
-[![CSS](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.12.0/CSS2.png) CSS Screen shot (v3.12.0)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.12.0/CSS1.png)
+[![CSS](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.12.0/aCSS2.png) CSS Screen shot (v3.12.0)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.12.0/aCSS1.png)
 
 ## TSX/JSX
 
