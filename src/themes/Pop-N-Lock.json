@@ -371,7 +371,7 @@
     // #region *** tab.activeBackground ***
     "tab.activeBackground": "#1D2545FF",
     "tab.activeBorder": "#1D254500",
-    "tab.activeBorderTop": "#FB5F", // ! F
+    "tab.activeBorderTop": "#AE4F", // ! F
     "tab.activeForeground": "#DCAf",
     "tab.activeModifiedBorder": "#F34F", // ! F
     "tab.border": "#1C1C2CFF",
@@ -388,6 +388,7 @@
     "tab.unfocusedHoverBorder": "#59Ad",
     "tab.unfocusedInactiveForeground": "#FB48",
     "tab.unfocusedInactiveModifiedBorder": "#E5D7",
+
     // #endregion
     // #region *** textBlockQuote.background ***
     "textBlockQuote.background": "#2C203CFF",
@@ -3496,7 +3497,11 @@ source.tsx
     // #region "HTML" --------------------------------------------------------
     // "#BE5B" "#FB4E" "#ADCC" "#4AEE" "#EDAE" "#8E7a""#D79F" "#DF8E"
     // "#fabd2fFF""#b8bb26FF""#8ec07cFF""#d3869bFF""#369ec7FF""#B35f""#EDAf"
+    /* support.function.misc.css
 
+
+
+     */
     {
       "scope": [
         "text.html meta.tag punctuation.definition.tag",
@@ -4158,7 +4163,8 @@ source.tsx
     {
       "name": "css PSEUDO-CLASS",
       "scope": [
-        "source.css meta.selector entity.other.attribute-name.pseudo-class"
+        "source.css meta.selector entity.other.attribute-name.pseudo-class",
+        "source.css meta.property-list meta.property-value meta.function.color.css"
       ],
       "settings": { "foreground": "#FC6D", "fontStyle": "bold" }
     },
@@ -4218,7 +4224,7 @@ source.tsx
         "source.css support.constant.property-value.css",
         "source.css meta.at-rule.media.header constant.numeric"
       ],
-      "settings": { "foreground": "#D5AD", "fontStyle": "bold" }
+      "settings": { "foreground": "#D5AD", "fontStyle": "" }
     },
     {
       "name": "css STRINGS",
