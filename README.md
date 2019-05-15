@@ -7,8 +7,7 @@
 Your favourite streamlined code editor is getting more bright and radiant, optimised to work in the Full fledged _Integrated Development Environment_ or in _Text Editor sized_ mode.
 
 This theme is based on the design of Hedinne's Popping And Locking with vivid colours to capture your attention yet be easy on the eyes. Originally based on the colour theme VS Dark+, Gruvbox Dark and
-One Dark but has changed a lot since. It is designed for web languages (HTML,
-CSS, JS, TypeScript and more). **Please let us know about any problems to be resolved or any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page**
+One Dark but has changed a lot since. It is designed for web languages (TypeScript, Javascript,HTML, CSS, React's JSX/TSX and more). **Please let us know about any problems to be resolved or any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page** If you have any questions feel free also to open an issue.
 
 ## TypeScript
 
@@ -20,7 +19,7 @@ CSS, JS, TypeScript and more). **Please let us know about any problems to be res
 
 ## CSS
 
-[![CSS](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.12.0/visual-studio-code-theme-CSS-1.png) CSS Screen shot (v3.12.0)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.12.0/visual-studio-code-theme-CSS-2.png)
+[![CSS](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.12.0/visual-studio-code-theme-CSS-2.png) CSS Screen shot (v3.12.0)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.12.0/visual-studio-code-theme-CSS-1.png)
 
 ## TSX/JSX
 
