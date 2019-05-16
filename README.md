@@ -15,9 +15,9 @@ Your favourite streamlined code editor is getting more bright and radiant, optim
 >
 > Please feel free to ask any question, to let us know about any problems that should be resolved and any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page.
 
-This theme was originally based on the design of Hedinne's Popping And Locking with vivid colours they capture your attention but are easy on your eyes. Originally based on the colour theme VS Dark+, Gruvbox Dark and One Dark but has changed a lot since. It is designed for web languages (TypeScript, Javascript,HTML, CSS, React's JSX/TSX and more).
-
 ### **You will be impressed how intutive it is when you will discover how each colour has its purpose**
+
+This theme was originally based on the design of Hedinne's Popping And Locking with vivid colours they capture your attention but are easy on your eyes. Originally based on the colour theme VS Dark+, Gruvbox Dark and One Dark but has changed a lot since. It is designed for web languages (TypeScript, Javascript,HTML, CSS, React's JSX/TSX and more).
 
 [![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TypeScript.png) [Click to enlarge the image] (v3.11.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TypeScript.png)
 
