@@ -14,6 +14,23 @@
     "release:patch": "npm version patch && vsce package && vsce publish",
     "release": "vsce package && vsce publish"
   },
+  "badges": [
+    {
+      "description": "GitHub stars",
+      "href": "https://github.com/luxcium/pop-n-lock-theme-vscode/stargazers",
+      "url": "https://img.shields.io/github/stars/luxcium/pop-n-lock-theme-vscode.svg?style=social"
+    },
+    {
+      "description": "GitHub issues",
+      "href": "https://github.com/luxcium/pop-n-lock-theme-vscode/issues",
+      "url": "https://img.shields.io/github/issues/luxcium/pop-n-lock-theme-vscode.svg?style=social"
+    },
+    {
+      "description": "GitHub contributors",
+      "href": "https://github.com/luxcium/pop-n-lock-theme-vscode/graphs/contributors",
+      "url": "https://img.shields.io/github/contributors-anon/luxcium/pop-n-lock-theme-vscode.svg?style=social"
+    }
+  ],
   "categories": [
     "Themes"
   ],
