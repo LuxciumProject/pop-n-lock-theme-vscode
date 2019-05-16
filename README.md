@@ -10,7 +10,37 @@
 Your favourite streamlined code editor is getting more bright and radiant, optimised to work in the Full fledged _Integrated Development Environment_ or in _Text Editor sized_ mode.
 
 This theme is based on the design of Hedinne's Popping And Locking with vivid colours to capture your attention yet be easy on the eyes. Originally based on the colour theme VS Dark+, Gruvbox Dark and
-One Dark but has changed a lot since. It is designed for web languages (TypeScript, Javascript,HTML, CSS, React's JSX/TSX and more). **Please let us know about any problems to be resolved or any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page** If you have any questions feel free also to open an issue.
+One Dark but has changed a lot since. It is designed for web languages (TypeScript, Javascript,HTML, CSS, React's JSX/TSX and more).
+
+> **Please feel free to ask any question, let us know about any problems to be resolved or any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page**
+
+## **Make sure to set encoding of your config file to utf8**
+
+> _The name of the theme contain emoticon_
+
+```JSON
+{
+  "workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨",
+
+  "files.encoding": "utf8",
+  "files.autoGuessEncoding": false,
+
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.showReloadMessage": true,
+  "editor.fontFamily": "Fira Code iScript, Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.suggestFontSize": 16
+}
+```
+
+---
+
+> - † This theme includes:
+> - [x] alphabetical-sorter
+> - [x] better-comments
+> - [x] bracket-pair-colorizer-2
+> - [x] material-icon-theme
 
 ## TypeScript
 
@@ -46,37 +76,20 @@ One Dark but has changed a lot since. It is designed for web languages (TypeScri
 
 [![editor.rulers setting in vscode](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png) editor.rulers setting Screenshot (v3.9.5)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png)
 
-## **Make sure to set encoding of your config file to utf8**
-
-> _The name of the theme contain emoticon_
-
-```JSON
-{
-  "workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨",
-
-  "files.encoding": "utf8",
-  "files.autoGuessEncoding": false,
-
-  "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.showReloadMessage": true,
-  "editor.fontFamily": "Fira Code iScript, Fira Code",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 14,
-  "editor.suggestFontSize": 16
-}
-```
-
 ## **Suggested extensions**
 
 ![Suggested options](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots4.png)
 
-- [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
-- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+- [Alphabetical Sorter†](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
+- [Better Comments†](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+- [Bracket Pair Colorizer 2†](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 - [ErrorLens](https://marketplace.visualstudio.com/items?itemName=PhilHindle.errorlens)
+- [Material Icon Theme†](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Statusbar error](https://marketplace.visualstudio.com/items?itemName=JoeBerria.statusbarerror)
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
+
+†Included as an Extension Pack with this theme
 
 ### **Adjust these settings to your pleasing :**
 

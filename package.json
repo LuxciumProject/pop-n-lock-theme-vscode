@@ -32,7 +32,9 @@
     }
   ],
   "categories": [
-    "Themes"
+    "Programming Languages",
+    "Themes",
+    "Extension Packs"
   ],
   "keywords": [
     "Dark Theme",
@@ -159,6 +161,14 @@
     "type": "git",
     "url": "https://github.com/luxcium/pop-n-lock-theme-vscode.git"
   },
+  "markdown": "github",
+  "qna": "marketplace",
+  "extensionPack": [
+    "coenraads.bracket-pair-colorizer-2",
+    "ue.alphabetical-sorter",
+    "aaron-bond.better-comments",
+    "pkief.material-icon-theme"
+  ],
   "tags": [
     "Typescript Syntax",
     "Typescript Grammar",
@@ -178,9 +188,10 @@
     "Trending",
     "Popping and Locking Vscode",
     "Saturated",
-    "Material",
     "Vivid Theme",
-    "Vivid",
+    "Better Comments",
+    "Bracket Pair Colorizer 2",
+    "Material Icon Theme",
     "Cursive Font",
     "Italic Theme"
   ],
