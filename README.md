@@ -5,7 +5,7 @@
 
 ## 🐲Perfectly balanced TypeScript theme with vivid colours
 
-> **If you like this theme take one minute to make a 5-star review on VS Code marketplace and if you think something can be improved make sure to fill an issue on our GitHub page it's easy and will help us make this theme the best one available**
+> **If you like this theme take one minute to make a 5-star review on VS Code marketplace and if you think something can be improved make sure to fill an issue on our GitHub page it's easy and will help us make Pop N' Lock the best theme available**
 >
 > [![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock)](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)
 >
