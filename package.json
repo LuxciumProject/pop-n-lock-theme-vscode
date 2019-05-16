@@ -16,6 +16,11 @@
   },
   "badges": [
     {
+      "description": "Visual Studio Marketplace Rating (Stars)",
+      "href": "https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details",
+      "url": "https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock"
+    },
+    {
       "description": "GitHub stars",
       "href": "https://github.com/luxcium/pop-n-lock-theme-vscode/stargazers",
       "url": "https://img.shields.io/github/stars/luxcium/pop-n-lock-theme-vscode.svg?style=social"
