@@ -5,11 +5,13 @@
 [![GitHub issues](https://img.shields.io/github/issues/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) [![GitHub contributors](https://img.shields.io/github/contributors-anon/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/graphs/contributors)
 [![GitHub stars](https://img.shields.io/github/stars/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/stargazers)
 
-> **If you like this theme take one minute to make a 5-star review on VS Code marketplace or if you think something needs improvement make sure to fill an issue on our GitHub page it's easy and will help us make this theme the best one available**
+---
+
+> **If you like this theme take one minute to make a 5-star review on VS Code marketplace and if you think something can be improved make sure to fill an issue on our GitHub page it's easy and will help us make this theme the best one available**
 >
 > [![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock)](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)
 >
-> Please feel free to ask any question, to let us know about any problems that should be resolved or any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page
+> Please feel free to ask any question, to let us know about any problems that should be resolved and any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page.
 
 ## About
 
