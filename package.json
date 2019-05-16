@@ -212,5 +212,13 @@
     "id": "e9677069-69cb-4942-ba29-54429a6cb4af",
     "publisherDisplayName": "Luxcium ✨",
     "publisherId": "896dbdcd-d417-4c51-8ff0-ec82723b0706"
+  },
+  "dependencies": {
+    "jsonc-parser": "^2.1.0",
+    "request-light": "^0.2.4",
+    "vscode-extension-telemetry": "^0.1.1",
+    "vscode-languageclient": "^5.2.1",
+    "vscode-nls": "^4.1.0",
+    "vscode-uri": "^1.0.6"
   }
 }
