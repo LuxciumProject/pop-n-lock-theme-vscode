@@ -41,12 +41,12 @@ This theme was originally based on the design of Hedinne's Popping And Locking w
 }
 ```
 
-> † This theme includes:
->
-> - [x] alphabetical-sorter
-> - [x] better-comments
-> - [x] bracket-pair-colorizer-2
-> - [x] material-icon-theme
+† This theme includes:
+
+- [x] alphabetical-sorter
+- [x] better-comments
+- [x] bracket-pair-colorizer-2
+- [x] material-icon-theme
 
 ## TypeScript
 
