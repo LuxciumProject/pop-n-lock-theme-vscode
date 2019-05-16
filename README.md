@@ -41,9 +41,8 @@ This theme was originally based on the design of Hedinne's Popping And Locking w
 }
 ```
 
----
-
-> - † This theme includes:
+> † This theme includes:
+>
 > - [x] alphabetical-sorter
 > - [x] better-comments
 > - [x] bracket-pair-colorizer-2
@@ -153,16 +152,12 @@ This theme was originally based on the design of Hedinne's Popping And Locking w
 
 [![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TS1.png) TypeScript Screenshot (v3.11.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TS2.png)
 
-## Originally based on
+Originally based on:
 
 - [Hedinne's Popping And Locking (VSCode Theme)](https://github.com/hedinne/popping-and-locking-vscode)
   - [Morhetz's Gruvbox](https://github.com/morhetz/gruvbox)
   - [Jdinhlife's Gruvbox (VSCode Theme)](https://github.com/jdinhlife/vscode-theme-gruvbox)
 
-## How to report feedback and issues
-
-### You can [file an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub repo for our VS Code extension
-
 ---
 
-#### The Luxcium Owl logo is a trademark of NeB_401.Corp LTEE (all right reserved)
+The Luxcium Owl logo is a trademark of NeB_401.Corp LTEE (all right reserved)
