@@ -15,12 +15,11 @@ Your favourite streamlined code editor is getting more bright and radiant, optim
 >
 > Please feel free to ask any question, to let us know about any problems that should be resolved and any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page.
 
-[![Preview of the IDE with Pop N’ Lock Theme](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TypeScript.png) [Click to enlarge the image] (v3.11.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TypeScript.png) 
-
+[![Preview of the IDE with Pop N’ Lock Theme](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TypeScript.png) [Click to enlarge the image] (v3.11.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TypeScript.png)
 
 ### **You will be impressed how intutive it is when you will discover how each colour has its purpose**
 
-This theme is based on the designs of Hedinne's *Popping And Locking* a theme with vivid colours, they capture your attention but are easy on your eyes. His theme originally based on VS Dark+, Gruvbox Dark and One Dark has changed a lot since. It is designed with TypeScript grammar and web languages syntax in mind like HTML & CSS (Also includes support for JavaScript, JSON, YAML, React's JSX/TSX and more to come).
+This theme is based on the designs of Hedinne's _Popping And Locking_ a theme with vivid colours, they capture your attention but are easy on your eyes. His theme originally based on VS Dark+, Gruvbox Dark and One Dark has changed a lot since. It is designed with TypeScript grammar and web languages syntax in mind like HTML & CSS (Also includes support for JavaScript, JSON, YAML, React's JSX/TSX and more to come).
 
 ## **Make sure to set encoding of your config file to utf8**
 
