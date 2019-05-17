@@ -1,4 +1,4 @@
-# Pop N' Lock Theme by Luxcium ✨
+Tu # Pop N' Lock Theme by Luxcium ✨
 
 [![GitHub issues](https://img.shields.io/github/issues/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) [![GitHub contributors](https://img.shields.io/github/contributors-anon/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/graphs/contributors)
 [![GitHub stars](https://img.shields.io/github/stars/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/stargazers)
@@ -21,7 +21,7 @@ Your favourite streamlined code editor is getting more bright and radiant, optim
 
 ### **You will be impressed how intutive it is when you will discover how each colour has its purpose**
 
-This theme was originally based on the design of Hedinne's Popping And Locking with vivid colours they capture your attention but are easy on your eyes. Originally based on the colour theme VS Dark+, Gruvbox Dark and One Dark but has changed a lot since. It is designed for web languages (TypeScript, Javascript,HTML, CSS, React's JSX/TSX and more).
+This theme is based on the designs of Hedinne's Popping And Locking a theme with vivid colours that capture your attention but are easy on your eyes. His theme originally based on VS Dark+, Gruvbox Dark and One Dark has changed a lot since. It is designed with TypeScript syntax’s and web languages grammar in mind (TypeScript, Javascript, HTML, JSON, YAML, CSS, React's JSX/TSX and more in development).
 
 ## **Make sure to set encoding of your config file to utf8**
 
