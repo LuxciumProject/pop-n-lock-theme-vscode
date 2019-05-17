@@ -1,8 +1,8 @@
-// git add . --verbose && git commit -am "Will merge-squash in master" --verbose && git checkout master
-// git merge--squash --verify-signatures --signoff --progress --verbose version/dev-pop-n-lock-theme-code@next
+//
+// git merge --squash --verify-signatures --signoff --progress --verbose version/dev-pop-n-lock-theme-code@next
 // version/dev-pop-n-lock-theme-code@next
 
-// git add . --verbose && git commit -am "Will merge-squash in master" --verbose && git checkout master --verbose
+// git add . --verbose && git commit -am "Will merge-squash in master" --verbose && git checkout master
 /*
 
 
