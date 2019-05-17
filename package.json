@@ -1,6 +1,6 @@
 {
   "name": "pop-n-lock-theme-vscode",
-  "version": "3.13.2",
+  "version": "3.13.5",
   "publisher": "Luxcium",
   "license": "MIT",
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
@@ -12,6 +12,13 @@
   "homepage": "https://github.com/luxcium/pop-n-lock-theme-vscode/#readme",
   "engines": {
     "vscode": "^1.12.0"
+  },
+  "scripts": {
+    "release:major": "npm version major && vsce package && vsce publish",
+    "release:minor": "npm version minor && vsce package && vsce publish",
+    "release:patch": "npm version patch && vsce package && vsce publish",
+    "old:release": "vsce package && vsce publish",
+    "release": "standard-version"
   },
   "categories": [
     "Programming Languages",
@@ -139,12 +146,6 @@
     "type": "git",
     "url": "https://github.com/luxcium/pop-n-lock-theme-vscode.git"
   },
-  "scripts": {
-    "release:major": "npm version major && vsce package && vsce publish",
-    "release:minor": "npm version minor && vsce package && vsce publish",
-    "release:patch": "npm version patch && vsce package && vsce publish",
-    "release": "vsce package && vsce publish"
-  },
   "dependencies": {
     "jsonc-parser": "^2.1.0",
     "request-light": "^0.2.4",
@@ -163,6 +164,7 @@
     "@types/react": "^16.8.14",
     "@types/react-dom": "^16.8.4",
     "@types/vscode": "^1.33.0",
+    "standard-version": "^6.0.1",
     "tslib": "^1.9.3",
     "typescript": "^3.4.3"
   },
