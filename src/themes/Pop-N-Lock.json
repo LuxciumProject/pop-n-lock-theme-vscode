@@ -17,7 +17,7 @@
     "widget.shadow": "#112F",
     "focusBorder": "#7165",
     "foreground": "#DCAf",
-    "editorUnnecessaryCode.border": "#95Bc",
+    "editorUnnecessaryCode.border": "#95B4",
     "editorUnnecessaryCode.opacity": "#FFF5",
     "walkThrough.embeddedEditorBackground": "#2C203CFF",
     "welcomePage.background": "#1D1028FF",
@@ -47,8 +47,8 @@
     "extensionButton.prominentBackground": "#48AF",
     "extensionButton.prominentForeground": "#FECF",
     "extensionButton.prominentHoverBackground": "#716c",
-    "welcomePage.buttonBackground": "#48Ac",
-    "welcomePage.buttonHoverBackground": "#716c",
+    "welcomePage.buttonBackground": "#716c",
+    "welcomePage.buttonHoverBackground": "#48Ac",
     // #endregion
     // #region *** debugExceptionWidget.background ***
     "debugExceptionWidget.background": "#1D2555DD",
@@ -395,7 +395,7 @@
     "textBlockQuote.border": "#7161",
     "textCodeBlock.background": "#2C203CFF",
     "textLink.activeForeground": "#64Ca",
-    "textLink.foreground": "#48Ac",
+    "textLink.foreground": "#6AFD",
     "textPreformat.foreground": "#DCAf",
     "textSeparator.foreground": "#DCAf",
     // #endregion
