@@ -7,6 +7,8 @@
 
 Your favourite streamlined code editor is getting more bright and radiant, optimized to work in the Full-fledged _Integrated Development Environment_ or in _Text Editor sized_ mode. The colours have been handpicked with great care to be the most intuitive possible and to use extensively all capacity of your favourite IDE and text editor. This powerful theme of colour is always evolving. Colourful features are added and more languages will be included soon. This theme is STRONGLY OPINIONATED so make sure to request any changes you want by filling an issue if you want to be influencing the opinion.
 
+[![Preview of the IDE with Pop N’ Lock Theme](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TypeScript.png) [Click to enlarge the image] (v3.11.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TypeScript.png)
+
 ## 🐲 Perfectly balanced TypeScript theme with vivid colours
 
 > **If you like this theme take one minute to make a 5-star review on VS Code marketplace and if you think something can be improved make sure to fill an issue on our GitHub page it's easy and will help us make Pop N' Lock the best theme available**
@@ -18,8 +20,6 @@ Your favourite streamlined code editor is getting more bright and radiant, optim
 ### **You will be impressed how intutive it is when you will discover how each colour has its purpose**
 
 This theme was originally based on the design of Hedinne's Popping And Locking with vivid colours they capture your attention but are easy on your eyes. Originally based on the colour theme VS Dark+, Gruvbox Dark and One Dark but has changed a lot since. It is designed for web languages (TypeScript, Javascript,HTML, CSS, React's JSX/TSX and more).
-
-[![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TypeScript.png) [Click to enlarge the image] (v3.11.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TypeScript.png)
 
 ## **Make sure to set encoding of your config file to utf8**
 
