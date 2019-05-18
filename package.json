@@ -14,11 +14,12 @@
     "vscode": "^1.12.0"
   },
   "scripts": {
-    "will:gitmerge": "git add . --verbose ; git commit -am 'Will merge-squash in master' ; git push --follow-tags --all --verbose && git checkout master",
+    "gitcheckout:vnext": "git add . --verbose ; git commit -am 'Will merge-squash in master' ; git checkout version/dev-pop-n-lock-theme-code@next; git pull origin version/dev-pop-n-lock-theme-code@next --verbose",
+    "will:gitmerge": "npm run gitcheckout:vnext && git push --follow-tags --all --verbose && git checkout master && git pull origin master",
     "gitmerge:master": "git merge --squash --verify-signatures --signoff --progress --verbose version/dev-pop-n-lock-theme-code@next",
     "gitmerge:commit": "git add . --verbose && git commit -am 'All changes on version/@next will be Pack N Publis'",
     "gitmerge:push": "git push --follow-tags --all --verbose",
-    "gitchekback:vnext": "git checkout version/dev-pop-n-lock-theme-code@next",
+    "gitchekback:vnext": "git checkout version/dev-pop-n-lock-theme-code@next &&  git merge master",
     "release:major": "npm version major && vsce package && vsce publish",
     "release:minor": "npm version minor && vsce package && vsce publish",
     "release:patch": "npm version patch && vsce package && vsce publish",
