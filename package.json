@@ -14,17 +14,15 @@
     "vscode": "^1.12.0"
   },
   "scripts": {
-    "gitcheckout:vnext": "git add . --verbose ; git commit -am 'Will merge-squash in master' ; git checkout version/dev-pop-n-lock-theme-code@next; git pull origin version/dev-pop-n-lock-theme-code@next --verbose",
+    "gitcheckout:vnext": "git add . --verbose ; git commit -am 'Checkout to version/dev-pop-n-lock-theme-code@next' ; npm run git:push ; git checkout version/dev-pop-n-lock-theme-code@next; git pull origin version/dev-pop-n-lock-theme-code@next --verbose",
     "will:gitmerge": "npm run gitcheckout:vnext && git push --follow-tags --all --verbose && git checkout master && git pull origin master",
     "gitmerge:master": "git merge --squash --verify-signatures --signoff --progress --verbose version/dev-pop-n-lock-theme-code@next",
     "gitmerge:commit": "git add . --verbose && git commit -vsS -am 'All changes on version/@next will be Pack N Publis'",
-    "gitmerge:push": "git push --follow-tags --all --verbose",
-    "gitchekback:vnext": "git checkout version/dev-pop-n-lock-theme-code@next &&  git merge master",
-    "release:major": "npm version major && vsce package && vsce publish",
-    "release:minor": "npm version minor && vsce package && vsce publish",
-    "release:patch": "npm version patch && vsce package && vsce publish",
+    "git:push": "git push --follow-tags --all --verbose",
+    "gitchekback:vnext": "gitcheckout:vnext &&  git merge master",
     "package:publish": "vsce package && vsce publish",
-    "release": "git checkout master; git pull origin master && standard-version && npm run package:publish"
+    "release": "git checkout master; git pull origin master && standard-version && npm run package:publish",
+    "merge:pack:publish:release": "npm run will:gitmerge; npm run gitmerge:master && npm run gitmerge:commit && git:push && npm run gitchekback:vnext && npm run release"
   },
   "categories": [
     "Programming Languages",
