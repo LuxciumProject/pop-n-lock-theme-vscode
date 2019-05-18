@@ -203,13 +203,14 @@
      *** "inputOption.activeBorder": "#7161",
      *** "inputOption.activeBorder": "#7161",
      *** "inputValidation.errorBackground": "#7162",
-     *** "inputValidation.errorBackground": "#7162", */
-    "inputValidation.errorBorder": "#F43F",
+     *** */
+    "inputValidation.errorBackground": "#F455",
+    "inputValidation.errorBorder": "#F45F",
     "inputValidation.errorForeground": "#FEDf",
-    "inputValidation.infoBackground": "#7162",
+    "inputValidation.infoBackground": "#48A5",
     "inputValidation.infoBorder": "#48AF",
-    "inputValidation.infoForeground": "#7167",
-    "inputValidation.warningBackground": "#FB4f",
+    "inputValidation.infoForeground": "#FEDf",
+    "inputValidation.warningBackground": "#FB45",
     "inputValidation.warningBorder": "#FB4f",
     "inputValidation.warningForeground": "#FEDf",
     // #endregion
