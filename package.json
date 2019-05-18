@@ -17,7 +17,7 @@
     "checkout:commit": "git add . --verbose; git commit -am 'checkout:commit'; npm run git:push;",
     "checkout:vnext": "git checkout version/dev-pop-n-lock-theme-code@next; git pull origin version/dev-pop-n-lock-theme-code@next --verbose",
     "checkout:master": "git checkout master && git pull origin master --verbose",
-    "gitmerge:squash:vnext": "git merge --squash --verify-signatures --signoff --progress --verbose version/dev-pop-n-lock-theme-code@next",
+    "gitmerge:squash:vnext": "git merge --squash --verify-signatures --signoff --stat --progress --verbose version/dev-pop-n-lock-theme-code@next",
     "gitmerge:commit": "git add . --verbose ; git commit -vsS -am 'All changes on version/@next will be PackNPublish'; npm run git:push",
     "gitmergeback:master": "git merge master --progress --stat --commit -m 'Merging master back' && npm run git:push ",
     "will:gitmerge": "npm run checkout:commit; npm run checkout:vnext; npm run gitmergeback:master ;npm run checkout:master",
