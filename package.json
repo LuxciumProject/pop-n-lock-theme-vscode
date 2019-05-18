@@ -23,8 +23,8 @@
     "release:major": "npm version major && vsce package && vsce publish",
     "release:minor": "npm version minor && vsce package && vsce publish",
     "release:patch": "npm version patch && vsce package && vsce publish",
-    "old:release": "vsce package && vsce publish",
-    "release": "git checkout master; git pull origin master && standard-version"
+    "package:publish": "vsce package && vsce publish",
+    "release": "git checkout master; git pull origin master && standard-version && npm run package:publish"
   },
   "categories": [
     "Programming Languages",
