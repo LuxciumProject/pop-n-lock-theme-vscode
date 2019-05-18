@@ -1,4 +1,4 @@
-//
+// will redo the coregraphie to see if it all work perfectly
 // git merge --squash --verify-signatures --signoff --progress --verbose version/dev-pop-n-lock-theme-code@next && git add . --verbose && git commit -am "All changes on version/@next will be Pack N Publis"
 
 // git add . --verbose ; git commit -am "Will merge-squash in master" ; git push --follow-tags --all --verbose && git checkout master
