@@ -19,10 +19,10 @@
     "gitmerge:master": "git merge --squash --verify-signatures --signoff --progress --verbose version/dev-pop-n-lock-theme-code@next",
     "gitmerge:commit": "git add . --verbose && git commit -vsS -am 'All changes on version/@next will be Pack N Publis'",
     "git:push": "git push --follow-tags --all --verbose",
-    "gitchekback:vnext": "gitcheckout:vnext &&  git merge master --progress --stat --commit  -m 'Merging back after merge:pack:publish:release' ",
+    "gitchekback:vnext": "npm run gitcheckout:vnext &&  git merge master --progress --stat --commit  -m 'Merging back after merge:pack:publish:release' ",
     "package:publish": "vsce package && vsce publish",
     "release": "git checkout master; git pull origin master && standard-version && npm run package:publish",
-    "merge:pack:publish:release": "npm run will:gitmerge; npm run gitmerge:master && npm run gitmerge:commit && git:push && npm run gitchekback:vnext && npm run release"
+    "merge:pack:publish:release": "npm run will:gitmerge; npm run gitmerge:master && npm run gitmerge:commit && npm run git:push && npm run gitchekback:vnext && npm run release"
   },
   "categories": [
     "Programming Languages",
