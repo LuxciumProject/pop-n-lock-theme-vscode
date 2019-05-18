@@ -14,6 +14,7 @@
     "vscode": "^1.12.0"
   },
   "scripts": {
+    "will:merge": "git add . --verbose ; git commit -am 'Will merge-squash in master' ; git push --follow-tags --all --verbose && git checkout master",
     "release:major": "npm version major && vsce package && vsce publish",
     "release:minor": "npm version minor && vsce package && vsce publish",
     "release:patch": "npm version patch && vsce package && vsce publish",
