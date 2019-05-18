@@ -1,6 +1,6 @@
 # Changelog
 
-## All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ### [3.13.6](https://github.com/luxcium/pop-n-lock-theme-vscode/compare/v3.13.2...v3.13.6) (2019-05-18)
 
