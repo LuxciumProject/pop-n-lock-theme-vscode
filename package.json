@@ -14,7 +14,7 @@
     "vscode": "^1.12.0"
   },
   "scripts": {
-    "gitcheckout:vnext": "git add . --verbose ; git commit -am 'Will merge-squash in master' ; git checkout version/dev-pop-n-lock-theme-code@next; git pull origin version/dev-pop-n-lock-theme-code@next",
+    "gitcheckout:vnext": "git add . --verbose ; git commit -am 'Will merge-squash in master' ; git checkout version/dev-pop-n-lock-theme-code@next; git pull origin version/dev-pop-n-lock-theme-code@next --verbose",
     "will:gitmerge": "git push --follow-tags --all --verbose && git checkout master",
     "gitmerge:master": "git merge --squash --verify-signatures --signoff --progress --verbose version/dev-pop-n-lock-theme-code@next",
     "gitmerge:commit": "git add . --verbose && git commit -am 'All changes on version/@next will be Pack N Publis'",
