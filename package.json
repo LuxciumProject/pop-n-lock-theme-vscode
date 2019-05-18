@@ -15,11 +15,16 @@
   },
   "scripts": {
     "will:merge": "git add . --verbose ; git commit -am 'Will merge-squash in master' ; git push --follow-tags --all --verbose && git checkout master",
+    "will:gitmerge": "git add . --verbose ; git commit -am 'Will merge-squash in master' ; git push --follow-tags --all --verbose && git checkout master",
+    "gitmerge:master": "git merge --squash --verify-signatures --signoff --progress --verbose version/dev-pop-n-lock-theme-code@next",
+    "gitmerge:commit": "git add . --verbose && git commit -am 'All changes on version/@next will be Pack N Publis'",
+    "gitmerge:push": "git push --follow-tags --all --verbose",
+    "gitchekback:vnext": "git checkout version/dev-pop-n-lock-theme-code@next",
     "release:major": "npm version major && vsce package && vsce publish",
     "release:minor": "npm version minor && vsce package && vsce publish",
     "release:patch": "npm version patch && vsce package && vsce publish",
     "old:release": "vsce package && vsce publish",
-    "release": "standard-version"
+    "release": "git checkout master; git pull origin master && standard-version"
   },
   "categories": [
     "Programming Languages",
