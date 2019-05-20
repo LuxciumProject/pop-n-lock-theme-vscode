@@ -1,0 +1,3 @@
+checkout:commit
+checkout:vnext
+checkout:master
