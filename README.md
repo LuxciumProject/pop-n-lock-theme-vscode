@@ -150,6 +150,10 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 }
 ```
 
+[![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.15.5/screen-captire-2.png) JS/TS Each section of code have a specific colour signature (v3.15.5)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.15.5/screen-captire-2.png)
+
+[![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.15.5/screen-captire-1.png) JS/TS Each section of code have a specific colour signature (v3.15.5)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.15.5/screen-captire-1.png)
+
 [![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TS1.png) TypeScript Screenshot (v3.11.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TS2.png)
 
 Originally based on:
