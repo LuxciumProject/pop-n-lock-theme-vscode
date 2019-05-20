@@ -6,3 +6,7 @@ git cb vscode/Luxcium.pop-n-lock-theme-vscode@something
 git add . --verbose ; git commit -vsS -am 'Published Luxcium.pop-n-lock-theme-vscode@3.15.3'; npm run git:push
 checkout:master
 gitmergeback:master
+change 1
+change 2
+change 3
+change 4
