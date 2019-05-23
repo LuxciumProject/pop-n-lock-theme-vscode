@@ -1,8 +1,0 @@
-{
-  "$schema": "../../../src/resources/schemas/tmlanguage.json",
-  "name": "TypeScript (Luxcium)",
-  "scopeName": "source.ts",
-  "fileTypes": ["ts"],
-  "patterns": [{ "include": "keyword.control.import.ts" }],
-  "repository": {}
-}

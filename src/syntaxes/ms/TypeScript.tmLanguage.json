@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../src/resources/schemas/tmlanguage.json",
+  "$schema": "../../../resources/schemas/tmlanguage.json",
   "name": "TypeScript",
   "scopeName": "source.ts",
   "fileTypes": ["ts"],
