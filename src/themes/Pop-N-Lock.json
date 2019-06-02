@@ -2725,16 +2725,16 @@ source.tsx
       "scope": [
         "source.yaml comment.line.number-sign punctuation.definition.comment"
       ],
-      "settings": { "foreground": "#53Ed", "fontStyle": "" }
+      "settings": { "foreground": "#67F", "fontStyle": "" }
     },
     /* SHEBANG */
     {
       "scope": ["comment.line.shebang punctuation.definition.comment"],
-      "settings": { "foreground": "#F153", "fontStyle": "bold underline" }
+      "settings": { "foreground": "#F155", "fontStyle": "bold underline" }
     },
     {
       "scope": ["comment.line.shebang"],
-      "settings": { "foreground": "#EDB4", "fontStyle": "italic" }
+      "settings": { "foreground": "#EDB5", "fontStyle": "italic" }
     },
     {
       "scope": ["comment"],
@@ -2743,36 +2743,27 @@ source.tsx
     {
       "scope": [
         "comment.block punctuation.definition.comment",
-        "comment.block"
+        "comment.block",
+        "comment.line.triple-slash.directive meta.tag entity.name.tag.directive",
+        "comment.line.triple-slash.directive entity.other.attribute-name.directive"
       ],
-      "settings": { "foreground": "#53Ed", "fontStyle": "" }
+      "settings": { "foreground": "#55FD", "fontStyle": "" }
     },
     {
       "scope": [
         "comment.line.double-slash punctuation.definition.comment",
-        "comment.line.double-slash"
+        "comment.line.double-slash",
+        "comment.line.triple-slash.directive punctuation.definition.comment",
+        "comment.line.triple-slash.directive keyword.operator.assignment",
+        "comment.line.triple-slash.directive punctuation.definition.tag.directive"
       ],
       "settings": { "foreground": "#2BD8", "fontStyle": "bold italic" }
     },
     {
       "scope": ["comment.line.triple-slash.directive string.quoted.double"],
-      "settings": { "foreground": "#B98c", "fontStyle": "" }
+      "settings": { "foreground": "#B98D", "fontStyle": "" }
     },
-    {
-      "scope": [
-        "comment.line.triple-slash.directive meta.tag entity.name.tag.directive",
-        "comment.line.triple-slash.directive entity.other.attribute-name.directive"
-      ],
-      "settings": { "foreground": "#53Ed", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "comment.line.triple-slash.directive punctuation.definition.comment",
-        "comment.line.triple-slash.directive keyword.operator.assignment",
-        "comment.line.triple-slash.directive punctuation.definition.tag.directive"
-      ],
-      "settings": { "foreground": "#588f", "fontStyle": "" }
-    },
+
     // #endregion
     // #region "JSON" --------------------------------------------------------
     {
