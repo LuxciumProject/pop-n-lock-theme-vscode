@@ -433,6 +433,45 @@
     // #endregion
   },
   "tokenColors": [
+    {
+      "scope": [
+        "source.ts punctuation.definition.string.begin",
+        "source.ts string.quoted.double punctuation.definition.string.begin",
+        "source.ts string.quoted.single punctuation.definition.string.begin",
+        "source.tsx punctuation.definition.string.begin",
+        "source.tsx string.quoted.double punctuation.definition.string.begin",
+        "source.tsx string.quoted.single punctuation.definition.string.begin",
+        "source.js punctuation.definition.string.begin",
+        "source.js string.quoted.double punctuation.definition.string.begin",
+        "source.js string.quoted.single punctuation.definition.string.begin",
+        "source.json punctuation.definition.string.begin",
+        "punctuation.definition.string.begin.jsdoc",
+        "meta.tag punctuation.definition.string.begin.tsx",
+        "meta.tag punctuation.definition.string.begin.js",
+        "text.html meta.tag meta.attribute punctuation.definition.string.begin.html",
+        "text.html source punctuation.definition.string.begin",
+        "text.html source string.quoted.double punctuation.definition.string.begin",
+        "text.html source string.quoted.single punctuation.definition.string.begin",
+        "source.ts punctuation.definition.string.end",
+        "source.ts string.quoted.double punctuation.definition.string.end",
+        "source.ts string.quoted.single punctuation.definition.string.end",
+        "source.tsx punctuation.definition.string.end",
+        "source.tsx string.quoted.double punctuation.definition.string.end",
+        "source.tsx string.quoted.single punctuation.definition.string.end",
+        "source.js punctuation.definition.string.end",
+        "source.js string.quoted.double punctuation.definition.string.end",
+        "source.js string.quoted.single punctuation.definition.string.end",
+        "source.json punctuation.definition.string.end",
+        "punctuation.definition.string.end.jsdoc",
+        "meta.tag punctuation.definition.string.end.tsx",
+        "meta.tag punctuation.definition.string.end.js",
+        "text.html meta.tag meta.attribute punctuation.definition.string.end.html",
+        "text.html source punctuation.definition.string.end",
+        "text.html source string.quoted.double punctuation.definition.string.end",
+        "text.html source string.quoted.single punctuation.definition.string.end"
+      ],
+      "settings": { "foreground": "#FC5C", "fontStyle": "" }
+    },
     // #region "typescript" --------------------------------------------------
     /* STRINGs */
     {
@@ -466,28 +505,18 @@
       "settings": { "foreground": "#7D2d", "fontStyle": "" }
     },
     // "#FC2C", // "#FB4E"
-    {
-      "scope": [
-        "source.ts punctuation.definition.string.begin",
-        "source.ts punctuation.definition.string.end",
-        "source.ts string.quoted.double punctuation.definition.string.begin",
-        "source.ts string.quoted.double punctuation.definition.string.end",
-        "source.ts string.quoted.single punctuation.definition.string.begin",
-        "source.ts string.quoted.single punctuation.definition.string.end"
-      ],
-      "settings": { "foreground": "#FC5C", "fontStyle": "" }
-    },
+
     // function like (BOLD)
     {
       "scope": [
         "source.ts support.function.builtin",
         "source.ts support.function.git-rebase",
-        "source.ts support.function.json",
+        "source.ts support.function",
         "source.ts support.function.math",
         "source.ts support.function.process",
         "source.ts support.function.console"
       ],
-      "settings": { "foreground": "#FC5F", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#FC5E", "fontStyle": "bold italic" }
     },
     {
       "scope": [
@@ -499,7 +528,7 @@
         "source.ts entity.name.function",
         "source.ts entity.other.inherited-class.ts"
       ],
-      "settings": { "foreground": "#FC5F", "fontStyle": "" }
+      "settings": { "foreground": "#FC5E", "fontStyle": "" }
     },
     {
       "scope": [
@@ -516,7 +545,7 @@
         "source.ts meta.interface variable.object.property",
         "source.ts variable.other.enummember"
       ],
-      "settings": { "foreground": "#ADCd", "fontStyle": "" }
+      "settings": { "foreground": "#ADCD", "fontStyle": "" }
     },
     {
       "scope": [
@@ -926,7 +955,7 @@
         "source.ts meta.objectliteral meta.object.member variable.other.object",
         "source.ts variable"
       ],
-      "settings": { "foreground": "#ADCd" }
+      "settings": { "foreground": "#ADCD" }
     },
     /*
     VARIABLE PROPERTIES LIKE
@@ -974,7 +1003,7 @@ source.ts
         "source.ts support.class.node",
         "source.ts support.class.promise",
         "source.ts support.constant",
-        "source.ts support.constant.json",
+        "source.ts support.constant",
         "source.ts support.constant.math",
         "source.ts support.type",
         "source.ts support.type.object.module",
@@ -1230,14 +1259,7 @@ source.ts
     },
     // "#FC2C", // "#FB4E"
     {
-      "scope": [
-        "source.tsx punctuation.definition.string.begin",
-        "source.tsx punctuation.definition.string.end",
-        "source.tsx string.quoted.double punctuation.definition.string.begin",
-        "source.tsx string.quoted.double punctuation.definition.string.end",
-        "source.tsx string.quoted.single punctuation.definition.string.begin",
-        "source.tsx string.quoted.single punctuation.definition.string.end"
-      ],
+      "scope": [],
       "settings": { "foreground": "#FC5C", "fontStyle": "" }
     },
     // function like (BOLD)
@@ -1245,12 +1267,12 @@ source.ts
       "scope": [
         "source.tsx support.function.builtin",
         "source.tsx support.function.git-rebase",
-        "source.tsx support.function.json",
+        "source.tsx support.function",
         "source.tsx support.function.math",
         "source.tsx support.function.process",
         "source.tsx support.function.console"
       ],
-      "settings": { "foreground": "#FC5F", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#FC5E", "fontStyle": "bold italic" }
     },
     {
       "scope": [
@@ -1262,7 +1284,7 @@ source.ts
         "source.tsx entity.name.function",
         "source.tsx entity.other.inherited-class.tsx"
       ],
-      "settings": { "foreground": "#FC5F", "fontStyle": "" }
+      "settings": { "foreground": "#FC5E", "fontStyle": "" }
     },
     {
       "scope": [
@@ -1279,7 +1301,7 @@ source.ts
         "source.tsx meta.interface variable.object.property",
         "source.tsx variable.other.enummember"
       ],
-      "settings": { "foreground": "#ADCd", "fontStyle": "" }
+      "settings": { "foreground": "#ADCD", "fontStyle": "" }
     },
     {
       "scope": [
@@ -1689,7 +1711,7 @@ source.ts
         "source.tsx meta.objectliteral meta.object.member variable.other.object",
         "source.tsx variable"
       ],
-      "settings": { "foreground": "#ADCd" }
+      "settings": { "foreground": "#ADCD" }
     },
     /*
     VARIABLE PROPERTIES LIKE
@@ -1737,7 +1759,7 @@ source.tsx
         "source.tsx support.class.node",
         "source.tsx support.class.promise",
         "source.tsx support.constant",
-        "source.tsx support.constant.json",
+        "source.tsx support.constant",
         "source.tsx support.constant.math",
         "source.tsx support.type",
         "source.tsx support.type.object.module",
@@ -1993,14 +2015,7 @@ source.tsx
     },
     // "#FC2C", // "#FB4E"
     {
-      "scope": [
-        "source.js punctuation.definition.string.begin",
-        "source.js punctuation.definition.string.end",
-        "source.js string.quoted.double punctuation.definition.string.begin",
-        "source.js string.quoted.double punctuation.definition.string.end",
-        "source.js string.quoted.single punctuation.definition.string.begin",
-        "source.js string.quoted.single punctuation.definition.string.end"
-      ],
+      "scope": [],
       "settings": { "foreground": "#FC5C", "fontStyle": "" }
     },
     // function like (BOLD)
@@ -2013,7 +2028,7 @@ source.tsx
         "source.js support.function.process",
         "source.js support.function.console"
       ],
-      "settings": { "foreground": "#FC5F", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#FC5E", "fontStyle": "bold italic" }
     },
     {
       "scope": [
@@ -2025,7 +2040,7 @@ source.tsx
         "source.js entity.name.function",
         "source.js entity.other.inherited-class.js"
       ],
-      "settings": { "foreground": "#FC5F", "fontStyle": "" }
+      "settings": { "foreground": "#FC5E", "fontStyle": "" }
     },
     {
       "scope": [
@@ -2042,7 +2057,7 @@ source.tsx
         "source.js meta.interface variable.object.property",
         "source.js variable.other.enummember"
       ],
-      "settings": { "foreground": "#ADCd", "fontStyle": "" }
+      "settings": { "foreground": "#ADCD", "fontStyle": "" }
     },
     {
       "scope": [
@@ -2452,7 +2467,7 @@ source.tsx
         "source.js meta.objectliteral meta.object.member variable.other.object",
         "source.js variable"
       ],
-      "settings": { "foreground": "#ADCd" }
+      "settings": { "foreground": "#ADCD" }
     },
     /* VARIABLE PROPERTIES LIKE */
     {
@@ -2766,52 +2781,187 @@ source.tsx
 
     // #endregion
     // #region "JSON" --------------------------------------------------------
+    /*
+
+punctuation.support.type.property-name.end.json
+support.type.property-name.json
+string.json
+meta.structure.dictionary.json
+meta.structure.array.json
+meta.structure.dictionary.value.json
+meta.structure.dictionary.json
+source.json
+
+punctuation.separator.dictionary.key-value.json
+meta.structure.dictionary.value.json
+meta.structure.dictionary.json
+meta.structure.array.json
+meta.structure.dictionary.value.json
+meta.structure.dictionary.json
+source.json
+
+punctuation.separator.array.json
+meta.structure.array.json
+meta.structure.dictionary.value.json
+meta.structure.dictionary.json
+source.json
+
+support.type.property-name.json.comments
+string.json.comments
+meta.structure.dictionary.json.comments
+source.json.comments
+
+string.quoted.double.json.comments
+meta.structure.dictionary.value.json.comments
+meta.structure.dictionary.json.comments
+source.json.comments
+
+# colon
+punctuation.separator.dictionary.key-value.json
+meta.structure.dictionary.value.json
+meta.structure.dictionary.json
+meta.structure.array.json
+meta.structure.dictionary.value.json
+meta.structure.dictionary.json
+source.json
+
+# coma
+punctuation.separator.dictionary.pair.json
+meta.structure.dictionary.value.json
+meta.structure.dictionary.json
+meta.structure.array.json
+meta.structure.dictionary.value.json
+meta.structure.dictionary.json
+source.json
+    */
+    /*
     {
-      "scope": "string.quoted.double.json",
+      "name": "JSON property-name quotes",
+      "scope": [
+        "source.json punctuation.support.type.property-name.begin",
+        "source.json punctuation.support.type.property-name.end"
+      ],
       "settings": {
-        "foreground": "#b8bb26FF"
+        "foreground": "#ED8"
+      }
+    },
+        */
+
+    {
+      "name": "JSON string quotes",
+      "scope": [],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSON key-value separator",
+      "scope": ["source.json punctuation.separator.dictionary.key-value"],
+      "settings": {
+        "foreground": "#BB3E"
+      }
+    },
+
+    /*
+    {
+      "name": "JSON array separator",
+      "scope": ["source.json punctuation.separator.array"],
+      "settings": {
+        "foreground": "#FB2F"
+      }
+    },
+
+    {
+      "name": "JSON pair separator",
+      "scope": ["source.json punctuation.separator.dictionary.pair"],
+      "settings": {
+        "foreground": "#BB3E"
+      }
+    }, */
+    {
+      "name": "JSON numeric value",
+      "scope": "source.json constant.numeric",
+      "settings": {
+        "foreground": "#DDDD"
+      }
+    },
+    {
+      "name": "JSON string value",
+      "scope": "source.json string.quoted.double",
+      "settings": {
+        "foreground": "#BB3E"
+      }
+    },
+    {
+      "name": "JSON constant value color",
+      "scope": ["source.json constant.language"],
+      "settings": {
+        "foreground": "#39ED"
+      }
+    },
+    {
+      "name": "JSON constant value style",
+      "scope": ["source.json constant.language"],
+      "settings": {
+        "fontStyle": "italic bold"
       }
     },
     {
       "name": "JSON Level 0",
       "scope": [
-        "source.json meta.structure.dictionary.json support.type.property-name.json"
+        "source.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#b8bb26FF"
+        "foreground": "#BB3E"
       }
     },
     {
       "name": "JSON Level 1",
       "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#fabd2fFF"
+        "foreground": "#FB2F"
       }
     },
-
     {
       "name": "JSON Level 2",
       "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#8ec07cFF"
+        "foreground": "#9C8E"
       }
     },
     {
       "name": "JSON Level 3",
+
       "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#d3869bFF"
+        "foreground": "#d3869bEE"
       }
     },
     {
-      "scope": ["source.json constant.language"],
-      "settings": { "foreground": "#369ec7FF", "fontStyle": "italic bold" }
+      "name": "JSON Level 4",
+
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#5BEE"
+      }
+    },
+    {
+      "name": "JSON Level 5 and more",
+
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#DDDD"
+      }
     },
     {
       "scope": ["source.json string.quasi"],
@@ -2819,7 +2969,7 @@ source.tsx
     },
     {
       "scope": ["source.json punctuation.quasi"],
-      "settings": { "foreground": "#E42C3EFF", "fontStyle": "" }
+      "settings": { "foreground": "#E42C3EEE", "fontStyle": "" }
     },
     {
       "scope": ["source.json invalid"],
@@ -2892,8 +3042,6 @@ source.tsx
         "keyword.operator.control.jsdoc",
         "meta.example.jsdoc",
         "punctuation.definition.inline.tag.jsdoc",
-        "punctuation.definition.string.begin.jsdoc",
-        "punctuation.definition.string.end.jsdoc",
         "punctuation.separator.pipe.jsdoc",
         "variable.other.description.jsdoc",
         "variable.other.jsdoc"
@@ -3419,15 +3567,9 @@ source.tsx
       }
     },
     {
-      "scope": [
-        "meta.tag punctuation.definition.string.begin.tsx",
-        "meta.tag punctuation.definition.string.end.tsx",
-        "meta.tag punctuation.definition.string.begin.js",
-        "meta.tag punctuation.definition.string.end.js"
-      ],
+      "scope": [],
       "settings": {
-        "foreground": "#BE5B",
-        "fontStyle": "bold"
+        "foreground": "#FC5C"
       }
     },
     {
@@ -3454,8 +3596,8 @@ source.tsx
         "punctuation.terminator.statement.tsx"
       ],
       "settings": {
-        "foreground": "#4AEE",
-        "fontStyle": "bold"
+        "foreground": "#6CED", //"#A5ED",
+        "fontStyle": ""
       }
     },
     {
@@ -3466,7 +3608,7 @@ source.tsx
       ],
       "settings": {
         "foreground": "#FB4E",
-        "fontStyle": "bold"
+        "fontStyle": ""
       }
     },
     // #endregion "JSX / TSX TAGS" ------------------------------------------------
@@ -3495,11 +3637,7 @@ source.tsx
 
      */
     {
-      "scope": [
-        "text.html meta.tag punctuation.definition.tag",
-        "text.html meta.tag meta.attribute punctuation.definition.string.begin.html",
-        "text.html meta.tag meta.attribute punctuation.definition.string.end.html"
-      ],
+      "scope": ["text.html meta.tag punctuation.definition.tag"],
       "settings": { "foreground": "#FECD", "fontStyle": "" }
     },
     {
@@ -3583,7 +3721,7 @@ source.tsx
       "scope": [
         "text.html source support.function.builtin",
         "text.html source support.function.git-rebase",
-        "text.html source support.function.json",
+        "text.html source support.function",
         "text.html source support.function.math",
         "text.html source support.function.process",
         "text.html source support.function.console",
@@ -3596,12 +3734,6 @@ source.tsx
         "text.html source entity.other.inherited-class",
         "text.html source punctuation.definition.string.template.begin",
         "text.html source punctuation.definition.string.template.end",
-        "text.html source punctuation.definition.string.begin",
-        "text.html source punctuation.definition.string.end",
-        "text.html source string.quoted.double punctuation.definition.string.begin",
-        "text.html source string.quoted.double punctuation.definition.string.end",
-        "text.html source string.quoted.single punctuation.definition.string.begin",
-        "text.html source string.quoted.single punctuation.definition.string.end",
         "text.html source meta.type.declaration support.type.primitive",
         "text.html source support.type.primitive",
         "text.html source meta.interface support.type.primitive",
@@ -3664,7 +3796,7 @@ source.tsx
     {
       "scope": ["text.html source keyword.other.debugger"],
       "settings": {
-        "foreground": "#FB5E",
+        "foreground": "#FB2F",
         "fontStyle": " underline"
       }
     },
@@ -4023,7 +4155,7 @@ source.tsx
         "text.html source support.class.node",
         "text.html source support.class.promise",
         "text.html source support.constant",
-        "text.html source support.constant.json",
+        "text.html source support.constant",
         "text.html source support.constant.math",
         "text.html source support.type",
         "text.html source support.type.object.module",
