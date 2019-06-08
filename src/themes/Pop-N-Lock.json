@@ -291,13 +291,13 @@
     "peekViewEditor.matchHighlightBorder": "#618F",
     "peekViewEditorGutter.background": "#1D2545FF",
     "peekViewResult.background": "#53A2",
-    "peekViewResult.fileForeground": "#EDAe",
-    "peekViewResult.lineForeground": "#EDAe",
+    "peekViewResult.fileForeground": "#EDAE",
+    "peekViewResult.lineForeground": "#EDAE",
     "peekViewResult.matchHighlightBackground": "#48A5",
     "peekViewResult.selectionBackground": "#43B4",
-    "peekViewResult.selectionForeground": "#EDAe",
+    "peekViewResult.selectionForeground": "#EDAE",
  // "peekViewTitle.background": "#25E6",
-    "peekViewTitleDescription.foreground": "#EDAe",
+    "peekViewTitleDescription.foreground": "#EDAE",
     "peekViewTitleLabel.foreground": "#EDAF",  // ! F
 
     "peekView.border": "#FB3b",
@@ -435,43 +435,60 @@
   "tokenColors": [
     {
       "scope": [
-        "source.ts punctuation.definition.string.begin",
-        "source.ts string.quoted.double punctuation.definition.string.begin",
-        "source.ts string.quoted.single punctuation.definition.string.begin",
-        "source.tsx punctuation.definition.string.begin",
-        "source.tsx string.quoted.double punctuation.definition.string.begin",
-        "source.tsx string.quoted.single punctuation.definition.string.begin",
-        "source.js punctuation.definition.string.begin",
-        "source.js string.quoted.double punctuation.definition.string.begin",
-        "source.js string.quoted.single punctuation.definition.string.begin",
-        "source.json punctuation.definition.string.begin",
-        "punctuation.definition.string.begin.jsdoc",
-        "meta.tag punctuation.definition.string.begin.tsx",
         "meta.tag punctuation.definition.string.begin.js",
-        "text.html meta.tag meta.attribute punctuation.definition.string.begin.html",
-        "text.html source punctuation.definition.string.begin",
-        "text.html source string.quoted.double punctuation.definition.string.begin",
-        "text.html source string.quoted.single punctuation.definition.string.begin",
-        "source.ts punctuation.definition.string.end",
-        "source.ts string.quoted.double punctuation.definition.string.end",
-        "source.ts string.quoted.single punctuation.definition.string.end",
-        "source.tsx punctuation.definition.string.end",
-        "source.tsx string.quoted.double punctuation.definition.string.end",
-        "source.tsx string.quoted.single punctuation.definition.string.end",
-        "source.js punctuation.definition.string.end",
-        "source.js string.quoted.double punctuation.definition.string.end",
-        "source.js string.quoted.single punctuation.definition.string.end",
-        "source.json punctuation.definition.string.end",
-        "punctuation.definition.string.end.jsdoc",
-        "meta.tag punctuation.definition.string.end.tsx",
+        "meta.tag punctuation.definition.string.begin.tsx",
         "meta.tag punctuation.definition.string.end.js",
-        "text.html meta.tag meta.attribute punctuation.definition.string.end.html",
-        "text.html source punctuation.definition.string.end",
-        "text.html source string.quoted.double punctuation.definition.string.end",
-        "text.html source string.quoted.single punctuation.definition.string.end"
+        "meta.tag punctuation.definition.string.end.tsx",
+        "punctuation.accessor.optional",
+        "punctuation.accessor",
+        "punctuation.decorator.internaldeclaration",
+        "punctuation.definition.character-class.regexp",
+        "punctuation.definition.group.assertion.regexp",
+        "punctuation.definition.group.no-capture.regexp",
+        "punctuation.definition.group.regexp",
+        "punctuation.definition.section.case-statement",
+        "punctuation.definition.string",
+        "punctuation.definition.string.template",
+        "punctuation.definition.tag.directive",
+        "punctuation.definition.typeparameters",
+        "punctuation.destructuring",
+        "punctuation.quoted",
+        "punctuation.separator.comma",
+        "punctuation.separator.label",
+        "punctuation.separator.parameter",
+        "punctuation.tag",
+        "punctuation.whitespace.comment.leading",
+        "source.json punctuation.definition.string",
+        "string.quoted.double punctuation.definition.string",
+        "string.quoted.single punctuation.definition.string",
+        "text.html meta.tag meta.attribute punctuation.definition.string",
+        "text.html source punctuation.definition.string",
+        "text.html source punctuation.definition.string.template",
+        "text.html source string.quoted.double punctuation.definition.string",
+        "text.html source string.quoted.single punctuation.definition.string",
+        "source.js punctuation.terminator.statement",
+        "source.ts punctuation.terminator.statement",
+        "punctuation.terminator.statement.ts",
+        "punctuation.terminator.statement.js",
+        "source.js.jsx punctuation.terminator.statement",
+        "source.tsx punctuation.terminator.statement"
       ],
-      "settings": { "foreground": "#FC5C", "fontStyle": "" }
+      "settings": { "foreground": "#EDAB", "fontStyle": "bold" }
     },
+    {
+      "scope": [
+        "source.ts string.template punctuation.definition.template-expression.begin",
+        "source.ts string.template punctuation.definition.template-expression.end"
+      ],
+      "settings": { "foreground": "#E8DD", "fontStyle": "" }
+    },
+    // #region "punctuation.terminator" --------------------------------------
+
+    {
+      "scope": [],
+      "settings": { "foreground": "#49FF", "fontStyle": "bold" }
+    },
+    // #endregion
     // #region "typescript" --------------------------------------------------
     /* STRINGs */
     {
@@ -498,15 +515,9 @@
       "settings": { "foreground": "#EDAb", "fontStyle": "" }
     },
     {
-      "scope": [
-        "source.ts punctuation.definition.string.template.begin",
-        "source.ts punctuation.definition.string.template.end"
-      ],
+      "scope": [],
       "settings": { "foreground": "#7D2d", "fontStyle": "" }
     },
-    // "#FC2C", // "#FB4E"
-
-    // function like (BOLD)
     {
       "scope": [
         "source.ts support.function.builtin",
@@ -526,12 +537,7 @@
         "source.ts support.function",
         "source.ts meta.definition.method",
         "source.ts entity.name.function",
-        "source.ts entity.other.inherited-class.ts"
-      ],
-      "settings": { "foreground": "#FC5E", "fontStyle": "" }
-    },
-    {
-      "scope": [
+        "source.ts entity.other.inherited-class.ts",
         "source.ts meta.type.declaration support.type.primitive",
         "source.ts support.type.primitive",
         "source.ts meta.interface support.type.primitive",
@@ -594,14 +600,6 @@
       ],
       "settings": { "foreground": "#7C2e" }
     },
-    // "CLASS KEYWORD DEFINITION"
-    // PUBLIC, PRIVATE, EXTENDS, IMPLEMENTS, ETC..."
-    // "VARIABLE SUPER",
-    // "VARIABLE THIS",
-    // "NEW KEYWORD DEFINITION",
-    // "ASYNC KEYWORD DEFINITION"
-    // "PROPERTY TYPE" (GET SET ...)
-    // "SUPPORT PRIMITIVE TYPE",
     {
       "name": "CLASS KEYWORD DEFINITION",
       "scope": ["source.ts storage.type.class"],
@@ -817,11 +815,11 @@
     },
     {
       "scope": ["source.ts emphasis"],
-      "settings": { "foreground": "#EDAe", "fontStyle": "bold" }
+      "settings": { "foreground": "#EDAE", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts header"],
-      "settings": { "foreground": "#EDAe", "fontStyle": "bold" }
+      "settings": { "foreground": "#EDAE", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts keyword.other.back-reference.regexp"],
@@ -833,7 +831,7 @@
     },
     {
       "scope": ["source.ts markup.bold"],
-      "settings": { "foreground": "#EDAe", "fontStyle": "bold" }
+      "settings": { "foreground": "#EDAE", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts markup.changed"],
@@ -986,7 +984,7 @@ source.ts
         "source.ts punctuation.definition.binding-pattern.array",
         "source.ts punctuation.definition.binding-pattern.object"
       ],
-      "settings": { "foreground": "#EDAe", "fontStyle": "" }
+      "settings": { "foreground": "#EDAE", "fontStyle": "" }
     },
     {
       "scope": [
@@ -1104,29 +1102,6 @@ source.ts
         "source.ts meta.decorator variable.other.readwrite"
       ],
       "settings": { "foreground": "#EDAb", "fontStyle": "bold" }
-    },
-    {
-      "scope": [
-        "source.ts punctuation.accessor.optional",
-        "source.ts punctuation.accessor",
-        "source.ts punctuation.decorator.internaldeclaration",
-        "source.ts punctuation.definition.character-class.regexp",
-        "source.ts punctuation.definition.group.assertion.regexp",
-        "source.ts punctuation.definition.group.no-capture.regexp",
-        "source.ts punctuation.definition.group.regexp",
-        "source.ts punctuation.definition.section.case-statement",
-        "source.ts punctuation.definition.typeparameters.begin",
-        "source.ts punctuation.definition.typeparameters.end",
-        "source.ts punctuation.definition.tag.directive",
-        "source.ts punctuation.destructuring",
-        "source.ts punctuation.quoted",
-        "source.ts punctuation.separator.comma",
-        "source.ts punctuation.separator.label",
-        "source.ts punctuation.separator.parameter",
-        "source.ts punctuation.tag",
-        "source.ts punctuation.whitespace.comment.leading"
-      ],
-      "settings": { "foreground": "#EDAe", "fontStyle": "bold" }
     },
     /* ENTITY NAME */
     {
@@ -1251,10 +1226,7 @@ source.ts
       "settings": { "foreground": "#EDAb", "fontStyle": "" }
     },
     {
-      "scope": [
-        "source.tsx punctuation.definition.string.template.begin",
-        "source.tsx punctuation.definition.string.template.end"
-      ],
+      "scope": [],
       "settings": { "foreground": "#7D2d", "fontStyle": "" }
     },
     // "#FC2C", // "#FB4E"
@@ -1573,11 +1545,11 @@ source.ts
     },
     {
       "scope": ["source.tsx emphasis"],
-      "settings": { "foreground": "#EDAe", "fontStyle": "bold" }
+      "settings": { "foreground": "#EDAE", "fontStyle": "bold" }
     },
     {
       "scope": ["source.tsx header"],
-      "settings": { "foreground": "#EDAe", "fontStyle": "bold" }
+      "settings": { "foreground": "#EDAE", "fontStyle": "bold" }
     },
     {
       "scope": ["source.tsx keyword.other.back-reference.regexp"],
@@ -1589,7 +1561,7 @@ source.ts
     },
     {
       "scope": ["source.tsx markup.bold"],
-      "settings": { "foreground": "#EDAe", "fontStyle": "bold" }
+      "settings": { "foreground": "#EDAE", "fontStyle": "bold" }
     },
     {
       "scope": ["source.tsx markup.changed"],
@@ -1742,7 +1714,7 @@ source.tsx
         "source.tsx punctuation.definition.binding-pattern.array",
         "source.tsx punctuation.definition.binding-pattern.object"
       ],
-      "settings": { "foreground": "#EDAe", "fontStyle": "" }
+      "settings": { "foreground": "#EDAE", "fontStyle": "" }
     },
     {
       "scope": [
@@ -1862,27 +1834,8 @@ source.tsx
       "settings": { "foreground": "#EDAb", "fontStyle": "bold" }
     },
     {
-      "scope": [
-        "source.tsx punctuation.accessor.optional",
-        "source.tsx punctuation.accessor",
-        "source.tsx punctuation.decorator.internaldeclaration",
-        "source.tsx punctuation.definition.character-class.regexp",
-        "source.tsx punctuation.definition.group.assertion.regexp",
-        "source.tsx punctuation.definition.group.no-capture.regexp",
-        "source.tsx punctuation.definition.group.regexp",
-        "source.tsx punctuation.definition.section.case-statement",
-        "source.tsx punctuation.definition.typeparameters.begin",
-        "source.tsx punctuation.definition.typeparameters.end",
-        "source.tsx punctuation.definition.tag.directive",
-        "source.tsx punctuation.destructuring",
-        "source.tsx punctuation.quoted",
-        "source.tsx punctuation.separator.comma",
-        "source.tsx punctuation.separator.label",
-        "source.tsx punctuation.separator.parameter",
-        "source.tsx punctuation.tag",
-        "source.tsx punctuation.whitespace.comment.leading"
-      ],
-      "settings": { "foreground": "#EDAe", "fontStyle": "bold" }
+      "scope": [],
+      "settings": { "foreground": "#EDAE", "fontStyle": "bold" }
     },
     /* ENTITY NAME */
     {
@@ -2007,10 +1960,7 @@ source.tsx
       "settings": { "foreground": "#EDAb", "fontStyle": "" }
     },
     {
-      "scope": [
-        "source.js punctuation.definition.string.template.begin",
-        "source.js punctuation.definition.string.template.end"
-      ],
+      "scope": [],
       "settings": { "foreground": "#7D2d", "fontStyle": "" }
     },
     // "#FC2C", // "#FB4E"
@@ -2329,11 +2279,11 @@ source.tsx
     },
     {
       "scope": ["source.js emphasis"],
-      "settings": { "foreground": "#EDAe", "fontStyle": "bold" }
+      "settings": { "foreground": "#EDAE", "fontStyle": "bold" }
     },
     {
       "scope": ["source.js header"],
-      "settings": { "foreground": "#EDAe", "fontStyle": "bold" }
+      "settings": { "foreground": "#EDAE", "fontStyle": "bold" }
     },
     {
       "scope": ["source.js keyword.other.back-reference.regexp"],
@@ -2345,7 +2295,7 @@ source.tsx
     },
     {
       "scope": ["source.js markup.bold"],
-      "settings": { "foreground": "#EDAe", "fontStyle": "bold" }
+      "settings": { "foreground": "#EDAE", "fontStyle": "bold" }
     },
     {
       "scope": ["source.js markup.changed"],
@@ -2489,7 +2439,7 @@ source.tsx
         "source.js punctuation.definition.binding-pattern.array",
         "source.js punctuation.definition.binding-pattern.object"
       ],
-      "settings": { "foreground": "#EDAe", "fontStyle": "" }
+      "settings": { "foreground": "#EDAE", "fontStyle": "" }
     },
     {
       "scope": [
@@ -2609,27 +2559,8 @@ source.tsx
       "settings": { "foreground": "#EDAb", "fontStyle": "bold" }
     },
     {
-      "scope": [
-        "source.js punctuation.accessor.optional",
-        "source.js punctuation.accessor",
-        "source.js punctuation.decorator.internaldeclaration",
-        "source.js punctuation.definition.character-class.regexp",
-        "source.js punctuation.definition.group.assertion.regexp",
-        "source.js punctuation.definition.group.no-capture.regexp",
-        "source.js punctuation.definition.group.regexp",
-        "source.js punctuation.definition.section.case-statement",
-        "source.js punctuation.definition.typeparameters.begin",
-        "source.js punctuation.definition.typeparameters.end",
-        "source.js punctuation.definition.tag.directive",
-        "source.js punctuation.destructuring",
-        "source.js punctuation.quoted",
-        "source.js punctuation.separator.comma",
-        "source.js punctuation.separator.label",
-        "source.js punctuation.separator.parameter",
-        "source.js punctuation.tag",
-        "source.js punctuation.whitespace.comment.leading"
-      ],
-      "settings": { "foreground": "#EDAe", "fontStyle": "bold" }
+      "scope": [],
+      "settings": { "foreground": "#EDAE", "fontStyle": "bold" }
     },
     /* ENTITY NAME */
     {
@@ -3592,8 +3523,7 @@ source.json
     {
       "scope": [
         "meta.tag punctuation.definition.tag.begin.tsx",
-        "meta.tag punctuation.definition.tag.end.tsx",
-        "punctuation.terminator.statement.tsx"
+        "meta.tag punctuation.definition.tag.end.tsx"
       ],
       "settings": {
         "foreground": "#6CED", //"#A5ED",
@@ -3603,8 +3533,7 @@ source.json
     {
       "scope": [
         "meta.tag punctuation.definition.tag.begin.js",
-        "meta.tag punctuation.definition.tag.end.js",
-        "punctuation.terminator.statement.js"
+        "meta.tag punctuation.definition.tag.end.js"
       ],
       "settings": {
         "foreground": "#FB4E",
@@ -3612,22 +3541,7 @@ source.json
       }
     },
     // #endregion "JSX / TSX TAGS" ------------------------------------------------
-    // #region "punctuation.terminator" --------------------------------------
-    {
-      "scope": [
-        "source.js punctuation.terminator.statement",
-        "source.ts punctuation.terminator.statement"
-      ],
-      "settings": { "foreground": "#FC2F", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "source.js.jsx punctuation.terminator.statement",
-        "source.tsx punctuation.terminator.statement"
-      ],
-      "settings": { "foreground": "#49FF", "fontStyle": "bold" }
-    },
-    // #endregion
+
     // #region "HTML" --------------------------------------------------------
     // "#BE5B" "#FB4E" "#ADCC" "#4AEE" "#EDAE" "#8E7a""#D79F" "#DF8E"
     // "#fabd2fFF""#b8bb26FF""#8ec07cFF""#d3869bFF""#369ec7FF""#B35f""#EDAf"
@@ -3732,8 +3646,6 @@ source.json
         "text.html source meta.definition.method",
         "text.html source entity.name.function",
         "text.html source entity.other.inherited-class",
-        "text.html source punctuation.definition.string.template.begin",
-        "text.html source punctuation.definition.string.template.end",
         "text.html source meta.type.declaration support.type.primitive",
         "text.html source support.type.primitive",
         "text.html source meta.interface support.type.primitive",

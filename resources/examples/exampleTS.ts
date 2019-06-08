@@ -1,31 +1,32 @@
 /** @format */
-
-import express from "express";
-import jwt from "jsonwebtoken";
-import mongoose from "mongoose";
-import mongosanitize from "express-mongo-sanitize";
-import { config } from "dotenv";
+// import expressMongoSanitize from 'express-mongo-sanitize';
+// import jsonwebtoken from 'jsonwebtoken';
+import { config } from 'dotenv';
+import express from 'express';
+import mongoose from 'mongoose';
 
 config();
 const jwtSecret = process.env.JWTSECRET;
 const router = express.Router();
-const User = mongoose.model("User");
-const List = mongoose.model("List");
-const ListItem = mongoose.model("ListItem");
+const User = mongoose.model('User');
+const List = mongoose.model('List');
+const ListItem = mongoose.model('ListItem');
 
 function returnAllLists(userId: any, res: any) {
   return User.findById(userId)
     .populate({
-      path: "lists",
+      path: 'lists',
       populate: {
-        path: "listItems"
+        path: 'listItems'
       }
     })
     .exec((userErr, doc) => {
-      if (!!userErr) console.error("User.populate Error", userErr);
+      if (!!userErr) {
+        console.error('User.populate Error', userErr);
+      }
       return res.status(200).json({
         success: true,
-        successMessage: "Here is the page",
+        successMessage: 'Here is the page',
         data: doc.collection
       });
     });
@@ -34,23 +35,23 @@ function returnAllLists(userId: any, res: any) {
 debugger;
 
 (() => {
-  const objectLike = { propertyOne: 10, propertyTwo: "string" };
+  const objectLike = { propertyOne: 10, propertyTwo: 'string' };
   const { propertyOne } = objectLike;
   const myArray = [5, 10, 15, 20, 25];
   const [cinq, dix] = myArray;
-  global.console.log("Hello World");
+  global.console.log('Hello World');
   return { propertyOne, cinq, dix };
 })();
 
 export type defined = string | 450 | null | true | false | undefined;
 @sealed
 class Greeter {
-  greeting: string;
+  public greeting: string;
   constructor(message: string) {
     this.greeting = message;
   }
-  greet() {
-    return "Hello, " + this.greeting;
+  public greet() {
+    return 'Hello, ' + this.greeting;
   }
 }
 
@@ -61,7 +62,7 @@ export async function notMuch(ValueIn: string) {
   return { ValueIn };
 }
 
-class ParentClass { }
+class ParentClass {}
 interface IInterface {
   value: string;
 }
@@ -77,19 +78,19 @@ enum Delays {
   Long = 5000
 }
 
-function sealed(constructor: Function) {
+function sealed(constructor: any) {
   Object.seal(constructor);
   Object.seal(constructor.prototype);
 }
 
 async function asyncFunction() {
-  const objectLike = { propertyOne: 10, propertyTwo: "string" };
+  const objectLike = { propertyOne: 10, propertyTwo: 'string' };
   const { propertyOne } = objectLike;
 
   const variable1 = 2 + 10;
-  let message: string = "this is a string indeed";
+  let message: string = 'this is a string indeed';
   message = 'this is a ${"string"}  indeed';
-  message = `this is a  ${"string"}   indeed`;
+  message = `this is a  ${'string'}   indeed`;
   const variable3 = new Greeter(message);
 
   const variable2 = await variable1.toFixed(200 - 400);
@@ -97,7 +98,9 @@ async function asyncFunction() {
 }
 export type anyone = number | string;
 
-asyncFunction.somemethode = async () => { };
+asyncFunction.somemethode = async () => {
+  //
+};
 
 export const asyncAnonymArowFunction = async () => {
   const variable1 = await asyncFunction();
@@ -106,9 +109,9 @@ export const asyncAnonymArowFunction = async () => {
   checker = false;
   checker.valueOf();
   const angel = checker ? 48 : 47;
-  const some = new ClassName({ value: "value", angel });
-  some.otherMethodeValue;
+  const some = new ClassName({ value: 'value', angel });
   const others = [
+    some.otherMethodeValue,
     450,
     null,
     NaN,
@@ -117,7 +120,7 @@ export const asyncAnonymArowFunction = async () => {
     true,
     false,
     undefined
-  ]
+  ];
   return { some, variable1, others };
 };
 /**
@@ -127,7 +130,8 @@ export const asyncAnonymArowFunction = async () => {
 /**
  * Returns a Promise<string> that resolves after given time.
  * @param {string} name - A name.
- * @param {number=} [delay=Delays.Medium] - Number of milliseconds to delay resolution of the Promise.
+ * @param {number=} [delay=Delays.Medium] - Number of milliseconds to delay
+ *  resolution of the Promise.
  * @returns {Promise<string>}
  * @see https://www.exemple.com
  */
@@ -140,29 +144,6 @@ function delayedHello(
   );
 }
 export class ClassName extends ParentClass implements IInterface {
-  public value: string;
-  public angel: any;
-  public constructor(parametre: Arguments) {
-    super();
-    if (
-      parametre.angel === NaN &&
-      typeof parametre.value === "number"
-    ) {
-      this.angel = Infinity
-    }
-
-  }
-  public async asyncMethode() {
-    let checker: boolean;
-    checker = true;
-    checker = false;
-    const angel = checker ? 48 : 47;
-    const aNewClass = new ClassName({ value: "value", angel: angel });
-    console.log(aNewClass.value, checker, Math.PI);
-    const others = [450, null, true, false, undefined
-    ]
-    return { aNewClass, others };
-  }
   public set otherMethodeValue(some) {
     this._othervalue = some;
     const anyhow = this._otherMethode().souris;
@@ -171,18 +152,36 @@ export class ClassName extends ParentClass implements IInterface {
   public get otherMethodeValue() {
     return this._otherMethode();
   }
-  public othervalue: any;
   public static staticValue: any;
+  public value: string;
+  public angel: any;
+  public othervalue: any;
   private _othervalue: any;
+  public constructor(parametre: Arguments) {
+    super();
+    if (isNaN(parametre.angel) && typeof parametre.value === 'number') {
+      this.angel = Infinity;
+    }
+  }
+  public async asyncMethode() {
+    let checker: boolean;
+    checker = true;
+    checker = false;
+    const angel = checker ? 48 : 47;
+    const aNewClass = new ClassName({ value: 'value', angel: angel });
+    console.log(aNewClass.value, checker, Math.PI);
+    const others = [450, null, true, false, undefined];
+    return { aNewClass, others };
+  }
   public otherMethode() {
     //
   }
   private _otherMethode() {
     try {
-      const popo: string = "ceci est un canon";
-      let mice = "jerry";
-      mice = "ichy";
-      console.log("mice", mice);
+      const popo: string = 'ceci est un canon';
+      let mice = 'jerry';
+      mice = 'ichy';
+      console.log('mice', mice);
       return {
         values: [
           450,
@@ -202,16 +201,7 @@ export class ClassName extends ParentClass implements IInterface {
     }
   }
 }
-export {
-  jwt,
-  jwtSecret,
-  List,
-  ListItem,
-  mongosanitize,
-  returnAllLists,
-  router,
-  User
-};
+export { jwtSecret, List, ListItem, returnAllLists, router, User };
 
 export function formatStockChartData(stockChartDataInfos: any[]): any[] {
   return stockChartDataInfos.map(stockChartData => {
