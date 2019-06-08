@@ -3,33 +3,6 @@
   "version": "3.15.7",
   "publisher": "Luxcium",
   "license": "MIT",
-  "_level_": {
-    "name": "JSON Level 1",
-    "level": {
-      "name": "JSON Level 2",
-      "level": {
-        "name": "JSON Level 3",
-        "level": {
-          "name": "JSON Level 4",
-          "level": {
-            "name": "JSON Level 5",
-            "level": {
-              "name": "JSON Level 6 and more",
-              "level": {
-                "name": "JSON Level 6 and more",
-                "level": {
-                  "name": "JSON Level 6 and more",
-                  "level": {
-                    "name": "JSON Level 6 and more"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  },
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
   "description": "🐲Perfectly balanced TypeScript theme with vivid colours.",
   "preview": false,
