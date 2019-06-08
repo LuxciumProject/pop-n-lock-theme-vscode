@@ -2713,14 +2713,14 @@ source.tsx
       "name": "JSON key-value separator",
       "scope": ["source.json punctuation.separator.dictionary.key-value"],
       "settings": {
-        "foreground": "#BB3D"
+        "foreground": "#BB3"
       }
     },
     {
       "name": "JSON numeric value",
       "scope": "source.json constant.numeric",
       "settings": {
-        "foreground": "#DDDD"
+        "foreground": "#DDD"
       }
     },
     {
@@ -2744,7 +2744,7 @@ source.tsx
         "source.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#FB2F"
+        "foreground": "#FB2"
       }
     },
     {
@@ -2753,7 +2753,7 @@ source.tsx
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#D89E"
+        "foreground": "#D89"
       }
     },
     {
@@ -2762,7 +2762,7 @@ source.tsx
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#9C8D"
+        "foreground": "#9C8"
       }
     },
     {
@@ -2772,7 +2772,7 @@ source.tsx
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#5BEC"
+        "foreground": "#5BE"
       }
     },
     {
@@ -2782,7 +2782,7 @@ source.tsx
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#DDDD"
+        "foreground": "#DDD"
       }
     },
     {
@@ -2792,7 +2792,7 @@ source.tsx
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#9C8D"
+        "foreground": "#9C8"
       }
     },
     {
@@ -2802,7 +2802,7 @@ source.tsx
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#FB2F"
+        "foreground": "#FB2"
       }
     },
     {
