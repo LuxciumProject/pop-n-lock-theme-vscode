@@ -177,7 +177,8 @@
     "tslint": "^5.17.0",
     "tslint-config-airbnb": "^5.11.1",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.4.3"
+    "typescript": "^3.4.3",
+    "vsce": "^1.62.0"
   },
   "keywords": [
     "Dark Theme",
