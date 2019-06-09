@@ -1,14 +1,14 @@
 # Pop N' Lock Theme by Luxcium ✨
 
-[![GitHub issues](https://img.shields.io/github/issues/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) [![GitHub contributors](https://img.shields.io/github/contributors-anon/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/graphs/contributors)
-[![GitHub stars](https://img.shields.io/github/stars/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/stargazers)
-
 ## About
 
 Your favourite streamlined code editor is getting more bright and radiant, optimized to work in the Full-fledged _Integrated Development Environment_ or in _Text Editor sized_ mode. The colours have been handpicked with great care to be the most intuitive possible and to use extensively all capacity of your favourite IDE and text editor. This powerful theme of colour is always evolving. Colourful features are added and more languages will be included soon. This theme is STRONGLY OPINIONATED so make sure to request any changes you want by filling an issue if you want to be influencing the opinion.
 
-## 🐲 Perfectly balanced TypeScript theme with vivid colours
-
+> ## 🐲 Perfectly balanced TypeScript theme with vivid colours
+>
+> [![GitHub issues](https://img.shields.io/github/issues/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) [![GitHub contributors](https://img.shields.io/github/contributors-anon/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/graphs/contributors)
+> [![GitHub stars](https://img.shields.io/github/stars/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/stargazers)
+>
 > **If you like this theme take one minute to make a 5-star review on VS Code marketplace and if you think something can be improved make sure to fill an issue on our GitHub page it's easy and will help us make Pop N' Lock the best theme available**
 >
 > [![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock)](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)
@@ -21,9 +21,9 @@ Your favourite streamlined code editor is getting more bright and radiant, optim
 
 This theme is based on the designs of Hedinne's _Popping And Locking_ a theme with vivid colours, they capture your attention but are easy on your eyes. His theme originally based on VS Dark+, Gruvbox Dark and One Dark has changed a lot since. It is designed with TypeScript grammar and web languages syntax in mind like HTML & CSS (Also includes support for JavaScript, JSON, YAML, React's JSX/TSX and more to come).
 
-## **Make sure to set encoding of your config file to utf8**
+> **Set highlightModifiedTabs to true in your settings.json** > `"workbench.editor.highlightModifiedTabs": true`
 
-> _The name of the theme contain emoticon_
+## **Make sure to set encoding of your config file to utf8**
 
 ```JSON
 {
@@ -31,6 +31,8 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 
   "files.encoding": "utf8",
   "files.autoGuessEncoding": false,
+
+  "workbench.editor.highlightModifiedTabs": true,
 
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.showReloadMessage": true,
@@ -40,6 +42,8 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
   "editor.suggestFontSize": 16
 }
 ```
+
+> _The name of the theme contain emoticon and encoding must be set to "utf8"_
 
 † This theme includes:
 
@@ -55,6 +59,12 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 ## JavaScript
 
 [![JavaScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/JS1.png) JavaScript Screenshot (v3.7.0)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/JS2.png)
+
+## JSON
+
+[![CSS](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.15.8/vscode-json.png) JSON Screen shot (v3.15.8)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.15.8/vscode-json.png)
+
+> [ CLICK TO VIEW ALL THE SETTINGS](https://gist.github.com/Luxcium/f681208a180cc356bffff9d7b3fffe17)
 
 ## CSS
 
