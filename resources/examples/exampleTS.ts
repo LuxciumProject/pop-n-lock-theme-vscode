@@ -78,12 +78,12 @@ enum Delays {
   Long = 5000
 }
 
-function sealed(constructor: any) {
+function sealed(constructor: any): void {
   Object.seal(constructor);
   Object.seal(constructor.prototype);
 }
 
-async function asyncFunction() {
+async function asyncFunction(): Promise<any> {
   const objectLike = { propertyOne: 10, propertyTwo: 'string' };
   const { propertyOne } = objectLike;
 
@@ -98,7 +98,7 @@ async function asyncFunction() {
 }
 export type anyone = number | string;
 
-asyncFunction.somemethode = async () => {
+asyncFunction.somemethode = (): anyone | void => {
   //
 };
 

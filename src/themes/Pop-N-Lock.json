@@ -167,7 +167,7 @@
     /* *** *** *** *** */
     "editorSuggestWidget.background": "#235d",
     "editorSuggestWidget.border": "#4AEf",
-    "editorSuggestWidget.foreground": "#EDAf",
+    "editorSuggestWidget.foreground": "#EDAF",
     "editorSuggestWidget.highlightForeground": "#4AEf",
     "editorSuggestWidget.selectedBackground": "#4AE4",
     /* *** *** *** *** */
@@ -505,7 +505,8 @@
     },
     // #endregion
     // #region "typescript" --------------------------------------------------
-    /* STRINGs */
+
+    // "#BE5d" "#FC6F" "#ADCD" "#E81F" "#7C2e" "#E36D" "#C68f" "#8E7a"
     {
       "name": "STRING's",
       "scope": [
@@ -536,13 +537,6 @@
       }
     },
     {
-      "scope": [],
-      "settings": {
-        "foreground": "#7C2d",
-        "fontStyle": ""
-      }
-    },
-    {
       "scope": [
         "source.ts support.function.builtin",
         "source.ts support.function.git-rebase",
@@ -554,6 +548,36 @@
       "settings": {
         "foreground": "#FC6F",
         "fontStyle": "bold italic"
+      }
+    },
+    {
+      "scope": [
+        "source.ts meta.return.type entity.name.type",
+        "source.ts meta.return.type support.type.primitive"
+      ],
+      "settings": {
+        "foreground": "#8E7C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "source.ts meta.return.type meta.type.parameters support.type.primitive"
+      ],
+      "settings": {
+        "foreground": "#FC6D",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "source.ts meta.return.type meta.type.parameters punctuation.definition.typeparameters",
+        "source.ts meta.return.type meta.type.tuple meta.brace.square",
+        "source.ts meta.return.type keyword.operator.type"
+      ],
+      "settings": {
+        "foreground": "#EDAD",
+        "fontStyle": "bold"
       }
     },
     {
@@ -588,18 +612,6 @@
     },
     {
       "scope": [
-        "source.ts storage.type.interface",
-        "source.ts storage.type.type",
-        "source.ts storage.type.enum"
-      ],
-      "settings": {
-        "foreground": "#E35d",
-        "fontStyle": "bold"
-      }
-    },
-    /* */
-    {
-      "scope": [
         "source.ts entity.name.type.alias",
         "source.ts entity.name.type.class",
         "source.ts entity.name.type.enum",
@@ -611,10 +623,6 @@
         "fontStyle": "bold"
       }
     },
-
-    // "ARROW FUNCTION STYLE", "#4CBb"
-    // "FUNCTION KEYWORD STYLE"
-    // "FUNCTION KEYWORD OR ARROW COLOUR"
     {
       "name": "ARROW FUNCTION STYLE",
       "scope": ["source.ts storage.type.function.arrow"],
@@ -642,22 +650,46 @@
       }
     },
     {
-      "name": "STORAGE TYPE => CONSTRUCTOR KEYWORD ETC ....",
+      "name": "Constructor Keyword",
       "scope": ["source.ts meta.method.declaration.ts storage.type"],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": "italic"
       }
     },
     {
-      "name": "STORAGE.MODIFIER => Public, Private, extends, implements, etc...",
+      "name": "Extends, Get, Implements, Private, Public, Set, etc...",
       "scope": [
         "source.ts meta.class storage.modifier",
-        "source.ts meta.method.declaration storage.modifier"
+        "source.ts meta.method.declaration storage.modifier",
+        "source.ts storage.type.property"
       ],
       "settings": {
-        "foreground": "#E81f",
+        "foreground": "#E81F",
         "fontStyle": ""
+      }
+    },
+    {
+      "name": "NEW KEYWORD DEFINITION",
+      "scope": [
+        "source.ts keyword.control.new",
+        "source.ts keyword.operator.new"
+      ],
+      "settings": {
+        "foreground": "#E81F",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "ASYNC KEYWORD DEFINITION",
+      "scope": [
+        "source.ts meta.method.declaration storage.modifier.async",
+        "source.ts storage.modifier.async"
+      ],
+
+      "settings": {
+        "foreground": "#E81F",
+        "fontStyle": "bold italic"
       }
     },
     {
@@ -676,79 +708,31 @@
         "fontStyle": "bold italic"
       }
     },
+
     {
-      "name": "NEW KEYWORD DEFINITION",
+      "name": "Enum, Export, Import, Interface, Namespace, Type, etc",
       "scope": [
-        "source.ts keyword.control.new",
-        "source.ts keyword.operator.new"
-      ],
-      "settings": {
-        "foreground": "#E81e",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "ASYNC KEYWORD DEFINITION",
-      "scope": ["source.ts meta.method.declaration storage.modifier.async"],
-      "settings": {
-        "foreground": "#E81e",
-        "fontStyle": "bold italic"
-      }
-    },
-    {
-      "name": "ASYNC KEYWORD DEFINITION",
-      "scope": ["source.ts storage.modifier.async"],
-      "settings": {
-        "foreground": "#E81e",
-        "fontStyle": "bold italic"
-      }
-    },
-    {
-      "name": "PROPERTY TYPE => GET SET etc ....",
-      "scope": ["source.ts storage.type.property"],
-      "settings": {
-        "foreground": "#E81f",
-        "fontStyle": ""
-      }
-    },
-    /* IMPORT EXPORT */
-    // BOLD ITALIC
-    {
-      "name": "KEYWORD.CONTROL EXPORT IMPORT STYLE",
-      "scope": [
+        "source.ts storage.type.enum",
+        "source.ts storage.type.interface",
+        "source.ts storage.type.internaldeclaration",
+        "source.ts storage.type.namespace",
+        "source.ts storage.type.type",
+        "source.ts storage.type",
         "source.ts keyword.control.import",
-        "source.ts keyword.control.export"
+        "source.ts keyword.control.export",
+        "source.ts meta.export.default keyword.control.default"
       ],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
-    // BOLD
-    {
-      "name": "KEYWORD.CONTROL Default is bold on export ",
-      "scope": ["source.ts meta.export.default keyword.control.default"],
-      "settings": {
-        "foreground": "#E35d",
-        "fontStyle": "bold"
-      }
-    },
-    /* KEYWORD CONTROL */
     {
       "name": "KEYWORD.CONTROL EXPORT IMPORT FROM ETC.",
       "scope": [
         "source.ts keyword.control.as",
         "source.ts keyword.control.default",
-        "source.ts keyword.control.from"
-      ],
-      "settings": {
-        "foreground": "#E35f",
-        "fontStyle": ""
-      }
-    },
-    // NORMAL
-    {
-      "scope": [
+        "source.ts keyword.control.from",
         "source.ts keyword.control",
         "source.ts keyword.control.anchor.regexp",
         "source.ts keyword.control.conditional",
@@ -761,54 +745,28 @@
         "source.ts keyword.control.with",
         "source.ts keyword",
         "source.ts keyword.other",
-        "source.ts keyword.generator.asterisk"
+        "source.ts keyword.generator.asterisk",
+        "source.ts meta.block keyword.control.flow",
+        "source.ts keyword.operator.logical",
+        "source.ts storage.type.numeric.bigint"
       ],
       "settings": {
-        "foreground": "#E35f",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts meta.block keyword.control.flow"],
-      "settings": {
-        "foreground": "#E35f",
-        "fontStyle": ""
-      }
-    },
-    /* storage type */
-    {
-      "scope": ["source.ts storage.type.internaldeclaration"],
-      "settings": {
-        "foreground": "#E35f",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts storage.type.namespace"],
-      "settings": {
-        "foreground": "#E35d",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": ["source.ts storage.type.numeric.bigint"],
-      "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
     {
       "scope": [],
       "settings": {
-        "foreground": "#E35d",
-        "fontStyle": "bold"
+        "foreground": "#E36D",
+        "fontStyle": ""
       }
     },
     {
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.ts storage.type"],
       "settings": {
-        "foreground": "#E35e",
+        "foreground": "#E36D",
         "fontStyle": "bold italic"
       }
     },
@@ -816,26 +774,10 @@
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.ts meta.block meta.var.expr storage.type"],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": "italic"
       }
     },
-    {
-      "scope": [],
-      "settings": {
-        "foreground": "#E35d",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "OperatorLogical",
-      "scope": ["source.ts keyword.operator.logical"],
-      "settings": {
-        "foreground": "#E35f",
-        "fontStyle": ""
-      }
-    },
-    /* CONSTANT */
     {
       "scope": [
         "source.ts constant",
@@ -849,16 +791,7 @@
         "source.ts constant.rgb-value",
         "source.ts constant.sha.git-rebase",
         "source.ts constant.character.escape",
-        "source.ts support.constant.property-value.css"
-      ],
-      "settings": {
-        "foreground": "#C68f",
-        "fontStyle": ""
-      }
-    },
-    /* CONSTANT NUMERIC */
-    {
-      "scope": [
+        "source.ts support.constant.property-value.css",
         "source.ts constant.numeric",
         "source.ts constant.numeric.binary",
         "source.ts constant.numeric.decimal",
@@ -941,231 +874,73 @@
       }
     },
     {
-      "scope": ["source.ts invalid.illegal"],
+      "scope": [
+        "source.ts invalid.illegal",
+        "source.ts invalid.illegal.newline"
+      ],
       "settings": {
         "foreground": "#B35d",
         "fontStyle": "bold"
       }
     },
     {
-      "scope": ["source.ts invalid.illegal.newline"],
+      "scope": [
+        "source.ts emphasis",
+        "source.ts markup.bold",
+        "source.ts strong"
+      ],
       "settings": {
-        "foreground": "#B35d",
+        "foreground": "#EDAF",
         "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": ["source.ts emphasis"],
-      "settings": {
-        "foreground": "#EDAE",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": ["source.ts header"],
-      "settings": {
-        "foreground": "#EDAE",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": ["source.ts keyword.other.back-reference.regexp"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts keyword.other.unit"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts markup.bold"],
-      "settings": {
-        "foreground": "#EDAE",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": ["source.ts markup.changed"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts markup.deleted"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts markup.heading"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts markup.inline.raw"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts markup.inserted"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
       }
     },
     {
       "scope": ["source.ts markup.italic"],
       "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
+        "foreground": "#EDAF",
+        "fontStyle": "italic"
       }
     },
     {
-      "scope": ["source.ts markup.punctuation.list.beginning"],
+      "name": "Variables",
+      "scope": [
+        "source.ts *link*",
+        "source.ts *uri*",
+        "source.ts *url*",
+        "source.ts case-clause.expr ",
+        "source.ts case-clause.expr",
+        "source.ts cast.expr",
+        "source.ts header",
+        "source.ts keyword.other.back-reference.regexp",
+        "source.ts keyword.other.unit",
+        "source.ts markup.changed",
+        "source.ts markup.deleted",
+        "source.ts markup.heading",
+        "source.ts markup.inline.raw",
+        "source.ts markup.inserted",
+        "source.ts markup.punctuation.list.beginning",
+        "source.ts markup.punctuation.quote.beginning",
+        "source.ts markup.underline",
+        "source.ts meta.array-binding-pattern-variable variable.other.constant",
+        "source.ts meta.object-binding-pattern-variable variable.other.constant",
+        "source.ts module.node",
+        "source.ts new.expr",
+        "source.ts prototype",
+        "source.ts punctuation.definition.binding-pattern.array",
+        "source.ts punctuation.definition.binding-pattern.object",
+        "source.ts source.embedded",
+        "source.ts switch-block.expr",
+        "source.ts switch-expression.expr",
+        "source.ts switch-statement.expr",
+        "source.ts variable.other.object"
+      ],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
-      "scope": ["source.ts markup.punctuation.quote.beginning"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts markup.underline"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts module.node"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts new.expr"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts prototype"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts source.embedded"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts strong"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts switch-block.expr"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts switch-expression.expr"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts switch-statement.expr"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts *link*"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts *uri*"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts *url*"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts case-clause.expr "],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts case-clause.expr"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts cast.expr"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    /* VARIABLE */
-    {
-      "scope": [],
-      "settings": {
-        "foreground": "#E35f",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts variable.other.object"],
-      "settings": {
-        "foreground": "#EDAf",
-        "fontStyle": ""
-      }
-    },
-    {
+      "name": "Variables",
       "scope": [
         "source.ts variable.arguments",
         "source.ts variable.class",
@@ -1186,17 +961,8 @@
       ],
       "settings": { "foreground": "#ADCD" }
     },
-    /*
-    VARIABLE PROPERTIES LIKE
-    meta.object.member.ts
-meta.objectliteral.ts
-meta.block.ts
-meta.arrow.ts
-meta.block.ts
-meta.function.ts
-source.ts
-*/
     {
+      "name": "Other Constant",
       "scope": [
         "source.ts meta.object-binding-pattern-variable variable.other.constant",
         "source.ts meta.object.member meta.object-literal.key",
@@ -1210,24 +976,6 @@ source.ts
       ],
       "settings": { "foreground": "#4AEf" }
     },
-    {
-      "scope": [
-        "source.ts punctuation.definition.binding-pattern.array",
-        "source.ts punctuation.definition.binding-pattern.object"
-      ],
-      "settings": {
-        "foreground": "#EDAE",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": [
-        "source.ts meta.array-binding-pattern-variable variable.other.constant",
-        "source.ts meta.object-binding-pattern-variable variable.other.constant"
-      ],
-      "settings": { "fontStyle": "" }
-    },
-    /* SUPPORT */
     {
       "scope": [
         "source.ts support.class",
@@ -1245,7 +993,7 @@ source.ts
         "source.ts support.class.console"
       ],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
@@ -1350,7 +1098,7 @@ source.ts
     {
       "scope": ["source.ts punctuation.decorator"],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
@@ -1364,8 +1112,8 @@ source.ts
         "fontStyle": "bold"
       }
     },
-    /* ENTITY NAME */
     {
+      "name": "Entity",
       "scope": [
         "source.ts entity.function",
         "source.ts entity.name.class.static.function",
@@ -1388,12 +1136,12 @@ source.ts
         "source.ts entity.static"
       ],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
-    /* META */
     {
+      "name": "META",
       "scope": [
         "source.ts meta.array-binding-pattern-variable",
         "source.ts meta.array.literal",
@@ -1442,9 +1190,6 @@ source.ts
         "source.ts meta.preprocessor.numeric",
         "source.ts meta.preprocessor.string",
         "source.ts meta.property-group",
-        "source.ts meta.return-type",
-        "source.ts meta.return.type",
-        "source.ts meta.return.type.arrow",
         "source.ts meta.selector",
         "source.ts meta.structure.dictionary.key.python",
         "source.ts meta.tag",
@@ -1462,7 +1207,7 @@ source.ts
         "source.ts meta.var.expr"
       ],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
@@ -1573,7 +1318,7 @@ source.ts
         "source.tsx storage.type.enum"
       ],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
@@ -1633,7 +1378,7 @@ source.ts
       "name": "STORAGE TYPE => CONSTRUCTOR KEYWORD ETC ....",
       "scope": ["source.tsx meta.method.declaration.tsx storage.type"],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": "italic"
       }
     },
@@ -1644,7 +1389,7 @@ source.ts
         "source.tsx meta.method.declaration storage.modifier"
       ],
       "settings": {
-        "foreground": "#E81f",
+        "foreground": "#E81F",
         "fontStyle": ""
       }
     },
@@ -1671,7 +1416,7 @@ source.ts
         "source.tsx keyword.operator.new"
       ],
       "settings": {
-        "foreground": "#E81e",
+        "foreground": "#E81F",
         "fontStyle": "bold"
       }
     },
@@ -1679,7 +1424,7 @@ source.ts
       "name": "ASYNC KEYWORD DEFINITION",
       "scope": ["source.tsx meta.method.declaration storage.modifier.async"],
       "settings": {
-        "foreground": "#E81e",
+        "foreground": "#E81F",
         "fontStyle": "bold italic"
       }
     },
@@ -1687,7 +1432,7 @@ source.ts
       "name": "ASYNC KEYWORD DEFINITION",
       "scope": ["source.tsx storage.modifier.async"],
       "settings": {
-        "foreground": "#E81e",
+        "foreground": "#E81F",
         "fontStyle": "bold italic"
       }
     },
@@ -1695,7 +1440,7 @@ source.ts
       "name": "PROPERTY TYPE => GET SET etc ....",
       "scope": ["source.tsx storage.type.property"],
       "settings": {
-        "foreground": "#E81f",
+        "foreground": "#E81F",
         "fontStyle": ""
       }
     },
@@ -1708,7 +1453,7 @@ source.ts
         "source.tsx keyword.control.export"
       ],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
@@ -1717,7 +1462,7 @@ source.ts
       "name": "KEYWORD.CONTROL Default is bold on export ",
       "scope": ["source.tsx meta.export.default keyword.control.default"],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
@@ -1730,7 +1475,7 @@ source.ts
         "source.tsx keyword.control.from"
       ],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
@@ -1752,14 +1497,14 @@ source.ts
         "source.tsx keyword.generator.asterisk"
       ],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx meta.block keyword.control.flow"],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
@@ -1767,28 +1512,28 @@ source.ts
     {
       "scope": ["source.tsx storage.type.internaldeclaration"],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx storage.type.namespace"],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
     {
       "scope": ["source.tsx storage.type.numeric.bigint"],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
     {
       "scope": [],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
@@ -1796,7 +1541,7 @@ source.ts
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.tsx storage.type"],
       "settings": {
-        "foreground": "#E35e",
+        "foreground": "#E36D",
         "fontStyle": "bold italic"
       }
     },
@@ -1804,14 +1549,14 @@ source.ts
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.tsx meta.block meta.var.expr storage.type"],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": "italic"
       }
     },
     {
       "scope": [],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
@@ -1819,7 +1564,7 @@ source.ts
       "name": "OperatorLogical",
       "scope": ["source.tsx keyword.operator.logical"],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
@@ -1959,14 +1704,14 @@ source.ts
     {
       "scope": ["source.tsx keyword.other.back-reference.regexp"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx keyword.other.unit"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
@@ -1980,161 +1725,161 @@ source.ts
     {
       "scope": ["source.tsx markup.changed"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx markup.deleted"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx markup.heading"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx markup.inline.raw"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx markup.inserted"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx markup.italic"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx markup.punctuation.list.beginning"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx markup.punctuation.quote.beginning"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx markup.underline"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx module.node"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx new.expr"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx prototype"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx source.embedded"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx strong"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx switch-block.expr"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx switch-expression.expr"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx switch-statement.expr"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx *link*"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx *uri*"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx *url*"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx case-clause.expr "],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx case-clause.expr"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx cast.expr"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
@@ -2142,14 +1887,14 @@ source.ts
     {
       "scope": [],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx variable.other.object"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
@@ -2233,7 +1978,7 @@ source.tsx
         "source.tsx support.class.console"
       ],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
@@ -2338,7 +2083,7 @@ source.tsx
     {
       "scope": ["source.tsx punctuation.decorator"],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
@@ -2383,7 +2128,7 @@ source.tsx
         "source.tsx entity.static"
       ],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
@@ -2437,9 +2182,6 @@ source.tsx
         "source.tsx meta.preprocessor.numeric",
         "source.tsx meta.preprocessor.string",
         "source.tsx meta.property-group",
-        "source.tsx meta.return-type",
-        "source.tsx meta.return.type",
-        "source.tsx meta.return.type.arrow",
         "source.tsx meta.selector",
         "source.tsx meta.structure.dictionary.key.python",
         "source.tsx meta.tag",
@@ -2457,7 +2199,7 @@ source.tsx
         "source.tsx meta.var.expr"
       ],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
@@ -2568,7 +2310,7 @@ source.tsx
         "source.js storage.type.enum"
       ],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
@@ -2628,7 +2370,7 @@ source.tsx
       "name": "STORAGE TYPE => CONSTRUCTOR KEYWORD ETC ....",
       "scope": ["source.js meta.method.declaration.js storage.type"],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": "italic"
       }
     },
@@ -2639,7 +2381,7 @@ source.tsx
         "source.js meta.method.declaration storage.modifier"
       ],
       "settings": {
-        "foreground": "#E81f",
+        "foreground": "#E81F",
         "fontStyle": ""
       }
     },
@@ -2666,7 +2408,7 @@ source.tsx
         "source.js keyword.operator.new"
       ],
       "settings": {
-        "foreground": "#E81e",
+        "foreground": "#E81F",
         "fontStyle": "bold"
       }
     },
@@ -2674,7 +2416,7 @@ source.tsx
       "name": "ASYNC KEYWORD DEFINITION",
       "scope": ["source.js meta.method.declaration storage.modifier.async"],
       "settings": {
-        "foreground": "#E81e",
+        "foreground": "#E81F",
         "fontStyle": "bold italic"
       }
     },
@@ -2682,7 +2424,7 @@ source.tsx
       "name": "ASYNC KEYWORD DEFINITION",
       "scope": ["source.js storage.modifier.async"],
       "settings": {
-        "foreground": "#E81e",
+        "foreground": "#E81F",
         "fontStyle": "bold italic"
       }
     },
@@ -2690,7 +2432,7 @@ source.tsx
       "name": "PROPERTY TYPE => GET SET etc ....",
       "scope": ["source.js storage.type.property"],
       "settings": {
-        "foreground": "#E81f",
+        "foreground": "#E81F",
         "fontStyle": ""
       }
     },
@@ -2703,7 +2445,7 @@ source.tsx
         "source.js keyword.control.export"
       ],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
@@ -2712,7 +2454,7 @@ source.tsx
       "name": "KEYWORD.CONTROL Default is bold on export ",
       "scope": ["source.js meta.export.default keyword.control.default"],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
@@ -2725,7 +2467,7 @@ source.tsx
         "source.js keyword.control.from"
       ],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
@@ -2747,14 +2489,14 @@ source.tsx
         "source.js keyword.generator.asterisk"
       ],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js meta.block keyword.control.flow"],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
@@ -2762,28 +2504,28 @@ source.tsx
     {
       "scope": ["source.js storage.type.internaldeclaration"],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js storage.type.namespace"],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
     {
       "scope": ["source.js storage.type.numeric.bigint"],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
     {
       "scope": [],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
@@ -2791,7 +2533,7 @@ source.tsx
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.js storage.type"],
       "settings": {
-        "foreground": "#E35e",
+        "foreground": "#E36D",
         "fontStyle": "bold italic"
       }
     },
@@ -2799,14 +2541,14 @@ source.tsx
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.js meta.block meta.var.expr storage.type"],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": "italic"
       }
     },
     {
       "scope": [],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
@@ -2814,7 +2556,7 @@ source.tsx
       "name": "OperatorLogical",
       "scope": ["source.js keyword.operator.logical"],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
@@ -2954,14 +2696,14 @@ source.tsx
     {
       "scope": ["source.js keyword.other.back-reference.regexp"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js keyword.other.unit"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
@@ -2975,161 +2717,161 @@ source.tsx
     {
       "scope": ["source.js markup.changed"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js markup.deleted"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js markup.heading"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js markup.inline.raw"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js markup.inserted"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js markup.italic"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js markup.punctuation.list.beginning"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js markup.punctuation.quote.beginning"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js markup.underline"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js module.node"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js new.expr"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js prototype"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js source.embedded"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js strong"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js switch-block.expr"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js switch-expression.expr"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js switch-statement.expr"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js *link*"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js *uri*"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js *url*"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js case-clause.expr "],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js case-clause.expr"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js cast.expr"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
@@ -3137,14 +2879,14 @@ source.tsx
     {
       "scope": [],
       "settings": {
-        "foreground": "#E35f",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js variable.other.object"],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
@@ -3219,7 +2961,7 @@ source.tsx
         "source.js support.class.console"
       ],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
@@ -3324,7 +3066,7 @@ source.tsx
     {
       "scope": ["source.js punctuation.decorator"],
       "settings": {
-        "foreground": "#E35d",
+        "foreground": "#E36D",
         "fontStyle": "bold"
       }
     },
@@ -3369,7 +3111,7 @@ source.tsx
         "source.js entity.static"
       ],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
@@ -3423,9 +3165,6 @@ source.tsx
         "source.js meta.preprocessor.numeric",
         "source.js meta.preprocessor.string",
         "source.js meta.property-group",
-        "source.js meta.return-type",
-        "source.js meta.return.type",
-        "source.js meta.return.type.arrow",
         "source.js meta.selector",
         "source.js meta.structure.dictionary.key.python",
         "source.js meta.tag",
@@ -3443,7 +3182,7 @@ source.tsx
         "source.js meta.var.expr"
       ],
       "settings": {
-        "foreground": "#EDAf",
+        "foreground": "#EDAF",
         "fontStyle": ""
       }
     },
@@ -4159,8 +3898,6 @@ meta.flow-sequence.yaml
       "name": "Types declaration and references",
       "scope": [
         "meta.type.name",
-        "meta.return.type",
-        "meta.return-type",
         "meta.cast",
         "meta.type.annotation",
         "support.type",
@@ -4389,7 +4126,7 @@ meta.flow-sequence.yaml
     // #endregion "JSX / TSX TAGS" ------------------------------------------------
     // #region "HTML" --------------------------------------------------------
     // "#BE5B" "#FC6F" "#ADCC" "#4AEE" "#EDAE" "#8E7a""#D79F" "#DF8E"
-    // "#fabd2fFF""#b8bb26FF""#8ec07cFF""#d3869bFF""#369ec7FF""#B35f""#EDAf"
+    // "#fabd2fFF""#b8bb26FF""#8ec07cFF""#d3869bFF""#369ec7FF""#B35f""#EDAF"
     /* support.function.misc.css
 
 
@@ -4640,7 +4377,7 @@ meta.flow-sequence.yaml
         "text.html source keyword.operator.new"
       ],
       "settings": {
-        "foreground": "#E81E",
+        "foreground": "#E81F",
         "fontStyle": ""
       }
     },
@@ -4649,21 +4386,21 @@ meta.flow-sequence.yaml
         "text.html source meta.method.declaration storage.modifier.async"
       ],
       "settings": {
-        "foreground": "#E81E",
+        "foreground": "#E81F",
         "fontStyle": "italic"
       }
     },
     {
       "scope": ["text.html source storage.modifier.async"],
       "settings": {
-        "foreground": "#E81E",
+        "foreground": "#E81F",
         "fontStyle": "italic"
       }
     },
     {
       "scope": ["text.html source storage.type.property"],
       "settings": {
-        "foreground": "#E81E",
+        "foreground": "#E81F",
         "fontStyle": ""
       }
     },
@@ -5010,7 +4747,7 @@ meta.flow-sequence.yaml
     {
       "scope": [],
       "settings": {
-        "foreground": "#E35D",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
@@ -5081,7 +4818,7 @@ meta.flow-sequence.yaml
     {
       "scope": [],
       "settings": {
-        "foreground": "#E35D",
+        "foreground": "#E36D",
         "fontStyle": ""
       }
     },
@@ -5184,9 +4921,6 @@ meta.flow-sequence.yaml
         "text.html source meta.preprocessor.numeric",
         "text.html source meta.preprocessor.string",
         "text.html source meta.property-group",
-        "text.html source meta.return-type",
-        "text.html source meta.return.type",
-        "text.html source meta.return.type.arrow",
         "text.html source meta.selector",
         "text.html source meta.structure.dictionary.key.python",
         "text.html source meta.tag",
