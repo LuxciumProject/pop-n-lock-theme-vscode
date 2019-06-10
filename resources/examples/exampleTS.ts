@@ -1,4 +1,3 @@
-/** @format */
 // import expressMongoSanitize from 'express-mongo-sanitize';
 // import jsonwebtoken from 'jsonwebtoken';
 import { config } from 'dotenv';
@@ -98,8 +97,8 @@ async function asyncFunction(): Promise<any> {
 }
 export type anyone = number | string;
 
-asyncFunction.somemethode = (): anyone | void => {
-  //
+asyncFunction.somemethode = (): 10 | anyone | (() => 10) | null => {
+  return 10;
 };
 
 export const asyncAnonymArowFunction = async () => {
