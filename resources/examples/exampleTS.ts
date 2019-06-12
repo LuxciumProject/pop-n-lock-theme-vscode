@@ -1,4 +1,3 @@
-/** @format */
 // import expressMongoSanitize from 'express-mongo-sanitize';
 // import jsonwebtoken from 'jsonwebtoken';
 import { config } from 'dotenv';
@@ -78,12 +77,12 @@ enum Delays {
   Long = 5000
 }
 
-function sealed(constructor: any) {
+function sealed(constructor: any): void {
   Object.seal(constructor);
   Object.seal(constructor.prototype);
 }
 
-async function asyncFunction() {
+async function asyncFunction(): Promise<any> {
   const objectLike = { propertyOne: 10, propertyTwo: 'string' };
   const { propertyOne } = objectLike;
 
@@ -98,8 +97,8 @@ async function asyncFunction() {
 }
 export type anyone = number | string;
 
-asyncFunction.somemethode = async () => {
-  //
+asyncFunction.somemethode = (): 10 | anyone | (() => 10) | null => {
+  return 10;
 };
 
 export const asyncAnonymArowFunction = async () => {
@@ -154,7 +153,7 @@ export class ClassName extends ParentClass implements IInterface {
   }
   public static staticValue: any;
   public value: string;
-  public angel: any;
+  public angel: any;1
   public othervalue: any;
   private _othervalue: any;
   public constructor(parametre: Arguments) {

@@ -6,8 +6,7 @@ Your favourite streamlined code editor is getting more bright and radiant, optim
 
 > ## 🐲 Perfectly balanced TypeScript theme with vivid colours
 >
-> [![GitHub issues](https://img.shields.io/github/issues/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) [![GitHub contributors](https://img.shields.io/github/contributors-anon/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/graphs/contributors)
-> [![GitHub stars](https://img.shields.io/github/stars/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/stargazers)
+> [![GitHub issues](https://img.shields.io/github/issues/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) [![GitHub contributors](https://img.shields.io/github/contributors-anon/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/graphs/contributors) > [![GitHub stars](https://img.shields.io/github/stars/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/stargazers)
 >
 > **If you like this theme take one minute to make a 5-star review on VS Code marketplace and if you think something can be improved make sure to fill an issue on our GitHub page it's easy and will help us make Pop N' Lock the best theme available**
 >
@@ -20,8 +19,6 @@ Your favourite streamlined code editor is getting more bright and radiant, optim
 ### **You will be impressed how intutive it is when you will discover how each colour has its purpose**
 
 This theme is based on the designs of Hedinne's _Popping And Locking_ a theme with vivid colours, they capture your attention but are easy on your eyes. His theme originally based on VS Dark+, Gruvbox Dark and One Dark has changed a lot since. It is designed with TypeScript grammar and web languages syntax in mind like HTML & CSS (Also includes support for JavaScript, JSON, YAML, React's JSX/TSX and more to come).
-
-> **Set highlightModifiedTabs to true in your settings.json** > `"workbench.editor.highlightModifiedTabs": true`
 
 ## **Make sure to set encoding of your config file to utf8**
 
@@ -62,9 +59,7 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 
 ## JSON
 
-[![CSS](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.15.8/vscode-json.png) JSON Screen shot (v3.15.8)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.15.8/vscode-json.png)
-
-> [ CLICK TO VIEW ALL THE SETTINGS](https://gist.github.com/Luxcium/f681208a180cc356bffff9d7b3fffe17)
+[![JSON](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.15.8/vscode-json.png) JSON Screen shot (v3.15.8) **CLICK TO VIEW ALL THE SETTINGS**](https://gist.github.com/Luxcium/f681208a180cc356bffff9d7b3fffe17)
 
 ## CSS
 
@@ -74,13 +69,7 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 
 [![TSX/JSX](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.1/TSX-JSX.png) TSX/JSX Support Screenshot (v3.9.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.1/TSX-JSX.png)
 
-## **Text Editor sized** Work along with external Terminal or web browser
-
-![Text Editor](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots2.png)
-
 ## **For better results use apropriate fonts and icons theme**
-
-![Vivid Theme](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/main-screenshot.png)
 
 ### [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript)
 
@@ -88,13 +77,13 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 
 ## **Options and settings**
 
+> **Set highlightModifiedTabs to true in your settings.json** `"workbench.editor.highlightModifiedTabs": true`
+
 ### Set the editor.rulers: [80, 120, 121] in vscode settings
 
 [![editor.rulers setting in vscode](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png) editor.rulers setting Screenshot (v3.9.5)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png)
 
 ## **Suggested extensions**
-
-![Suggested options](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots4.png)
 
 - [Alphabetical Sorter†](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
 - [Better Comments†](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
