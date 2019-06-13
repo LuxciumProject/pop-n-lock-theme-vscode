@@ -506,6 +506,48 @@
       }
     },
     {
+      "name": "Types",
+      "scope": [
+        "entity.name.type.alias",
+        "entity.name.type.class",
+        "entity.name.type.enum",
+        "entity.name.type.instance",
+        "entity.name.type.interface",
+        "entity.name.type.module",
+        "entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#EDAD",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Entitys",
+      "scope": [
+        "source.ts punctuation.definition.template-expression.begin",
+        "source.ts punctuation.definition.template-expression.end",
+        "source.ts punctuation.definition.parameters.begin",
+        "source.ts punctuation.definition.parameters.end",
+        "source.ts meta.brace.angle",
+        "source.ts meta.brace.round",
+        "source.ts meta.brace.square",
+        "source.ts punctuation.definition.block",
+        "source.ts entity.function",
+        "source.ts entity.name",
+        "source.ts entity.other.attribute-name.css",
+        "source.ts entity.other.attribute-name.directive",
+        "source.ts entity.other.attribute-name",
+        "source.ts entity.other.inherited-class",
+        "source.ts entity.static",
+        "source.ts meta.decorator entity.name",
+        "source.ts meta.decorator variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#EDAD",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "Variables",
       "scope": [
         "source.ts meta.interface variable.object.property",
@@ -856,37 +898,7 @@
         "fontStyle": "bold"
       }
     },
-    {
-      "name": "Entitys",
-      "scope": [
-        "source.ts entity.name.type.alias",
-        "source.ts entity.name.type.class",
-        "source.ts entity.name.type.enum",
-        "source.ts entity.name.type.interface",
-        "source.ts entity.name.type.module",
-        "source.ts punctuation.definition.template-expression.begin",
-        "source.ts punctuation.definition.template-expression.end",
-        "source.ts punctuation.definition.parameters.begin",
-        "source.ts punctuation.definition.parameters.end",
-        "source.ts meta.brace.angle",
-        "source.ts meta.brace.round",
-        "source.ts meta.brace.square",
-        "source.ts punctuation.definition.block",
-        "source.ts entity.function",
-        "source.ts entity.name",
-        "source.ts entity.other.attribute-name.css",
-        "source.ts entity.other.attribute-name.directive",
-        "source.ts entity.other.attribute-name",
-        "source.ts entity.other.inherited-class",
-        "source.ts entity.static",
-        "source.ts meta.decorator entity.name",
-        "source.ts meta.decorator variable.other.readwrite"
-      ],
-      "settings": {
-        "foreground": "#EDAD",
-        "fontStyle": ""
-      }
-    },
+
     {
       "name": "Others",
       "scope": [
