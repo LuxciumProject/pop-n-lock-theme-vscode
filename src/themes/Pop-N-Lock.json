@@ -580,7 +580,6 @@
         "source.ts variable.object.property",
         "source.ts variable.other.constant.object.property",
         "source.ts variable.other.constant.property",
-        "source.ts variable.other.object.property",
         "source.ts variable.other.property"
       ],
       "settings": { "foreground": "#6BFD" }
@@ -1647,7 +1646,6 @@
         "source.js variable.object.property",
         "source.js variable.other.constant.object.property",
         "source.js variable.other.constant.property",
-        "source.js variable.other.object.property",
         "source.js variable.other.property"
       ],
       "settings": { "foreground": "#6BFD" }
