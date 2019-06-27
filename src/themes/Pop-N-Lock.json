@@ -566,7 +566,6 @@
         "source.ts variable.other.regexp",
         "source.ts variable.other",
         "source.ts variable.parameter",
-        "source.ts meta.objectliteral meta.object.member variable.other.object",
         "source.ts variable"
       ],
       "settings": { "foreground": "#ADCD" }
@@ -930,7 +929,8 @@
         "source.ts switch-block.expr",
         "source.ts switch-expression.expr",
         "source.ts switch-statement.expr",
-        "source.ts variable.other.object"
+        "source.ts variable.other.object",
+        "source.ts meta.object.member variable.other.object"
       ],
       "settings": {
         "foreground": "#EDAD",
@@ -1633,7 +1633,6 @@
         "source.js variable.other.regexp",
         "source.js variable.other",
         "source.js variable.parameter",
-        "source.js meta.objectliteral meta.object.member variable.other.object",
         "source.js variable"
       ],
       "settings": { "foreground": "#ADCD" }
@@ -1989,6 +1988,7 @@
         "source.js entity.other.inherited-class",
         "source.js entity.static",
         "source.js meta.decorator entity.name",
+        "source.js meta.object.member variable.other.object",
         "source.js meta.decorator variable.other.readwrite"
       ],
       "settings": {
