@@ -548,6 +548,17 @@
       }
     },
     {
+      "name": "Entitys",
+      "scope": [
+        "source.ts meta.decorator entity.name",
+        "source.ts meta.decorator variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#EDAD",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Variables",
       "scope": [
         "source.ts meta.interface variable.object.property",
