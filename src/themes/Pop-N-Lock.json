@@ -433,9 +433,9 @@
     // #endregion
   },
   "tokenColors": [
-    // "#A5BE","#E35E","#FC5E","#CE5E","#ADCE"
-    // "#E1AE","#E43E","#EDAE","#7C2E","#6BFE"
-    // "#D67E","#F91E","#4B9E","#4B9E","#7ADE"
+    //  "#D25E","#E43E","#D67E","#E1AE","#7ADE",
+    //  "#FC5E","#F91E","#EDAE","#A5BE","#ADCE",
+    //  "#CE5E","#7C2E","#4B9E","#55FD","#6BFE",
 
     // #region "typescript" --------------------------------------------------
 
@@ -687,7 +687,7 @@
       "name": "Constructor Keyword",
       "scope": ["source.ts meta.method.declaration.ts storage.type"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "italic"
       }
     },
@@ -757,7 +757,7 @@
         "source.ts meta.export.default keyword.control.default"
       ],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "bold"
       }
     },
@@ -785,7 +785,7 @@
         "source.ts storage.type.numeric.bigint"
       ],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": ""
       }
     },
@@ -793,7 +793,7 @@
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.ts storage.type"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "bold italic"
       }
     },
@@ -801,14 +801,14 @@
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.ts meta.block meta.var.expr storage.type"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "italic"
       }
     },
     {
       "scope": ["source.ts punctuation.decorator"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "bold"
       }
     },
@@ -995,14 +995,14 @@
         "source.ts invalid.illegal.newline"
       ],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.ts invalid.deprecated"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "underline"
       }
     },
@@ -1206,7 +1206,7 @@
       "name": "Constructor Keyword",
       "scope": ["source.tsx meta.method.declaration.tsx storage.type"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "italic"
       }
     },
@@ -1276,7 +1276,7 @@
         "source.tsx meta.export.default keyword.control.default"
       ],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "bold"
       }
     },
@@ -1304,7 +1304,7 @@
         "source.tsx storage.type.numeric.bigint"
       ],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": ""
       }
     },
@@ -1312,7 +1312,7 @@
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.tsx storage.type"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "bold italic"
       }
     },
@@ -1320,14 +1320,14 @@
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.tsx meta.block meta.var.expr storage.type"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "italic"
       }
     },
     {
       "scope": ["source.tsx punctuation.decorator"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "bold"
       }
     },
@@ -1543,14 +1543,14 @@
         "source.tsx invalid.illegal.newline"
       ],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.tsx invalid.deprecated"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "underline"
       }
     },
@@ -1753,7 +1753,7 @@
       "name": "Constructor Keyword",
       "scope": ["source.js meta.method.declaration.js storage.type"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "italic"
       }
     },
@@ -1823,7 +1823,7 @@
         "source.js meta.export.default keyword.control.default"
       ],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "bold"
       }
     },
@@ -1851,7 +1851,7 @@
         "source.js storage.type.numeric.bigint"
       ],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": ""
       }
     },
@@ -1859,7 +1859,7 @@
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.js storage.type"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "bold italic"
       }
     },
@@ -1867,14 +1867,14 @@
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.js meta.block meta.var.expr storage.type"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "italic"
       }
     },
     {
       "scope": ["source.js punctuation.decorator"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "bold"
       }
     },
@@ -2091,14 +2091,14 @@
         "source.js invalid.illegal.newline"
       ],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": ""
       }
     },
     {
       "scope": ["source.js invalid.deprecated"],
       "settings": {
-        "foreground": "#E35E",
+        "foreground": "#D25E",
         "fontStyle": "underline"
       }
     },
@@ -3985,17 +3985,24 @@ meta.flow-sequence.yaml
     // #region "MAIN"
     /* SHEBANG */
     {
-      "scope": ["comment.line.shebang punctuation.definition.comment"],
+      "scope": [
+        "comment.line.shebang punctuation.definition.comment",
+        "source punctuation.definition.comment.shebang"
+      ],
       "settings": {
-        "foreground": "#F155",
+        "foreground": "#F15C",
         "fontStyle": "bold underline"
       }
     },
     {
-      "scope": ["comment.line.shebang"],
+      "scope": [
+        "source comment.line.shebang",
+        "comment.line.number-sign.shebang",
+        "source comment.line.number-sign.shebang"
+      ],
       "settings": {
-        "foreground": "#EDA5",
-        "fontStyle": "italic"
+        "foreground": "#EDA7",
+        "fontStyle": "italic bold underline"
       }
     },
     {
@@ -4013,7 +4020,7 @@ meta.flow-sequence.yaml
         "comment.line.triple-slash.directive entity.other.attribute-name.directive"
       ],
       "settings": {
-        "foreground": "#55FE",
+        "foreground": "#55FD",
         "fontStyle": ""
       }
     },
