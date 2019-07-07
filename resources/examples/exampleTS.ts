@@ -1,5 +1,3 @@
-// import expressMongoSanitize from 'express-mongo-sanitize';
-// import jsonwebtoken from 'jsonwebtoken';
 import { config } from 'dotenv';
 import express from 'express';
 import mongoose from 'mongoose';
