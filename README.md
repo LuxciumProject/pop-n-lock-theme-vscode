@@ -51,9 +51,9 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 
 ## TypeScript
 
-[![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/TS1.png) TypeScript Screenshot (v3.7.0)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/TS2.png)
+![TypeScript](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.16.6/Typescript%20syntax%20highlighting.png) TypeScript Screenshot (v3.16.6)
 
-[![TypeScript](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.16.6/Typescript%20Token%20Colors%20most%20popular%20vscode%20theme%20.png) TypeScript Token Colors (v3.16.6)](https://pasteboard.co/ImVp3Bx.png)
+[![TypeScript](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.16.6/Typescript%20Token%20Colors%20most%20popular%20vscode%20theme%20.png) TypeScript Token Colors (v3.16.6) ](https://pasteboard.co/ImVp3Bx.png)
 
 ## JavaScript
 
