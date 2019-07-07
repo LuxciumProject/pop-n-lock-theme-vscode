@@ -538,9 +538,14 @@
         "source.ts entity.other.attribute-name.directive",
         "source.ts entity.other.attribute-name",
         "source.ts entity.other.inherited-class",
-        "source.ts entity.static",
-        "source.ts meta.decorator entity.name",
-        "source.ts meta.decorator variable.other.readwrite"
+        "source.ts entity.static"
+        /*
+
+        entity.name.function
+meta.function-call
+meta.decorator.ts
+source.ts
+        */
       ],
       "settings": {
         "foreground": "#EDAE",
@@ -551,6 +556,8 @@
       "name": "Entitys",
       "scope": [
         "source.ts meta.decorator entity.name",
+        "source.ts meta.decorator entity.name.function",
+        "source.ts meta.decorator meta.function-call entity.name",
         "source.ts meta.decorator variable.other.readwrite"
       ],
       "settings": {
