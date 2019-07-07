@@ -43,6 +43,7 @@ debugger;
 })();
 
 export type defined = string | 450 | null | true | false | undefined;
+
 @sealed
 class Greeter {
   public greeting: string;
@@ -153,7 +154,8 @@ export class ClassName extends ParentClass implements IInterface {
   }
   public static staticValue: any;
   public value: string;
-  public angel: any;1
+  public angel: any;
+  public some: any;
   public othervalue: any;
   private _othervalue: any;
   public constructor(parametre: Arguments) {
