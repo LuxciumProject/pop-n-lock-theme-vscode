@@ -284,8 +284,7 @@
     "panelTitle.activeForeground": "#DCAF",
     "panelTitle.inactiveForeground": "#DCAB",
 
-    /*
-    "peekView.border": "#FC5F",
+    "peekView.border": "#FC5C", //"#38AE",
     "peekViewEditor.background": "#235B",
     "peekViewEditor.matchHighlightBackground": "#426F",
     "peekViewEditor.matchHighlightBorder": "#618F",
@@ -296,10 +295,11 @@
     "peekViewResult.matchHighlightBackground": "#38A5",
     "peekViewResult.selectionBackground": "#42b4",
     "peekViewResult.selectionForeground": "#EDAE",
- // "peekViewTitle.background": "#25E6",
+    "peekViewTitle.background": "#14B5",
+    // "peekViewTitle.background": "#25E6",
     "peekViewTitleDescription.foreground": "#EDAE",
-    "peekViewTitleLabel.foreground": "#EDAE",  // ! F
-
+    "peekViewTitleLabel.foreground": "#EDAE", // ! F
+    /*
     "peekView.border": "#FC6B",
     "peekViewEditor.background": "#235B",
     "peekViewEditor.matchHighlightBackground": "#426F",
