@@ -3,10 +3,10 @@ import express from 'express';
 import mongoose from 'mongoose';
 
 config();
+const List = mongoose.model('List');
 const jwtSecret = process.env.JWTSECRET;
 const router = express.Router();
 const User = mongoose.model('User');
-const List = mongoose.model('List');
 const ListItem = mongoose.model('ListItem');
 
 function returnAllLists(userId: any, res: any) {

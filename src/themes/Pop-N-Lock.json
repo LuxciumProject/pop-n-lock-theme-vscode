@@ -51,7 +51,7 @@
     "welcomePage.buttonHoverBackground": "#38AC",
     // #endregion
     // #region *** debugExceptionWidget.background ***
-    "debugExceptionWidget.background": "#1D2555DD",
+    "debugExceptionWidget.background": "#1D2555EE",
     "debugExceptionWidget.border": "#DCA3",
     "debugToolBar.background": "#2C203CFF",
     "debugToolBar.border": "#52A5",
@@ -127,7 +127,7 @@
     "editorGutter.deletedBackground": "#B35F",
     "editorGutter.modifiedBackground": "#38AF",
     /* *** *** *** *** */
-    "editorHoverWidget.background": "#1D2555DD",
+    "editorHoverWidget.background": "#1D2555EE",
     "editorHoverWidget.border": "#DCA3",
     "editorHoverWidget.statusBarBackground": "#1C1C2CFF",
     /* *** *** *** *** */
@@ -180,7 +180,7 @@
     "editorError.foreground": "#F15F",
     "editorError.border": "#F154",
     /* *** *** *** *** */
-    "editorWidget.background": "#1D2555DD",
+    "editorWidget.background": "#1D2555EE",
     "editorWidget.border": "#DCA3",
     "editorWidget.resizeBorder": "#DCA3",
     // #endregion
@@ -433,9 +433,10 @@
     // #endregion
   },
   "tokenColors": [
-    //  "#D25E","#E43E","#D67E","#E1AE","#7ADE",
-    //  "#FC5E","#F91E","#EDAE","#A5BE","#ADCE",
-    //  "#CE5E","#7C2E","#4B9E","#55FD","#6BFE",
+    // "typescript" --------------------------------------------------
+    // "#D25E","#E43E","#D67E","#E1AE","#7ADE",
+    // "#FC5E","#F91E","#EDAE","#A5BE","#ADCE",
+    // "#CE5E","#7C2E","#4B9E","#55FD","#6BFE",
 
     // #region "typescript" --------------------------------------------------
 
@@ -538,9 +539,7 @@
         "source.ts entity.other.attribute-name.directive",
         "source.ts entity.other.attribute-name",
         "source.ts entity.other.inherited-class",
-        "source.ts entity.static",
-        "source.ts meta.decorator entity.name",
-        "source.ts meta.decorator variable.other.readwrite"
+        "source.ts entity.static"
       ],
       "settings": {
         "foreground": "#EDAE",
@@ -551,6 +550,8 @@
       "name": "Entitys",
       "scope": [
         "source.ts meta.decorator entity.name",
+        "source.ts meta.decorator entity.name.function",
+        "source.ts meta.decorator meta.function-call entity.name",
         "source.ts meta.decorator variable.other.readwrite"
       ],
       "settings": {

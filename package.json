@@ -1,6 +1,6 @@
 {
   "name": "pop-n-lock-theme-vscode",
-  "version": "3.16.6",
+  "version": "3.16.9",
   "publisher": "Luxcium",
   "license": "MIT",
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
@@ -24,7 +24,7 @@
     "gitchekback:vnext": "npm run gitcheckout:vnext ",
     "git:push": "git push --follow-tags --all --verbose",
     "package:publish": "vsce package && vsce publish",
-    "publish": "npm version patch && npm run package:publish",
+    "publish": "npm install -g vsce; npm version patch && npm run package:publish",
     "release": "standard-version && npm run package:publish",
     "merge:pack:publish:release": "npm run will:gitmerge; npm run gitmerge:squash:vnext && npm run gitmerge:commit && npm run release && npm run git:push",
     "gitback:vnext": "npm run checkout:vnext; npm run gitmergeback:master"
