@@ -185,13 +185,13 @@
     "editorWidget.resizeBorder": "#DCA3",
     // #endregion
     // #region *** gitDecoration ***
-    "gitDecoration.addedResourceForeground": "#FC5E",
+    "gitDecoration.addedResourceForeground": "#FD5E",
     "gitDecoration.conflictingResourceForeground": "#F15B",
     "gitDecoration.deletedResourceForeground": "#C32B",
     "gitDecoration.ignoredResourceForeground": "#38AC",
-    "gitDecoration.modifiedResourceForeground": "#FDB92FFF",
+    "gitDecoration.modifiedResourceForeground": "#EA2",
     "gitDecoration.submoduleResourceForeground": "#95BC",
-    "gitDecoration.untrackedResourceForeground": "#9C3F",
+    "gitDecoration.untrackedResourceForeground": "#8C3F",
     // #endregion
     // #region *** input.background ***
     "input.background": "#38A4",
@@ -215,17 +215,17 @@
     "inputValidation.warningForeground": "#FEDF",
     // #endregion
     // #region *** list.activeSelectionBackground ***
-    "list.activeSelectionBackground": "#38A8",
+    "list.activeSelectionBackground": "#27E5",
     "list.activeSelectionForeground": "#DCAE",
     "list.dropBackground": "#38A3",
     "list.errorForeground": "#F45F",
-    "list.focusBackground": "#27E5",
+    "list.focusBackground": "#38A8",
     "list.focusForeground": "#FC5E",
     "list.highlightForeground": "#7B5F",
-    "list.hoverBackground": "#7163",
+    "list.hoverBackground": "#7165",
     "list.hoverForeground": "#DCAF",
-    "list.inactiveFocusBackground": "#22E4",
-    "list.inactiveSelectionBackground": "#38A5",
+    "list.inactiveFocusBackground": "#38A5",
+    "list.inactiveSelectionBackground": "#22E4",
     "list.inactiveSelectionForeground": "#DCAF",
     "list.invalidItemForeground": "#F42C",
     "list.warningForeground": "#8D5F",
