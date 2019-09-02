@@ -11,7 +11,7 @@
   "icon": "Scientia-is-lux-principium-400px-TM.png",
   "homepage": "https://github.com/luxcium/pop-n-lock-theme-vscode/#readme",
   "engines": {
-    "vscode": "^1.12.0"
+    "vscode": "^1.30.0"
   },
   "scripts": {
     "vsce:update": "npm -g i vsce@latest",
