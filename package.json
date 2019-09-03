@@ -16,7 +16,7 @@
   "scripts": {
     "vsce:update": "npm -g i vsce@latest",
     "package:publish": "vsce package && vsce publish",
-    "publish": "npm run vsce:update; npm version patch && npm run package:publish"
+    "publish": "npm run vsce:update; npm version minor && npm run package:publish"
   },
   "categories": [
     "Programming Languages",
