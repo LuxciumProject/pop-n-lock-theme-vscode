@@ -1216,21 +1216,113 @@
 
     // #endregion
     // #region "typescript (REACT)" ------------------------------------------
+    // #region TS INTERFACE START HERE
+
     {
-      "name": "Function types",
+      "name": "Interface and Type Aliase definition keyword",
       "scope": [
-        "source.tsx meta.definition.variable entity.name.function",
-        "source.tsx meta.definition.function.tsx entity.name.function",
-        "source.tsx support.function",
-        "source.tsx support.function",
-        "source.tsx meta.definition.method",
+        "source.tsx storage.type.enum",
+        "source.tsx storage.type.interface",
+        "source.tsx storage.type.type"
+      ],
+      "settings": {
+        "foreground": "#D25C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Interface and Type Aliase definition name",
+      "scope": [
+        "source.tsx meta.interface entity.name.type.interface",
+        "entity.name.type.alias"
+      ],
+      "settings": {
+        "foreground": "#EDAC",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Property Definition in Interface",
+      "scope": [
+        "source.tsx meta.interface meta.definition.property variable.object.property"
+      ],
+      "settings": {
+        "foreground": "#ADCD",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Primitive Annotation in Interface and Type Aliase",
+      "scope": [
+        "source.tsx meta.interface meta.type.annotation support.type.primitive",
+        "source.tsx meta.type.declaration support.type.primitive"
+      ],
+      "settings": {
+        "foreground": "#FC5D", //  "#E7BB",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Entity Name Type Annotation in Interface and Type Aliases",
+      "scope": [
+        "source.tsx meta.interface meta.type.annotation entity.name.type",
+        "source.tsx meta.type.declaration entity.name.type",
+        "source.tsx meta.type.declaration meta.type.function.return meta.type.parameters entity.name.type",
+        "source.tsx meta.function meta.block meta.type.parameters entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#FC5D", //  "#E7BB",
+        "fontStyle": ""
+      }
+    },
+
+    // #endregion TS INTERFACE END HERE
+    {
+      "name": "Types",
+      "scope": [
+        "source.tsx meta.type.declaration meta.type.parameters entity.name.type",
+        "source.tsx meta.function meta.type.parameters entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#FC5D",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "Types",
+      "scope": [
+        "source.tsx entity.name.type",
+        "source.tsx meta.parameters entity.name.type",
+        "source.tsx meta.type.annotation meta.type.parameters entity.name.type",
+        "source.tsx meta.type.annotation",
+        "source.tsx meta.type.parameters entity.name.type",
+        "source.tsx type.annotation"
+      ],
+      "settings": {
+        "foreground": "#FC5D",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Types primitives",
+      "scope": [
+        "source.tsx meta.type.annotation meta.type.parameters support.type.primitive",
+        "source.tsx support.type.primitive"
+      ],
+      "settings": {
+        "foreground": "#FC5D", //  "#E7BB",  "#FC5D",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
         "source.tsx entity.name.function",
-        "source.tsx entity.other.inherited-class.tsx",
-        "source.tsx meta.type.declaration support.type.primitive",
-        "source.tsx support.type.primitive",
-        "source.tsx meta.interface support.type.primitive",
-        "source.tsx type.annotation",
-        "source.tsx entity.name.type"
+        "source.tsx meta.definition.function.tsx entity.name.function",
+        "source.tsx meta.definition.method",
+        "source.tsx meta.definition.variable entity.name.function",
+        "source.tsx meta.field.declaration.tsx"
       ],
       "settings": {
         "foreground": "#FC5E",
@@ -1248,44 +1340,160 @@
         "source.tsx support.function.console"
       ],
       "settings": {
-        "foreground": "#FC5E",
+        "foreground": "#FC5D",
         "fontStyle": "bold italic"
       }
     },
+
     {
+      "name": "New Class",
+      "scope": [
+        "source.tsx entity.other.inherited-class",
+        "source.tsx new.expr entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#FC5D",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Function Return Type",
       "scope": [
         "source.tsx meta.return.type entity.name.type",
         "source.tsx meta.return.type support.type.primitive"
       ],
       "settings": {
-        "foreground": "#FC5E",
-        "fontStyle": "italic"
+        "foreground": "#4B9C",
+        "fontStyle": "bold italic"
       }
     },
     {
+      "name": "Function Return Type parameter name type",
+      "scope": [
+        "source.tsx meta.return.type meta.type.parameters entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#FC5D",
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "Function Return Type parameter primitive type",
       "scope": [
         "source.tsx meta.return.type meta.type.parameters support.type.primitive"
       ],
       "settings": {
-        "foreground": "#FC5E",
-        "fontStyle": ""
+        "foreground": "#E7BB", // "#FC5E",  "#E7BB",
+        "fontStyle": "italic"
       }
     },
     {
+      "name": "Function Return Type parameter punctuation",
       "scope": [
         "source.tsx meta.return.type meta.type.parameters punctuation.definition.typeparameters",
         "source.tsx meta.return.type meta.type.tuple meta.brace.square",
         "source.tsx meta.return.type keyword.operator.type"
       ],
       "settings": {
-        "foreground": "#EDAE",
+        "foreground": "#EDAA",
         "fontStyle": ""
       }
     },
     {
+      "name": "Types",
+      "scope": [
+        "source.tsx entity.name.type.class",
+        "source.tsx entity.name.type.enum",
+        "source.tsx entity.name.type.instance",
+        "source.tsx entity.name.type.module"
+      ],
+      "settings": {
+        "foreground": "#EDAC",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Entitys",
+      "scope": [
+        "source.tsx punctuation.definition.template-expression.begin",
+        "source.tsx punctuation.definition.template-expression.end",
+        "source.tsx punctuation.definition.parameters.begin",
+        "source.tsx punctuation.definition.parameters.end",
+        "source.tsx meta.brace.angle",
+        "source.tsx meta.brace.round",
+        "source.tsx meta.brace.square",
+        "source.tsx punctuation.definition.block",
+        "source.tsx entity.function",
+        "source.tsx entity.name",
+        "source.tsx entity.other.attribute-name.css",
+        "source.tsx entity.other.attribute-name.directive",
+        "source.tsx entity.other.attribute-name",
+        "source.tsx entity.other.inherited-class",
+        "source.tsx entity.static"
+      ],
+      "settings": {
+        "foreground": "#EDAA",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Entitys",
+      "scope": [
+        "source.tsx meta.decorator entity.name",
+        "source.tsx meta.decorator entity.name.function",
+        "source.tsx meta.decorator meta.function-call entity.name",
+        "source.tsx meta.decorator variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#EDAC",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "regexp constants",
+      "scope": [
+        "source.tsx string.regexp constant.other.character-class.set.regexp"
+      ],
+      "settings": {
+        "foreground": "#E67E",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "regexp string",
+      "scope": ["source.tsx meta.var.expr string.regexp"],
+      "settings": {
+        "foreground": "#9C8E",
+        "fontStyle": ""
+      }
+    },
+
+    {
+      "name": "regexp other punctuation",
+      "scope": [
+        "source.tsx string.regexp punctuation.definition.character-class.regexp"
+      ],
+      "settings": {
+        "foreground": "#FC5E",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "regexp punctuation",
+      "scope": [
+        "source.tsx string.regexp punctuation.definition.string.begin",
+        "source.tsx string.regexp punctuation.definition.string.end"
+      ],
+      "settings": {
+        "foreground": "#F91C",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
       "name": "Variables",
       "scope": [
-        "source.tsx meta.interface variable.object.property",
         "source.tsx variable.other.enummember",
         "source.tsx variable.arguments",
         "source.tsx variable.class",
@@ -1301,7 +1509,6 @@
         "source.tsx variable.other.regexp",
         "source.tsx variable.other",
         "source.tsx variable.parameter",
-        "source.tsx meta.objectliteral meta.object.member variable.other.object",
         "source.tsx variable"
       ],
       "settings": { "foreground": "#ADCD" }
@@ -1316,7 +1523,6 @@
         "source.tsx variable.object.property",
         "source.tsx variable.other.constant.object.property",
         "source.tsx variable.other.constant.property",
-        "source.tsx variable.other.object.property",
         "source.tsx variable.other.property"
       ],
       "settings": { "foreground": "#6BFD" }
@@ -1405,7 +1611,7 @@
       "name": "CLASS KEYWORD DEFINITION",
       "scope": ["source.tsx storage.type.class"],
       "settings": {
-        "foreground": "#FC5E",
+        "foreground": "#FC5D",
         "fontStyle": "bold italic"
       }
     },
@@ -1414,7 +1620,7 @@
       "scope": ["source.tsx meta.method.declaration.tsx storage.type"],
       "settings": {
         "foreground": "#D25C",
-        "fontStyle": "italic"
+        "fontStyle": "bold italic"
       }
     },
     {
@@ -1436,7 +1642,7 @@
         "source.tsx keyword.operator.new"
       ],
       "settings": {
-        "foreground": "#F91E",
+        "foreground": "#F91D",
         "fontStyle": "bold"
       }
     },
@@ -1448,7 +1654,7 @@
       ],
 
       "settings": {
-        "foreground": "#F91E",
+        "foreground": "#F91D",
         "fontStyle": "bold italic"
       }
     },
@@ -1464,20 +1670,72 @@
       "name": "VARIABLE THIS",
       "scope": ["source.tsx variable.language.this"],
       "settings": {
-        "foreground": "#D67E",
+        "foreground": "#E67E",
         "fontStyle": "bold italic"
       }
     },
 
+    // import is italic
+    {
+      "name": "Import variables are italic",
+      "scope": [
+        "source.tsx meta.import variable.other.readwrite.alias",
+        "source.tsx meta.import variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#ADCD",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Import variables are italic",
+      "scope": ["source.tsx meta.import punctuation.definition.block"],
+      "settings": {
+        "foreground": "#FD0D",
+        "fontStyle": "bold italic"
+      }
+    },
+    //     "source.tsx constant.language.import-export-all",
+    {
+      "name": "Star in import expor all",
+      "scope": ["source.tsx constant.language.import-export-all"],
+      "settings": {
+        "foreground": "#E67D",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "Import strings are italic",
+      "scope": [
+        "source.tsx meta.import string.quoted.single",
+        "source.tsx meta.import string.quoted.double"
+      ],
+      "settings": {
+        "foreground": "#CE5D",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Import default as and From",
+      "scope": [
+        "source.tsx meta.import keyword.control.as",
+        "source.tsx meta.import keyword.control.default",
+        "source.tsx meta.import keyword.control.from",
+        "source.tsx meta.import keyword.control.import"
+      ],
+      "settings": {
+        "foreground": "#D25C",
+        "fontStyle": "bold italic"
+      }
+    },
     {
       "name": "Enum, Export, Import, Interface, Namespace, Type, etc",
       "scope": [
-        "source.tsx storage.type.enum",
-        "source.tsx storage.type.interface",
         "source.tsx storage.type.internaldeclaration",
         "source.tsx storage.type.namespace",
-        "source.tsx storage.type.type",
         "source.tsx storage.type",
+        "source.tsx keyword.control.from",
         "source.tsx keyword.control.import",
         "source.tsx keyword.control.export",
         "source.tsx meta.export.default keyword.control.default"
@@ -1488,11 +1746,10 @@
       }
     },
     {
-      "name": "KEYWORD.CONTROL EXPORT IMPORT FROM ETC.",
+      "name": "KEYWORD.CONTROL others ETC.",
       "scope": [
         "source.tsx keyword.control.as",
         "source.tsx keyword.control.default",
-        "source.tsx keyword.control.from",
         "source.tsx keyword.control",
         "source.tsx keyword.control.anchor.regexp",
         "source.tsx keyword.control.conditional",
@@ -1511,7 +1768,7 @@
         "source.tsx storage.type.numeric.bigint"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25D",
         "fontStyle": ""
       }
     },
@@ -1527,7 +1784,7 @@
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.tsx meta.block meta.var.expr storage.type"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25D",
         "fontStyle": "italic"
       }
     },
@@ -1541,35 +1798,35 @@
     {
       "scope": ["source.tsx constant.language.boolean.false"],
       "settings": {
-        "foreground": "#E43E",
+        "foreground": "#E43D",
         "fontStyle": "bold italic"
       }
     },
     {
       "scope": ["source.tsx constant.language.boolean.true"],
       "settings": {
-        "foreground": "#7C2E",
+        "foreground": "#7C2D",
         "fontStyle": "bold italic"
       }
     },
     {
       "scope": ["source.tsx constant.language.undefined"],
       "settings": {
-        "foreground": "#A5BE",
+        "foreground": "#A7BA",
         "fontStyle": "bold italic"
       }
     },
     {
       "scope": ["source.tsx constant.language.null"],
       "settings": {
-        "foreground": "#D67E",
+        "foreground": "#E67D",
         "fontStyle": "bold italic"
       }
     },
     {
       "scope": ["source.tsx support.type.builtin"],
       "settings": {
-        "foreground": "#D67E",
+        "foreground": "#E7BB",
         "fontStyle": ""
       }
     },
@@ -1579,7 +1836,7 @@
         "source.tsx constant.language.nan"
       ],
       "settings": {
-        "foreground": "#7ADE",
+        "foreground": "#7ADD",
         "fontStyle": "bold italic"
       }
     },
@@ -1619,7 +1876,7 @@
         "source.tsx keyword.operator.type"
       ],
       "settings": {
-        "foreground": "#4B9D",
+        "foreground": "#4B9C",
         "fontStyle": ""
       }
     },
@@ -1629,41 +1886,11 @@
         "source.tsx keyword.operator.rest"
       ],
       "settings": {
-        "foreground": "#4B9D",
+        "foreground": "#4B9B",
         "fontStyle": "bold"
       }
     },
-    {
-      "name": "Entitys",
-      "scope": [
-        "source.tsx entity.name.type.alias",
-        "source.tsx entity.name.type.class",
-        "source.tsx entity.name.type.enum",
-        "source.tsx entity.name.type.interface",
-        "source.tsx entity.name.type.module",
-        "source.tsx punctuation.definition.template-expression.begin",
-        "source.tsx punctuation.definition.template-expression.end",
-        "source.tsx punctuation.definition.parameters.begin",
-        "source.tsx punctuation.definition.parameters.end",
-        "source.tsx meta.brace.angle",
-        "source.tsx meta.brace.round",
-        "source.tsx meta.brace.square",
-        "source.tsx punctuation.definition.block",
-        "source.tsx entity.function",
-        "source.tsx entity.name",
-        "source.tsx entity.other.attribute-name.css",
-        "source.tsx entity.other.attribute-name.directive",
-        "source.tsx entity.other.attribute-name",
-        "source.tsx entity.other.inherited-class",
-        "source.tsx entity.static",
-        "source.tsx meta.decorator entity.name",
-        "source.tsx meta.decorator variable.other.readwrite"
-      ],
-      "settings": {
-        "foreground": "#EDAC",
-        "fontStyle": ""
-      }
-    },
+
     {
       "name": "Others",
       "scope": [
@@ -1695,10 +1922,11 @@
         "source.tsx switch-block.expr",
         "source.tsx switch-expression.expr",
         "source.tsx switch-statement.expr",
-        "source.tsx variable.other.object"
+        "source.tsx variable.other.object",
+        "source.tsx meta.object.member variable.other.object"
       ],
       "settings": {
-        "foreground": "#EDAC",
+        "foreground": "#EDAA",
         "fontStyle": ""
       }
     },
@@ -1719,7 +1947,7 @@
         "source.tsx support.class.console"
       ],
       "settings": {
-        "foreground": "#EDAC",
+        "foreground": "#EDAD",
         "fontStyle": ""
       }
     },
@@ -1750,7 +1978,7 @@
         "source.tsx invalid.illegal.newline"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25D",
         "fontStyle": ""
       }
     },
@@ -1764,22 +1992,113 @@
 
     // #endregion
     // #region "javascript" --------------------------------------------------
+    // #region TS INTERFACE START HERE (not used in JS)
 
     {
-      "name": "Function types",
+      "name": "Interface and Type Aliase definition keyword",
       "scope": [
-        "source.js meta.definition.variable entity.name.function",
-        "source.js meta.definition.function.js entity.name.function",
-        "source.js support.function",
-        "source.js support.function",
-        "source.js meta.definition.method",
+        "source.js storage.type.enum",
+        "source.js storage.type.interface",
+        "source.js storage.type.type"
+      ],
+      "settings": {
+        "foreground": "#D25C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Interface and Type Aliase definition name",
+      "scope": [
+        "source.js meta.interface entity.name.type.interface",
+        "entity.name.type.alias"
+      ],
+      "settings": {
+        "foreground": "#EDAC",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Property Definition in Interface",
+      "scope": [
+        "source.js meta.interface meta.definition.property variable.object.property"
+      ],
+      "settings": {
+        "foreground": "#ADCD",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Primitive Annotation in Interface and Type Aliase",
+      "scope": [
+        "source.js meta.interface meta.type.annotation support.type.primitive",
+        "source.js meta.type.declaration support.type.primitive"
+      ],
+      "settings": {
+        "foreground": "#FC5D", //  "#E7BB",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Entity Name Type Annotation in Interface and Type Aliases",
+      "scope": [
+        "source.js meta.interface meta.type.annotation entity.name.type",
+        "source.js meta.type.declaration entity.name.type",
+        "source.js meta.type.declaration meta.type.function.return meta.type.parameters entity.name.type",
+        "source.js meta.function meta.block meta.type.parameters entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#FC5D", //  "#E7BB",
+        "fontStyle": ""
+      }
+    },
+
+    // #endregion TS INTERFACE END HERE
+    {
+      "name": "Types",
+      "scope": [
+        "source.js meta.type.declaration meta.type.parameters entity.name.type",
+        "source.js meta.function meta.type.parameters entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#FC5D",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "Types",
+      "scope": [
+        "source.js entity.name.type",
+        "source.js meta.parameters entity.name.type",
+        "source.js meta.type.annotation meta.type.parameters entity.name.type",
+        "source.js meta.type.annotation",
+        "source.js meta.type.parameters entity.name.type",
+        "source.js type.annotation"
+      ],
+      "settings": {
+        "foreground": "#FC5D",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Types primitives",
+      "scope": [
+        "source.js meta.type.annotation meta.type.parameters support.type.primitive",
+        "source.js support.type.primitive"
+      ],
+      "settings": {
+        "foreground": "#FC5D", //  "#E7BB",  "#FC5D",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
         "source.js entity.name.function",
-        "source.js entity.other.inherited-class.js",
-        "source.js meta.type.declaration support.type.primitive",
-        "source.js support.type.primitive",
-        "source.js meta.interface support.type.primitive",
-        "source.js type.annotation",
-        "source.js entity.name.type"
+        "source.js meta.definition.function.js entity.name.function",
+        "source.js meta.definition.method",
+        "source.js meta.definition.variable entity.name.function",
+        "source.js meta.field.declaration.js"
       ],
       "settings": {
         "foreground": "#FC5E",
@@ -1797,44 +2116,160 @@
         "source.js support.function.console"
       ],
       "settings": {
-        "foreground": "#FC5E",
+        "foreground": "#FC5D",
         "fontStyle": "bold italic"
       }
     },
+
     {
+      "name": "New Class",
+      "scope": [
+        "source.js entity.other.inherited-class",
+        "source.js new.expr entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#FC5D",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Function Return Type",
       "scope": [
         "source.js meta.return.type entity.name.type",
         "source.js meta.return.type support.type.primitive"
       ],
       "settings": {
-        "foreground": "#FC5E",
-        "fontStyle": "italic"
+        "foreground": "#4B9C",
+        "fontStyle": "bold italic"
       }
     },
     {
+      "name": "Function Return Type parameter name type",
+      "scope": [
+        "source.js meta.return.type meta.type.parameters entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#FC5D",
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "Function Return Type parameter primitive type",
       "scope": [
         "source.js meta.return.type meta.type.parameters support.type.primitive"
       ],
       "settings": {
-        "foreground": "#FC5E",
-        "fontStyle": ""
+        "foreground": "#E7BB", // "#FC5E",  "#E7BB",
+        "fontStyle": "italic"
       }
     },
     {
+      "name": "Function Return Type parameter punctuation",
       "scope": [
         "source.js meta.return.type meta.type.parameters punctuation.definition.typeparameters",
         "source.js meta.return.type meta.type.tuple meta.brace.square",
         "source.js meta.return.type keyword.operator.type"
       ],
       "settings": {
-        "foreground": "#EDAC",
+        "foreground": "#EDAA",
         "fontStyle": ""
       }
     },
     {
+      "name": "Types",
+      "scope": [
+        "source.js entity.name.type.class",
+        "source.js entity.name.type.enum",
+        "source.js entity.name.type.instance",
+        "source.js entity.name.type.module"
+      ],
+      "settings": {
+        "foreground": "#EDAC",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Entitys",
+      "scope": [
+        "source.js punctuation.definition.template-expression.begin",
+        "source.js punctuation.definition.template-expression.end",
+        "source.js punctuation.definition.parameters.begin",
+        "source.js punctuation.definition.parameters.end",
+        "source.js meta.brace.angle",
+        "source.js meta.brace.round",
+        "source.js meta.brace.square",
+        "source.js punctuation.definition.block",
+        "source.js entity.function",
+        "source.js entity.name",
+        "source.js entity.other.attribute-name.css",
+        "source.js entity.other.attribute-name.directive",
+        "source.js entity.other.attribute-name",
+        "source.js entity.other.inherited-class",
+        "source.js entity.static"
+      ],
+      "settings": {
+        "foreground": "#EDAA",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Entitys",
+      "scope": [
+        "source.js meta.decorator entity.name",
+        "source.js meta.decorator entity.name.function",
+        "source.js meta.decorator meta.function-call entity.name",
+        "source.js meta.decorator variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#EDAC",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "regexp constants",
+      "scope": [
+        "source.js string.regexp constant.other.character-class.set.regexp"
+      ],
+      "settings": {
+        "foreground": "#E67E",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "regexp string",
+      "scope": ["source.js meta.var.expr string.regexp"],
+      "settings": {
+        "foreground": "#9C8E",
+        "fontStyle": ""
+      }
+    },
+
+    {
+      "name": "regexp other punctuation",
+      "scope": [
+        "source.js string.regexp punctuation.definition.character-class.regexp"
+      ],
+      "settings": {
+        "foreground": "#FC5E",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "regexp punctuation",
+      "scope": [
+        "source.js string.regexp punctuation.definition.string.begin",
+        "source.js string.regexp punctuation.definition.string.end"
+      ],
+      "settings": {
+        "foreground": "#F91C",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
       "name": "Variables",
       "scope": [
-        "source.js meta.interface variable.object.property",
         "source.js variable.other.enummember",
         "source.js variable.arguments",
         "source.js variable.class",
@@ -1908,7 +2343,7 @@
         "source.js constant.numeric.octal"
       ],
       "settings": {
-        "foreground": "#D67E",
+        "foreground": "#E67E",
         "fontStyle": ""
       }
     },
@@ -1952,7 +2387,7 @@
       "name": "CLASS KEYWORD DEFINITION",
       "scope": ["source.js storage.type.class"],
       "settings": {
-        "foreground": "#FC5E",
+        "foreground": "#FC5D",
         "fontStyle": "bold italic"
       }
     },
@@ -1961,7 +2396,7 @@
       "scope": ["source.js meta.method.declaration.js storage.type"],
       "settings": {
         "foreground": "#D25C",
-        "fontStyle": "italic"
+        "fontStyle": "bold italic"
       }
     },
     {
@@ -1983,7 +2418,7 @@
         "source.js keyword.operator.new"
       ],
       "settings": {
-        "foreground": "#F91E",
+        "foreground": "#F91D",
         "fontStyle": "bold"
       }
     },
@@ -1995,7 +2430,7 @@
       ],
 
       "settings": {
-        "foreground": "#F91E",
+        "foreground": "#F91D",
         "fontStyle": "bold italic"
       }
     },
@@ -2011,20 +2446,72 @@
       "name": "VARIABLE THIS",
       "scope": ["source.js variable.language.this"],
       "settings": {
-        "foreground": "#D67E",
+        "foreground": "#E67E",
         "fontStyle": "bold italic"
       }
     },
 
+    // import is italic
+    {
+      "name": "Import variables are italic",
+      "scope": [
+        "source.js meta.import variable.other.readwrite.alias",
+        "source.js meta.import variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#ADCD",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Import variables are italic",
+      "scope": ["source.js meta.import punctuation.definition.block"],
+      "settings": {
+        "foreground": "#FD0D",
+        "fontStyle": "bold italic"
+      }
+    },
+    //     "source.js constant.language.import-export-all",
+    {
+      "name": "Star in import expor all",
+      "scope": ["source.js constant.language.import-export-all"],
+      "settings": {
+        "foreground": "#E67D",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "Import strings are italic",
+      "scope": [
+        "source.js meta.import string.quoted.single",
+        "source.js meta.import string.quoted.double"
+      ],
+      "settings": {
+        "foreground": "#CE5D",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Import default as and From",
+      "scope": [
+        "source.js meta.import keyword.control.as",
+        "source.js meta.import keyword.control.default",
+        "source.js meta.import keyword.control.from",
+        "source.js meta.import keyword.control.import"
+      ],
+      "settings": {
+        "foreground": "#D25C",
+        "fontStyle": "bold italic"
+      }
+    },
     {
       "name": "Enum, Export, Import, Interface, Namespace, Type, etc",
       "scope": [
-        "source.js storage.type.enum",
-        "source.js storage.type.interface",
         "source.js storage.type.internaldeclaration",
         "source.js storage.type.namespace",
-        "source.js storage.type.type",
         "source.js storage.type",
+        "source.js keyword.control.from",
         "source.js keyword.control.import",
         "source.js keyword.control.export",
         "source.js meta.export.default keyword.control.default"
@@ -2035,11 +2522,10 @@
       }
     },
     {
-      "name": "KEYWORD.CONTROL EXPORT IMPORT FROM ETC.",
+      "name": "KEYWORD.CONTROL others ETC.",
       "scope": [
         "source.js keyword.control.as",
         "source.js keyword.control.default",
-        "source.js keyword.control.from",
         "source.js keyword.control",
         "source.js keyword.control.anchor.regexp",
         "source.js keyword.control.conditional",
@@ -2058,7 +2544,7 @@
         "source.js storage.type.numeric.bigint"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25D",
         "fontStyle": ""
       }
     },
@@ -2074,7 +2560,7 @@
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.js meta.block meta.var.expr storage.type"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25D",
         "fontStyle": "italic"
       }
     },
@@ -2088,35 +2574,35 @@
     {
       "scope": ["source.js constant.language.boolean.false"],
       "settings": {
-        "foreground": "#E43E",
+        "foreground": "#E43D",
         "fontStyle": "bold italic"
       }
     },
     {
       "scope": ["source.js constant.language.boolean.true"],
       "settings": {
-        "foreground": "#7C2E",
+        "foreground": "#7C2D",
         "fontStyle": "bold italic"
       }
     },
     {
       "scope": ["source.js constant.language.undefined"],
       "settings": {
-        "foreground": "#A5BE",
+        "foreground": "#A7BA",
         "fontStyle": "bold italic"
       }
     },
     {
       "scope": ["source.js constant.language.null"],
       "settings": {
-        "foreground": "#D67E",
+        "foreground": "#E67D",
         "fontStyle": "bold italic"
       }
     },
     {
       "scope": ["source.js support.type.builtin"],
       "settings": {
-        "foreground": "#D67E",
+        "foreground": "#E7BB",
         "fontStyle": ""
       }
     },
@@ -2126,7 +2612,7 @@
         "source.js constant.language.nan"
       ],
       "settings": {
-        "foreground": "#7ADE",
+        "foreground": "#7ADD",
         "fontStyle": "bold italic"
       }
     },
@@ -2166,7 +2652,7 @@
         "source.js keyword.operator.type"
       ],
       "settings": {
-        "foreground": "#4B9D",
+        "foreground": "#4B9C",
         "fontStyle": ""
       }
     },
@@ -2176,42 +2662,11 @@
         "source.js keyword.operator.rest"
       ],
       "settings": {
-        "foreground": "#4B9D",
+        "foreground": "#4B9B",
         "fontStyle": "bold"
       }
     },
-    {
-      "name": "Entitys",
-      "scope": [
-        "source.js entity.name.type.alias",
-        "source.js entity.name.type.class",
-        "source.js entity.name.type.enum",
-        "source.js entity.name.type.interface",
-        "source.js entity.name.type.module",
-        "source.js punctuation.definition.template-expression.begin",
-        "source.js punctuation.definition.template-expression.end",
-        "source.js punctuation.definition.parameters.begin",
-        "source.js punctuation.definition.parameters.end",
-        "source.js meta.brace.angle",
-        "source.js meta.brace.round",
-        "source.js meta.brace.square",
-        "source.js punctuation.definition.block",
-        "source.js entity.function",
-        "source.js entity.name",
-        "source.js entity.other.attribute-name.css",
-        "source.js entity.other.attribute-name.directive",
-        "source.js entity.other.attribute-name",
-        "source.js entity.other.inherited-class",
-        "source.js entity.static",
-        "source.js meta.decorator entity.name",
-        "source.js meta.object.member variable.other.object",
-        "source.js meta.decorator variable.other.readwrite"
-      ],
-      "settings": {
-        "foreground": "#EDAC",
-        "fontStyle": ""
-      }
-    },
+
     {
       "name": "Others",
       "scope": [
@@ -2243,10 +2698,11 @@
         "source.js switch-block.expr",
         "source.js switch-expression.expr",
         "source.js switch-statement.expr",
-        "source.js variable.other.object"
+        "source.js variable.other.object",
+        "source.js meta.object.member variable.other.object"
       ],
       "settings": {
-        "foreground": "#EDAC",
+        "foreground": "#EDAA",
         "fontStyle": ""
       }
     },
@@ -2267,7 +2723,7 @@
         "source.js support.class.console"
       ],
       "settings": {
-        "foreground": "#EDAC",
+        "foreground": "#EDAD",
         "fontStyle": ""
       }
     },
@@ -2298,7 +2754,7 @@
         "source.js invalid.illegal.newline"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25D",
         "fontStyle": ""
       }
     },
@@ -2309,8 +2765,9 @@
         "fontStyle": "underline"
       }
     },
+
     // #endregion
-    // #region "JSON"
+    // #region "JSON" --------------------------------------------------------
 
     // "#FC5E" "#9C8E" "#CE5D""#D89E" "#CE5D" "#5BEE" "#DDDE" "#39EE"
     {
@@ -2452,7 +2909,7 @@
       }
     },
     // #endregion
-    // #region "YAML"
+    // #region "YAML" --------------------------------------------------------
     /* YAML */
     {
       "name": "YAML Comment",
@@ -4009,7 +4466,7 @@ meta.flow-sequence.yaml
     },
 
     // #endregion
-    // #region "CSS" -----------------------------------------------
+    // #region "CSS" ---------------------------------------------------------
     // entity.name.tag.css entity.other.attribute-name.pseudo-class.css
     {
       "name": "css comment block punctuation",
@@ -4189,7 +4646,7 @@ meta.flow-sequence.yaml
       }
     },
     // #endregion
-    // #region "MAIN"
+    // #region "MAIN" --------------------------------------------------------
     /* SHEBANG */
     {
       "scope": [
