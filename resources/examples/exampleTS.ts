@@ -8,13 +8,14 @@ const jwtSecret = process.env.JWTSECRET;
 const router = express.Router();
 const User = mongoose.model('User');
 const ListItem = mongoose.model('ListItem');
-
+const newReg = /r\eg[A-B]Exp/;
 function returnAllLists(userId: any, res: any) {
   return User.findById(userId)
     .populate({
       path: 'lists',
       populate: {
-        path: 'listItems'
+        path: 'listItems',
+        newReg
       }
     })
     .exec((userErr, doc) => {
@@ -31,6 +32,22 @@ function returnAllLists(userId: any, res: any) {
 
 debugger;
 
+class ParentClass {}
+export interface IInterface {
+  value: string;
+}
+
+interface Arguments {
+  value: string | number;
+  angel?: number;
+}
+
+enum Delays {
+  Short = 500,
+  Medium = 2000,
+  Long = 5000
+}
+
 (() => {
   const objectLike = { propertyOne: 10, propertyTwo: 'string' };
   const { propertyOne } = objectLike;
@@ -39,8 +56,15 @@ debugger;
   global.console.log('Hello World');
   return { propertyOne, cinq, dix };
 })();
-
-export type defined = string | 450 | null | true | false | undefined;
+export const value = 'this';
+export type defined =
+  | string
+  | IInterface
+  | 450
+  | null
+  | true
+  | false
+  | undefined;
 
 @sealed
 class Greeter {
@@ -60,22 +84,6 @@ export async function notMuch(ValueIn: string) {
   return { ValueIn };
 }
 
-class ParentClass {}
-interface IInterface {
-  value: string;
-}
-
-interface Arguments {
-  value: string | number;
-  angel?: number;
-}
-
-enum Delays {
-  Short = 500,
-  Medium = 2000,
-  Long = 5000
-}
-
 function sealed(constructor: any): void {
   Object.seal(constructor);
   Object.seal(constructor.prototype);
@@ -91,7 +99,7 @@ async function asyncFunction(): Promise<any> {
   message = `this is a  ${'string'}   indeed`;
   const variable3 = new Greeter(message);
 
-  const variable2 = await variable1.toFixed(200 - 400);
+  const variable2 = variable1.toFixed(200 - 400);
   return { variable2, variable3, propertyOne };
 }
 export type anyone = number | string;
@@ -183,14 +191,14 @@ export class ClassName extends ParentClass implements IInterface {
       console.log('mice', mice);
       return {
         values: [
-          450,
           null,
           NaN,
           Infinity,
           this._othervalue,
           true,
           false,
-          undefined
+          450 as number,
+          undefined as undefined
         ],
         popo,
         souris: mice
