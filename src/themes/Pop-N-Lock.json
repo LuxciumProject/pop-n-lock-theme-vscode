@@ -95,7 +95,7 @@
     "editor.selectionBackground": "#53E6",
     "editor.selectionForeground": "#DCAD",
     "editor.selectionHighlightBackground": "#5276",
-    "editor.selectionHighlightBorder": "#52AD" /* !!E->D !#52AE!*/,
+    "editor.selectionHighlightBorder": "#52AD",
     /* *** *** *** *** */
     "editor.snippetFinalTabstopHighlightBackground": "#2355",
     "editor.snippetFinalTabstopHighlightBorder": "#2355",
@@ -355,7 +355,7 @@
     "sideBarTitle.foreground": "#DCAD",
     // #endregion
     // #region *** STATUS BAR ***
-    "statusBar.background": "#1D2545",
+    "statusBar.background": "#1D2547",
     "statusBar.border": "#7160",
     "statusBar.debuggingBackground": "#C60",
     "statusBar.debuggingBorder": "#7160",
