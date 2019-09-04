@@ -132,7 +132,6 @@
   },
   "extensionPack": [
     "coenraads.bracket-pair-colorizer-2",
-    "ue.alphabetical-sorter",
     "aaron-bond.better-comments",
     "pkief.material-icon-theme"
   ],
