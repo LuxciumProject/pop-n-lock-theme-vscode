@@ -38,7 +38,7 @@
     // #endregion
     // #region *** breadcrumb.activeSelectionForeground ***
     "breadcrumb.activeSelectionForeground": "#EDEB",
-    "breadcrumb.background": "#1D2545",
+    "breadcrumb.background": "#1D2547",
     "breadcrumb.focusForeground": "#DCAD",
     "breadcrumb.foreground": "#DCAA",
     "breadcrumbPicker.background": "#2A255ADD",
