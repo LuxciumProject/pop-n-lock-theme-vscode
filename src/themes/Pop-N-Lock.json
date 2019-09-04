@@ -9,7 +9,7 @@
     // #region *** MAIN ***
     /* *** MAIN *** */
     "editorGutter.commentRangeForeground": "#53EA",
-    "editor.background": "#202138",
+    "editor.background": "#202137",
     "editor.foreground": "#DCAD",
     "editorGutter.background": "#1D1C2F",
     "contrastActiveBorder": "#F150",
@@ -78,9 +78,9 @@
     // #region *** editor ***
     /* *** *** *** *** */
     "editor.findMatchBackground": "#38A5",
-    "editor.findMatchBorder": "#34DD" /* !!E->D !#34DE!*/,
+    "editor.findMatchBorder": "#34DD",
     "editor.findMatchHighlightBackground": "#38A4",
-    "editor.findMatchHighlightBorder": "#38AD" /* !!E->D !#38AE!*/,
+    "editor.findMatchHighlightBorder": "#38AD",
     "editor.findRangeHighlightBackground": "#2355",
     "editor.findRangeHighlightBorder": "#52A5",
     /* *** *** *** *** */
@@ -159,7 +159,7 @@
     "editorOverviewRuler.infoForeground": "#38AC",
     "editorOverviewRuler.modifiedForeground": "#38AA",
     "editorOverviewRuler.rangeHighlightForeground": "#F73C",
-    "editorOverviewRuler.selectionHighlightForeground": "#FC5D" /* !!E->D !#FC5D!*/,
+    "editorOverviewRuler.selectionHighlightForeground": "#FC5D",
     "editorOverviewRuler.warningForeground": "#694C",
     "editorOverviewRuler.wordHighlightForeground": "#8DA",
     "editorOverviewRuler.wordHighlightStrongForeground": "#E47",
@@ -168,13 +168,13 @@
     /* *** *** *** *** */
     "editorRuler.foreground": "#E474",
     /* *** *** *** *** */
-    "editorSuggestWidget.background": "#235D" /* !!E->D !#235E!*/,
+    "editorSuggestWidget.background": "#235D",
     "editorSuggestWidget.border": "#6BFD",
     "editorSuggestWidget.foreground": "#EDAB",
     "editorSuggestWidget.highlightForeground": "#6BFD",
     "editorSuggestWidget.selectedBackground": "#4AE4",
     /* *** *** *** *** */
-    "editorHint.foreground": "#FC5D" /* !!E->D !#FC5D!*/,
+    "editorHint.foreground": "#FC5D",
     "editorHint.border": "#FC64",
     "editorInfo.foreground": "#6BFD",
     "editorInfo.border": "#4AE5",
@@ -188,7 +188,7 @@
     "editorWidget.resizeBorder": "#DCA3",
     // #endregion
     // #region *** gitDecoration ***
-    "gitDecoration.addedResourceForeground": "#FD5D" /* !!E->D !#FD5E!*/,
+    "gitDecoration.addedResourceForeground": "#FD5D",
     "gitDecoration.conflictingResourceForeground": "#F15B",
     "gitDecoration.deletedResourceForeground": "#C32B",
     "gitDecoration.ignoredResourceForeground": "#38AC",
@@ -199,7 +199,7 @@
     // #region *** input.background ***
     "input.background": "#38A4",
     "input.border": "#7167",
-    "input.foreground": "#FED",
+    "input.foreground": "#FEDD",
     "input.placeholderForeground": "#DCA8",
 
     /*
@@ -207,15 +207,15 @@
      *** "inputOption.activeBorder": "#7161",
      *** "inputValidation.errorBackground": "#7162",
      *** */
-    "inputValidation.errorBackground": "#722D" /* !!E->D !#722E!*/,
+    "inputValidation.errorBackground": "#722D",
     "inputValidation.errorBorder": "#F45",
-    "inputValidation.errorForeground": "#FED",
-    "inputValidation.infoBackground": "#235D" /* !!E->D !#235E!*/,
+    "inputValidation.errorForeground": "#FEDD",
+    "inputValidation.infoBackground": "#235D",
     "inputValidation.infoBorder": "#38A",
-    "inputValidation.infoForeground": "#FED",
-    "inputValidation.warningBackground": "#752D" /* !!E->D !#752E!*/,
-    "inputValidation.warningBorder": "#FC5D" /* !!E->D !#FC5D!*/,
-    "inputValidation.warningForeground": "#FED",
+    "inputValidation.infoForeground": "#FEDD",
+    "inputValidation.warningBackground": "#752D",
+    "inputValidation.warningBorder": "#FC5D",
+    "inputValidation.warningForeground": "#FEDD",
     // #endregion
     // #region *** list.activeSelectionBackground ***
     "list.focusBackground": "#22E7",
@@ -224,7 +224,7 @@
     "list.inactiveSelectionBackground": "#38A6",
     "list.hoverBackground": "#7167",
     "list.dropBackground": "#38A3",
-    "list.activeSelectionForeground": "#EDCD" /* !!E->D !#EDCE!*/,
+    "list.activeSelectionForeground": "#EDCD",
     "list.errorForeground": "#F45",
     "list.focusForeground": "#FFF",
     "list.highlightForeground": "#7B5",
@@ -234,16 +234,16 @@
     "list.warningForeground": "#8D5",
 
     /* *** listFilterWidget.background": "#426E", *** */
-    "listFilterWidget.background": "#426D" /* !!E->D !#426E!*/,
-    "listFilterWidget.noMatchesOutline": "#426D" /* !!E->D !#426E!*/,
-    "listFilterWidget.outline": "#426D" /* !!E->D !#426E!*/,
+    "listFilterWidget.background": "#426D",
+    "listFilterWidget.noMatchesOutline": "#426D",
+    "listFilterWidget.outline": "#426D",
     // #endregion
     // #region *** menu.background ***
     "menu.background": "#2C203C",
     "menu.border": "#7161",
     "menu.foreground": "#DCAD",
     "menu.selectionBackground": "#EB55",
-    "menu.selectionBorder": "#52AD" /* !!E->D !#52AE!*/,
+    "menu.selectionBorder": "#52AD",
     "menu.selectionForeground": "#DCAD",
     "menu.separatorBackground": "#2C203C",
     /*
@@ -287,7 +287,7 @@
     "panelTitle.activeForeground": "#DCAD",
     "panelTitle.inactiveForeground": "#DCAB",
 
-    "peekView.border": "#FC5D", // "#FC5D", /* !!E->D !#FC5D!*/
+    "peekView.border": "#FC5D", // "#FC5D", ,
     "peekViewEditor.background": "#235B",
     "peekViewEditor.matchHighlightBackground": "#426",
     "peekViewEditor.matchHighlightBorder": "#618",
@@ -316,7 +316,7 @@
     "peekViewResult.selectionForeground": "#DCAC",
     "peekViewTitle.background": "#14B5",
     "peekViewTitleDescription.foreground": "#DCAC",
-    "peekViewTitleLabel.foreground": "#FC5D", /* !!E->D !#FC5D!*/
+    "peekViewTitleLabel.foreground": "#FC5D", ,
     /* *** *** *** *** */
     "pickerGroup.border": "#7161",
     "pickerGroup.foreground": "#DCAD",
@@ -387,9 +387,9 @@
     "tab.unfocusedActiveBorder": "#1D254500",
     "tab.unfocusedActiveBorderTop": "#FB9A",
     "tab.unfocusedActiveForeground": "#FC68",
-    "tab.unfocusedActiveModifiedBorder": "#F45D" /* !!E->D !#F45E!*/,
+    "tab.unfocusedActiveModifiedBorder": "#F45D",
     "tab.unfocusedHoverBackground": "#52A4",
-    "tab.unfocusedHoverBorder": "#38AD" /* !!E->D !#38AE!*/,
+    "tab.unfocusedHoverBorder": "#38AD",
     "tab.unfocusedInactiveForeground": "#FC68",
     "tab.unfocusedInactiveModifiedBorder": "#E5D7",
 
@@ -399,7 +399,7 @@
     "textBlockQuote.border": "#7161",
     "textCodeBlock.background": "#2C203C",
     "textLink.activeForeground": "#64CA",
-    "textLink.foreground": "#6AFD" /* !!E->D !#6AFE!*/,
+    "textLink.foreground": "#6AFD",
     "textPreformat.foreground": "#DCAD",
     "textSeparator.foreground": "#DCAD",
     // #endregion
