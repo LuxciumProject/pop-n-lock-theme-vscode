@@ -10,16 +10,16 @@
     /* *** MAIN *** */
     "editorGutter.commentRangeForeground": "#53EA",
     "editor.background": "#202135FF",
-    "editor.foreground": "#DCAF",
+    "editor.foreground": "#DCAD",
     "editorGutter.background": "#1D1C2FFF",
     "contrastActiveBorder": "#F150",
     "contrastBorder": "#DCA4",
-    "errorForeground": "#DCAF",
+    "errorForeground": "#DCAD",
     "progressBar.background": "#38AC",
     "selection.background": "#698A",
     "widget.shadow": "#112F",
     "focusBorder": "#7165",
-    "foreground": "#DCAF",
+    "foreground": "#DCAD",
     "editorUnnecessaryCode.border": "#95B4",
     "editorUnnecessaryCode.opacity": "#FFF5",
     "walkThrough.embeddedEditorBackground": "#2C203CFF",
@@ -39,7 +39,7 @@
     // #region *** breadcrumb.activeSelectionForeground ***
     "breadcrumb.activeSelectionForeground": "#EDEB",
     "breadcrumb.background": "#1D2545FF",
-    "breadcrumb.focusForeground": "#DCAF",
+    "breadcrumb.focusForeground": "#DCAD",
     "breadcrumb.foreground": "#DCAA",
     "breadcrumbPicker.background": "#2A255ADD",
     // #endregion
@@ -72,7 +72,7 @@
     // #region *** dropdown.background ***
     "dropdown.background": "#1C1E2AFF",
     "dropdown.border": "#716A",
-    "dropdown.foreground": "#DCAF",
+    "dropdown.foreground": "#DCAD",
     "dropdown.listBackground": "#19152FFF",
     // #endregion
     // #region *** editor ***
@@ -93,7 +93,7 @@
     "editor.rangeHighlightBorder": "#7161",
     /* *** *** *** *** */
     "editor.selectionBackground": "#53E6",
-    "editor.selectionForeground": "#DCAF",
+    "editor.selectionForeground": "#DCAD",
     "editor.selectionHighlightBackground": "#5276",
     "editor.selectionHighlightBorder": "#52AD" /* !!E->D !#52AE!*/,
     /* *** *** *** *** */
@@ -140,7 +140,7 @@
     "editorIndentGuide.activeBackground": "#4AE3",
     "editorIndentGuide.background": "#4AE1",
     /* *** *** *** *** */
-    "editorLink.activeForeground": "#DCAF",
+    "editorLink.activeForeground": "#DCAD",
     /* *** *** *** *** */
     "editorMarkerNavigation.background": "#235F",
     "editorMarkerNavigationError.background": "#B35F",
@@ -228,8 +228,8 @@
     "list.errorForeground": "#F45F",
     "list.focusForeground": "#FFF",
     "list.highlightForeground": "#7B5F",
-    "list.hoverForeground": "#DCAF",
-    "list.inactiveSelectionForeground": "#DCAF",
+    "list.hoverForeground": "#DCAD",
+    "list.inactiveSelectionForeground": "#DCAD",
     "list.invalidItemForeground": "#F42C",
     "list.warningForeground": "#8D5F",
 
@@ -241,16 +241,16 @@
     // #region *** menu.background ***
     "menu.background": "#2C203CFF",
     "menu.border": "#7161",
-    "menu.foreground": "#DCAF",
+    "menu.foreground": "#DCAD",
     "menu.selectionBackground": "#EB55",
     "menu.selectionBorder": "#52AD" /* !!E->D !#52AE!*/,
-    "menu.selectionForeground": "#DCAF",
+    "menu.selectionForeground": "#DCAD",
     "menu.separatorBackground": "#2C203CFF",
     /*
     /* *** MENU BAR *** */
     "menubar.selectionBackground": "#2955",
     "menubar.selectionBorder": "#6186",
-    "menubar.selectionForeground": "#DCAF",
+    "menubar.selectionForeground": "#DCAD",
     // #endregion
     // #region *** MERGE ***
     "merge.border": "#38AC",
@@ -264,13 +264,13 @@
     // #region *** NOTIFICATION CENTER ***
     "notificationCenter.border": "#7161",
     "notificationCenterHeader.background": "#2C203CFF",
-    "notificationCenterHeader.foreground": "#DCAF",
+    "notificationCenterHeader.foreground": "#DCAD",
     /* *** *** *** *** */
-    "notificationLink.foreground": "#DCAF",
+    "notificationLink.foreground": "#DCAD",
     /* *** *** *** *** */
     "notifications.background": "#1D1028FF",
     "notifications.border": "#7161",
-    "notifications.foreground": "#DCAF",
+    "notifications.foreground": "#DCAD",
     /* *** *** *** *** */
     "notificationToast.border": "#7161",
     // #endregion
@@ -284,7 +284,7 @@
     "panelInput.border": "#7165",
     /* *** *** *** *** */
     "panelTitle.activeBorder": "#38AC",
-    "panelTitle.activeForeground": "#DCAF",
+    "panelTitle.activeForeground": "#DCAD",
     "panelTitle.inactiveForeground": "#DCAB",
 
     "peekView.border": "#FC5D", // "#FC5D", /* !!E->D !#FC5D!*/
@@ -319,7 +319,7 @@
     "peekViewTitleLabel.foreground": "#FC5D", /* !!E->D !#FC5D!*/
     /* *** *** *** *** */
     "pickerGroup.border": "#7161",
-    "pickerGroup.foreground": "#DCAF",
+    "pickerGroup.foreground": "#DCAD",
     // #endregion
     // #region *** SCROLL BAR ***
     "scrollbarSlider.activeBackground": "#8B3B",
@@ -330,53 +330,53 @@
     // #region *** settings.checkboxBackground ***
     "settings.checkboxBackground": "#38A4",
     "settings.checkboxBorder": "#FC67",
-    "settings.checkboxForeground": "#DCAF",
+    "settings.checkboxForeground": "#DCAD",
     "settings.dropdownBackground": "#7164",
     "settings.dropdownBorder": "#FC67",
-    "settings.dropdownForeground": "#DCAF",
+    "settings.dropdownForeground": "#DCAD",
     "settings.dropdownListBorder": "#FC6B",
-    "settings.headerForeground": "#DCAF",
+    "settings.headerForeground": "#DCAD",
     "settings.modifiedItemIndicator": "#8B3F",
     "settings.numberInputBackground": "#38A4",
     "settings.numberInputBorder": "#FC64",
-    "settings.numberInputForeground": "#DCAF",
+    "settings.numberInputForeground": "#DCAD",
     "settings.textInputBackground": "#7164",
     "settings.textInputBorder": "#FC64",
-    "settings.textInputForeground": "#DCAF",
+    "settings.textInputForeground": "#DCAD",
     // #endregion
     // #region *** SIDE BAR ***
     "sideBar.background": "#1D1028FF",
     "sideBar.border": "#FC68",
     "sideBar.dropBackground": "#7493",
-    "sideBar.foreground": "#DCAF",
+    "sideBar.foreground": "#DCAD",
     "sideBarSectionHeader.background": "#7166",
     "sideBarSectionHeader.border": "#FBA5",
-    "sideBarSectionHeader.foreground": "#DCAF",
-    "sideBarTitle.foreground": "#DCAF",
+    "sideBarSectionHeader.foreground": "#DCAD",
+    "sideBarTitle.foreground": "#DCAD",
     // #endregion
     // #region *** STATUS BAR ***
     "statusBar.background": "#1D2545FF",
     "statusBar.border": "#7160",
     "statusBar.debuggingBackground": "#C60F",
     "statusBar.debuggingBorder": "#7160",
-    "statusBar.debuggingForeground": "#DCAF",
+    "statusBar.debuggingForeground": "#DCAD",
     "statusBar.foreground": "#DCAA",
     "statusBar.noFolderBackground": "#848F",
     "statusBar.noFolderBorder": "#7160",
-    "statusBar.noFolderForeground": "#DCAF",
+    "statusBar.noFolderForeground": "#DCAD",
     // #endregion
     // #region *** STATUS BAR ITEM ***
     "statusBarItem.activeBackground": "#1C1C2CFF",
     "statusBarItem.hoverBackground": "#1C1C2CFF",
     "statusBarItem.prominentBackground": "#694F",
-    "statusBarItem.prominentForeground": "#DCAF",
+    "statusBarItem.prominentForeground": "#DCAD",
     "statusBarItem.prominentHoverBackground": "#1C1C2CFF",
     // #endregion
     // #region *** tab.activeBackground ***
     "tab.activeBackground": "#1D2545FF",
     "tab.activeBorder": "#1D254500",
     "tab.activeBorderTop": "#AE4F", // ! F
-    "tab.activeForeground": "#DCAF",
+    "tab.activeForeground": "#DCAD",
     "tab.activeModifiedBorder": "#F42F", // ! F
     "tab.border": "#1C1C2CFF",
     "tab.hoverBackground": "#52A5",
@@ -400,8 +400,8 @@
     "textCodeBlock.background": "#2C203CFF",
     "textLink.activeForeground": "#64CA",
     "textLink.foreground": "#6AFD" /* !!E->D !#6AFE!*/,
-    "textPreformat.foreground": "#DCAF",
-    "textSeparator.foreground": "#DCAF",
+    "textPreformat.foreground": "#DCAD",
+    "textSeparator.foreground": "#DCAD",
     // #endregion
     // #region *** TITTLE BAR ***
     "titleBar.activeBackground": "#1C1C2CFF",
