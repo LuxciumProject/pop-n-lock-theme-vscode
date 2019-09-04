@@ -26,7 +26,7 @@
     "welcomePage.background": "#1D1028",
     // #endregion
     // #region *** activityBar ***
-    "activityBar.background": "#1C1C2C",
+    "activityBar.background": "#1C1C2E",
     "activityBar.border": "#FC65",
     "activityBar.dropBackground": "#7165",
     "activityBar.foreground": "#FECE",
