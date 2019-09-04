@@ -29,12 +29,12 @@
     "activityBar.background": "#1C1C2C",
     "activityBar.border": "#FC65",
     "activityBar.dropBackground": "#7165",
-    "activityBar.foreground": "#FEC",
+    "activityBar.foreground": "#FECE",
     "activityBar.inactiveForeground": "#FEC8",
     "activityBarBadge.background": "#38AC",
-    "activityBarBadge.foreground": "#FEC",
+    "activityBarBadge.foreground": "#FECE",
     "badge.background": "#38A",
-    "badge.foreground": "#FEC",
+    "badge.foreground": "#FECE",
     // #endregion
     // #region *** breadcrumb.activeSelectionForeground ***
     "breadcrumb.activeSelectionForeground": "#EDEB",
@@ -45,10 +45,10 @@
     // #endregion
     // #region *** button.background ***
     "button.background": "#716C",
-    "button.foreground": "#FEC",
+    "button.foreground": "#FECE",
     "button.hoverBackground": "#38AC",
     "extensionButton.prominentBackground": "#38A",
-    "extensionButton.prominentForeground": "#FEC",
+    "extensionButton.prominentForeground": "#FECE",
     "extensionButton.prominentHoverBackground": "#716C",
     "welcomePage.buttonBackground": "#716C",
     "welcomePage.buttonHoverBackground": "#38AC",
