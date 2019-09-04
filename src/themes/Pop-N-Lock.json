@@ -437,9 +437,9 @@
   },
   "tokenColors": [
     // "typescript" --------------------------------------------------
-    // "#D25C","#E43D", /* !!E->D !#E43E!*/,"#E67D", /* !!E->D !#E67E!*/,"#E1AD", /* !!E->D !#E1AE!*/,"#7ADD", /* !!E->D !#7ADE!*/
-    // "#FC5D", /* !!E->D !#FC5E!*/,"#F91D", /* !!E->D !#F91E!*/,"#EDAC","#A5BD", /* !!E->D !#A5BE!*/,"#ADCD",
-    // "#CE5D","#7C2D", /* !!E->D !#7C2E!*/,"#4B9D","#55FD","#6BFD",
+    // "#D25C","#E43D","#E67D","#E1AD","#7ADD",
+    // "#FC5D","#F91D","#EDAC","#A5BD","#ADCD",
+    // "#CE5D","#7C2D","#4B9D","#55FD","#6BFD",
 
     // #region "typescript" --------------------------------------------------
 
@@ -1287,7 +1287,7 @@
         "source.tsx meta.function meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC5C",
         "fontStyle": "bold"
       }
     },
@@ -1343,7 +1343,7 @@
         "source.tsx support.function.console"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC5C",
         "fontStyle": "bold italic"
       }
     },
@@ -1608,7 +1608,7 @@
         "source.tsx storage.type.function",
         "source.tsx storage.type.function.arrow"
       ],
-      "settings": { "foreground": "#7C2D", /* !!E->D !#7C2E!*/ }
+      "settings": { "foreground": "#7C2D" /* !!E->D !#7C2E!*/ }
     },
     {
       "name": "CLASS KEYWORD DEFINITION",
@@ -2808,7 +2808,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#FC5D", /* !!E->D !#FC5E!*/
+        "foreground": "#FC5D" /* !!E->D !#FC5E!*/
       }
     },
     {
@@ -2866,7 +2866,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#FC5D", /* !!E->D !#FC5E!*/
+        "foreground": "#FC5D" /* !!E->D !#FC5E!*/
       }
     },
     {
@@ -2955,26 +2955,26 @@
     {
       "scope": ["source.yaml string.unquoted.plain.out entity.name.tag"],
       "settings": {
-        "foreground": "#FC5D", /* !!E->D !#FC5E!*/
+        "foreground": "#FC5D" /* !!E->D !#FC5E!*/
       }
     },
 
     {
       "scope": ["source.yaml string.unquoted.plain.in entity.name.tag"],
       "settings": {
-        "foreground": "#D89D", /* !!E->D !#D89E!*/
+        "foreground": "#D89D" /* !!E->D !#D89E!*/
       }
     },
     {
       "scope": ["source.yaml string.unquoted.plain.in"],
       "settings": {
-        "foreground": "#9C8D", /* !!E->D !#9C8E!*/
+        "foreground": "#9C8D" /* !!E->D !#9C8E!*/
       }
     },
     {
       "scope": ["source.yaml constant.language.boolean.yaml"],
       "settings": {
-        "foreground": "#9C8D", /* !!E->D !#9C8E!*/
+        "foreground": "#9C8D" /* !!E->D !#9C8E!*/
       }
     },
 
@@ -3358,7 +3358,7 @@ meta.flow-sequence.yaml
     {
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#B6BD", /* !!E->D !#B6BE!*/
+        "foreground": "#B6BD" /* !!E->D !#B6BE!*/
       }
     },
     {
@@ -3591,7 +3591,7 @@ meta.flow-sequence.yaml
         "meta.tag meta.tag.attributes.js"
       ],
       "settings": {
-        "foreground": "#FC5D", /* !!E->D !#FC5E!*/
+        "foreground": "#FC5D" /* !!E->D !#FC5E!*/
       }
     },
     {
@@ -3608,7 +3608,7 @@ meta.flow-sequence.yaml
     {
       "scope": [],
       "settings": {
-        "foreground": "#FC5D", /* !!E->D !#FC5E!*/
+        "foreground": "#FC5D" /* !!E->D !#FC5E!*/
       }
     },
     {
@@ -3634,7 +3634,7 @@ meta.flow-sequence.yaml
         "meta.tag punctuation.definition.tag.end.tsx"
       ],
       "settings": {
-        "foreground": "#6CED", /* !!E->D !#6CEE!*/, //"#A5ED", /* !!E->D !#A5EE!*/
+        "foreground": "#6CED" /* !!E->D !#6CEE!*/, //"#A5ED", /* !!E->D !#A5EE!*/
         "fontStyle": ""
       }
     },
@@ -3863,7 +3863,7 @@ meta.flow-sequence.yaml
         "text.html source storage.type.function.arrow",
         "text.html source storage.type.class"
       ],
-      "settings": { "foreground": "#D1AD", /* !!E->D !#D1AE!*/ }
+      "settings": { "foreground": "#D1AD" /* !!E->D !#D1AE!*/ }
     },
     {
       "scope": ["text.html source meta.method.declaration storage.type"],
@@ -4269,28 +4269,7 @@ meta.flow-sequence.yaml
         "fontStyle": ""
       }
     },
-    {
-      "scope": [],
-      "settings": {
-        "foreground": "#D25C",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": [""],
-      "settings": {
-        "foreground": "#FEBD" /* !!E->D !#FEBE!*/,
-        "fontStyle": ""
-      }
-    },
 
-    {
-      "scope": [],
-      "settings": {
-        "foreground": "#FEBD" /* !!E->D !#FEBE!*/,
-        "fontStyle": ""
-      }
-    },
     {
       "scope": ["text.html source support.type.builtin"],
       "settings": {
@@ -4475,7 +4454,7 @@ meta.flow-sequence.yaml
       "name": "css comment block punctuation",
       "scope": ["source.css comment.block punctuation.definition.comment"],
       "settings": {
-        "foreground": "#FC5D" /* !!E->D !#FC5E!*/,
+        "foreground": "#FC5C" /* !!E->D !#FC5E!*/,
         "fontStyle": "bold"
       }
     },
@@ -4483,7 +4462,7 @@ meta.flow-sequence.yaml
       "name": "css comment block",
       "scope": ["source.css comment.block"],
       "settings": {
-        "foreground": "#53ED" /* !!E->D !#53EE!*/,
+        "foreground": "#53EC" /* !!E->D !#53EE!*/,
         "fontStyle": "bold"
       }
     },
@@ -4491,7 +4470,7 @@ meta.flow-sequence.yaml
       "name": "css TAG ELEMENT",
       "scope": ["source.css meta.selector entity.name.tag"],
       "settings": {
-        "foreground": "#5AED" /* !!E->D !#5AEE!*/,
+        "foreground": "#5AEC" /* !!E->D !#5AEE!*/,
         "fontStyle": "bold"
       }
     }, //
@@ -4512,7 +4491,7 @@ meta.flow-sequence.yaml
         "source.css meta.selector entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#FEBD" /* !!E->D !#FEBE!*/,
+        "foreground": "#FEBC" /* !!E->D !#FEBE!*/,
         "fontStyle": "bold"
       }
     },
@@ -4523,7 +4502,7 @@ meta.flow-sequence.yaml
         "source.css meta.property-list meta.property-value meta.function.color.css"
       ],
       "settings": {
-        "foreground": "#FC5D" /* !!E->D !#FC5E!*/,
+        "foreground": "#FC5C" /* !!E->D !#FC5E!*/,
         "fontStyle": "bold"
       }
     },
@@ -4544,7 +4523,7 @@ meta.flow-sequence.yaml
         "source.css meta.selector entity.other.attribute-name.id"
       ],
       "settings": {
-        "foreground": "#E85F",
+        "foreground": "#E85E",
         "fontStyle": "bold"
       }
     },
@@ -4564,7 +4543,7 @@ meta.flow-sequence.yaml
         "source.css meta.at-rule.media.header support.type.property-name.media"
       ],
       "settings": {
-        "foreground": "#FC5D" /* !!E->D !#FC5E!*/,
+        "foreground": "#FC5C" /* !!E->D !#FC5E!*/,
         "fontStyle": "bold"
       }
     },
@@ -4578,7 +4557,7 @@ meta.flow-sequence.yaml
         "source.css meta.at-rule.media.header support.constant.media"
       ],
       "settings": {
-        "foreground": "#FEBD" /* !!E->D !#FEBE!*/,
+        "foreground": "#FEBC" /* !!E->D !#FEBE!*/,
         "fontStyle": "bold"
       }
     },
@@ -4587,7 +4566,7 @@ meta.flow-sequence.yaml
         "source.css meta.at-rule.media.header keyword.control.at-rule.media"
       ],
       "settings": {
-        "foreground": "#D4CD" /* !!E->D !#D4CE!*/,
+        "foreground": "#D4CC" /* !!E->D !#D4CE!*/,
         "fontStyle": "bold italic"
       }
     },
@@ -4633,7 +4612,7 @@ meta.flow-sequence.yaml
         "source.css meta.selector entity.other.attribute-name.pseudo-class punctuation.definition.entity"
       ],
       "settings": {
-        "foreground": "#FEBD" /* !!E->D !#FEBE!*/,
+        "foreground": "#FEBC" /* !!E->D !#FEBE!*/,
         "fontStyle": "bold"
       }
     },
@@ -4776,7 +4755,7 @@ meta.flow-sequence.yaml
     {
       "scope": ["keyword.other.debugger"],
       "settings": {
-        "foreground": "#FC5D" /* !!E->D !#FC5E!*/,
+        "foreground": "#FC5C" /* !!E->D !#FC5E!*/,
         "fontStyle": "bold underline"
       }
     }
