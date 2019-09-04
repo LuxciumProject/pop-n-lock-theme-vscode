@@ -119,11 +119,11 @@
     /* *** *** *** *** */
     "editorGroup.border": "#FC65",
     "editorGroup.dropBackground": "#2C203C",
-    "editorGroup.emptyBackground": "#1C1C2C",
-    "editorGroup.focusedEmptyBorder": "#1C1C2C",
+    "editorGroup.emptyBackground": "#1C1C2E",
+    "editorGroup.focusedEmptyBorder": "#1C1C2E",
     /* *** *** *** *** */
-    "editorGroupHeader.noTabsBackground": "#1C1C2C",
-    "editorGroupHeader.tabsBackground": "#1C1C2C",
+    "editorGroupHeader.noTabsBackground": "#1C1C2E",
+    "editorGroupHeader.tabsBackground": "#1C1C2E",
     "editorGroupHeader.tabsBorder": "#1D2545",
     /* *** *** *** *** */
     "editorGutter.addedBackground": "#8B3",
@@ -132,7 +132,7 @@
     /* *** *** *** *** */
     "editorHoverWidget.background": "#1D2555EE",
     "editorHoverWidget.border": "#DCA3",
-    "editorHoverWidget.statusBarBackground": "#1C1C2C",
+    "editorHoverWidget.statusBarBackground": "#1C1C2E",
     /* *** *** *** *** */
     "editorWhitespace.foreground": "#DCA2",
     "editorLineNumber.activeForeground": "#DCAA",
@@ -164,7 +164,7 @@
     "editorOverviewRuler.wordHighlightForeground": "#8DA",
     "editorOverviewRuler.wordHighlightStrongForeground": "#E47",
     /* *** *** *** *** */
-    "editorPane.background": "#1C1C2C",
+    "editorPane.background": "#1C1C2E",
     /* *** *** *** *** */
     "editorRuler.foreground": "#E474",
     /* *** *** *** *** */
@@ -366,11 +366,11 @@
     "statusBar.noFolderForeground": "#DCAD",
     // #endregion
     // #region *** STATUS BAR ITEM ***
-    "statusBarItem.activeBackground": "#1C1C2C",
-    "statusBarItem.hoverBackground": "#1C1C2C",
+    "statusBarItem.activeBackground": "#1C1C2E",
+    "statusBarItem.hoverBackground": "#1C1C2E",
     "statusBarItem.prominentBackground": "#694",
     "statusBarItem.prominentForeground": "#DCAD",
-    "statusBarItem.prominentHoverBackground": "#1C1C2C",
+    "statusBarItem.prominentHoverBackground": "#1C1C2E",
     // #endregion
     // #region *** tab.activeBackground ***
     "tab.activeBackground": "#1D2545",
@@ -378,7 +378,7 @@
     "tab.activeBorderTop": "#AE4F", // ! F
     "tab.activeForeground": "#DCAD",
     "tab.activeModifiedBorder": "#F42F", // ! F
-    "tab.border": "#1C1C2C",
+    "tab.border": "#1C1C2E",
     "tab.hoverBackground": "#52A5",
     "tab.hoverBorder": "#38A",
     "tab.inactiveBackground": "#2A2040",
@@ -404,10 +404,10 @@
     "textSeparator.foreground": "#DCAD",
     // #endregion
     // #region *** TITTLE BAR ***
-    "titleBar.activeBackground": "#1C1C2C",
+    "titleBar.activeBackground": "#1C1C2E",
     "titleBar.activeForeground": "#DCAA",
-    "titleBar.border": "#1C1C2C",
-    "titleBar.inactiveBackground": "#1C1C2C",
+    "titleBar.border": "#1C1C2E",
+    "titleBar.inactiveBackground": "#1C1C2E",
     "titleBar.inactiveForeground": "#DCA5",
     // #endregion
     // #region *** TERMINAL ***
