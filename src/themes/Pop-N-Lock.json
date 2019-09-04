@@ -563,8 +563,8 @@
         "source.ts support.function.git-rebase",
         "source.ts support.function",
         "source.ts support.function.math",
-        "source.ts support.function.process",
-        "source.ts support.function.console"
+        "source.ts support.function.process"
+        // "source.ts support.function.console"
       ],
       "settings": {
         "foreground": "#FC5C",
@@ -706,6 +706,38 @@
         "fontStyle": ""
       }
     },
+    /*
+source.ts support.function.promise
+support.class.console.js
+support.function.console.js
+    */
+    // console.log etc ...
+    // console.log etc ...
+    // console.log etc ...
+    {
+      "name": "console function",
+      "scope": ["source support.function.console"],
+      "settings": {
+        "foreground": "#FC5C",
+        "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "console class",
+      "scope": ["source support.class.console"],
+      "settings": {
+        "foreground": "#4B9C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "regexp punctuation",
+      "scope": ["source support.function.promise"],
+      "settings": {
+        "foreground": "#F91C",
+        "fontStyle": "bold italic"
+      }
+    },
     {
       "name": "regexp punctuation",
       "scope": [
@@ -757,7 +789,25 @@
       "settings": { "foreground": "#6BFD" }
     },
     {
-      "name": "Properties Like",
+      "name": "support properties",
+      "scope": [
+        /*         "source.ts support.variable.property",
+        "source.ts support.variable.property.importmeta",
+        "source.ts support.variable.property.process",
+        "source.ts support.variable.property.target",
+        "source.ts support.type.property-name",
+        "source.ts support.type.property-name.css",
+        "source.ts support.property-value",
+        "source.ts support.property-value.scss", */
+        "source.ts support.constant.property.math"
+      ],
+      "settings": {
+        "foreground": "#6BFC",
+        "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "support properties",
       "scope": [
         "source.ts support.variable.property",
         "source.ts support.variable.property.importmeta",
@@ -766,12 +816,12 @@
         "source.ts support.type.property-name",
         "source.ts support.type.property-name.css",
         "source.ts support.property-value",
-        "source.ts support.property-value.scss",
-        "source.ts support.constant.property.math"
+        "source.ts support.property-value.scss"
+        // "source.ts support.constant.property.math"
       ],
       "settings": {
-        "foreground": "#6BFC",
-        "fontStyle": "bold italic"
+        "foreground": "#6BFD",
+        "fontStyle": "bold"
       }
     },
     {
@@ -1170,8 +1220,8 @@
         "source.ts support.type.object.module",
         "source.ts support.variable",
         "source.ts support.variable.object.node",
-        "source.ts support.variable.object.process",
-        "source.ts support.class.console"
+        "source.ts support.variable.object.process"
+        // "source.ts support.class.console"
       ],
       "settings": {
         "foreground": "#EDAD",
@@ -1544,7 +1594,7 @@
         "source.tsx support.constant.property.math"
       ],
       "settings": {
-        "foreground": "#6BFD",
+        "foreground": "#6BFC",
         "fontStyle": "bold italic"
       }
     },
@@ -1608,7 +1658,7 @@
         "source.tsx storage.type.function",
         "source.tsx storage.type.function.arrow"
       ],
-      "settings": { "foreground": "#7C2D" /* !!E->D !#7C2E!*/ }
+      "settings": { "foreground": "#7C2D" }
     },
     {
       "name": "CLASS KEYWORD DEFINITION",
@@ -1946,8 +1996,8 @@
         "source.tsx support.type.object.module",
         "source.tsx support.variable",
         "source.tsx support.variable.object.node",
-        "source.tsx support.variable.object.process",
-        "source.tsx support.class.console"
+        "source.tsx support.variable.object.process"
+        // "source.tsx support.class.console"
       ],
       "settings": {
         "foreground": "#EDAD",
@@ -2115,8 +2165,8 @@
         "source.js support.function.git-rebase",
         "source.js support.function",
         "source.js support.function.math",
-        "source.js support.function.process",
-        "source.js support.function.console"
+        "source.js support.function.process"
+        // "source.js support.function.console"
       ],
       "settings": {
         "foreground": "#FC5D",
@@ -2320,7 +2370,7 @@
         "source.js support.constant.property.math"
       ],
       "settings": {
-        "foreground": "#6BFD",
+        "foreground": "#6BFC",
         "fontStyle": "bold italic"
       }
     },
@@ -2384,7 +2434,7 @@
         "source.js storage.type.function",
         "source.js storage.type.function.arrow"
       ],
-      "settings": { "foreground": "#7C2E" }
+      "settings": { "foreground": "#7C2D" }
     },
     {
       "name": "CLASS KEYWORD DEFINITION",
@@ -2722,8 +2772,8 @@
         "source.js support.type.object.module",
         "source.js support.variable",
         "source.js support.variable.object.node",
-        "source.js support.variable.object.process",
-        "source.js support.class.console"
+        "source.js support.variable.object.process"
+        // "source.js support.class.console"
       ],
       "settings": {
         "foreground": "#EDAD",
@@ -3097,7 +3147,7 @@ meta.flow-sequence.yaml
     {
       "scope": ["keyword.operator.assignment.jsdoc"],
       "settings": {
-        "foreground": "#4B9D",
+        "foreground": "#4B9C",
         "fontStyle": "bold"
       }
     },
@@ -3999,7 +4049,7 @@ meta.flow-sequence.yaml
     {
       "scope": ["text.html source constant.language.boolean.true"],
       "settings": {
-        "foreground": "#7C2D" /* !!E->D !#7C2E!*/,
+        "foreground": "#7C2D",
         "fontStyle": "italic"
       }
     },
@@ -4680,7 +4730,7 @@ meta.flow-sequence.yaml
       ],
       "settings": {
         "foreground": "#2BD8",
-        "fontStyle": "bold italic"
+        "fontStyle": ""
       }
     },
     {
