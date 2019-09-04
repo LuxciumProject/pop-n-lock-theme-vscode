@@ -22,7 +22,7 @@ function returnAllLists(userId: any, res: any) {
       if (!!userErr) {
         console.error('User.populate Error', userErr);
       }
-      return res.status(200).json({
+      return res.status(200n).json({
         success: true,
         successMessage: 'Here is the page',
         data: doc.collection

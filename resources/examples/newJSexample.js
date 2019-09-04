@@ -101,7 +101,7 @@ function setDomFromURL(myURL) {
   puppetUrl(myURL)
     .then(res => {
       myRepl.context.dom = new JSDOM(res.data.toString());
-      myRepl.context.domRaw = res.data;
+      myRepl.context.domRaw = 3e3; // res.data;
       myRepl.context.body = myRepl.context.dom.window.document.body || null;
       myRepl.context.document = myRepl.context.dom.window.document || null;
       myRepl.context.window = myRepl.context.dom.window || null;

@@ -439,7 +439,7 @@
     // "TypeScript main Tokens colors" -----------------------------------------
     // "#D25C","#E43D","#E67D","#E1AD","#7ADD",
     // "#FC5D","#F91D","#EDAC","#A5BD","#ADCD",
-    // "#CE5D","#7C2D","#4B9D","#55FD","#6BFD",
+    // "#CE5D","#7C2D","#4B9D","#55FD","#6BFC",
 
     // #region "TypeScript" ----------------------------------------------------
     // #region TS INTERFACE START HERE
@@ -555,18 +555,33 @@
       }
     },
     {
-      "name": "Function Like",
+      "name": "Function Math or builtin",
       "scope": [
         "source.ts support.function.builtin",
-        "source.ts support.function.git-rebase",
-        "source.ts support.function",
-        "source.ts support.function.math",
-        "source.ts support.function.process"
+        // "source.ts support.function.git-rebase",
+        // "source.ts support.function",
+        "source.ts support.function.math"
+        // "source.ts support.function.process"
         // "source.ts support.function.console"
       ],
       "settings": {
         "foreground": "#FC5C",
         "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "Function Like",
+      "scope": [
+        // "source.ts support.function.builtin",
+        "source.ts support.function.git-rebase",
+        "source.ts support.function",
+        // "source.ts support.function.math",
+        "source.ts support.function.process"
+        // "source.ts support.function.console"
+      ],
+      "settings": {
+        "foreground": "#FC5C",
+        "fontStyle": "bold"
       }
     },
 
@@ -704,13 +719,7 @@
         "fontStyle": ""
       }
     },
-    /*
-source.ts support.function.promise
-support.class.console.js
-support.function.console.js
-    */
-    // console.log etc ...
-    // console.log etc ...
+
     // console.log etc ...
     {
       "name": "console function",
@@ -784,7 +793,7 @@ support.function.console.js
         "source.ts variable.other.constant.property",
         "source.ts variable.other.property"
       ],
-      "settings": { "foreground": "#6BFD" }
+      "settings": { "foreground": "#6BFC" }
     },
     {
       "name": "support properties",
@@ -818,7 +827,7 @@ support.function.console.js
         // "source.ts support.constant.property.math"
       ],
       "settings": {
-        "foreground": "#6BFD",
+        "foreground": "#6BFB",
         "fontStyle": "bold"
       }
     },
@@ -1118,6 +1127,14 @@ support.function.console.js
       }
     },
     {
+      "name": "Big Int",
+      "scope": ["source.ts storage.type.numeric.bigint"],
+      "settings": {
+        "foreground": "#D25D",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Operators",
       "scope": [
         "source.ts keyword.operator.arithmetic",
@@ -1378,6 +1395,7 @@ support.function.console.js
         "fontStyle": ""
       }
     },
+
     {
       "name": "Function Like",
       "scope": [
@@ -1525,13 +1543,7 @@ support.function.console.js
         "fontStyle": ""
       }
     },
-    /*
-source.tsx support.function.promise
-support.class.console.tsx
-support.function.console.tsx
-    */
-    // console.log etc ...
-    // console.log etc ...
+
     // console.log etc ...
     {
       "name": "console function",
@@ -1607,7 +1619,7 @@ support.function.console.tsx
         "source.tsx variable.other.property"
       ],
       "settings": {
-        "foreground": "#6BFD"
+        "foreground": "#6BFC"
       }
     },
     {
@@ -1642,7 +1654,7 @@ support.function.console.tsx
         // "source.tsx support.constant.property.math"
       ],
       "settings": {
-        "foreground": "#6BFD",
+        "foreground": "#6BFB",
         "fontStyle": "bold"
       }
     },
@@ -2196,7 +2208,8 @@ support.function.console.tsx
         "source.js meta.definition.function.js entity.name.function",
         "source.js meta.definition.method",
         "source.js meta.definition.variable entity.name.function",
-        "source.js meta.field.declaration.js"
+        "source.js meta.field.declaration.js",
+        "source.js support.function"
       ],
       "settings": {
         "foreground": "#FC5D" /* !!E->D !#FC5D!*/,
@@ -2207,15 +2220,29 @@ support.function.console.tsx
       "name": "Function Like",
       "scope": [
         "source.js support.function.builtin",
-        "source.js support.function.git-rebase",
-        "source.js support.function",
-        "source.js support.function.math",
-        "source.js support.function.process"
+        // "source.js support.function.git-rebase",
+        // "source.js support.function",
+        "source.js support.function.math"
+        // "source.js support.function.process"
         // "source.js support.function.console"
       ],
       "settings": {
         "foreground": "#FC5C",
         "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "Function Like",
+      "scope": [
+        // "source.js support.function.builtin",
+        "source.js support.function.git-rebase",
+        // "source.js support.function.math",
+        "source.js support.function.process"
+        // "source.js support.function.console"
+      ],
+      "settings": {
+        "foreground": "#FC5C",
+        "fontStyle": "bold"
       }
     },
     {
@@ -2432,7 +2459,7 @@ support.function.console.js
         "source.js variable.other.property"
       ],
       "settings": {
-        "foreground": "#6BFD"
+        "foreground": "#6BFC"
       }
     },
     {
@@ -2467,7 +2494,7 @@ support.function.console.js
         // "source.js support.constant.property.math"
       ],
       "settings": {
-        "foreground": "#6BFD",
+        "foreground": "#6BFB",
         "fontStyle": "bold"
       }
     },
@@ -2701,6 +2728,7 @@ support.function.console.js
         "fontStyle": ""
       }
     },
+
     {
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.js storage.type"],
@@ -2767,6 +2795,14 @@ support.function.console.js
       "settings": {
         "foreground": "#7ADC",
         "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "Big Int",
+      "scope": ["source.js storage.type.numeric.bigint"],
+      "settings": {
+        "foreground": "#D25D",
+        "fontStyle": "italic"
       }
     },
     {
@@ -3060,12 +3096,11 @@ support.function.console.js
     // #endregion
 
     // #region "YAML" ----------------------------------------------------------
-    /* YAML */
     {
       "name": "YAML Comment",
       "scope": ["source.yaml comment.line.number-sign"],
       "settings": {
-        "foreground": "#2BD8",
+        "foreground": "#2BD9",
         "fontStyle": ""
       }
     },
@@ -3075,7 +3110,7 @@ support.function.console.js
         "source.yaml comment.line.number-sign punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#67F",
+        "foreground": "#4AEB",
         "fontStyle": ""
       }
     },
@@ -3086,7 +3121,7 @@ support.function.console.js
         "source.yaml string.unquoted.plain.out"
       ],
       "settings": {
-        "foreground": "#CE5D"
+        "foreground": "#CE5B"
       }
     },
     {
@@ -3095,61 +3130,31 @@ support.function.console.js
         "source.yaml punctuation.separator.key-value.mapping"
       ],
       "settings": {
-        "foreground": "#EDAC",
+        "foreground": "#EDAB",
         "fontStyle": "bold"
       }
     },
     {
       "scope": ["source.yaml string.unquoted.plain.out entity.name.tag"],
       "settings": {
-        "foreground": "#FC5D" /* !!E->D !#FC5D!*/
+        "foreground": "#FC5B"
       }
     },
-
     {
       "scope": ["source.yaml string.unquoted.plain.in entity.name.tag"],
       "settings": {
-        "foreground": "#D89D" /* !!E->D !#D89D!*/
+        "foreground": "#D89B"
       }
     },
     {
-      "scope": ["source.yaml string.unquoted.plain.in"],
+      "scope": [
+        "source.yaml string.unquoted.plain.in",
+        "source.yaml constant.language.boolean.yaml"
+      ],
       "settings": {
-        "foreground": "#9C8D" /* !!E->D !#9C8D!*/
+        "foreground": "#9C8B"
       }
     },
-    {
-      "scope": ["source.yaml constant.language.boolean.yaml"],
-      "settings": {
-        "foreground": "#9C8D" /* !!E->D !#9C8D!*/
-      }
-    },
-
-    //
-
-    /*
-
-source.yaml string.unquoted.plain.in entity.name.tag
-
-meta.flow-pair.key.yaml
-meta.flow-mapping.yaml
-
-
-     */
-
-    /*
-
-.yaml
-meta.flow-sequence.yaml
-"source.yaml string.unquoted.plain.in"
-
-     */
-
-    /*
-
-
-
-     */
 
     // #endregion
 
@@ -3162,7 +3167,7 @@ meta.flow-sequence.yaml
         "comment.block.documentation.ts"
       ],
       "settings": {
-        "foreground": "#667D" /* !!E->D !#667E!*/,
+        "foreground": "#667C",
         "fontStyle": "bold"
       }
     },
@@ -3171,14 +3176,14 @@ meta.flow-sequence.yaml
         "storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc"
       ],
       "settings": {
-        "foreground": "#E35A",
+        "foreground": "#E35B",
         "fontStyle": "bold"
       }
     },
     {
       "scope": ["storage.type.class.jsdoc"],
       "settings": {
-        "foreground": "#EDAC",
+        "foreground": "#EDA9",
         "fontStyle": "bold"
       }
     },
@@ -3188,7 +3193,7 @@ meta.flow-sequence.yaml
         "variable.other.link.underline.jsdoc"
       ],
       "settings": {
-        "foreground": "#DB9F",
+        "foreground": "#DB9B",
         "fontStyle": "underline"
       }
     },
@@ -3204,7 +3209,7 @@ meta.flow-sequence.yaml
         "punctuation.definition.optional-value.end.bracket.square.jsdoc"
       ],
       "settings": {
-        "foreground": "#EDAC",
+        "foreground": "#EDAA",
         "fontStyle": ""
       }
     },
@@ -3224,35 +3229,35 @@ meta.flow-sequence.yaml
         "variable.other.jsdoc"
       ],
       "settings": {
-        "foreground": "#667F",
+        "foreground": "#667A",
         "fontStyle": "bold"
       }
     },
     {
       "scope": ["entity.name.type.instance.jsdoc"],
       "settings": {
-        "foreground": "#FC5D" /* !!E->D !#FC5D!*/,
+        "foreground": "#FC5C",
         "fontStyle": ""
       }
     },
     {
       "scope": ["comment.block.documentation variable.other.jsdoc"],
       "settings": {
-        "foreground": "#C3BC",
+        "foreground": "#A3DC",
         "fontStyle": ""
       }
     },
     {
       "scope": ["keyword.operator.assignment.jsdoc"],
       "settings": {
-        "foreground": "#4B9C",
+        "foreground": "#4B9A",
         "fontStyle": "bold"
       }
     },
     {
       "scope": ["variable.other.jsdoc source.embedded"],
       "settings": {
-        "foreground": "#6BFD",
+        "foreground": "#6BFC",
         "fontStyle": ""
       }
     },
@@ -3716,7 +3721,7 @@ meta.flow-sequence.yaml
     // #endregion "POPPING AND LOCKING ORIGINAL --------------------------------
 
     // #region "JSX / TSX TAGS" ------------------------------------------------
-    // "#BE5B" "#FC5D" "#ADCC" "#6BFD" "#FEBE"
+    // "#BE5B" "#FC5D" "#ADCC" "#6BFC" "#FEBE"
     {
       "scope": ["meta.tag meta.jsx.children"],
       "settings": {
@@ -3801,7 +3806,7 @@ meta.flow-sequence.yaml
     // #endregion "JSX / TSX TAGS" ------------------------------------------------
 
     // #region "HTML" ----------------------------------------------------------
-    // "#BE5B" "#FC5D" "#ADCC" "#6BFD" "#EDAC" "#4B9D""#D79F" "#DF8E"
+    // "#BE5B" "#FC5D" "#ADCC" "#6BFC" "#EDAC" "#4B9D""#D79F" "#DF8E"
     // "#fabE2fFF""#b8bb26FF""#8ec07cFF""#d3869bFF""#369ec7FF""#B35F""#EDAC"
     /* support.function.misc.css
 
@@ -5122,7 +5127,7 @@ meta.flow-sequence.yaml
         "source variable.other.property"
       ],
       "settings": {
-        "foreground": "#6BFD"
+        "foreground": "#6BFC"
       }
     },
     {
@@ -5157,7 +5162,7 @@ meta.flow-sequence.yaml
         // "source support.constant.property.math"
       ],
       "settings": {
-        "foreground": "#6BFD",
+        "foreground": "#6BFB",
         "fontStyle": "bold"
       }
     },
