@@ -437,7 +437,7 @@
   },
   "tokenColors": [
     // "TypeScript main Tokens colors" -----------------------------------------
-    // "#D25C","#E43D","#E67D","#E1AD","#7ADD",
+    // "#D25B","#E43D","#E67D","#E1AD","#7ADD",
     // "#FC5D","#F91D","#EDAB","#A5BD","#ADCD",
     // "#CE5D","#7C2D","#4B9D","#55FD","#6BFC",
 
@@ -451,7 +451,7 @@
         "source.ts storage.type.type"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold"
       }
     },
@@ -905,7 +905,7 @@
       "name": "Constructor Keyword",
       "scope": ["source.ts meta.method.declaration.ts storage.type"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold italic"
       }
     },
@@ -1011,7 +1011,7 @@
         "source.ts meta.import keyword.control.import"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold italic"
       }
     },
@@ -1027,7 +1027,7 @@
         "source.ts meta.export.default keyword.control.default"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold"
       }
     },
@@ -1062,7 +1062,7 @@
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.ts storage.type"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold italic"
       }
     },
@@ -1077,7 +1077,7 @@
     {
       "scope": ["source.ts punctuation.decorator"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold"
       }
     },
@@ -1277,7 +1277,7 @@
     {
       "scope": ["source.ts invalid.deprecated"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "underline"
       }
     },
@@ -1294,7 +1294,7 @@
         "source.tsx storage.type.type"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold"
       }
     },
@@ -1738,7 +1738,7 @@
       "name": "Constructor Keyword",
       "scope": ["source.tsx meta.method.declaration.tsx storage.type"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold italic"
       }
     },
@@ -1841,7 +1841,7 @@
         "source.tsx meta.import keyword.control.import"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold italic"
       }
     },
@@ -1857,7 +1857,7 @@
         "source.tsx meta.export.default keyword.control.default"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold"
       }
     },
@@ -1892,7 +1892,7 @@
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.tsx storage.type"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold italic"
       }
     },
@@ -1907,7 +1907,7 @@
     {
       "scope": ["source.tsx punctuation.decorator"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold"
       }
     },
@@ -2098,7 +2098,7 @@
     {
       "scope": ["source.tsx invalid.deprecated"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "underline"
       }
     },
@@ -2114,7 +2114,7 @@
         "source.js storage.type.type"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold"
       }
     },
@@ -2578,7 +2578,7 @@ support.function.console.js
       "name": "Constructor Keyword",
       "scope": ["source.js meta.method.declaration.js storage.type"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold italic"
       }
     },
@@ -2681,7 +2681,7 @@ support.function.console.js
         "source.js meta.import keyword.control.import"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold italic"
       }
     },
@@ -2697,7 +2697,7 @@ support.function.console.js
         "source.js meta.export.default keyword.control.default"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold"
       }
     },
@@ -2733,7 +2733,7 @@ support.function.console.js
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.js storage.type"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold italic"
       }
     },
@@ -2748,7 +2748,7 @@ support.function.console.js
     {
       "scope": ["source.js punctuation.decorator"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold"
       }
     },
@@ -2947,7 +2947,7 @@ support.function.console.js
     {
       "scope": ["source.js invalid.deprecated"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "underline"
       }
     },
@@ -4479,7 +4479,7 @@ support.function.console.js
     // {
     //   "scope": [],
     //   "settings": {
-    //     "foreground": "#D25C",
+    //     "foreground": "#D25B",
     //     "fontStyle": ""
     //   }
     // },
@@ -4797,7 +4797,7 @@ support.function.console.js
         "source storage.type.type"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold"
       }
     },
@@ -5246,7 +5246,7 @@ support.function.console.js
       "name": "Constructor Keyword",
       "scope": ["source meta.method.declaration storage.type"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold italic"
       }
     },
@@ -5346,7 +5346,7 @@ support.function.console.js
         "source meta.import keyword.control.import"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold italic"
       }
     },
@@ -5362,7 +5362,7 @@ support.function.console.js
         "source meta.export.default keyword.control.default"
       ],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold"
       }
     },
@@ -5397,7 +5397,7 @@ support.function.console.js
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source storage.type"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold italic"
       }
     },
@@ -5412,7 +5412,7 @@ support.function.console.js
     {
       "scope": ["source punctuation.decorator"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "bold"
       }
     },
@@ -5599,7 +5599,7 @@ support.function.console.js
     {
       "scope": ["source invalid.deprecated"],
       "settings": {
-        "foreground": "#D25C",
+        "foreground": "#D25B",
         "fontStyle": "underline"
       }
     },
