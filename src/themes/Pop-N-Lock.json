@@ -438,8 +438,8 @@
   "tokenColors": [
     // "TypeScript main Tokens colors" -----------------------------------------
     // "#D25B","#E43D","#E67D","#E1AD","#7ADD",
-    // "#FC5D","#F91D","#EDAB","#A5BD","#ADCD",
-    // "#CE5D","#7C2D","#4B9D","#55FD","#6BFC",
+    // "#FC5D","#F91D","#EDAB","#A5BD","#ADCC",
+    // "#CE5C","#7C2D","#4B9D","#55FD","#6BFC",
 
     // #region "TypeScript" ----------------------------------------------------
     // #region TS INTERFACE START HERE
@@ -472,7 +472,7 @@
         "source.ts meta.interface meta.definition.property variable.object.property"
       ],
       "settings": {
-        "foreground": "#ADCD",
+        "foreground": "#ADCC",
         "fontStyle": ""
       }
     },
@@ -779,7 +779,7 @@
         "source.ts meta.array-binding-pattern-variable variable.other.constant",
         "source.ts meta.object-binding-pattern-variable variable.other.constant"
       ],
-      "settings": { "foreground": "#ADCD" }
+      "settings": { "foreground": "#ADCC" }
     },
     {
       "name": "Other Constant",
@@ -872,7 +872,7 @@
         "source.ts string.value"
       ],
       "settings": {
-        "foreground": "#CE5D"
+        "foreground": "#CE5C"
       }
     },
     {
@@ -969,7 +969,7 @@
         "source.ts meta.import variable.other.readwrite"
       ],
       "settings": {
-        "foreground": "#ADCD",
+        "foreground": "#ADCC",
         "fontStyle": "italic"
       }
     },
@@ -998,7 +998,7 @@
         "source.ts meta.import string.quoted.double"
       ],
       "settings": {
-        "foreground": "#CE5D",
+        "foreground": "#CE5C",
         "fontStyle": "italic"
       }
     },
@@ -1315,7 +1315,7 @@
         "source.tsx meta.interface meta.definition.property variable.object.property"
       ],
       "settings": {
-        "foreground": "#ADCD",
+        "foreground": "#ADCC",
         "fontStyle": ""
       }
     },
@@ -1603,7 +1603,7 @@
         "source.tsx meta.object-binding-pattern-variable variable.other.constant"
       ],
       "settings": {
-        "foreground": "#ADCD"
+        "foreground": "#ADCC"
       }
     },
     {
@@ -1699,7 +1699,7 @@
         "source.tsx string.value"
       ],
       "settings": {
-        "foreground": "#CE5D"
+        "foreground": "#CE5C"
       }
     },
     {
@@ -1800,7 +1800,7 @@
         "source.tsx meta.import variable.other.readwrite"
       ],
       "settings": {
-        "foreground": "#ADCD",
+        "foreground": "#ADCC",
         "fontStyle": "italic"
       }
     },
@@ -1828,7 +1828,7 @@
         "source.tsx meta.import string.quoted.double"
       ],
       "settings": {
-        "foreground": "#CE5D",
+        "foreground": "#CE5C",
         "fontStyle": "italic"
       }
     },
@@ -2135,7 +2135,7 @@
         "source.js meta.interface meta.definition.property variable.object.property"
       ],
       "settings": {
-        "foreground": "#ADCD",
+        "foreground": "#ADCC",
         "fontStyle": ""
       }
     },
@@ -2443,7 +2443,7 @@ support.function.console.js
         "source.js meta.object-binding-pattern-variable variable.other.constant"
       ],
       "settings": {
-        "foreground": "#ADCD"
+        "foreground": "#ADCC"
       }
     },
     {
@@ -2539,7 +2539,7 @@ support.function.console.js
         "source.js string.value"
       ],
       "settings": {
-        "foreground": "#CE5D"
+        "foreground": "#CE5C"
       }
     },
     {
@@ -2640,7 +2640,7 @@ support.function.console.js
         "source.js meta.import variable.other.readwrite"
       ],
       "settings": {
-        "foreground": "#ADCD",
+        "foreground": "#ADCC",
         "fontStyle": "italic"
       }
     },
@@ -2668,7 +2668,7 @@ support.function.console.js
         "source.js meta.import string.quoted.double"
       ],
       "settings": {
-        "foreground": "#CE5D",
+        "foreground": "#CE5C",
         "fontStyle": "italic"
       }
     },
@@ -2954,7 +2954,7 @@ support.function.console.js
     // #endregion
 
     // #region "JSON" ----------------------------------------------------------
-    // "#FC5D","#9C8D","#CE5D","#D89D","#5BED","#DDDD","#39ED"
+    // "#FC5D","#9C8D","#CE5C","#D89D","#5BED","#DDDD","#39ED"
     {
       "name": "JSON key-value separator",
       "scope": ["source.json punctuation.separator.dictionary.key-value"],
@@ -2981,7 +2981,7 @@ support.function.console.js
       "name": "JSON string value",
       "scope": "source.json string.quoted.double",
       "settings": {
-        "foreground": "#CE5D"
+        "foreground": "#CE5C"
       }
     },
     {
@@ -3769,7 +3769,7 @@ support.function.console.js
     {
       "scope": ["meta.tag entity.name.tag.tsx", "meta.tag entity.name.tag.js"],
       "settings": {
-        "foreground": "#ADCD",
+        "foreground": "#ADCC",
         "fontStyle": ""
       }
     },
@@ -4818,7 +4818,7 @@ support.function.console.js
         "source meta.interface meta.definition.property variable.object.property"
       ],
       "settings": {
-        "foreground": "#ADCD",
+        "foreground": "#ADCC",
         "fontStyle": ""
       }
     },
@@ -5111,7 +5111,7 @@ support.function.console.js
         "source meta.object-binding-pattern-variable variable.other.constant"
       ],
       "settings": {
-        "foreground": "#ADCD"
+        "foreground": "#ADCC"
       }
     },
     {
@@ -5207,7 +5207,7 @@ support.function.console.js
         "source string.value"
       ],
       "settings": {
-        "foreground": "#CE5D"
+        "foreground": "#CE5C"
       }
     },
     {
@@ -5305,7 +5305,7 @@ support.function.console.js
         "source meta.import variable.other.readwrite"
       ],
       "settings": {
-        "foreground": "#ADCD",
+        "foreground": "#ADCC",
         "fontStyle": "italic"
       }
     },
@@ -5333,7 +5333,7 @@ support.function.console.js
         "source meta.import string.quoted.double"
       ],
       "settings": {
-        "foreground": "#CE5D",
+        "foreground": "#CE5C",
         "fontStyle": "italic"
       }
     },
