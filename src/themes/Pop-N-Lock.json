@@ -287,7 +287,7 @@
     "panelTitle.activeForeground": "#DCAF",
     "panelTitle.inactiveForeground": "#DCAB",
 
-    "peekView.border": "#FC5E", //"#38AD", /* !!E->D !#38AE!*/
+    "peekView.border": "#FC5D", // "#FC5E", /* !!E->D !#FC5D!*/
     "peekViewEditor.background": "#235B",
     "peekViewEditor.matchHighlightBackground": "#426F",
     "peekViewEditor.matchHighlightBorder": "#618F",
@@ -437,9 +437,9 @@
   },
   "tokenColors": [
     // "typescript" --------------------------------------------------
-    // "#D25C","#E43E","#E67E","#E1AE","#7ADD", /* !!E->D !#7ADE!*/
-    // "#FC5E","#F91E","#EDAC","#A5BE","#ADCD",
-    // "#CE5D","#7C2E","#4B9D","#55FD","#6BFD",
+    // "#D25C","#E43D", /* !!E->D !#E43E!*/,"#E67D", /* !!E->D !#E67E!*/,"#E1AD", /* !!E->D !#E1AE!*/,"#7ADD", /* !!E->D !#7ADE!*/
+    // "#FC5D", /* !!E->D !#FC5E!*/,"#F91D", /* !!E->D !#F91E!*/,"#EDAC","#A5BD", /* !!E->D !#A5BE!*/,"#ADCD",
+    // "#CE5D","#7C2D", /* !!E->D !#7C2E!*/,"#4B9D","#55FD","#6BFD",
 
     // #region "typescript" --------------------------------------------------
 
@@ -1608,7 +1608,7 @@
         "source.tsx storage.type.function",
         "source.tsx storage.type.function.arrow"
       ],
-      "settings": { "foreground": "#7C2E" }
+      "settings": { "foreground": "#7C2D", /* !!E->D !#7C2E!*/ }
     },
     {
       "name": "CLASS KEYWORD DEFINITION",
@@ -2808,7 +2808,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#FC5E"
+        "foreground": "#FC5D", /* !!E->D !#FC5E!*/
       }
     },
     {
@@ -2866,7 +2866,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#FC5E"
+        "foreground": "#FC5D", /* !!E->D !#FC5E!*/
       }
     },
     {
@@ -2955,26 +2955,26 @@
     {
       "scope": ["source.yaml string.unquoted.plain.out entity.name.tag"],
       "settings": {
-        "foreground": "#FC5E"
+        "foreground": "#FC5D", /* !!E->D !#FC5E!*/
       }
     },
 
     {
       "scope": ["source.yaml string.unquoted.plain.in entity.name.tag"],
       "settings": {
-        "foreground": "#D89E"
+        "foreground": "#D89D", /* !!E->D !#D89E!*/
       }
     },
     {
       "scope": ["source.yaml string.unquoted.plain.in"],
       "settings": {
-        "foreground": "#9C8E"
+        "foreground": "#9C8D", /* !!E->D !#9C8E!*/
       }
     },
     {
       "scope": ["source.yaml constant.language.boolean.yaml"],
       "settings": {
-        "foreground": "#9C8E"
+        "foreground": "#9C8D", /* !!E->D !#9C8E!*/
       }
     },
 
@@ -3358,7 +3358,7 @@ meta.flow-sequence.yaml
     {
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#B6BE"
+        "foreground": "#B6BD", /* !!E->D !#B6BE!*/
       }
     },
     {
@@ -3591,7 +3591,7 @@ meta.flow-sequence.yaml
         "meta.tag meta.tag.attributes.js"
       ],
       "settings": {
-        "foreground": "#FC5E"
+        "foreground": "#FC5D", /* !!E->D !#FC5E!*/
       }
     },
     {
@@ -3608,7 +3608,7 @@ meta.flow-sequence.yaml
     {
       "scope": [],
       "settings": {
-        "foreground": "#FC5E"
+        "foreground": "#FC5D", /* !!E->D !#FC5E!*/
       }
     },
     {
@@ -3634,7 +3634,7 @@ meta.flow-sequence.yaml
         "meta.tag punctuation.definition.tag.end.tsx"
       ],
       "settings": {
-        "foreground": "#6CEE", //"#A5ED", /* !!E->D !#A5EE!*/
+        "foreground": "#6CED", /* !!E->D !#6CEE!*/, //"#A5ED", /* !!E->D !#A5EE!*/
         "fontStyle": ""
       }
     },
@@ -3863,7 +3863,7 @@ meta.flow-sequence.yaml
         "text.html source storage.type.function.arrow",
         "text.html source storage.type.class"
       ],
-      "settings": { "foreground": "#D1AE" }
+      "settings": { "foreground": "#D1AD", /* !!E->D !#D1AE!*/ }
     },
     {
       "scope": ["text.html source meta.method.declaration storage.type"],
