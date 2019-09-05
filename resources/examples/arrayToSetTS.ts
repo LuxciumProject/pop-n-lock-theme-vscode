@@ -167,7 +167,7 @@
 // const array2 = [...new Set(array1)];
 // let colourStyle = `<style type="text/css">
 //     `;
-
+s
 // let margin: number = 5;
 // let x: number = margin;
 // let y: number = margin;

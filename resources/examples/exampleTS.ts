@@ -32,7 +32,7 @@ function returnAllLists(userId: any, res: any) {
 
 debugger;
 
-class ParentClass {}
+class ParentClass { }
 export interface IInterface {
   value: string;
 }

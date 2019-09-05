@@ -1,2 +1,2 @@
-export const someVale = 10;
-import react from "react";
+const someVale = 10;
+export const someValee = 10;
