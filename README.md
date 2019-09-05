@@ -10,26 +10,27 @@
 >
 > Please feel free to ask any question, to let us know about any problems that should be resolved and any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page.
 >
->[![Preview of the IDE with Pop N’ Lock Theme](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png)(v3.18)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png)
+> [![Preview of the IDE with Pop N’ Lock Theme](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png)(v3.18)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png)
 >
->### **You will be impressed how intutive it is when you will discover how each colour has its purpose**
->
+> ### **You will be impressed how intutive it is when you will discover how each colour has its purpose**
+
 ## About
 
 Your favourite streamlined code editor is getting more bright and radiant, optimized to work in the Full-fledged _Integrated Development Environment_ or in _Text Editor sized_ mode. The colours have been handpicked with great care to be the most intuitive possible and to use extensively all capacity of your favourite IDE and text editor. This powerful theme of colour is always evolving. Colourful features are added and more languages will be included soon. This theme is STRONGLY OPINIONATED so make sure to request any changes you want by filling an issue if you want to be influencing the opinion.
 
 This theme is based on the designs of Hedinne's _Popping And Locking_ a theme with vivid colours, they capture your attention but are easy on your eyes. His theme originally based on VS Dark+, Gruvbox Dark and One Dark has changed a lot since. It is designed with TypeScript grammar and web languages syntax in mind like HTML & CSS (Also includes support for JavaScript, JSON, YAML, React's JSX/TSX and more to come).
 
->This theme includes other extensions†
->(you can enable or disable them as you wish) :
->![Included Extensions](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/included%20extensions.png)(v3.18)
+> This theme includes other extensions†
+> (you can enable or disable them as you wish) :
+> ![Included Extensions](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/included%20extensions.png)(v3.18)
 >
->- [x] better-comments
->- [x] bracket-pair-colorizer-2
->- [x] material-icon-theme
->
+> - [x] better-comments
+> - [x] bracket-pair-colorizer-2
+> - [x] material-icon-theme
 
 ## TypeScript
+
+[![TypeScript](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20is%20awesome.png)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20is%20awesome.png)(v3.18) TypeScript Screenshot
 
 ![TypeScript](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/type%20script%20vscode%20theme%20with%20vivid%20colours%20colors.png)(v3.18) TypeScript Screenshot
 
@@ -77,13 +78,13 @@ red on writing side / blue on the reading side
 
 ## Promise functions highlight
 
->When using Latest Typescipt Grammar
+> When using Latest Typescipt Grammar
 
-![Promise functions highlight](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Promise%20dot%20all%20and%20promise%20catch%20and%20resolve%20highlight%20.png)(v3.18) When using Latest Typescipt Grammar Promise dot all and promise resolve and catch  highlight
+![Promise functions highlight](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Promise%20dot%20all%20and%20promise%20catch%20and%20resolve%20highlight%20.png)(v3.18) When using Latest Typescipt Grammar Promise dot all and promise resolve and catch highlight
 
 ## Console highlight
 
->When using Latest Typescipt Grammar
+> When using Latest Typescipt Grammar
 
 ![Console highlight](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20javascript%20ecmascript%20vscode%20theme%20console%20log%20highlight.png)(v3.18) When using Latest Typescipt Grammar support console.log / conso.error etc. highlight
 
