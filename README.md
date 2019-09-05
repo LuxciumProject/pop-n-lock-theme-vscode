@@ -54,7 +54,6 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 ![TypeScript](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/vnext/030919/images/v3.18.0/type%20script%20vscode%20theme%20with%20vivid%20colours%20colors.png) TypeScript Screenshot (v3.18)
 
 
-
 ## JavaScript
 
 ![JavaScript](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/vnext/030919/images/v3.18.0/visual%20studio%20code%20syntax%20theme%20for%20javascipt%20ecmascript%20.png) JavaScript Screenshot (v3.18)
@@ -67,14 +66,48 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 
 ![JSON](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/vnext/030919/images/v3.18.0/yaml.png) YAML Screen shot (v3.18)
 
+## TSX/JSX
+
+![TSX/JSX](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/vnext/030919/images/v3.18.0/JSX-TSX.png) JSX & TSX Screenshot (v3.18)
 
 ## CSS
 
 [![CSS](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.12.0/visual-studio-code-theme-CSS-2.png) CSS Screen shot (v3.12.0)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.12.0/visual-studio-code-theme-CSS-1.png)
 
+
+## Variable highlight
+
+red on writing side / blue on the reading side
+
+![Variable highlight](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/vnext/030919/images/v3.18.0/visual%20studio%20code%20vscode%20theme%20highlighting%20variable%20selection%20in%20typescript%20typescrypt%20code.png) Usefull variable highlight (v3.18)
+
+
+## Decorator support
+
+![Decorator support ](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/vnext/030919/images/v3.18.0/visual%20studio%20code%20best%20colourfull%20themes%20support%20of%20typescript%20decorators%20.png) Typescript decorator support (v3.18)
+
+## Latest TypeScript / Javascript Grammar
+
+![TSX/JSX](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/vnext/030919/images/v3.18.0/when%20using%20latest%20typscript%20javascript%20syntax%20highlighting%20in%20vscode%20visual%20studio%20vs%20code.png)
+
+## Promise functions highlight
+>When using Latest Typescipt Grammar
+
+![Promise functions highlight](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/vnext/030919/images/v3.18.0/Promise%20dot%20all%20and%20promise%20catch%20and%20resolve%20highlight%20.png) When using Latest Typescipt Grammar Promise dot all and promise resolve and catch  highlight  (v3.18)
+
+
+
 ## TSX/JSX
 
-[![TSX/JSX](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.1/TSX-JSX.png) TSX/JSX Support Screenshot (v3.9.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.1/TSX-JSX.png)
+![TSX/JSX](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/vnext/030919/images/v3.18.0/JSX-TSX.png) JSX & TSX Screenshot (v3.18)
+
+## TSX/JSX
+
+![TSX/JSX](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/vnext/030919/images/v3.18.0/JSX-TSX.png) JSX & TSX Screenshot (v3.18)cd
+
+
+
+
 
 ## **For better results use apropriate fonts and icons theme**
 
