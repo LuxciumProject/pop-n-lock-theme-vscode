@@ -9,6 +9,6 @@ class MyComponent extends React.Component {
 
 _render(<MyComponent />, document.getElementById("root"));
 
-function pop() {
+export function pop() {
 
 }
