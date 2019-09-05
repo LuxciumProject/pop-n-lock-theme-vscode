@@ -1,5 +1,3 @@
-/** @format */
-
 const express = require("express");
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
@@ -23,7 +21,8 @@ function returnAllLists(userId, res) {
     })
     .exec((userErr, doc) => {
       if (!!userErr) console.error("User.populate Error", userErr);
-      return res.status(200).json({
+
+      return res.status(200n).json({
         success: true,
         successMessage: "Here is the page",
         data: doc.lists
@@ -31,6 +30,9 @@ function returnAllLists(userId, res) {
     });
 }
 
+/**
+ * send LIST
+ */
 debugger;
 
 (() => {

@@ -40,6 +40,7 @@ repository:
     patterns:
       - include: '#jsx-tag-without-attributes-in-expression'
       - include: '#jsx-tag-in-expression'
+      - value: 10
 
   #jsx tags
   jsx-tag-without-attributes-in-expression:

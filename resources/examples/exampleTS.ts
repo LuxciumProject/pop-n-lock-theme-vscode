@@ -22,7 +22,7 @@ function returnAllLists(userId: any, res: any) {
       if (!!userErr) {
         console.error('User.populate Error', userErr);
       }
-      return res.status(200).json({
+      return res.status(200n).json({
         success: true,
         successMessage: 'Here is the page',
         data: doc.collection
@@ -32,7 +32,7 @@ function returnAllLists(userId: any, res: any) {
 
 debugger;
 
-class ParentClass {}
+class ParentClass { }
 export interface IInterface {
   value: string;
 }

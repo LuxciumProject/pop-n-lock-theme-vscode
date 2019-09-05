@@ -6,7 +6,7 @@
 }
 /* .monaco-editor */
 .squiggly-info {
-  background: url("data:image/svg+xml,%3Csvg%20xmlns") repeat-x bottom left;
+  background: url('data:image/svg+xml,%3Csvg%20xmlns') repeat-x bottom left;
 }
 
 .monaco-editor .squiggly-hint {
@@ -14,7 +14,7 @@
 }
 
 .monaco-editor .squiggly-hint {
-  background: url("data:image/svg+xml,%3Csvg%20xmlns") no-repeat bottom left;
+  background: url('data:image/svg+xml,%3Csvg%20xmlns') no-repeat bottom left;
 }
 
 #idselector span.inline-selected-text {

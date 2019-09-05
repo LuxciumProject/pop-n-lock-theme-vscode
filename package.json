@@ -1,6 +1,6 @@
 {
   "name": "pop-n-lock-theme-vscode",
-  "version": "3.16.10",
+  "version": "3.18.1",
   "publisher": "Luxcium",
   "license": "MIT",
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
@@ -11,12 +11,12 @@
   "icon": "Scientia-is-lux-principium-400px-TM.png",
   "homepage": "https://github.com/luxcium/pop-n-lock-theme-vscode/#readme",
   "engines": {
-    "vscode": "^1.30.0"
+    "vscode": "^1.12.0"
   },
   "scripts": {
     "vsce:update": "npm -g i vsce@latest",
     "package:publish": "vsce package && vsce publish",
-    "publish": "npm run vsce:update; npm version minor && npm run package:publish"
+    "publish": "yarn run vsce:update; npm version patch && yarn run package:publish"
   },
   "categories": [
     "Programming Languages",
@@ -132,7 +132,6 @@
   },
   "extensionPack": [
     "coenraads.bracket-pair-colorizer-2",
-    "ue.alphabetical-sorter",
     "aaron-bond.better-comments",
     "pkief.material-icon-theme"
   ],
@@ -145,8 +144,6 @@
     "url": "https://github.com/luxcium/pop-n-lock-theme-vscode.git"
   },
   "dependencies": {
-    "jsonc-parser": "^2.1.0",
-    "request-light": "^0.2.4",
     "vscode-extension-telemetry": "^0.1.1",
     "vscode-languageclient": "^5.2.1",
     "vscode-nls": "^4.1.0",
@@ -168,7 +165,7 @@
     "tslint-config-airbnb": "^5.11.1",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.4.3",
-    "vsce": "^1.63.0"
+    "vsce": "^1.66.0"
   },
   "keywords": [
     "Dark Theme",
