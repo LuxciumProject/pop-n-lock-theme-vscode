@@ -16,7 +16,7 @@
   "scripts": {
     "vsce:update": "npm -g i vsce@latest",
     "package:publish": "vsce package && vsce publish",
-    "publish": "yarn run vsce:update; npm version minor && yarn run package:publish"
+    "publish": "yarn run vsce:update; npm version patch && yarn run package:publish"
   },
   "categories": [
     "Programming Languages",
