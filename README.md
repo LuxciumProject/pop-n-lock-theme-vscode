@@ -51,17 +51,22 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 
 ## TypeScript
 
-![TypeScript](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.16.6/Typescript%20syntax%20highlighting.png) TypeScript Screenshot (v3.16.6)
+![TypeScript](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/vnext/030919/images/v3.18.0/type%20script%20vscode%20theme%20with%20vivid%20colours%20colors.png) TypeScript Screenshot (v3.18)
 
-[![TypeScript](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.16.6/Typescript%20Token%20Colors%20most%20popular%20vscode%20theme%20.png) TypeScript Token Colors (v3.16.6) ](https://pasteboard.co/ImVp3Bx.png)
+
 
 ## JavaScript
 
-[![JavaScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/JS1.png) JavaScript Screenshot (v3.7.0)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/JS2.png)
+![JavaScript](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/vnext/030919/images/v3.18.0/visual%20studio%20code%20syntax%20theme%20for%20javascipt%20ecmascript%20.png) JavaScript Screenshot (v3.18)
 
 ## JSON
 
-[![JSON](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.15.8/vscode-json.png) JSON Screen shot (v3.15.8) **CLICK TO VIEW ALL THE SETTINGS**](https://gist.github.com/Luxcium/f681208a180cc356bffff9d7b3fffe17)
+![JSON](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/vnext/030919/images/v3.18.0/json.png) JSON Screen shot (v3.18)
+
+## YAML
+
+![JSON](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/vnext/030919/images/v3.18.0/yaml.png) YAML Screen shot (v3.18)
+
 
 ## CSS
 
