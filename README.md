@@ -34,11 +34,11 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 
 [![TypeScript](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/type%20script%20vscode%20theme%20with%20vivid%20colours%20colors.png)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/type%20script%20vscode%20theme%20with%20vivid%20colours%20colors.png)(v3.18) TypeScript Screenshot
 
-[![TypeScript](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.2/vscode-syntax-typescript-theme-support-dark-cursive-italic.png)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.2/vscode-syntax-typescript-theme-support-dark-cursive-italic.png)(v3.18.2) TypeScript Screenshot
+[![TypeScript syntax for vscode](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.2/vscode-syntax-typescript-theme-support-dark-cursive-italic.png)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.2/vscode-syntax-typescript-theme-support-dark-cursive-italic.png)(v3.18.2) TypeScript Screenshot
 
 ## JavaScript
 
-[![JavaScript](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20syntax%20theme%20for%20javascipt%20ecmascript%20.png)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20syntax%20theme%20for%20javascipt%20ecmascript%20.png)(v3.18) JavaScript Screenshot
+[![JavaScript syntax for vscode](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20syntax%20theme%20for%20javascipt%20ecmascript%20.png)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20syntax%20theme%20for%20javascipt%20ecmascript%20.png)(v3.18) JavaScript Screenshot
 
 ## JSON
 
@@ -50,7 +50,7 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 
 ## TSX/JSX
 
-[![TSX/JSX](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/JSX-TSX.png)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/JSX-TSX.png)(v3.18) JSX & TSX Screenshot
+[![TSX/JSX color theme for vscode](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/JSX-TSX.png)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/JSX-TSX.png)(v3.18) JSX & TSX Screenshot
 
 ## CSS
 
@@ -58,7 +58,7 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 
 ## BASH and SHELL Scripting
 
-[![BASH](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/VS%20CODE%20THEME%20SUPPORT%20OF%20bash%20shel%20scripts%20in%20visual%20studio%20code%20theme%20linux%20%20shel%20scripting%20thme%20support.png)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/VS%20CODE%20THEME%20SUPPORT%20OF%20bash%20shel%20scripts%20in%20visual%20studio%20code%20theme%20linux%20%20shel%20scripting%20thme%20support.png) (v3.18)
+[![BASH scripting in visual studio](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/VS%20CODE%20THEME%20SUPPORT%20OF%20bash%20shel%20scripts%20in%20visual%20studio%20code%20theme%20linux%20%20shel%20scripting%20thme%20support.png)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/VS%20CODE%20THEME%20SUPPORT%20OF%20bash%20shel%20scripts%20in%20visual%20studio%20code%20theme%20linux%20%20shel%20scripting%20thme%20support.png) (v3.18)
 
 ## FUNCTION RETURN TYPE
 
