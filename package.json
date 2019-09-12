@@ -144,10 +144,7 @@
     "url": "https://github.com/luxcium/pop-n-lock-theme-vscode.git"
   },
   "dependencies": {
-    "vscode-extension-telemetry": "^0.1.1",
-    "vscode-languageclient": "^5.2.1",
-    "vscode-nls": "^4.1.0",
-    "vscode-uri": "^1.0.6"
+    "vscode-languageclient": "^5.2.1"
   },
   "devDependencies": {
     "@types/dotenv": "^6.1.1",
