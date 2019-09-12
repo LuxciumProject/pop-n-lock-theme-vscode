@@ -770,7 +770,9 @@
         "source.ts variable.parameter",
         "source.ts variable",
         "source.ts meta.array-binding-pattern-variable variable.other.constant",
-        "source.ts meta.object-binding-pattern-variable variable.other.constant"
+        "source.ts meta.object-binding-pattern-variable variable.other.constant",
+        "meta.body.struct",
+        "source meta.body"
       ],
       "settings": {
         "foreground": "#ADCC"
@@ -925,7 +927,8 @@
       "scope": [
         "source.ts meta.class storage.modifier",
         "source.ts meta.method.declaration storage.modifier",
-        "source.ts storage.type.property"
+        "source.ts storage.type.property",
+        "storage.type.modifier.access.control"
       ],
       "settings": {
         "foreground": "#F91D" /* !!E->D !#F91E!*/,
@@ -1201,7 +1204,9 @@
         "source.ts keyword.operator.quantifier.regexp",
         "source.ts keyword.operator.relational",
         "source.ts keyword.operator.type.modifier",
-        "source.ts keyword.operator.type"
+        "source.ts keyword.operator.type",
+        "source punctuation.separator.scope-resolution",
+        "source punctuation.separator.namespace.access"
       ],
       "settings": {
         "foreground": "#4B9C",
@@ -1796,7 +1801,7 @@
       "scope": [
         "source.tsx meta.class storage.modifier",
         "source.tsx meta.method.declaration storage.modifier",
-        "source.tsx storage.type.property"
+        "source.tsx storage.type.property",
       ],
       "settings": {
         "foreground": "#F91D" /* !!E->D !#F91E!*/,
@@ -2062,7 +2067,7 @@
         "source.tsx keyword.operator.quantifier.regexp",
         "source.tsx keyword.operator.relational",
         "source.tsx keyword.operator.type.modifier",
-        "source.tsx keyword.operator.type"
+        "source.tsx keyword.operator.type",
       ],
       "settings": {
         "foreground": "#4B9C",
