@@ -131,10 +131,6 @@
       }
     ]
   },
-  "extensionKind": "ui",
-  "activationEvents": [
-    "*"
-  ],
   "extensionPack": [
     "coenraads.bracket-pair-colorizer-2",
     "aaron-bond.better-comments",
