@@ -26,7 +26,7 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 
 > This theme includes other extensions†
 > (you can enable or disable them as you wish) :
-> [<img width="45%" alt="[Included Extensions]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/included%20extensions.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/included%20extensions.png)
+> [<img width="60%" alt="[Included Extensions]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/included%20extensions.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/included%20extensions.png)
 <br/>(v3.18)<br/>
 >
 > - [x] better-comments
