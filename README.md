@@ -38,78 +38,78 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 
 ## TypeScript
 
-[![TypeScript]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20is%20awesome.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20is%20awesome.png)  (v3.18) TypeScript Screenshot
+[<img width="80%" alt="TypeScript" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20is%20awesome.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20is%20awesome.png)  (v3.18) TypeScript Screenshot
 
-[![TypeScript]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/type%20script%20vscode%20theme%20with%20vivid%20colours%20colors.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/type%20script%20vscode%20theme%20with%20vivid%20colours%20colors.png)
+[<img width="80%" alt="TypeScript" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/type%20script%20vscode%20theme%20with%20vivid%20colours%20colors.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/type%20script%20vscode%20theme%20with%20vivid%20colours%20colors.png)
 <br/>
 (v3.18) TypeScript Screenshot<br/>
 
-[![TypeScript syntax for vscode]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.2/vscode-syntax-typescript-theme-support-dark-cursive-italic.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.2/vscode-syntax-typescript-theme-support-dark-cursive-italic.png)
+[<img width="80%" alt="TypeScript syntax for vscode" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.2/vscode-syntax-typescript-theme-support-dark-cursive-italic.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.2/vscode-syntax-typescript-theme-support-dark-cursive-italic.png)
 <br/>(v3.18.2) TypeScript Screenshot<br/>
 
 ## JavaScript
 
-[![JavaScript syntax for vscode]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20syntax%20theme%20for%20javascipt%20ecmascript%20.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20syntax%20theme%20for%20javascipt%20ecmascript%20.png)
+[<img width="80%" alt="[JavaScript syntax for vscode]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20syntax%20theme%20for%20javascipt%20ecmascript%20.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20syntax%20theme%20for%20javascipt%20ecmascript%20.png)
 <br/>(v3.18) JavaScript Screenshot<br/>
 
 ## JSON
 
-[![JSON]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/json.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/json.png)
+[<img width="80%" alt="[JSON]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/json.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/json.png)
 <br/>(v3.18) JSON Screen shot<br/>
 
 ## YAML
 
-[![YAML]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/yaml.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/yaml.png)
+[<img width="80%" alt="[YAML]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/yaml.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/yaml.png)
 <br/>(v3.18) YAML Screen shot<br/>
 
 ## TSX/JSX
 
-[![TSX/JSX color theme for vscode]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/JSX-TSX.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/JSX-TSX.png)
+[<img width="80%" alt="[TSX/JSX color theme for vscode]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/JSX-TSX.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/JSX-TSX.png)
 <br/>(v3.18) JSX & TSX Screenshot<br/>
 
 ## CSS
 
-[![CSS]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.12.0/visual-studio-code-theme-CSS-2.png)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.12.0/visual-studio-code-theme-CSS-1.png)
+[<img width="80%" alt="[CSS]" src="https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.12.0/visual-studio-code-theme-CSS-2.png)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.12.0/visual-studio-code-theme-CSS-1.png)
 <br/>(v3.12.0) CSS Screen shot<br/>
 
 ## BASH and SHELL Scripting
 
-[![BASH scripting in visual studio]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/VS%20CODE%20THEME%20SUPPORT%20OF%20bash%20shel%20scripts%20in%20visual%20studio%20code%20theme%20linux%20%20shel%20scripting%20thme%20support.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/VS%20CODE%20THEME%20SUPPORT%20OF%20bash%20shel%20scripts%20in%20visual%20studio%20code%20theme%20linux%20%20shel%20scripting%20thme%20support.png)
+[<img width="80%" alt="[BASH scripting in visual studio]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/VS%20CODE%20THEME%20SUPPORT%20OF%20bash%20shel%20scripts%20in%20visual%20studio%20code%20theme%20linux%20%20shel%20scripting%20thme%20support.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/VS%20CODE%20THEME%20SUPPORT%20OF%20bash%20shel%20scripts%20in%20visual%20studio%20code%20theme%20linux%20%20shel%20scripting%20thme%20support.png)
 <br/>(v3.18)<br/>
 
 ## FUNCTION RETURN TYPE
 
-[![Return type of functions higlighting]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/function%20return%20type%20in%20a%20diferent%20colour%20in%20typescript%20visual%20studio%20code%20best%20theme%20and%20syntaxes.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/function%20return%20type%20in%20a%20diferent%20colour%20in%20typescript%20visual%20studio%20code%20best%20theme%20and%20syntaxes.png)
+[<img width="80%" alt="[Return type of functions higlighting]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/function%20return%20type%20in%20a%20diferent%20colour%20in%20typescript%20visual%20studio%20code%20best%20theme%20and%20syntaxes.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/function%20return%20type%20in%20a%20diferent%20colour%20in%20typescript%20visual%20studio%20code%20best%20theme%20and%20syntaxes.png)
 <br/>(v3.18) Colorfull function return type highlight<br/>
 
 ## VARIABLE HIGHLIGHT
 
 red on writing side / blue on the reading side
 
-[![Variable highlight]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20vscode%20theme%20highlighting%20variable%20selection%20in%20typescript%20typescrypt%20code.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20vscode%20theme%20highlighting%20variable%20selection%20in%20typescript%20typescrypt%20code.png)
+[<img width="80%" alt="[Variable highlight]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20vscode%20theme%20highlighting%20variable%20selection%20in%20typescript%20typescrypt%20code.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20vscode%20theme%20highlighting%20variable%20selection%20in%20typescript%20typescrypt%20code.png)
 <br/>(v3.18) Usefull variable highlight<br/>
 
 ## Decorator support
 
-[![Decorator support]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20best%20colourfull%20themes%20support%20of%20typescript%20decorators%20.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20best%20colourfull%20themes%20support%20of%20typescript%20decorators%20.png)
+[<img width="80%" alt="[Decorator support]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20best%20colourfull%20themes%20support%20of%20typescript%20decorators%20.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/visual%20studio%20code%20best%20colourfull%20themes%20support%20of%20typescript%20decorators%20.png)
 <br/>(v3.18) Typescript decorator support<br/>
 
 ## Latest TypeScript / Javascript Grammar
 
-[![Latest TypeScript / Javascript Grammar]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/when%20using%20latest%20typscript%20javascript%20syntax%20highlighting%20in%20vscode%20visual%20studio%20vs%20code.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/when%20using%20latest%20typscript%20javascript%20syntax%20highlighting%20in%20vscode%20visual%20studio%20vs%20code.png)
+[<img width="80%" alt="[Latest TypeScript / Javascript Grammar]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/when%20using%20latest%20typscript%20javascript%20syntax%20highlighting%20in%20vscode%20visual%20studio%20vs%20code.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/when%20using%20latest%20typscript%20javascript%20syntax%20highlighting%20in%20vscode%20visual%20studio%20vs%20code.png)
 
 ## Promise functions highlight
 
 > When using Latest Typescipt Grammar
 
-[![Promise functions highlight]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Promise%20dot%20all%20and%20promise%20catch%20and%20resolve%20highlight%20.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Promise%20dot%20all%20and%20promise%20catch%20and%20resolve%20highlight%20.png)
+[<img width="80%" alt="[Promise functions highlight]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Promise%20dot%20all%20and%20promise%20catch%20and%20resolve%20highlight%20.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Promise%20dot%20all%20and%20promise%20catch%20and%20resolve%20highlight%20.png)
 <br/>(v3.18) When using Latest Typescipt Grammar Promise dot all and promise resolve and catch highlight<br/>
 
 ## Console highlight
 
 > When using Latest Typescipt Grammar
 
-[![Console highlight]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20javascript%20ecmascript%20vscode%20theme%20console%20log%20highlight.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20javascript%20ecmascript%20vscode%20theme%20console%20log%20highlight.png)
+[<img width="80%" alt="[Console highlight]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20javascript%20ecmascript%20vscode%20theme%20console%20log%20highlight.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20javascript%20ecmascript%20vscode%20theme%20console%20log%20highlight.png)
 <br/>(v3.18) When using Latest Typescipt Grammar support console.log / conso.error etc. highlight<br/>
 
 ## IMPORTS
@@ -118,12 +118,12 @@ When using appropriate font the italics are treated as cursive
 
 ### [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript)
 
-[![Cursive]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/vs%20code%20theme%20using%20cursives%20remplacement%20of%20italics%20IMPORT%20STATEMENT%20typescript.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/vs%20code%20theme%20using%20cursives%20remplacement%20of%20italics%20IMPORT%20STATEMENT%20typescript.png)
+[<img width="80%" alt="[Cursive theme]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/vs%20code%20theme%20using%20cursives%20remplacement%20of%20italics%20IMPORT%20STATEMENT%20typescript.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/vs%20code%20theme%20using%20cursives%20remplacement%20of%20italics%20IMPORT%20STATEMENT%20typescript.png)
 
 ### Fira Code
 
 Will fall back to usig italic if the font doese not include support
-[![Italic]<img width="80%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/vs%20code%20theme%20not%20using%20cursives%20remplacement%20of%20italics%20IMPORT%20STATEMENT%20typescript.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/vs%20code%20theme%20not%20using%20cursives%20remplacement%20of%20italics%20IMPORT%20STATEMENT%20typescript.png)
+[<img width="80%" alt="[Italic theme]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/vs%20code%20theme%20not%20using%20cursives%20remplacement%20of%20italics%20IMPORT%20STATEMENT%20typescript.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/vs%20code%20theme%20not%20using%20cursives%20remplacement%20of%20italics%20IMPORT%20STATEMENT%20typescript.png)
 <br/>(v3.18)<br/>
 
 ## **For better results use apropriate fonts and icons theme**
