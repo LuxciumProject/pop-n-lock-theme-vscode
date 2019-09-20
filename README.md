@@ -1,9 +1,9 @@
 # Pop N' Lock Theme by Luxcium ✨
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ce09cc344aa144749755aa29d0f78f83)](https://www.codacy.com/manual/Luxcium/pop-n-lock-theme-vscode?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Luxcium/pop-n-lock-theme-vscode&amp;utm_campaign=Badge_Grade)
 [![GitHub issues](https://img.shields.io/github/issues/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/issues)
 [![GitHub contributors](https://img.shields.io/github/contributors-anon/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/graphs/contributors)
 [![GitHub stars](https://img.shields.io/github/stars/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/stargazers)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ce09cc344aa144749755aa29d0f78f83)](https://www.codacy.com/manual/Luxcium/pop-n-lock-theme-vscode?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Luxcium/pop-n-lock-theme-vscode&amp;utm_campaign=Badge_Grade)
 
 ## About
 
@@ -13,16 +13,13 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 
 ## 🐲 Perfectly balanced TypeScript theme with vivid colours
 
-
-### **You will be impressed how intutive it is when you will discover how each colour has its purpose**
-
-
 > **If you like this theme take one minute to make a 5-star review on VS Code marketplace and if you think something can be improved make sure to fill an issue on our GitHub page it's easy and will help us make Pop N' Lock the best theme available**
 >
 > [![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock)](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)
 >
 > Please feel free to ask any question, to let us know about any problems that should be resolved and any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page.
 >
+> ### **You will be impressed how intutive it is when you will discover how each colour has its purpose**
 > [![Preview of the IDE with Pop N’ Lock Theme](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png)(v3.18)
 
 
