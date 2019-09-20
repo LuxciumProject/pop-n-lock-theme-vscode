@@ -20,17 +20,14 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 > Please feel free to ask any question, to let us know about any problems that should be resolved and any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page.
 >
 > ### **You will be impressed how intutive it is when you will discover how each colour has its purpose**
-> [![Preview of the IDE with Pop N’ Lock Theme]<img width="90%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png)(v3.18)
-<!-- 
-<img width="50%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="
+> [![Preview of the IDE with Pop N’ Lock Theme]<img width="90%" alt="Capture d’écran, le 2019-09-19 à 05 32 54" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png)
+<br/>(v3.18)<br/>
 
-
-">
--->
 
 > This theme includes other extensions†
 > (you can enable or disable them as you wish) :
-> [![Included Extensions](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/included%20extensions.png)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/included%20extensions.png)(v3.18)
+> [![Included Extensions](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/included%20extensions.png)](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/included%20extensions.png)
+<br/>(v3.18)<br/>
 >
 > - [x] better-comments
 > - [x] bracket-pair-colorizer-2
@@ -38,7 +35,8 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 
 ## TypeScript
 
-[<img width="80%" alt="TypeScript" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20is%20awesome.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20is%20awesome.png)  (v3.18) TypeScript Screenshot
+[<img width="80%" alt="TypeScript" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20is%20awesome.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20is%20awesome.png)
+<br/>(v3.18) TypeScript Screenshot<br/>
 
 [<img width="80%" alt="TypeScript" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/type%20script%20vscode%20theme%20with%20vivid%20colours%20colors.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/type%20script%20vscode%20theme%20with%20vivid%20colours%20colors.png)
 <br/>
