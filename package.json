@@ -1,12 +1,11 @@
 {
   "name": "pop-n-lock-theme-vscode",
-  "version": "3.18.4",
+  "version": "3.18.5",
   "publisher": "Luxcium",
   "license": "MIT",
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
   "description": "🐲Perfectly balanced TypeScript theme with vivid colours.",
   "preview": false,
-  "private": false,
   "main": "./dist/extension",
   "markdown": "github",
   "qna": "marketplace",
@@ -16,9 +15,10 @@
     "vscode": "^1.12.0"
   },
   "scripts": {
-    "vsce:update": "npm -g i vsce@latest",
-    "package:publish": "vsce package && vsce publish",
-    "publish": "yarn run vsce:update; npm version patch && yarn run package:publish",
+    "vsce:update": "#yarn -g i vsce@latest",
+    "package:publish": "vsce package --yarn && vsce publish --yarn",
+    "prepublish": "yarn run vsce:update",
+    "publish": "yarn version --patch && yarn run package:publish",
     "test": "snyk test"
   },
   "categories": [
@@ -151,16 +151,16 @@
   },
   "devDependencies": {
     "@types/dotenv": "^6.1.1",
-    "@types/express-mongo-sanitize": "^1.3.1",
     "@types/express": "^4.16.1",
+    "@types/express-mongo-sanitize": "^1.3.1",
     "@types/glob": "^7.1.1",
     "@types/jsonwebtoken": "^8.3.2",
     "@types/mocha": "^5.2.7",
     "@types/mongoose": "^5.3.26",
     "@types/node": "^12.11.7",
     "@types/puppeteer": "^1.19.1",
-    "@types/react-dom": "^16.8.4",
     "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
     "@types/vscode": "^1.12.0",
     "clean-webpack-plugin": "^3.0.0",
     "glob": "^7.1.4",
@@ -172,14 +172,14 @@
     "ts-loader": "^6.0.4",
     "ts-node": "^8.4.1",
     "tslib": "^1.9.3",
+    "tslint": "^5.19.0",
     "tslint-config-airbnb": "^5.11.1",
     "tslint-config-prettier": "^1.18.0",
-    "tslint": "^5.19.0",
     "typescript": "^3.6.4",
     "vsce": "^1.66.0",
     "vscode-test": "^1.2.0",
-    "webpack-cli": "^3.3.7",
-    "webpack": "^4.39.3"
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
   },
   "keywords": [
     "Dark Theme",

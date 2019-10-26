@@ -3,7 +3,8 @@
 [![GitHub issues](https://img.shields.io/github/issues/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/issues)
 [![GitHub contributors](https://img.shields.io/github/contributors-anon/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/graphs/contributors)
 [![GitHub stars](https://img.shields.io/github/stars/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/stargazers)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ce09cc344aa144749755aa29d0f78f83)](https://www.codacy.com/manual/Luxcium/pop-n-lock-theme-vscode?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Luxcium/pop-n-lock-theme-vscode&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ce09cc344aa144749755aa29d0f78f83)](https://www.codacy.com/manual/Luxcium/pop-n-lock-theme-vscode?utm_source=github.com&utm_medium=referral&utm_content=Luxcium/pop-n-lock-theme-vscode&utm_campaign=Badge_Grade)
+[![Known Vulnerabilities](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg)](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode)
 
 ## About
 
@@ -20,14 +21,14 @@ This theme is based on the designs of Hedinne's _Popping And Locking_ a theme wi
 > Please feel free to ask any question, to let us know about any problems that should be resolved and any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page.
 >
 > ### **You will be impressed how intutive it is when you will discover how each colour has its purpose**
+>
 > [<img width="90%" alt="[Preview of the IDE with Pop N’ Lock Theme]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png)
-<br/>(v3.18)<br/>
-
+> <br/>(v3.18)<br/>
 
 > This theme includes other extensions†
 > (you can enable or disable them as you wish) :
 > [<img width="60%" alt="[Included Extensions]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/included%20extensions.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/included%20extensions.png)
-<br/>(v3.18)<br/>
+> <br/>(v3.18)<br/>
 >
 > - [x] better-comments
 > - [x] bracket-pair-colorizer-2
@@ -239,5 +240,3 @@ Will fall back to usig italic if the font doese not include support
 ---
 
 The Luxcium Owl logo is a trademark of Benjamin Vincent Kasapoglu tm & (c) 2017-present all right reserved
-
-[![Known Vulnerabilities](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg)](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode)

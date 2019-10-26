@@ -3,9 +3,6 @@
   "name": "Pop N Lock Theme by Luxcium",
   "type": "dark",
   "colors": {
-    // "#([a-f0-9]{3})([e])",\n
-    // "#$1D", /*#$1E*/\n
-    // #region *** MAIN ***
     /* *** MAIN *** */
     "editorGutter.commentRangeForeground": "#53EA",
     "editor.background": "#202137",
@@ -5882,7 +5879,7 @@ support.function.console.js
         "comment.block",
       ],
       "settings": {
-        "foreground": "#63EE",
+        "foreground": "#63E",
         "fontStyle": ""
       }
     },
@@ -5891,7 +5888,7 @@ support.function.console.js
         "comment.line.double-slash",
       ],
       "settings": {
-        "foreground": "#2ACC",
+        "foreground": "#2ACD",
         "fontStyle": ""
       }
     },
@@ -5900,7 +5897,7 @@ support.function.console.js
         "comment.line.double-slash punctuation.definition.comment",
       ],
       "settings": {
-        "foreground": "#2AC4",
+        "foreground": "#2AC9",
         "fontStyle": "bold"
       }
     },
