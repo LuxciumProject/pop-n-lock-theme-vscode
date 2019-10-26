@@ -230,7 +230,7 @@ Will fall back to usig italic if the font doese not include support
 
 [![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TS1.png)(v3.11.1) TypeScript Screenshot](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TS2.png)
 
-Originally based on:
+## Originally based on
 
 - [Hedinne's Popping And Locking (VSCode Theme)](https://github.com/hedinne/popping-and-locking-vscode)
   - [Morhetz's Gruvbox](https://github.com/morhetz/gruvbox)
@@ -238,4 +238,6 @@ Originally based on:
 
 ---
 
-The Luxcium Owl logo is a trademark of NeB_401.Corp LTEE (all right reserved)
+The Luxcium Owl logo is a trademark of Benjamin Vincent Kasapoglu tm & (c) 2017-present all right reserved
+
+[![Known Vulnerabilities](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg)](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode)

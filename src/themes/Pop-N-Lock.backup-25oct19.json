@@ -102,10 +102,10 @@
     /* *** *** *** *** */
     "editor.stackFrameHighlightBackground": "#2355",
     /* *** *** *** *** */
-    "editor.wordHighlightBackground": "#8DA3",
-    "editor.wordHighlightBorder": "#8DAB",
-    "editor.wordHighlightStrongBackground": "#E473",
-    "editor.wordHighlightStrongBorder": "#E47B",
+    "editor.wordHighlightBackground": "#8DA4",
+    "editor.wordHighlightBorder": "#8B3B",
+    "editor.wordHighlightStrongBackground": "#E474",
+    "editor.wordHighlightStrongBorder": "#B35B",
     /* *** *** *** *** */
     "editorBracketMatch.background": "#AE44",
     "editorBracketMatch.border": "#AE4B",
@@ -124,9 +124,9 @@
     "editorGroupHeader.tabsBackground": "#1C1C2E",
     "editorGroupHeader.tabsBorder": "#1D2545",
     /* *** *** *** *** */
-    "editorGutter.addedBackground": "#8B3",
-    "editorGutter.deletedBackground": "#B35",
-    "editorGutter.modifiedBackground": "#38A",
+    "editorGutter.addedBackground": "#8B3A",
+    "editorGutter.deletedBackground": "#B35A",
+    "editorGutter.modifiedBackground": "#38AA",
     /* *** *** *** *** */
     "editorHoverWidget.background": "#1D2555EE",
     "editorHoverWidget.border": "#DCA3",
@@ -186,13 +186,15 @@
     "editorWidget.resizeBorder": "#DCA3",
     // #endregion
     // #region *** gitDecoration ***
-    "gitDecoration.addedResourceForeground": "#FD5D",
-    "gitDecoration.conflictingResourceForeground": "#F15B",
-    "gitDecoration.deletedResourceForeground": "#C32B",
-    "gitDecoration.ignoredResourceForeground": "#38AC",
+    "list.errorForeground": "#F55",
+    "list.warningForeground": "#4C2",
+    "gitDecoration.untrackedResourceForeground": "#7C4",
     "gitDecoration.modifiedResourceForeground": "#EA2",
-    "gitDecoration.submoduleResourceForeground": "#95BC",
-    "gitDecoration.untrackedResourceForeground": "#8C3",
+    "gitDecoration.addedResourceForeground": "#EA5",
+    "gitDecoration.conflictingResourceForeground": "#F15",
+    "gitDecoration.deletedResourceForeground": "#A99", // "#C32",
+    "gitDecoration.ignoredResourceForeground": "#38C",
+    "gitDecoration.submoduleResourceForeground": "#B5B",
     // #endregion
     // #region *** input.background ***
     "input.background": "#38A4",
@@ -221,18 +223,16 @@
     "list.inactiveSelectionBackground": "#38A6",
     "list.hoverBackground": "#7167",
     "list.dropBackground": "#38A3",
-    "list.activeSelectionForeground": "#EDCD",
-    "list.errorForeground": "#F45",
+    "list.activeSelectionForeground": "#EDCA",
     "list.focusForeground": "#FFF",
     "list.highlightForeground": "#7B5",
     "list.hoverForeground": "#DCAD",
     "list.inactiveSelectionForeground": "#DCAD",
     "list.invalidItemForeground": "#F42C",
-    "list.warningForeground": "#8D5",
     /* *** listFilterWidget.background": "#426E", *** */
     "listFilterWidget.background": "#426D",
-    "listFilterWidget.noMatchesOutline": "#426D",
-    "listFilterWidget.outline": "#426D",
+    "listFilterWidget.noMatchesOutline": "#F42",
+    "listFilterWidget.outline": "#8B3",
     // #endregion
     // #region *** menu.background ***
     "menu.background": "#2C203C",
