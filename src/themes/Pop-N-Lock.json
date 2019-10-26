@@ -5910,7 +5910,7 @@ source.css
         "comment.line.double-slash",
       ],
       "settings": {
-        "foreground": "#4DD9",
+        "foreground": "#4DDA",
         "fontStyle": ""
       }
     },
@@ -5937,7 +5937,7 @@ source.css
         "comment.block punctuation.definition.comment",
       ],
       "settings": {
-        "foreground": "#B4D6",
+        "foreground": "#B4D5",
         "fontStyle": "bold"
       }
     },
