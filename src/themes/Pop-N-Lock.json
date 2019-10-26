@@ -560,7 +560,8 @@
         "source.ts support.function.git-rebase",
         "source.ts support.function",
         // "source.ts support.function.math",
-        "source.ts support.function.process"
+        "source.ts support.function.process",
+        "source.ts support.function.dom",
         // "source.ts support.function.console"
       ],
       "settings": {
@@ -2311,6 +2312,7 @@
       "scope": [
         // "source.js support.function.builtin",
         "source.js support.function.git-rebase",
+        "source.js support.function.dom",
         // "source.js support.function.math",
         "source.js support.function.process"
         // "source.js support.function.console"
