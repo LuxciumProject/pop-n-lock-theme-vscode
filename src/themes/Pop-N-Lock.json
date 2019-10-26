@@ -14,7 +14,7 @@
     "progressBar.background": "#38AC",
     "selection.background": "#698A",
     "widget.shadow": "#112",
-    "focusBorder": "#7165",
+    "focusBorder": "#716A",
     "foreground": "#DCAD",
     "editorUnnecessaryCode.border": "#95B4",
     "editorUnnecessaryCode.opacity": "#FFF5",
@@ -179,8 +179,8 @@
     "editorError.border": "#F154",
     /* *** *** *** *** */
     "editorWidget.background": "#1D2555EE",
-    "editorWidget.border": "#DCA3",
-    "editorWidget.resizeBorder": "#DCA3",
+    "editorWidget.border": "#DCA5",
+    "editorWidget.resizeBorder": "#38AE", /*  "#DCA3", */
     // #endregion
     // #region *** gitDecoration ***
     "gitDecoration.addedResourceForeground": "#FD5D",
@@ -192,15 +192,12 @@
     "gitDecoration.untrackedResourceForeground": "#8C3",
     // #endregion
     // #region *** input.background ***
-    "input.background": "#38A4",
-    "input.border": "#7167",
+    "inputOption.activeBorder": "#EA2B",
+    "inputOption.activeBackground": "#7168",
+    "input.background": "#38A3",
+    "input.border": "#EA28",
     "input.foreground": "#FEDD",
-    "input.placeholderForeground": "#DCA8",
-    /*
-     *** "inputOption.activeBorder": "#7161",
-     *** "inputOption.activeBorder": "#7161",
-     *** "inputValidation.errorBackground": "#7162",
-     *** */
+    "input.placeholderForeground": "#FEDA",
     "inputValidation.errorBackground": "#722D",
     "inputValidation.errorBorder": "#F45",
     "inputValidation.errorForeground": "#FEDD",
@@ -5885,8 +5882,6 @@ support.function.console.js
         "fontStyle": ""
       }
     },
-    /* TESTING: COMMENTS */
-    // TESTING: COMMENTS
     {
       "scope": [
         "comment.line.double-slash punctuation.definition.comment",
@@ -5896,8 +5891,6 @@ support.function.console.js
         "fontStyle": "bold"
       }
     },
-    /* TESTING: COMMENTS */
-    // TESTING: COMMENTS
     {
       "scope": [
         "comment.block",
@@ -5907,8 +5900,6 @@ support.function.console.js
         "fontStyle": ""
       }
     },
-    /* TESTING: COMMENTS */
-    // TESTING: COMMENTS
     {
       "scope": [
         "comment.block punctuation.definition.comment",
