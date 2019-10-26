@@ -6,6 +6,7 @@
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
   "description": "🐲Perfectly balanced TypeScript theme with vivid colours.",
   "preview": false,
+  "private": false,
   "markdown": "github",
   "qna": "marketplace",
   "icon": "Scientia-is-lux-principium-400px-TM.png",
@@ -16,7 +17,8 @@
   "scripts": {
     "vsce:update": "npm -g i vsce@latest",
     "package:publish": "vsce package && vsce publish",
-    "publish": "yarn run vsce:update; npm version patch && yarn run package:publish"
+    "publish": "yarn run vsce:update; npm version patch && yarn run package:publish",
+    "test": "snyk test"
   },
   "categories": [
     "Programming Languages",
@@ -162,7 +164,8 @@
     "tslint-config-airbnb": "^5.11.1",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.4.3",
-    "vsce": "^1.66.0"
+    "vsce": "^1.66.0",
+    "snyk": "^1.239.0"
   },
   "keywords": [
     "Dark Theme",
