@@ -839,7 +839,6 @@
         "source.ts constant.rgb-value",
         "source.ts constant.sha.git-rebase",
         "source.ts constant.character.escape",
-        "source.ts support.constant.property-value.css",
         "source.ts constant.numeric",
         "source.ts constant.numeric.binary",
         "source.ts constant.numeric.decimal",
@@ -1713,7 +1712,6 @@
         "source.tsx constant.rgb-value",
         "source.tsx constant.sha.git-rebase",
         "source.tsx constant.character.escape",
-        "source.tsx support.constant.property-value.css",
         "source.tsx constant.numeric",
         "source.tsx constant.numeric.binary",
         "source.tsx constant.numeric.decimal",
@@ -2597,7 +2595,6 @@ support.function.console.js
         "source.js constant.rgb-value",
         "source.js constant.sha.git-rebase",
         "source.js constant.character.escape",
-        "source.js support.constant.property-value.css",
         "source.js constant.numeric",
         "source.js constant.numeric.binary",
         "source.js constant.numeric.decimal",
@@ -3838,23 +3835,23 @@ support.function.console.js
         "foreground": "#f42c3eFF"
       }
     },
-    {
-      "name": "CSS propperty",
-      "scope": "support.type.property-name.css",
-      "settings": {
-        "foreground": "#fabE2fFF"
-      }
-    },
-    {
-      "name": "CSS propperty value",
-      "scope": [
-        "meta.property-group",
-        "support.constant.property-value.css"
-      ],
-      "settings": {
-        "foreground": "#b8bb26FF"
-      }
-    },
+    // {
+    //   "name": "CSS propperty",
+    //   "scope": "support.type.property-name.css",
+    //   "settings": {
+    //     "foreground": "#fabE2fFF"
+    //   }
+    // },
+    // {
+    //   "name": "CSS propperty value",
+    //   "scope": [
+    //     "meta.property-group",
+    //     "support.constant.property-value.css"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#b8bb26FF"
+    //   }
+    // },
     {
       "name": "HTML and JSX Tags",
       "scope": [
@@ -4775,6 +4772,13 @@ support.function.console.js
     // // #endregion
     // #region "CSS" -----------------------------------------------------------
     // entity.name.tag.css entity.other.attribute-name.pseudo-class.css
+    /*
+keyword.other.unit.px.css
+constant.numeric.css
+meta.property-value.css
+meta.property-list.css
+source.css
+    */
     {
       "name": "css comment block punctuation",
       "scope": [
@@ -4905,6 +4909,23 @@ support.function.console.js
         "fontStyle": "bold italic"
       }
     },
+    /*
+constant.numeric.css
+meta.function.color.css
+meta.property-value.css
+meta.property-list.css
+source.css
+
+upport.constant.property-value.css
+meta.property-value.css
+meta.property-list.css
+source.css
+
+meta.property-value support.constant.property-value
+meta.property-value.css
+meta.property-list.css
+source.css
+    */
     {
       "name": "css UNIT keyword",
       "scope": [
@@ -4913,7 +4934,18 @@ support.function.console.js
         "source.css meta.at-rule.media.header keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#D65D",
+        "foreground": "#CE5C",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "css property value",
+      "scope": [
+        "source.css support.constant.property-value",
+        "source.css meta.property-value support.constant.property-value"
+      ],
+      "settings": {
+        "foreground": "#D2CD" /*#D5AE*/,
         "fontStyle": ""
       }
     },
@@ -4921,11 +4953,10 @@ support.function.console.js
       "name": "css numeric value",
       "scope": [
         "source.css meta.property-value constant.numeric",
-        "source.css support.constant.property-value.css",
         "source.css meta.at-rule.media.header constant.numeric"
       ],
       "settings": {
-        "foreground": "#D5AD" /*#D5AE*/,
+        "foreground": "#E67D" /*#D5AE*/,
         "fontStyle": ""
       }
     },
@@ -5364,7 +5395,6 @@ support.function.console.js
         "source constant.rgb-value",
         "source constant.sha.git-rebase",
         "source constant.character.escape",
-        "source support.constant.property-value.css",
         "source constant.numeric",
         "source constant.numeric.binary",
         "source constant.numeric.decimal",
