@@ -222,6 +222,11 @@
       "description": "GitHub contributors",
       "href": "https://github.com/luxcium/pop-n-lock-theme-vscode/graphs/contributors",
       "url": "https://img.shields.io/github/contributors-anon/luxcium/pop-n-lock-theme-vscode.svg?style=social"
+    },
+    {
+      "description": "Snyk.io Known Vulnerabilities",
+      "href": "https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg",
+      "url": "https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode"
     }
   ],
   "__metadata": {

@@ -219,4 +219,4 @@ Will fall back to usig italic if the font doese not include support
 
 The Luxcium Owl logo is a trademark of Benjamin Vincent Kasapoglu tm & (c) 2017-present all right reserved
 
-[![Known Vulnerabilities](https://snyk.io/test/github/{luxcium}/{pop-n-lock-theme-vscode}/badge.svg)](https://snyk.io/test/github/{luxcium}/{pop-n-lock-theme-vscode})
+[![Known Vulnerabilities](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg)](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode)
