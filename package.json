@@ -6,7 +6,6 @@
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
   "description": "🐲Perfectly balanced TypeScript theme with vivid colours.",
   "preview": false,
-  "main": "./dist/extension",
   "markdown": "github",
   "qna": "marketplace",
   "icon": "Scientia-is-lux-principium-400px-TM.png",
