@@ -5874,49 +5874,52 @@ support.function.console.js
         "fontStyle": ""
       }
     },
-    {
-      "scope": [
-        "comment.block",
-      ],
-      "settings": {
-        "foreground": "#63E",
-        "fontStyle": ""
-      }
-    },
+    /* TESTING: COMMENTS */
+    // TESTING: COMMENTS
     {
       "scope": [
         "comment.line.double-slash",
       ],
       "settings": {
-        "foreground": "#2ACD",
+        "foreground": "#2ADD",
         "fontStyle": ""
       }
     },
+    /* TESTING: COMMENTS */
+    // TESTING: COMMENTS
     {
       "scope": [
         "comment.line.double-slash punctuation.definition.comment",
       ],
       "settings": {
-        "foreground": "#2AC9",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": [
-        "comment.block punctuation.definition.comment",
-      ],
-      "settings": {
-        "foreground": "#41D9",
+        "foreground": "#2AD7",
         "fontStyle": "bold"
       }
     },
     /* TESTING: COMMENTS */
     // TESTING: COMMENTS
-    /*
-punctuation.definition.comment.ts
-comment.line.triple-slash.directive.ts
-source.ts
-*/
+    {
+      "scope": [
+        "comment.block",
+      ],
+      "settings": {
+        "foreground": "#A2DD",
+        "fontStyle": ""
+      }
+    },
+    /* TESTING: COMMENTS */
+    // TESTING: COMMENTS
+    {
+      "scope": [
+        "comment.block punctuation.definition.comment",
+      ],
+      "settings": {
+        "foreground": "#A2D7",
+        "fontStyle": "bold"
+      }
+    },
+    /* TESTING: COMMENTS */
+    // TESTING: COMMENTS
     {
       "scope": [
         "comment.line.triple-slash.directive punctuation.definition.comment",
@@ -6034,3 +6037,5 @@ source.ts
     // #endregion
   ]
 }
+/* "#B5F9" */ /* "#63E" */
+/* "#41DB" */
