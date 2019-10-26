@@ -4917,7 +4917,7 @@ support.function.console.js
         "source.css meta.at-rule.media.header keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#D65D" /*#D65E*/,
+        "foreground": "#D65D",
         "fontStyle": ""
       }
     },
@@ -5321,7 +5321,7 @@ support.function.console.js
     {
       "name": "support properties",
       "scope": [
-        /*         "source support.variable.property",
+        /*  "source support.variable.property",
             "source support.variable.property.importmeta",
             "source support.variable.property.process",
             "source support.variable.property.target",
@@ -5836,6 +5836,16 @@ support.function.console.js
     },
     // #endregion
     // #region "MAIN" ----------------------------------------------------------
+    /*
+        "comment.line.triple-slash.directive meta.tag entity.name.tag.directive",
+        "comment.line.triple-slash.directive entity.other.attribute-name.directive"
+        "comment.line.triple-slash.directive punctuation.definition.tag.directive"
+        "comment.line.triple-slash.directive punctuation.definition.comment",
+        "comment.line.triple-slash.directive keyword.operator.assignment",
+        "comment.line.triple-slash.directive punctuation.definition.tag.directive"
+        "comment.line.triple-slash.directive string.quoted.double"
+
+    */
     /* SHEBANG */
     {
       "scope": [
@@ -5843,7 +5853,7 @@ support.function.console.js
         "source punctuation.definition.comment.shebang"
       ],
       "settings": {
-        "foreground": "#F15C",
+        "foreground": "#F159",
         "fontStyle": "bold underline"
       }
     },
@@ -5869,35 +5879,87 @@ support.function.console.js
     },
     {
       "scope": [
-        "comment.block punctuation.definition.comment",
         "comment.block",
-        "comment.line.triple-slash.directive meta.tag entity.name.tag.directive",
-        "comment.line.triple-slash.directive entity.other.attribute-name.directive"
       ],
       "settings": {
-        "foreground": "#55FD",
+        "foreground": "#63EE",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": [
+        "comment.line.double-slash",
+      ],
+      "settings": {
+        "foreground": "#2ACC",
         "fontStyle": ""
       }
     },
     {
       "scope": [
         "comment.line.double-slash punctuation.definition.comment",
-        "comment.line.double-slash",
-        "comment.line.triple-slash.directive punctuation.definition.comment",
-        "comment.line.triple-slash.directive keyword.operator.assignment",
-        "comment.line.triple-slash.directive punctuation.definition.tag.directive"
       ],
       "settings": {
-        "foreground": "#2BD8",
+        "foreground": "#2AC4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "comment.block punctuation.definition.comment",
+      ],
+      "settings": {
+        "foreground": "#41D9",
+        "fontStyle": "bold"
+      }
+    },
+    /* TESTING: COMMENTS */
+    // TESTING: COMMENTS
+    /*
+punctuation.definition.comment.ts
+comment.line.triple-slash.directive.ts
+source.ts
+*/
+    {
+      "scope": [
+        "comment.line.triple-slash.directive punctuation.definition.comment",
+      ],
+      "settings": {
+        "foreground": "#B985",
         "fontStyle": ""
       }
     },
     {
       "scope": [
+        "comment.line.triple-slash.directive punctuation.definition.tag.directive",
+        "comment.line.triple-slash.directive punctuation.definition.tag.directive",
+        "comment.line.triple-slash.directive punctuation.definition.string",
+        "comment.line.triple-slash.directive keyword.operator.assignment",
+      ],
+      "settings": {
+        "foreground": "#B985",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": [
+        "comment.line.triple-slash.directive meta.tag entity.name.tag.directive",
+        "comment.line.triple-slash.directive entity.other.attribute-name.directive",
+        "comment.line.triple-slash.directive string.quoted",
+      ],
+      "settings": {
+        "foreground": "#2BD7",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": [
+        "comment.line.triple-slash.directive string.quoted",
+        "comment.line.triple-slash.directive string.quoted.single",
         "comment.line.triple-slash.directive string.quoted.double"
       ],
       "settings": {
-        "foreground": "#B98D" /*#B98E*/,
+        "foreground": "#CE59",
         "fontStyle": ""
       }
     },
