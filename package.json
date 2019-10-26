@@ -15,9 +15,10 @@
     "vscode": "^1.12.0"
   },
   "scripts": {
-    "vsce:update": "npm -g i vsce@latest",
+    "vsce:update": "#yarn -g i vsce@latest",
     "package:publish": "vsce package && vsce publish",
-    "publish": "yarn run vsce:update; npm version patch && yarn run package:publish",
+    "prepublish": "yarn run vsce:update",
+    "publish": "yarn version patch && yarn run package:publish",
     "test": "snyk test"
   },
   "categories": [
