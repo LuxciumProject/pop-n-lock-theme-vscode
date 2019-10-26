@@ -5910,7 +5910,7 @@ source.css
         "comment.line.double-slash",
       ],
       "settings": {
-        "foreground": "#4ADB",
+        "foreground": "#4DDA",
         "fontStyle": ""
       }
     },
@@ -5919,7 +5919,7 @@ source.css
         "comment.line.double-slash punctuation.definition.comment",
       ],
       "settings": {
-        "foreground": "#4AD6",
+        "foreground": "#4CD5",
         "fontStyle": "bold"
       }
     },
@@ -5928,7 +5928,7 @@ source.css
         "comment.block",
       ],
       "settings": {
-        "foreground": "#A4DB",
+        "foreground": "#B4DB",
         "fontStyle": ""
       }
     },
@@ -5937,7 +5937,7 @@ source.css
         "comment.block punctuation.definition.comment",
       ],
       "settings": {
-        "foreground": "#A4D6",
+        "foreground": "#B4D5",
         "fontStyle": "bold"
       }
     },
