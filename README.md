@@ -6,15 +6,15 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ce09cc344aa144749755aa29d0f78f83)](https://www.codacy.com/manual/Luxcium/pop-n-lock-theme-vscode?utm_source=github.com&utm_medium=referral&utm_content=Luxcium/pop-n-lock-theme-vscode&utm_campaign=Badge_Grade)
 [![Known Vulnerabilities](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg)](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode)
 
-## Experimental PREVIEW 🧪
+## Breaking Changes possible ⚠️
 
-### Breaking Changes possible ⚠️
+### 2 new PREVIEW included 🧪
 
 Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩 (PREVIEW may change in future release)
 
 Pop N' Lock Theme by Luxcium ✨ Alexis's Black ⛷ (PREVIEW may change in future release)
 
-**Experimental PREVIEWS are subject to change in a future release. It will be splited in separate themes. You may have to reinstall the themes after by removing from your config files and adding back...**
+**PREVIEWS are subject to change in a future release. It will be splited in separate themes. You may have to reinstall the themes after by removing from your config files and adding back...**
 
 ## About
 
