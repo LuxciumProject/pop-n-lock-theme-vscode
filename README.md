@@ -9,9 +9,12 @@
 ## About
 
 **Breaking Changes:**
+
 Experimental PREVIEWS are subject to change in a future release. You may have to reinstall the theme after...
-_Pop N' Lock Theme by Luxcium TSA/ASD (PREVIEW will change in future release)✨_
-_Pop N' Lock Theme by Luxcium Alexis's Black (PREVIEW will change in future release)✨_
+
+Pop N' Lock Theme by Luxcium TSA/ASD (PREVIEW will change in future release)✨
+
+Pop N' Lock Theme by Luxcium Alexis's Black (PREVIEW will change in future release)✨
 
 Your favourite streamlined code editor is getting more bright and radiant, optimized to work in the Full-fledged _Integrated Development Environment_ or in _Text Editor sized_ mode. The colours have been handpicked with great care to be the most intuitive possible and to use extensively all capacity of your favourite IDE and text editor. This powerful theme of colour is always evolving. Colourful features are added and more languages will be included soon. This theme is STRONGLY OPINIONATED so make sure to request any changes you want by filling an issue if you want to be influencing the opinion.
 
