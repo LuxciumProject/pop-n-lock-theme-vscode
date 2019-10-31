@@ -45,9 +45,9 @@
         "path": "./src/themes/Pop-N-Lock.json"
       },
       {
-        "label": "Pop N' Lock Theme by Luxcium (BLACK PREVIEW)✨",
+        "label": "Pop N' Lock Theme by Luxcium Dark (PREVIEW)✨",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/Pop-N-Lock-black.json"
+        "path": "./src/themes/Pop-N-Lock-dark.json"
       }
     ],
     "languages": [
