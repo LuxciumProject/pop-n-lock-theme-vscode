@@ -1,6 +1,6 @@
 {
   "name": "pop-n-lock-theme-vscode",
-  "version": "3.20.0",
+  "version": "3.20.1",
   "publisher": "Luxcium",
   "license": "MIT",
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
@@ -45,12 +45,12 @@
         "path": "./src/themes/Pop-N-Lock.json"
       },
       {
-        "label": "Pop N' Lock Theme by Luxcium TSA/ASD (PREVIEW may change in future release)✨",
+        "label": "Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩 (PREVIEW may change in future release)",
         "uiTheme": "vs-dark",
         "path": "./src/themes/Pop-N-Lock-dark.json"
       },
       {
-        "label": "Pop N' Lock Theme by Luxcium Alexis's Black (PREVIEW may change in future release)✨",
+        "label": "Pop N' Lock Theme by Luxcium ✨ Alexis's Black ⛷ (PREVIEW may change in future release)",
         "uiTheme": "vs-dark",
         "path": "./src/themes/Pop-N-Lock-black.json"
       }
