@@ -6,7 +6,9 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ce09cc344aa144749755aa29d0f78f83)](https://www.codacy.com/manual/Luxcium/pop-n-lock-theme-vscode?utm_source=github.com&utm_medium=referral&utm_content=Luxcium/pop-n-lock-theme-vscode&utm_campaign=Badge_Grade)
 [![Known Vulnerabilities](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg)](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode)
 
-## Breaking Changes
+## Experimental PREVIEW
+
+### Breaking Changes
 
 Experimental PREVIEWS are subject to change in a future release. You may have to reinstall the theme after...
 
