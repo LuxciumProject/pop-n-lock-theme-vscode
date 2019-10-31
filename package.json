@@ -1,6 +1,6 @@
 {
   "name": "pop-n-lock-theme-vscode",
-  "version": "3.20.5",
+  "version": "3.20.6",
   "publisher": "Luxcium",
   "license": "MIT",
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
@@ -246,8 +246,8 @@
     },
     {
       "description": "Snyk.io Known Vulnerabilities",
-      "href": "https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg",
-      "url": "https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode"
+      "href": "https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode",
+      "url": "https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg"
     }
   ],
   "__metadata": {
