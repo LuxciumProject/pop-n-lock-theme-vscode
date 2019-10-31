@@ -10,11 +10,11 @@
 
 ### Breaking Changes possible ⚠️
 
-Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩 (PREVIEW will change in future release)
+Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩 (PREVIEW may change in future release)
 
-Pop N' Lock Theme by Luxcium ✨ Alexis's Black ⛷ (PREVIEW will change in future release)
+Pop N' Lock Theme by Luxcium ✨ Alexis's Black ⛷ (PREVIEW may change in future release)
 
-**Experimental PREVIEWS are subject to change in a future release. It will be splited in separate themes. You may have to reinstall the themes after...**
+**Experimental PREVIEWS are subject to change in a future release. It will be splited in separate themes. You may have to reinstall the themes after by removing from your config files and adding back...**
 
 ## About
 
