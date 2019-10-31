@@ -8,6 +8,8 @@
 
 ## Breaking Changes possible ⚠️
 
+If you have an error: `🚫Cannot read property 'id' of undefined` Just go in config.json file remove the `"workbench.colorTheme"` then reload vscode and reinstall `Pop N' Lock Theme by Luxcium ✨`
+
 ### 2 new PREVIEW included 🧪
 
 Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩 (PREVIEW may change in future release)
