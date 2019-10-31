@@ -6,15 +6,15 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ce09cc344aa144749755aa29d0f78f83)](https://www.codacy.com/manual/Luxcium/pop-n-lock-theme-vscode?utm_source=github.com&utm_medium=referral&utm_content=Luxcium/pop-n-lock-theme-vscode&utm_campaign=Badge_Grade)
 [![Known Vulnerabilities](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg)](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode)
 
-## About
-
-**Breaking Changes:**
+## Breaking Changes
 
 Experimental PREVIEWS are subject to change in a future release. You may have to reinstall the theme after...
 
 Pop N' Lock Theme by Luxcium TSA/ASD (PREVIEW will change in future release)✨
 
 Pop N' Lock Theme by Luxcium Alexis's Black (PREVIEW will change in future release)✨
+
+## About
 
 Your favourite streamlined code editor is getting more bright and radiant, optimized to work in the Full-fledged _Integrated Development Environment_ or in _Text Editor sized_ mode. The colours have been handpicked with great care to be the most intuitive possible and to use extensively all capacity of your favourite IDE and text editor. This powerful theme of colour is always evolving. Colourful features are added and more languages will be included soon. This theme is STRONGLY OPINIONATED so make sure to request any changes you want by filling an issue if you want to be influencing the opinion.
 
