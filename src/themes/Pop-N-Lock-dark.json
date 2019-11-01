@@ -5860,17 +5860,7 @@ source.css
       }
     },
     // #endregion
-    // #region "MAIN" ----------------------------------------------------------
-    /*
-        "comment.line.triple-slash.directive meta.tag entity.name.tag.directive",
-        "comment.line.triple-slash.directive entity.other.attribute-name.directive"
-        "comment.line.triple-slash.directive punctuation.definition.tag.directive"
-        "comment.line.triple-slash.directive punctuation.definition.comment",
-        "comment.line.triple-slash.directive keyword.operator.assignment",
-        "comment.line.triple-slash.directive punctuation.definition.tag.directive"
-        "comment.line.triple-slash.directive string.quoted.double"
-
-    */
+    // #region "COMMENTS" ----------------------------------------------------------
     /* SHEBANG */
     {
       "scope": [
@@ -5906,10 +5896,10 @@ source.css
     // TESTING: COMMENTS
     {
       "scope": [
-        "comment.line.double-slash",
+        "comment.line.double-slash"
       ],
       "settings": {
-        "foreground": "#4DDA",
+        "foreground": "#4DD7",
         "fontStyle": ""
       }
     },
@@ -5927,7 +5917,7 @@ source.css
         "comment.block",
       ],
       "settings": {
-        "foreground": "#B4DA",
+        "foreground": "#B4D7",
         "fontStyle": ""
       }
     },
@@ -5942,6 +5932,8 @@ source.css
     },
     /* TESTING: COMMENTS */
     // TESTING: COMMENTS
+    // #endregion
+    // #region "MAIN" ----------------------------------------------------------
     {
       "scope": [
         "comment.line.triple-slash.directive punctuation.definition.comment",
