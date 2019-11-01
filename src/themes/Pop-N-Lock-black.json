@@ -5,12 +5,12 @@
   // ("#[a-f0-9]{3})C(")
   "colors": {
     "activityBar.background": "#181818" /* 1C1C30 */,
-    "activityBarBadge.background": "#38A7",
-    "badge.background": "#38A7",
+    "activityBarBadge.background": "#38AB",
+    "badge.background": "#38AB",
     "breadcrumb.background": "#181818" /* 1D2547 */,
     "breadcrumbPicker.background": "#181818",
     "button.background": "#7167",
-    "button.hoverBackground": "#38A7",
+    "button.hoverBackground": "#38AB",
     "editor.background": "#1A1A1A", //
     "editor.findMatchBackground": "#38A5",
     "editor.findMatchHighlightBackground": "#38A5",
@@ -36,7 +36,7 @@
     "editorHoverWidget.statusBarBackground": "#181818" /* 1C1C2E */,
     "editorMarkerNavigationError.background": "#B35B",
     "editorMarkerNavigationInfo.background": "#38A7",
-    "editorMarkerNavigationWarning.background": "#FC6B",
+    "editorMarkerNavigationWarning.background": "#FC5B",
     "editorPane.background": "#181818" /* 1C1C2E */,
     "extensionButton.prominentBackground": "#38A7",
     "extensionButton.prominentHoverBackground": "#7167",
@@ -61,9 +61,9 @@
     "panel.dropBackground": "#20202055" /* 201C39 */,
     "peekViewEditorGutter.background": "#1A1028" /* 1D2545 */,
     "peekViewResult.matchHighlightBackground": "#38A5",
-    "progressBar.background": "#FF8",
+    "progressBar.background": "#FC5",
     "scrollbarSlider.activeBackground": "#AE48",
-    "scrollbarSlider.background": "#FC62",
+    "scrollbarSlider.background": "#FC53",
     "scrollbarSlider.hoverBackground": "#38A5",
     "settings.checkboxBackground": "#38A5",
     "settings.dropdownBackground": "#7465",
@@ -86,7 +86,7 @@
     "titleBar.inactiveBackground": "#181818" /* 1C1C2E */,
     "welcomePage.buttonBackground": "#7167",
     "welcomePage.buttonHoverBackground": "#38A7",
-    "activityBar.border": "#FC64",
+    "activityBar.border": "#FC54",
     "contrastActiveBorder": "#1B1B2611",
     "contrastBorder": "#181818",
     "debugToolBar.border": "#52A5",
@@ -116,20 +116,20 @@
     "panel.border": "#DCA3",
     "panelInput.border": "#7163",
     "panelTitle.activeBorder": "#38A7",
-    "settings.checkboxBorder": "#FC63",
-    "settings.dropdownBorder": "#FC63",
-    "settings.dropdownListBorder": "#FC63",
-    "settings.numberInputBorder": "#FC63",
-    "settings.textInputBorder": "#FC63",
-    "sideBar.border": "#FC64",
-    "sideBarSectionHeader.border": "#7165",
-    "statusBar.border": "#FC61",
+    "settings.checkboxBorder": "#FC53",
+    "settings.dropdownBorder": "#FC53",
+    "settings.dropdownListBorder": "#FC53",
+    "settings.numberInputBorder": "#FC53",
+    "settings.textInputBorder": "#FC53",
+    "sideBar.border": "#FC53",
+    "sideBarSectionHeader.border": "#FC57",
+    "statusBar.border": "#FC51",
     "tab.activeBorderTop": "#AE4B", // ! F
     "tab.activeModifiedBorder": "#F42B", // ! F
     "tab.border": "#1D1A1F" /* 1C1C2E */,
     "tab.hoverBorder": "#38A7",
     "tab.inactiveModifiedBorder": "#E3DB",
-    "titleBar.border": "#FC60" /* 1C1C2E */,
+    "titleBar.border": "#FC50" /* 1C1C2E */,
     "window.activeBorder": "#1b1b26",
     "window.inactiveBorder": "#1b1b26",
     // "debugExceptionWidget.border": "#DCA3",
@@ -139,8 +139,8 @@
     // "editor.snippetFinalTabstopHighlightBorder": "#2355",
     // "editor.snippetTabstopHighlightBorder": "#235B",
     // "editorError.border": "#F154",
-    // "editorGroup.border": "#FC65",
-    // "editorHint.border": "#FC64",
+    // "editorGroup.border": "#FC55",
+    // "editorHint.border": "#FC54",
     // "editorHoverWidget.border": "#DCA3",
     // "editorInfo.border": "#4AE5",
     // "editorOverviewRuler.border": "#38A7",
@@ -162,7 +162,7 @@
     // "tab.unfocusedInactiveModifiedBorder": "#E5D7",
     // "textBlockQuote.border": "#7161",
     // // "peekView.border": "#FC5D", // "#FC5D", ,
-    // // "peekView.border": "#FC6B",
+    // // "peekView.border": "#FC5B",
     // // "peekViewEditor.matchHighlightBorder": "#618B",
     // // "peekViewEditor.matchHighlightBorder": "#618B",
     "editorCursor.foreground": "#C02030AC",
@@ -202,9 +202,9 @@
     "textLink.activeForeground": "#64CB",
     "textLink.foreground": "#6AFB",
     "activityBar.foreground": "#FECB",
-    "activityBar.inactiveForeground": "#FECB",
-    "activityBarBadge.foreground": "#FECB",
-    "badge.foreground": "#FECB",
+    "activityBar.inactiveForeground": "#FEC7",
+    "activityBarBadge.foreground": "#FD6",
+    "badge.foreground": "#FD6",
     "breadcrumb.activeSelectionForeground": "#EDEB",
     "breadcrumb.focusForeground": "#DCAB",
     "breadcrumb.foreground": "#DCAB",
@@ -312,9 +312,9 @@
     // "editor.snippetTabstopHighlightBorder": "#235B",
     // "editor.stackFrameHighlightBackground": "#2355",
     // "editorError.border": "#F154",
-    // "editorGroup.border": "#FC65",
+    // "editorGroup.border": "#FC55",
     // "editorGroup.dropBackground": "#2C203C55" /* 2C203C */,
-    // "editorHint.border": "#FC64",
+    // "editorHint.border": "#FC54",
     // "editorHoverWidget.background": "#1D2555AA",
     // "editorHoverWidget.border": "#DCA3",
     // "editorIndentGuide.activeBackground": "#4AE3",
@@ -365,7 +365,7 @@
   "tokenColors": [
     // "TypeScript main Tokens colors" -----------------------------------------
     // "#D25B","#E43B","#E67B","#E1AB","#7ADB",
-    // "#FC5D","#F91B","#EDAB","#A5BB","#ADCB",
+    // "#FC7D","#F91B","#EDAB","#A5BB","#ADCB",
     // "#CE5B","#7C2B","#4B9B","#55FB","#6BFB",
     // #region "TypeScript" ----------------------------------------------------
     // #region TS INTERFACE START HERE
@@ -409,7 +409,7 @@
         "source.ts meta.type.declaration support.type.primitive"
       ],
       "settings": {
-        "foreground": "#FC5D", //  "#E7BB",
+        "foreground": "#FC7D", //  "#E7BB",
         "fontStyle": ""
       }
     },
@@ -422,7 +422,7 @@
         "source.ts meta.function meta.block meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D", //  "#E7BB",
+        "foreground": "#FC7D", //  "#E7BB",
         "fontStyle": ""
       }
     },
@@ -434,7 +434,7 @@
         "source.ts meta.function meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold"
       }
     },
@@ -449,7 +449,7 @@
         "source.ts type.annotation"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": ""
       }
     },
@@ -460,7 +460,7 @@
         "source.ts support.type.primitive"
       ],
       "settings": {
-        "foreground": "#FC5D", //  "#E7BB",  "#FC5D",
+        "foreground": "#FC7D", //  "#E7BB",  "#FC7D",
         "fontStyle": ""
       }
     },
@@ -474,7 +474,7 @@
         "source.ts meta.field.declaration.ts"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
         "fontStyle": ""
       }
     },
@@ -489,7 +489,7 @@
         // "source.ts support.function.console"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold italic"
       }
     },
@@ -505,7 +505,7 @@
         // "source.ts support.function.console"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold"
       }
     },
@@ -516,7 +516,7 @@
         "source.ts new.expr entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold"
       }
     },
@@ -537,7 +537,7 @@
         "source.ts meta.return.type meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "italic"
       }
     },
@@ -547,7 +547,7 @@
         "source.ts meta.return.type meta.type.parameters support.type.primitive"
       ],
       "settings": {
-        "foreground": "#E7BB", // "#FC5D",  "#E7BB",
+        "foreground": "#E7BB", // "#FC7D",  "#E7BB",
         "fontStyle": "italic"
       }
     },
@@ -639,7 +639,7 @@
         "source.ts string.regexp punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
         "fontStyle": ""
       }
     },
@@ -650,7 +650,7 @@
         "source support.function.console"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold italic"
       }
     },
@@ -842,7 +842,7 @@
         "source.ts storage.type.class"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold italic"
       }
     },
@@ -1300,7 +1300,7 @@
         "source.tsx meta.type.declaration support.type.primitive"
       ],
       "settings": {
-        "foreground": "#FC5D", //  "#E7BB",
+        "foreground": "#FC7D", //  "#E7BB",
         "fontStyle": ""
       }
     },
@@ -1313,7 +1313,7 @@
         "source.tsx meta.function meta.block meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D", //  "#E7BB",
+        "foreground": "#FC7D", //  "#E7BB",
         "fontStyle": ""
       }
     },
@@ -1325,7 +1325,7 @@
         "source.tsx meta.function meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold"
       }
     },
@@ -1340,7 +1340,7 @@
         "source.tsx type.annotation"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": ""
       }
     },
@@ -1351,7 +1351,7 @@
         "source.tsx support.type.primitive"
       ],
       "settings": {
-        "foreground": "#FC5D", //  "#E7BB",  "#FC5D",
+        "foreground": "#FC7D", //  "#E7BB",  "#FC7D",
         "fontStyle": ""
       }
     },
@@ -1365,7 +1365,7 @@
         "source.tsx meta.field.declaration.tsx"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
         "fontStyle": ""
       }
     },
@@ -1380,7 +1380,7 @@
         // "source.tsx support.function.console"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold italic"
       }
     },
@@ -1391,7 +1391,7 @@
         "source.tsx new.expr entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold"
       }
     },
@@ -1412,7 +1412,7 @@
         "source.tsx meta.return.type meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "italic"
       }
     },
@@ -1422,7 +1422,7 @@
         "source.tsx meta.return.type meta.type.parameters support.type.primitive"
       ],
       "settings": {
-        "foreground": "#E7BB", // "#FC5D",  "#E7BB",
+        "foreground": "#E7BB", // "#FC7D",  "#E7BB",
         "fontStyle": "italic"
       }
     },
@@ -1514,7 +1514,7 @@
         "source.tsx string.regexp punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
         "fontStyle": ""
       }
     },
@@ -1525,7 +1525,7 @@
         "source support.function.console"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold italic"
       }
     },
@@ -1715,7 +1715,7 @@
         "source.tsx storage.type.class"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold italic"
       }
     },
@@ -2160,7 +2160,7 @@
         "source.js meta.type.declaration support.type.primitive"
       ],
       "settings": {
-        "foreground": "#FC5D", //  "#E7BB",
+        "foreground": "#FC7D", //  "#E7BB",
         "fontStyle": ""
       }
     },
@@ -2173,7 +2173,7 @@
         "source.js meta.function meta.block meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D", //  "#E7BB",
+        "foreground": "#FC7D", //  "#E7BB",
         "fontStyle": ""
       }
     },
@@ -2185,7 +2185,7 @@
         "source.js meta.function meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold"
       }
     },
@@ -2200,7 +2200,7 @@
         "source.js type.annotation"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": ""
       }
     },
@@ -2211,7 +2211,7 @@
         "source.js support.type.primitive"
       ],
       "settings": {
-        "foreground": "#FC5D", //  "#E7BB",  "#FC5D",
+        "foreground": "#FC7D", //  "#E7BB",  "#FC7D",
         "fontStyle": ""
       }
     },
@@ -2226,7 +2226,7 @@
         "source.js support.function"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
         "fontStyle": ""
       }
     },
@@ -2241,7 +2241,7 @@
         // "source.js support.function.console"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold italic"
       }
     },
@@ -2256,7 +2256,7 @@
         // "source.js support.function.console"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold"
       }
     },
@@ -2267,7 +2267,7 @@
         "source.js new.expr entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold"
       }
     },
@@ -2288,7 +2288,7 @@
         "source.js meta.return.type meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "italic"
       }
     },
@@ -2298,7 +2298,7 @@
         "source.js meta.return.type meta.type.parameters support.type.primitive"
       ],
       "settings": {
-        "foreground": "#E7BB", // "#FC5D",  "#E7BB",
+        "foreground": "#E7BB", // "#FC7D",  "#E7BB",
         "fontStyle": "italic"
       }
     },
@@ -2390,7 +2390,7 @@
         "source.js string.regexp punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
         "fontStyle": ""
       }
     },
@@ -2408,7 +2408,7 @@ support.function.console.js
         "source support.function.console"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold italic"
       }
     },
@@ -2598,7 +2598,7 @@ support.function.console.js
         "source.js storage.type.class"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold italic"
       }
     },
@@ -3012,7 +3012,7 @@ support.function.console.js
     },
     // #endregion
     // #region "JSON" ----------------------------------------------------------
-    // "#FC5C","#9C8B","#CE5B","#D89C","#5BEB","#DDDB","#39EB"
+    // "#FC7D","#9C8B","#CE5B","#D89C","#5BEB","#DDDB","#39EB"
     {
       "name": "JSON key-value separator",
       "scope": [
@@ -3052,7 +3052,7 @@ support.function.console.js
         "source.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#D89C" /*#FC5D*/
+        "foreground": "#D89C" /*#FC7D*/
       }
     },
     {
@@ -3061,7 +3061,7 @@ support.function.console.js
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#FC5C",
+        "foreground": "#FC7D",
       }
     },
     {
@@ -3106,7 +3106,7 @@ support.function.console.js
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#FC5C", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
       }
     },
     {
@@ -3210,7 +3210,7 @@ support.function.console.js
         "source.yaml string.unquoted.plain.out entity.name.tag"
       ],
       "settings": {
-        "foreground": "#FC5C",
+        "foreground": "#FC7D",
       }
     },
     {
@@ -3313,7 +3313,7 @@ support.function.console.js
         "entity.name.type.instance.jsdoc"
       ],
       "settings": {
-        "foreground": "#FC5C",
+        "foreground": "#FC7D",
         "fontStyle": ""
       }
     },
@@ -3818,7 +3818,7 @@ support.function.console.js
     },
     // #endregion "POPPING AND LOCKING ORIGINAL --------------------------------
     // #region "JSX / TSX TAGS" ------------------------------------------------
-    // "#BE5B" "#FC5D","#ADCB" "#6BFB" "#FEBB"
+    // "#BE5B" "#FC7D","#ADCB" "#6BFB" "#FEBB"
     {
       "scope": [
         "meta.tag meta.jsx.children"
@@ -3845,7 +3845,7 @@ support.function.console.js
         "meta.tag meta.tag.attributes.js"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
       }
     },
     {
@@ -3862,7 +3862,7 @@ support.function.console.js
     {
       "scope": [],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
       }
     },
     {
@@ -3901,13 +3901,13 @@ support.function.console.js
         "meta.tag punctuation.definition.tag.end.js"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
         "fontStyle": ""
       }
     },
     // #endregion "JSX / TSX TAGS" ------------------------------------------------
     // #region "HTML" ----------------------------------------------------------
-    // "#BE5B" "#FC5D","#ADCB" "#6BFB" "#EDAB" "#4B9B""#D79B" "#DF8B"
+    // "#BE5B" "#FC7D","#ADCB" "#6BFB" "#EDAB" "#4B9B""#D79B" "#DF8B"
     // "#fabE2fAA""#b8bb26AA""#8ec07cAA""#d3869bAA""#369ec7AA""#B35B""#EDAB"
     /* support.function.misc.css
 
@@ -3928,7 +3928,7 @@ support.function.console.js
         "text.html meta.tag entity.name.tag"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
         "fontStyle": ""
       }
     },
@@ -3984,7 +3984,7 @@ support.function.console.js
         "text.html.derivative comment.block punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
         "fontStyle": ""
       }
     },
@@ -4051,7 +4051,7 @@ support.function.console.js
     //     "text.html source entity.name.type"
     //   ],
     //   "settings": {
-    //     "foreground": "#FC5D",/*#FC5D*/,
+    //     "foreground": "#FC7D",/*#FC7D*/,
     //     "fontStyle": ""
     //   }
     // },
@@ -4725,7 +4725,7 @@ source.css
         "source.css comment.block punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
         "fontStyle": "bold"
       }
     },
@@ -4777,7 +4777,7 @@ source.css
         "source.css meta.property-list meta.property-value meta.function.color.css"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
         "fontStyle": "bold"
       }
     },
@@ -4787,7 +4787,7 @@ source.css
         "source.css meta.property-list meta.property-value meta.function.color.css"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
         "fontStyle": ""
       }
     },
@@ -4818,7 +4818,7 @@ source.css
         "source.css meta.at-rule.media.header support.type.property-name.media"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
         "fontStyle": "bold"
       }
     },
@@ -4976,7 +4976,7 @@ source.css
         "source meta.type.declaration support.type.primitive"
       ],
       "settings": {
-        "foreground": "#FC5D", //  "#E7BB",
+        "foreground": "#FC7D", //  "#E7BB",
         "fontStyle": ""
       }
     },
@@ -4989,7 +4989,7 @@ source.css
         "source meta.function meta.block meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D", //  "#E7BB",
+        "foreground": "#FC7D", //  "#E7BB",
         "fontStyle": ""
       }
     },
@@ -5001,7 +5001,7 @@ source.css
         "source meta.function meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold"
       }
     },
@@ -5016,7 +5016,7 @@ source.css
         "source type.annotation"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": ""
       }
     },
@@ -5027,7 +5027,7 @@ source.css
         "source support.type.primitive"
       ],
       "settings": {
-        "foreground": "#FC5D", //  "#E7BB",  "#FC5D",
+        "foreground": "#FC7D", //  "#E7BB",  "#FC7D",
         "fontStyle": ""
       }
     },
@@ -5041,7 +5041,7 @@ source.css
         "source meta.field.declaration"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5E*/
+        "foreground": "#FC7D", /*#FC7E*/
         "fontStyle": ""
       }
     },
@@ -5056,7 +5056,7 @@ source.css
         // "source support.function.console"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold italic"
       }
     },
@@ -5067,7 +5067,7 @@ source.css
         "source new.expr entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold"
       }
     },
@@ -5088,7 +5088,7 @@ source.css
         "source meta.return.type meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "italic"
       }
     },
@@ -5098,7 +5098,7 @@ source.css
         "source meta.return.type meta.type.parameters support.type.primitive"
       ],
       "settings": {
-        "foreground": "#E7BB", // "#FC5D",  "#E7BB",
+        "foreground": "#E7BB", // "#FC7D",  "#E7BB",
         "fontStyle": "italic"
       }
     },
@@ -5190,7 +5190,7 @@ source.css
         "source string.regexp punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5E*/
+        "foreground": "#FC7D", /*#FC7E*/
         "fontStyle": ""
       }
     },
@@ -5208,7 +5208,7 @@ source.css
         "source support.function.console"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold italic"
       }
     },
@@ -5398,7 +5398,7 @@ source.css
         "source storage.type.class"
       ],
       "settings": {
-        "foreground": "#FC5D",
+        "foreground": "#FC7D",
         "fontStyle": "bold italic"
       }
     },
@@ -5993,7 +5993,7 @@ source.css
         "keyword.other.debugger"
       ],
       "settings": {
-        "foreground": "#FC5D", /*#FC5D*/
+        "foreground": "#FC7D", /*#FC7D*/
         "fontStyle": "bold underline"
       }
     }
