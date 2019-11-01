@@ -1,23 +1,33 @@
 {
   "name": "pop-n-lock-theme-vscode",
-  "version": "3.18.10",
+  "version": "3.20.9",
   "publisher": "Luxcium",
   "license": "MIT",
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
-  "description": "🐲Perfectly balanced TypeScript theme with vivid colours.",
+  "description": "🐲 Perfectly balanced TypeScript theme with vivid colours.",
   "preview": false,
   "markdown": "github",
   "qna": "marketplace",
   "icon": "Scientia-is-lux-principium-400px-TM.png",
   "homepage": "https://github.com/luxcium/pop-n-lock-theme-vscode/#readme",
+  "bugs": {
+    "url": "https://github.com/luxcium/pop-n-lock-theme-vscode/issues",
+    "email": "luxcium@neb401.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luxcium/pop-n-lock-theme-vscode.git"
+  },
   "engines": {
-    "vscode": "^1.12.0"
+    "vscode": "^1.26.0"
   },
   "scripts": {
     "vsce:update": "#yarn -g i vsce@latest",
     "package:publish": "vsce package --yarn && vsce publish --yarn",
+    "package": "vsce package --yarn",
+    "only:publish": "vsce publish --yarn",
     "prepublish": "yarn run vsce:update",
-    "publish": "yarn version --patch && yarn run package:publish",
+    "publish": "yarn version --no-git-tag-version --patch && yarn run package:publish && git add .",
     "test": "snyk test"
   },
   "categories": [
@@ -35,6 +45,16 @@
         "label": "Pop N' Lock Theme by Luxcium ✨",
         "uiTheme": "vs-dark",
         "path": "./src/themes/Pop-N-Lock.json"
+      },
+      {
+        "label": "Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/Pop-N-Lock-dark.json"
+      },
+      {
+        "label": "Pop N' Lock Theme by Luxcium ✨ Alexis's Black ⛷",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/Pop-N-Lock-black.json"
       }
     ],
     "languages": [
@@ -137,14 +157,6 @@
     "aaron-bond.better-comments",
     "pkief.material-icon-theme"
   ],
-  "bugs": {
-    "url": "https://github.com/luxcium/pop-n-lock-theme-vscode/issues",
-    "email": "luxcium@neb401.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/luxcium/pop-n-lock-theme-vscode.git"
-  },
   "dependencies": {
     "vscode-languageclient": "^5.2.1"
   },
@@ -164,7 +176,6 @@
     "clean-webpack-plugin": "^3.0.0",
     "glob": "^7.1.4",
     "mocha": "^6.2.0",
-    "puppeteer": "^1.19.0",
     "rimraf": "^3.0.0",
     "snyk": "^1.239.0",
     "standard-version": "^6.0.1",
@@ -237,8 +248,8 @@
     },
     {
       "description": "Snyk.io Known Vulnerabilities",
-      "href": "https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg",
-      "url": "https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode"
+      "href": "https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode",
+      "url": "https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg"
     }
   ],
   "__metadata": {
