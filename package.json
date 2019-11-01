@@ -24,6 +24,8 @@
   "scripts": {
     "vsce:update": "#yarn -g i vsce@latest",
     "package:publish": "vsce package --yarn && vsce publish --yarn",
+    "package": "vsce package --yarn",
+    "only:publish": "vsce publish --yarn",
     "prepublish": "yarn run vsce:update",
     "publish": "yarn version --no-git-tag-version --patch && yarn run package:publish && git add .",
     "test": "snyk test"
