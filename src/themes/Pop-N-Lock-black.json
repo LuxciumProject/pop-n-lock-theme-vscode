@@ -5103,7 +5103,7 @@ source.css
         "comment.line.double-slash"
       ],
       "settings": {
-        "foreground": "#4DD7",
+        "foreground": "#4DD8",
         "fontStyle": ""
       }
     },
@@ -5121,7 +5121,7 @@ source.css
         "comment.block",
       ],
       "settings": {
-        "foreground": "#B4D7",
+        "foreground": "#B4D8",
         "fontStyle": ""
       }
     },
