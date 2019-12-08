@@ -4,6 +4,13 @@
   "type": "dark",
   // ("#[a-f0-9]{3})C(")
   "colors": {
+    "activityBar.activeFocusBorder": "#ff0000",
+    "debugIcon.breakpointDisabledForeground": "#ff0000",
+    "debugIcon.breakpointForeground": "#ff0000",
+    "debugIcon.breakpointStackframeFocusedForeground": "#ff0000",
+    "debugIcon.breakpointStackframeForeground": "#ff0000",
+    "debugIcon.breakpointUnverifiedForeground": "#ff0000",
+    "debugIcon.stepBackForeground": "#ff0000",
     "activityBar.background": "#181818" /* 1C1C30 */,
     "activityBar.border": "#FC54",
     "activityBar.foreground": "#FECB",
