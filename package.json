@@ -54,12 +54,7 @@
       {
         "label": "Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/Pop-N-Lock-black.json"
-      },
-      {
-        "label": "Test Pop N' Lock Theme by Luxcium ✨ Alexis's Black ⛷",
-        "uiTheme": "vs-dark",
-        "path": "./src/themes/Pop-N-Lock-test.json"
+        "path": "./src/themes/Pop-N-Lock-dark.json"
       }
     ],
     "languages": [
