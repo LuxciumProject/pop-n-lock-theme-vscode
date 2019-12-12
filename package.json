@@ -1,6 +1,6 @@
 {
   "name": "pop-n-lock-theme-vscode",
-  "version": "3.20.11",
+  "version": "3.20.12",
   "publisher": "Luxcium",
   "license": "MIT",
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
@@ -10,7 +10,7 @@
   "qna": "marketplace",
   "icon": "Scientia-is-lux-principium-400px-TM.png",
   "scripts": {
-    "vsce:update": "yarn -g i vsce@latest",
+    "vsce:update": "npm -g i vsce@latest",
     "package:publish": "vsce package --yarn && vsce publish --yarn",
     "package": "vsce package --yarn",
     "only:publish": "vsce publish --yarn",

@@ -1,3 +1,10 @@
+*
+*.*
+!README.md
+!package.json
+!src/languages/**/*.*
+!src/themes/**/*.*
+!Scientia-is-lux-principium-400px-TM.png
 .synk
 .gitignore
 .prettierc
@@ -15,9 +22,3 @@ tsconfig.json
 vsc-extension-quickstart.md
 tok.env
 *.env
-*.*
-!README.md
-!package.json
-!src/languages/**/*.*
-!src/themes/**/*.*
-!Scientia-is-lux-principium-400px-TM.png
