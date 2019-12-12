@@ -44,17 +44,17 @@
       {
         "label": "Pop N' Lock Theme by Luxcium ✨",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/Pop-N-Lock.json"
+        "path": "./src/themes/Pop-N-Lock.original.json"
       },
       {
         "label": "Pop N' Lock Theme by Luxcium ✨ Alexis's Black ⛷",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/Pop-N-Lock-black.json"
+        "path": "./src/themes/Pop-N-Lock.alexis-black.json"
       },
       {
         "label": "Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/Pop-N-Lock-dark.json"
+        "path": "./src/themes/Pop-N-Lock.tsa-asd.json"
       }
     ],
     "languages": [
