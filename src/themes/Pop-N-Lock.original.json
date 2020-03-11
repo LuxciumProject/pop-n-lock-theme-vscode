@@ -424,9 +424,9 @@
     {
       "name": "Interface and Type Aliase definition keyword",
       "scope": [
-        "source.ts storage.type.enum",
-        "source.ts storage.type.interface",
-        "source.ts storage.type.type"
+        "storage.type.enum",
+        "storage.type.interface",
+        "storage.type.type"
       ],
       "settings": {
         "foreground": "#D25B",
@@ -436,7 +436,7 @@
     {
       "name": "Interface and Type Aliase definition name",
       "scope": [
-        "source.ts meta.interface entity.name.type.interface",
+        "meta.interface entity.name.type.interface",
         "entity.name.type.alias"
       ],
       "settings": {
@@ -447,7 +447,7 @@
     {
       "name": "Property Definition in Interface",
       "scope": [
-        "source.ts meta.interface meta.definition.property variable.object.property"
+        "meta.interface meta.definition.property variable.object.property"
       ],
       "settings": {
         "foreground": "#ADCC",
@@ -457,8 +457,8 @@
     {
       "name": "Primitive Annotation in Interface and Type Aliase",
       "scope": [
-        "source.ts meta.interface meta.type.annotation support.type.primitive",
-        "source.ts meta.type.declaration support.type.primitive"
+        "meta.interface meta.type.annotation support.type.primitive",
+        "meta.type.declaration support.type.primitive"
       ],
       "settings": {
         "foreground": "#FC5D", //  "#E7BB",
@@ -468,10 +468,10 @@
     {
       "name": "Entity Name Type Annotation in Interface and Type Aliases",
       "scope": [
-        "source.ts meta.interface meta.type.annotation entity.name.type",
-        "source.ts meta.type.declaration entity.name.type",
-        "source.ts meta.type.declaration meta.type.function.return meta.type.parameters entity.name.type",
-        "source.ts meta.function meta.block meta.type.parameters entity.name.type"
+        "meta.interface meta.type.annotation entity.name.type",
+        "meta.type.declaration entity.name.type",
+        "meta.type.declaration meta.type.function.return meta.type.parameters entity.name.type",
+        "meta.function meta.block meta.type.parameters entity.name.type"
       ],
       "settings": {
         "foreground": "#FC5D", //  "#E7BB",
@@ -482,8 +482,8 @@
     {
       "name": "Types",
       "scope": [
-        "source.ts meta.type.declaration meta.type.parameters entity.name.type",
-        "source.ts meta.function meta.type.parameters entity.name.type"
+        "meta.type.declaration meta.type.parameters entity.name.type",
+        "meta.function meta.type.parameters entity.name.type"
       ],
       "settings": {
         "foreground": "#FC5C",
@@ -493,12 +493,12 @@
     {
       "name": "Types",
       "scope": [
-        "source.ts entity.name.type",
-        "source.ts meta.parameters entity.name.type",
-        "source.ts meta.type.annotation meta.type.parameters entity.name.type",
-        "source.ts meta.type.annotation",
-        "source.ts meta.type.parameters entity.name.type",
-        "source.ts type.annotation"
+        "entity.name.type",
+        "meta.parameters entity.name.type",
+        "meta.type.annotation meta.type.parameters entity.name.type",
+        "meta.type.annotation",
+        "meta.type.parameters entity.name.type",
+        "type.annotation"
       ],
       "settings": {
         "foreground": "#FC5D",
@@ -508,8 +508,8 @@
     {
       "name": "Types primitives",
       "scope": [
-        "source.ts meta.type.annotation meta.type.parameters support.type.primitive",
-        "source.ts support.type.primitive"
+        "meta.type.annotation meta.type.parameters support.type.primitive",
+        "support.type.primitive"
       ],
       "settings": {
         "foreground": "#FC5D", //  "#E7BB",  "#FC5D",
@@ -519,26 +519,26 @@
     {
       "name": "Functions",
       "scope": [
-        "source.ts entity.name.function",
-        "source.ts meta.definition.function.ts entity.name.function",
-        "source.ts meta.definition.method",
-        "source.ts meta.definition.variable entity.name.function",
-        "source.ts meta.field.declaration.ts"
+        "entity.name.function",
+        "meta.definition.function.ts entity.name.function",
+        "meta.definition.method",
+        "meta.definition.variable entity.name.function",
+        "meta.field.declaration.ts"
       ],
       "settings": {
-        "foreground": "#FC5D" /*#FC5D*/,
+        "foreground": "#FC5D",
         "fontStyle": ""
       }
     },
     {
       "name": "Function Math or builtin",
       "scope": [
-        "source.ts support.function.builtin",
-        // "source.ts support.function.git-rebase",
-        // "source.ts support.function",
-        "source.ts support.function.math"
-        // "source.ts support.function.process"
-        // "source.ts support.function.console"
+        "support.function.builtin",
+        // "support.function.git-rebase",
+        // "support.function",
+        "support.function.math"
+        // "support.function.process"
+        // "support.function.console"
       ],
       "settings": {
         "foreground": "#FC5C",
@@ -548,13 +548,13 @@
     {
       "name": "Function Like",
       "scope": [
-        // "source.ts support.function.builtin",
-        "source.ts support.function.git-rebase",
-        "source.ts support.function",
-        // "source.ts support.function.math",
-        "source.ts support.function.process",
-        "source.ts support.function.dom",
-        // "source.ts support.function.console"
+        // "support.function.builtin",
+        "support.function.git-rebase",
+        "support.function",
+        // "support.function.math",
+        "support.function.process",
+        "support.function.dom",
+        // "support.function.console"
       ],
       "settings": {
         "foreground": "#FC5C",
@@ -564,8 +564,8 @@
     {
       "name": "New Class",
       "scope": [
-        "source.ts entity.other.inherited-class",
-        "source.ts new.expr entity.name.type"
+        "entity.other.inherited-class",
+        "new.expr entity.name.type"
       ],
       "settings": {
         "foreground": "#FC5C",
@@ -575,8 +575,8 @@
     {
       "name": "Function Return Type",
       "scope": [
-        "source.ts meta.return.type entity.name.type",
-        "source.ts meta.return.type support.type.primitive"
+        "meta.return.type entity.name.type",
+        "meta.return.type support.type.primitive"
       ],
       "settings": {
         "foreground": "#4B9C",
@@ -586,7 +586,7 @@
     {
       "name": "Function Return Type parameter name type",
       "scope": [
-        "source.ts meta.return.type meta.type.parameters entity.name.type"
+        "meta.return.type meta.type.parameters entity.name.type"
       ],
       "settings": {
         "foreground": "#FC5D",
@@ -596,7 +596,7 @@
     {
       "name": "Function Return Type parameter primitive type",
       "scope": [
-        "source.ts meta.return.type meta.type.parameters support.type.primitive"
+        "meta.return.type meta.type.parameters support.type.primitive"
       ],
       "settings": {
         "foreground": "#E7BB", // "#FC5D",  "#E7BB",
@@ -606,9 +606,9 @@
     {
       "name": "Function Return Type parameter punctuation",
       "scope": [
-        "source.ts meta.return.type meta.type.parameters punctuation.definition.typeparameters",
-        "source.ts meta.return.type meta.type.tuple meta.brace.square",
-        "source.ts meta.return.type keyword.operator.type"
+        "meta.return.type meta.type.parameters punctuation.definition.typeparameters",
+        "meta.return.type meta.type.tuple meta.brace.square",
+        "meta.return.type keyword.operator.type"
       ],
       "settings": {
         "foreground": "#EDAD",
@@ -618,10 +618,10 @@
     {
       "name": "Types",
       "scope": [
-        "source.ts entity.name.type.class",
-        "source.ts entity.name.type.enum",
-        "source.ts entity.name.type.instance",
-        "source.ts entity.name.type.module"
+        "entity.name.type.class",
+        "entity.name.type.enum",
+        "entity.name.type.instance",
+        "entity.name.type.module"
       ],
       "settings": {
         "foreground": "#EDAB",
@@ -631,21 +631,21 @@
     {
       "name": "Entitys",
       "scope": [
-        "source.ts punctuation.definition.template-expression.begin",
-        "source.ts punctuation.definition.template-expression.end",
-        "source.ts punctuation.definition.parameters.begin",
-        "source.ts punctuation.definition.parameters.end",
-        "source.ts meta.brace.angle",
-        "source.ts meta.brace.round",
-        "source.ts meta.brace.square",
-        "source.ts punctuation.definition.block",
-        "source.ts entity.function",
-        "source.ts entity.name",
-        "source.ts entity.other.attribute-name.css",
-        "source.ts entity.other.attribute-name.directive",
-        "source.ts entity.other.attribute-name",
-        "source.ts entity.other.inherited-class",
-        "source.ts entity.static"
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.definition.parameters.begin",
+        "punctuation.definition.parameters.end",
+        "meta.brace.angle",
+        "meta.brace.round",
+        "meta.brace.square",
+        "punctuation.definition.block",
+        "entity.function",
+        "entity.name",
+        "entity.other.attribute-name.css",
+        "entity.other.attribute-name.directive",
+        "entity.other.attribute-name",
+        "entity.other.inherited-class",
+        "entity.static"
       ],
       "settings": {
         "foreground": "#EDAD",
@@ -655,10 +655,10 @@
     {
       "name": "Entitys",
       "scope": [
-        "source.ts meta.decorator entity.name",
-        "source.ts meta.decorator entity.name.function",
-        "source.ts meta.decorator meta.function-call entity.name",
-        "source.ts meta.decorator variable.other.readwrite"
+        "meta.decorator entity.name",
+        "meta.decorator entity.name.function",
+        "meta.decorator meta.function-call entity.name",
+        "meta.decorator variable.other.readwrite"
       ],
       "settings": {
         "foreground": "#EDAB",
@@ -668,7 +668,7 @@
     {
       "name": "regexp constants",
       "scope": [
-        "source.ts string.regexp constant.other.character-class.set.regexp"
+        "string.regexp constant.other.character-class.set.regexp"
       ],
       "settings": {
         "foreground": "#E67D" /*#E67E*/,
@@ -678,7 +678,7 @@
     {
       "name": "regexp string",
       "scope": [
-        "source.ts meta.var.expr string.regexp"
+        "meta.var.expr string.regexp"
       ],
       "settings": {
         "foreground": "#9C8D" /*#9C8D*/,
@@ -688,7 +688,7 @@
     {
       "name": "regexp other punctuation",
       "scope": [
-        "source.ts string.regexp punctuation.definition.character-class.regexp"
+        "string.regexp punctuation.definition.character-class.regexp"
       ],
       "settings": {
         "foreground": "#FC5D" /*#FC5D*/,
@@ -729,8 +729,8 @@
     {
       "name": "regexp punctuation",
       "scope": [
-        "source.ts string.regexp punctuation.definition.string.begin",
-        "source.ts string.regexp punctuation.definition.string.end"
+        "string.regexp punctuation.definition.string.begin",
+        "string.regexp punctuation.definition.string.end"
       ],
       "settings": {
         "foreground": "#F91C",
@@ -740,24 +740,24 @@
     {
       "name": "Variables",
       "scope": [
-        "source.ts variable.other.enummember",
-        "source.ts variable.arguments",
-        "source.ts variable.class",
-        "source.ts variable.language.arguments",
-        "source.ts variable.language",
-        "source.ts variable.name",
-        "source.ts variable.other.constant.object",
-        "source.ts variable.other.constant",
-        "source.ts variable.other.readwrite.alias",
-        "source.ts meta.array-binding-pattern-variable variable.other.constant",
-        "source.ts variable.other.readwrite",
-        "source.ts variable.other.readwrite",
-        "source.ts variable.other.regexp",
-        "source.ts variable.other",
-        "source.ts variable.parameter",
-        "source.ts variable",
-        "source.ts meta.array-binding-pattern-variable variable.other.constant",
-        "source.ts meta.object-binding-pattern-variable variable.other.constant",
+        "variable.other.enummember",
+        "variable.arguments",
+        "variable.class",
+        "variable.language.arguments",
+        "variable.language",
+        "variable.name",
+        "variable.other.constant.object",
+        "variable.other.constant",
+        "variable.other.readwrite.alias",
+        "meta.array-binding-pattern-variable variable.other.constant",
+        "variable.other.readwrite",
+        "variable.other.readwrite",
+        "variable.other.regexp",
+        "variable.other",
+        "variable.parameter",
+        "variable",
+        "meta.array-binding-pattern-variable variable.other.constant",
+        "meta.object-binding-pattern-variable variable.other.constant",
         "meta.body.struct",
         "source meta.body"
       ],
@@ -768,14 +768,14 @@
     {
       "name": "Other Constant",
       "scope": [
-        "source.ts meta.object-binding-pattern-variable variable.other.constant",
-        "source.ts meta.object.member meta.object-literal.key",
-        "source.ts meta.objectliteral meta.object.member",
-        "source.ts meta.var.expr meta.object-literal.key",
-        "source.ts variable.object.property",
-        "source.ts variable.other.constant.object.property",
-        "source.ts variable.other.constant.property",
-        "source.ts variable.other.property"
+        "meta.object-binding-pattern-variable variable.other.constant",
+        "meta.object.member meta.object-literal.key",
+        "meta.objectliteral meta.object.member",
+        "meta.var.expr meta.object-literal.key",
+        "variable.object.property",
+        "variable.other.constant.object.property",
+        "variable.other.constant.property",
+        "variable.other.property"
       ],
       "settings": {
         "foreground": "#6BFC"
@@ -784,15 +784,15 @@
     {
       "name": "support properties",
       "scope": [
-        /*         "source.ts support.variable.property",
-        "source.ts support.variable.property.importmeta",
-        "source.ts support.variable.property.process",
-        "source.ts support.variable.property.target",
-        "source.ts support.type.property-name",
-        "source.ts support.type.property-name.css",
-        "source.ts support.property-value",
-        "source.ts support.property-value.scss", */
-        "source.ts support.constant.property.math"
+        /*         "support.variable.property",
+        "support.variable.property.importmeta",
+        "support.variable.property.process",
+        "support.variable.property.target",
+        "support.type.property-name",
+        "support.type.property-name.css",
+        "support.property-value",
+        "support.property-value.scss", */
+        "support.constant.property.math"
       ],
       "settings": {
         "foreground": "#6BFC",
@@ -802,15 +802,15 @@
     {
       "name": "support properties",
       "scope": [
-        "source.ts support.variable.property",
-        "source.ts support.variable.property.importmeta",
-        "source.ts support.variable.property.process",
-        "source.ts support.variable.property.target",
-        "source.ts support.type.property-name",
-        "source.ts support.type.property-name.css",
-        "source.ts support.property-value",
-        "source.ts support.property-value.scss"
-        // "source.ts support.constant.property.math"
+        "support.variable.property",
+        "support.variable.property.importmeta",
+        "support.variable.property.process",
+        "support.variable.property.target",
+        "support.type.property-name",
+        "support.type.property-name.css",
+        "support.property-value",
+        "support.property-value.scss"
+        // "support.constant.property.math"
       ],
       "settings": {
         "foreground": "#6BFB",
@@ -820,22 +820,22 @@
     {
       "name": "Constants",
       "scope": [
-        "source.ts constant",
-        "source.ts constant.character.escape.backslash.regexp",
-        "source.ts constant.character.numeric.regexp",
-        "source.ts constant.language",
-        "source.ts constant.language.import-export-all",
-        "source.ts constant.other.character-class.range.regexp",
-        "source.ts constant.other.character-class.regexp",
-        "source.ts constant.other.character-class.set.regexp",
-        "source.ts constant.rgb-value",
-        "source.ts constant.sha.git-rebase",
-        "source.ts constant.character.escape",
-        "source.ts constant.numeric",
-        "source.ts constant.numeric.binary",
-        "source.ts constant.numeric.decimal",
-        "source.ts constant.numeric.hex",
-        "source.ts constant.numeric.octal"
+        "constant",
+        "constant.character.escape.backslash.regexp",
+        "constant.character.numeric.regexp",
+        "constant.language",
+        "constant.language.import-export-all",
+        "constant.other.character-class.range.regexp",
+        "constant.other.character-class.regexp",
+        "constant.other.character-class.set.regexp",
+        "constant.rgb-value",
+        "constant.sha.git-rebase",
+        "constant.character.escape",
+        "constant.numeric",
+        "constant.numeric.binary",
+        "constant.numeric.decimal",
+        "constant.numeric.hex",
+        "constant.numeric.octal"
       ],
       "settings": {
         "foreground": "#E67D" /*#E67E*/,
@@ -845,16 +845,16 @@
     {
       "name": "Strings",
       "scope": [
-        "source.ts string",
-        "source.ts string.constant.other.placeholder",
-        "source.ts string.entity",
-        "source.ts string.escape",
-        "source.ts string.quoted.double",
-        "source.ts string.quoted.single",
-        "source.ts string.regexp",
-        "source.ts string.tag",
-        "source.ts string.template",
-        "source.ts string.value"
+        "string",
+        "string.constant.other.placeholder",
+        "string.entity",
+        "string.escape",
+        "string.quoted.double",
+        "string.quoted.single",
+        "string.regexp",
+        "string.tag",
+        "string.template",
+        "string.value"
       ],
       "settings": {
         "foreground": "#CE5C"
@@ -863,7 +863,7 @@
     {
       "name": "ARROW FUNCTION STYLE",
       "scope": [
-        "source.ts storage.type.function.arrow"
+        "storage.type.function.arrow"
       ],
       "settings": {
         "fontStyle": "bold"
@@ -872,7 +872,7 @@
     {
       "name": "FUNCTION KEYWORD STYLE",
       "scope": [
-        "source.ts storage.type.function"
+        "storage.type.function"
       ],
       "settings": {
         "fontStyle": "bold italic"
@@ -881,8 +881,8 @@
     {
       "name": "FUNCTION KEYWORD OR ARROW COLOUR",
       "scope": [
-        "source.ts storage.type.function",
-        "source.ts storage.type.function.arrow"
+        "storage.type.function",
+        "storage.type.function.arrow"
       ],
       "settings": {
         "foreground": "#7C2C"
@@ -891,7 +891,7 @@
     {
       "name": "CLASS KEYWORD DEFINITION",
       "scope": [
-        "source.ts storage.type.class"
+        "storage.type.class"
       ],
       "settings": {
         "foreground": "#FC5C",
@@ -901,7 +901,7 @@
     {
       "name": "Constructor Keyword",
       "scope": [
-        "source.ts meta.method.declaration.ts storage.type"
+        "meta.method.declaration.ts storage.type"
       ],
       "settings": {
         "foreground": "#D25B",
@@ -911,9 +911,9 @@
     {
       "name": "Extends, Get, Implements, Private, Public, Set, etc...",
       "scope": [
-        "source.ts meta.class storage.modifier",
-        "source.ts meta.method.declaration storage.modifier",
-        "source.ts storage.type.property",
+        "meta.class storage.modifier",
+        "meta.method.declaration storage.modifier",
+        "storage.type.property",
         "storage.type.modifier.access.control"
       ],
       "settings": {
@@ -924,8 +924,8 @@
     {
       "name": "NEW KEYWORD DEFINITION",
       "scope": [
-        "source.ts keyword.control.new",
-        "source.ts keyword.operator.new"
+        "keyword.control.new",
+        "keyword.operator.new"
       ],
       "settings": {
         "foreground": "#F91C",
@@ -935,8 +935,8 @@
     {
       "name": "ASYNC KEYWORD DEFINITION",
       "scope": [
-        "source.ts meta.method.declaration storage.modifier.async",
-        "source.ts storage.modifier.async"
+        "meta.method.declaration storage.modifier.async",
+        "storage.modifier.async"
       ],
       "settings": {
         "foreground": "#F91C",
@@ -946,7 +946,7 @@
     {
       "name": "VARIABLE SUPER",
       "scope": [
-        "source.ts variable.language.super"
+        "variable.language.super"
       ],
       "settings": {
         "foreground": "#E1AC" /*#E1AE*/,
@@ -956,7 +956,7 @@
     {
       "name": "VARIABLE THIS",
       "scope": [
-        "source.ts variable.language.this"
+        "variable.language.this"
       ],
       "settings": {
         "foreground": "#E67C" /*#E67E*/,
@@ -967,8 +967,8 @@
     {
       "name": "Import variables are italic",
       "scope": [
-        "source.ts meta.import variable.other.readwrite.alias",
-        "source.ts meta.import variable.other.readwrite"
+        "meta.import variable.other.readwrite.alias",
+        "meta.import variable.other.readwrite"
       ],
       "settings": {
         "foreground": "#ADCC",
@@ -978,18 +978,18 @@
     {
       "name": "Import variables are italic",
       "scope": [
-        "source.ts meta.import punctuation.definition.block"
+        "meta.import punctuation.definition.block"
       ],
       "settings": {
         "foreground": "#FD0C",
         "fontStyle": "bold italic"
       }
     },
-    //     "source.ts constant.language.import-export-all",
+    //     "constant.language.import-export-all",
     {
       "name": "Star in import expor all",
       "scope": [
-        "source.ts constant.language.import-export-all"
+        "constant.language.import-export-all"
       ],
       "settings": {
         "foreground": "#E67C",
@@ -999,8 +999,8 @@
     {
       "name": "Import strings are italic",
       "scope": [
-        "source.ts meta.import string.quoted.single",
-        "source.ts meta.import string.quoted.double"
+        "meta.import string.quoted.single",
+        "meta.import string.quoted.double"
       ],
       "settings": {
         "foreground": "#CE5C",
@@ -1010,10 +1010,10 @@
     {
       "name": "Import default as and From",
       "scope": [
-        "source.ts meta.import keyword.control.as",
-        "source.ts meta.import keyword.control.default",
-        "source.ts meta.import keyword.control.from",
-        "source.ts meta.import keyword.control.import"
+        "meta.import keyword.control.as",
+        "meta.import keyword.control.default",
+        "meta.import keyword.control.from",
+        "meta.import keyword.control.import"
       ],
       "settings": {
         "foreground": "#D25B",
@@ -1023,13 +1023,13 @@
     {
       "name": "Enum, Export, Import, Interface, Namespace, Type, etc",
       "scope": [
-        "source.ts storage.type.internaldeclaration",
-        "source.ts storage.type.namespace",
-        "source.ts storage.type",
-        "source.ts keyword.control.from",
-        "source.ts keyword.control.import",
-        "source.ts keyword.control.export",
-        "source.ts meta.export.default keyword.control.default"
+        "storage.type.internaldeclaration",
+        "storage.type.namespace",
+        "storage.type",
+        "keyword.control.from",
+        "keyword.control.import",
+        "keyword.control.export",
+        "meta.export.default keyword.control.default"
       ],
       "settings": {
         "foreground": "#D25B",
@@ -1039,24 +1039,24 @@
     {
       "name": "KEYWORD.CONTROL others ETC.",
       "scope": [
-        "source.ts keyword.control.as",
-        "source.ts keyword.control.default",
-        "source.ts keyword.control",
-        "source.ts keyword.control.anchor.regexp",
-        "source.ts keyword.control.conditional",
-        "source.ts keyword.control.less",
-        "source.ts keyword.control.loop",
-        "source.ts keyword.control.module",
-        "source.ts keyword.control.require",
-        "source.ts keyword.control.switch",
-        "source.ts keyword.control.trycatch",
-        "source.ts keyword.control.with",
-        "source.ts keyword",
-        "source.ts keyword.other",
-        "source.ts keyword.generator.asterisk",
-        "source.ts meta.block keyword.control.flow",
-        "source.ts keyword.operator.logical",
-        "source.ts storage.type.numeric.bigint"
+        "keyword.control.as",
+        "keyword.control.default",
+        "keyword.control",
+        "keyword.control.anchor.regexp",
+        "keyword.control.conditional",
+        "keyword.control.less",
+        "keyword.control.loop",
+        "keyword.control.module",
+        "keyword.control.require",
+        "keyword.control.switch",
+        "keyword.control.trycatch",
+        "keyword.control.with",
+        "keyword",
+        "keyword.other",
+        "keyword.generator.asterisk",
+        "meta.block keyword.control.flow",
+        "keyword.operator.logical",
+        "storage.type.numeric.bigint"
       ],
       "settings": {
         "foreground": "#D25D",
@@ -1066,7 +1066,7 @@
     {
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": [
-        "source.ts storage.type"
+        "storage.type"
       ],
       "settings": {
         "foreground": "#D25B",
@@ -1076,7 +1076,7 @@
     {
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": [
-        "source.ts meta.block meta.var.expr storage.type"
+        "meta.block meta.var.expr storage.type"
       ],
       "settings": {
         "foreground": "#D25D",
@@ -1085,7 +1085,7 @@
     },
     {
       "scope": [
-        "source.ts punctuation.decorator"
+        "punctuation.decorator"
       ],
       "settings": {
         "foreground": "#D25B",
@@ -1094,7 +1094,7 @@
     },
     {
       "scope": [
-        "source.ts constant.language.boolean.false"
+        "constant.language.boolean.false"
       ],
       "settings": {
         "foreground": "#E43C",
@@ -1103,7 +1103,7 @@
     },
     {
       "scope": [
-        "source.ts constant.language.boolean.true"
+        "constant.language.boolean.true"
       ],
       "settings": {
         "foreground": "#7C2C",
@@ -1112,7 +1112,7 @@
     },
     {
       "scope": [
-        "source.ts constant.language.undefined"
+        "constant.language.undefined"
       ],
       "settings": {
         "foreground": "#A7BA",
@@ -1121,7 +1121,7 @@
     },
     {
       "scope": [
-        "source.ts constant.language.null"
+        "constant.language.null"
       ],
       "settings": {
         "foreground": "#E67C",
@@ -1130,7 +1130,7 @@
     },
     {
       "scope": [
-        "source.ts support.type.builtin"
+        "support.type.builtin"
       ],
       "settings": {
         "foreground": "#E7BB",
@@ -1139,8 +1139,8 @@
     },
     {
       "scope": [
-        "source.ts constant.language.infinity",
-        "source.ts constant.language.nan"
+        "constant.language.infinity",
+        "constant.language.nan"
       ],
       "settings": {
         "foreground": "#7ADC",
@@ -1150,7 +1150,7 @@
     {
       "name": "Big Int",
       "scope": [
-        "source.ts storage.type.numeric.bigint"
+        "storage.type.numeric.bigint"
       ],
       "settings": {
         "foreground": "#D25D",
@@ -1160,37 +1160,37 @@
     {
       "name": "Operators",
       "scope": [
-        "source.ts keyword.operator.arithmetic",
-        "source.ts keyword.operator.assignment.compound.bitwise",
-        "source.ts keyword.operator.assignment.compound",
-        "source.ts keyword.operator.bitwise.shift",
-        "source.ts keyword.operator.bitwise",
-        "source.ts keyword.operator.decrement",
-        "source.ts keyword.operator.increment",
-        "source.ts keyword.operator.definiteassignment",
-        "source.ts keyword.operator",
-        "source.ts keyword.operator.comparison",
-        "source.ts keyword.operator.ternary",
-        "source.ts punctuation.separator.key-value",
-        "source.ts keyword.operator.assignment",
-        "source.ts keyword.operator.type.annotation",
-        "source.ts keyword.operator.expression.delete",
-        "source.ts keyword.operator.expression.import",
-        "source.ts keyword.operator.expression.in",
-        "source.ts keyword.operator.expression.infer",
-        "source.ts keyword.operator.expression.instanceof",
-        "source.ts keyword.operator.expression.is",
-        "source.ts keyword.operator.expression.keyof",
-        "source.ts keyword.operator.expression.of",
-        "source.ts keyword.operator.expression.typeof",
-        "source.ts keyword.operator.expression.void",
-        "source.ts keyword.operator.negation.regexp",
-        "source.ts keyword.operator.optional",
-        "source.ts keyword.operator.or.regexp",
-        "source.ts keyword.operator.quantifier.regexp",
-        "source.ts keyword.operator.relational",
-        "source.ts keyword.operator.type.modifier",
-        "source.ts keyword.operator.type",
+        "keyword.operator.arithmetic",
+        "keyword.operator.assignment.compound.bitwise",
+        "keyword.operator.assignment.compound",
+        "keyword.operator.bitwise.shift",
+        "keyword.operator.bitwise",
+        "keyword.operator.decrement",
+        "keyword.operator.increment",
+        "keyword.operator.definiteassignment",
+        "keyword.operator",
+        "keyword.operator.comparison",
+        "keyword.operator.ternary",
+        "punctuation.separator.key-value",
+        "keyword.operator.assignment",
+        "keyword.operator.type.annotation",
+        "keyword.operator.expression.delete",
+        "keyword.operator.expression.import",
+        "keyword.operator.expression.in",
+        "keyword.operator.expression.infer",
+        "keyword.operator.expression.instanceof",
+        "keyword.operator.expression.is",
+        "keyword.operator.expression.keyof",
+        "keyword.operator.expression.of",
+        "keyword.operator.expression.typeof",
+        "keyword.operator.expression.void",
+        "keyword.operator.negation.regexp",
+        "keyword.operator.optional",
+        "keyword.operator.or.regexp",
+        "keyword.operator.quantifier.regexp",
+        "keyword.operator.relational",
+        "keyword.operator.type.modifier",
+        "keyword.operator.type",
         "source punctuation.separator.scope-resolution",
         "source punctuation.separator.namespace.access"
       ],
@@ -1201,8 +1201,8 @@
     },
     {
       "scope": [
-        "source.ts keyword.operator.spread",
-        "source.ts keyword.operator.rest"
+        "keyword.operator.spread",
+        "keyword.operator.rest"
       ],
       "settings": {
         "foreground": "#4B9A",
@@ -1212,34 +1212,34 @@
     {
       "name": "Others",
       "scope": [
-        "source.ts *link*",
-        "source.ts *uri*",
-        "source.ts *url*",
-        "source.ts case-clause.expr ",
-        "source.ts case-clause.expr",
-        "source.ts cast.expr",
-        "source.ts header",
-        "source.ts keyword.other.back-reference.regexp",
-        "source.ts keyword.other.unit",
-        "source.ts markup.changed",
-        "source.ts markup.deleted",
-        "source.ts markup.heading",
-        "source.ts markup.inline.raw",
-        "source.ts markup.inserted",
-        "source.ts markup.punctuation.list.beginning",
-        "source.ts markup.punctuation.quote.beginning",
-        "source.ts markup.underline",
-        "source.ts module.node",
-        "source.ts new.expr",
-        "source.ts prototype",
-        "source.ts punctuation.definition.binding-pattern.array",
-        "source.ts punctuation.definition.binding-pattern.object",
-        "source.ts source.embedded",
-        "source.ts switch-block.expr",
-        "source.ts switch-expression.expr",
-        "source.ts switch-statement.expr",
-        "source.ts variable.other.object",
-        "source.ts meta.object.member variable.other.object"
+        "*link*",
+        "*uri*",
+        "*url*",
+        "case-clause.expr ",
+        "case-clause.expr",
+        "cast.expr",
+        "header",
+        "keyword.other.back-reference.regexp",
+        "keyword.other.unit",
+        "markup.changed",
+        "markup.deleted",
+        "markup.heading",
+        "markup.inline.raw",
+        "markup.inserted",
+        "markup.punctuation.list.beginning",
+        "markup.punctuation.quote.beginning",
+        "markup.underline",
+        "module.node",
+        "new.expr",
+        "prototype",
+        "punctuation.definition.binding-pattern.array",
+        "punctuation.definition.binding-pattern.object",
+        "source.embedded",
+        "switch-block.expr",
+        "switch-expression.expr",
+        "switch-statement.expr",
+        "variable.other.object",
+        "meta.object.member variable.other.object"
       ],
       "settings": {
         "foreground": "#EDAD",
@@ -1248,19 +1248,19 @@
     },
     {
       "scope": [
-        "source.ts support.class",
-        "source.ts support.class.builtin",
-        "source.ts support.class.node",
-        "source.ts support.class.promise",
-        "source.ts support.constant",
-        "source.ts support.constant",
-        "source.ts support.constant.math",
-        "source.ts support.type",
-        "source.ts support.type.object.module",
-        "source.ts support.variable",
-        "source.ts support.variable.object.node",
-        "source.ts support.variable.object.process"
-        // "source.ts support.class.console"
+        "support.class",
+        "support.class.builtin",
+        "support.class.node",
+        "support.class.promise",
+        "support.constant",
+        "support.constant",
+        "support.constant.math",
+        "support.type",
+        "support.type.object.module",
+        "support.variable",
+        "support.variable.object.node",
+        "support.variable.object.process"
+        // "support.class.console"
       ],
       "settings": {
         "foreground": "#EDAD",
@@ -1269,9 +1269,9 @@
     },
     {
       "scope": [
-        "source.ts emphasis",
-        "source.ts markup.bold",
-        "source.ts strong"
+        "emphasis",
+        "markup.bold",
+        "strong"
       ],
       "settings": {
         "foreground": "#EDAB",
@@ -1280,7 +1280,7 @@
     },
     {
       "scope": [
-        "source.ts markup.italic"
+        "markup.italic"
       ],
       "settings": {
         "foreground": "#EDAB",
@@ -1289,11 +1289,11 @@
     },
     {
       "scope": [
-        "source.ts punctuation.quasi",
-        "source.ts string.quasi",
-        "source.ts invalid",
-        "source.ts invalid.illegal",
-        "source.ts invalid.illegal.newline"
+        "punctuation.quasi",
+        "string.quasi",
+        "invalid",
+        "invalid.illegal",
+        "invalid.illegal.newline"
       ],
       "settings": {
         "foreground": "#D25D",
@@ -1302,7 +1302,7 @@
     },
     {
       "scope": [
-        "source.ts invalid.deprecated"
+        "invalid.deprecated"
       ],
       "settings": {
         "foreground": "#D25B",
@@ -1417,7 +1417,7 @@
         "source.tsx meta.field.declaration.tsx"
       ],
       "settings": {
-        "foreground": "#FC5D" /*#FC5D*/,
+        "foreground": "#FC5D",
         "fontStyle": ""
       }
     },
@@ -2278,7 +2278,7 @@
         "source.js support.function"
       ],
       "settings": {
-        "foreground": "#FC5D" /*#FC5D*/,
+        "foreground": "#FC5D",
         "fontStyle": ""
       }
     },
@@ -2409,7 +2409,7 @@
         "source.js meta.decorator entity.name",
         "source.js meta.decorator entity.name.function",
         "source.js meta.decorator meta.function-call entity.name",
-        "source.js meta.decorator variable.other.readwrite"
+        "variable.other.readwrite"
       ],
       "settings": {
         "foreground": "#EDAB",
@@ -3744,7 +3744,7 @@ support.function.console.js
         "entity.name.type"
       ],
       "settings": {
-        "foreground": "#fabE2fFF"
+        "foreground": "#FC5D",
       }
     },
     {
@@ -5093,7 +5093,7 @@ source.css
         "source meta.field.declaration"
       ],
       "settings": {
-        "foreground": "#FC5D" /*#FC5E*/,
+        "foreground": "#FC5D",
         "fontStyle": ""
       }
     },
@@ -6012,7 +6012,7 @@ source.css
         "text.html source string.quoted.double punctuation.definition.string",
         "text.html source string.quoted.single punctuation.definition.string",
         "source.js punctuation.terminator.statement",
-        "source.ts punctuation.terminator.statement",
+        "punctuation.terminator.statement",
         "punctuation.terminator.statement.ts",
         "punctuation.terminator.statement.js",
         "source.js.jsx punctuation.terminator.statement",
@@ -6025,8 +6025,8 @@ source.css
     },
     {
       "scope": [
-        "source.ts string.template punctuation.definition.template-expression.begin",
-        "source.ts string.template punctuation.definition.template-expression.end"
+        "string.template punctuation.definition.template-expression.begin",
+        "string.template punctuation.definition.template-expression.end"
       ],
       "settings": {
         "foreground": "#E8DD" /*#E8DE*/,

@@ -57,6 +57,18 @@
         "path": "./src/themes/Pop-N-Lock.tsa-asd.json"
       }
     ],
+    "grammars": [
+      {
+        "language": "JSON",
+        "scopeName": "source.JSON",
+        "path": "./syntaxes/json/JSON.tmLanguage.json"
+      },
+      {
+        "language": "JSONC",
+        "scopeName": "source.JSONC",
+        "path": "./syntaxes/json/JSONC.tmLanguage.json"
+      }
+    ],
     "languages": [
       {
         "id": "typescript",

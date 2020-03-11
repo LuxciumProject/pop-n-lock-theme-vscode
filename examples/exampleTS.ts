@@ -31,7 +31,7 @@ function returnAllLists(userId: any, res: any) {
 }
 
 debugger;
-
+Array.from([]);
 class ParentClass {}
 export interface IInterface {
   value: string;
