@@ -1,0 +1,89 @@
+yarn add v1.22.4
+[1/5] 🔍  Validating package.json...
+
+!!!!!!!!!
+warning pop-n-lock-theme-vscode@3.20.15: The engine "vscode" appears to be invalid.
+[2/5] 🔍  Resolving packages...
+
+!!!!!!!!!
+warning @types/dotenv@8.2.0: This is a stub types definition. dotenv provides its own type definitions, so you do not need this installed.
+
+!!!!!!!!!
+warning mocha > mkdirp@0.5.3: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+[3/5] 🚚  Fetching packages...
+
+!!!!!!!!!
+warning Pattern ["glob@^7.1.6"] is trying to unpack in the same destination "/Users/neb_401/Library/Caches/Yarn/v6/npm-glob-7.1.6-141f33b81a7c2492e125594307480c46679278a6-integrity/node_modules/glob" as pattern ["glob@^7.0.3","glob@^7.1.3","glob@^7.1.3","glob@^7.1.3","glob@^7.1.1","glob@^7.0.6","glob@^7.1.4"]. This could result in non-deterministic behavior, skipping.
+
+!!!!!!!!!
+warning vscode-languageclient@5.2.1: The engine "vscode" appears to be invalid.
+[4/5] 🔗  Linking dependencies...
+
+!!!!!!!!!
+warning "tslint-config-airbnb > tslint-consistent-codestyle@1.16.0" has incorrect peer dependency "tslint@^5.0.0".
+
+!!!!!!!!!
+warning "tslint-config-airbnb > tslint-eslint-rules@5.4.0" has incorrect peer dependency "tslint@^5.0.0".
+
+!!!!!!!!!
+warning "tslint-config-airbnb > tslint-microsoft-contrib@5.2.1" has incorrect peer dependency "tslint@^5.1.0".
+
+!!!!!!!!!
+warning "tslint-config-airbnb > tslint-consistent-codestyle > @fimbul/bifrost@0.21.0" has incorrect peer dependency "tslint@^5.0.0".
+
+!!!!!!!!!
+warning " > tslint-config-airbnb@5.11.2" has incorrect peer dependency "tslint@^5.11.0".
+[5/5] 🔨  Building fresh packages...
+success Saved lockfile.
+success Saved 90 new dependencies.
+
+
+Unused dependencies
+* vscode-languageclient
+Unused devDependencies
+yarn remove  @types/express-mongo-sanitize  @types/glob  @types/jsonwebtoken  @types/mocha  clean-webpack-plugin  glob  mocha  standard-version  ts-loader  ts-node  tslint-config-airbnb  webpack  webpack-cli
+Missing dependencies
+
+yarn add -D express jsonwebtoken mongoose install express-mongo-sanitize dotenv react react-dom chalk jsdom puppeteer ramda jquery lodash vscode semver
+ lodash.merge open
+
+Unused dependencies
+* vscode-languageclient
+Unused devDependencies
+* @types/express-mongo-sanitize
+* @types/glob
+* @types/jsonwebtoken
+* @types/mocha
+* clean-webpack-plugin
+* glob
+* mocha
+* rimraf
+* standard-version
+* ts-loader
+* ts-node
+* tslib
+* tslint-config-airbnb
+* vscode-test
+* webpack
+* webpack-cli
+Missing dependencies
+* express: ./examples/exampleJS.js
+* jsonwebtoken: ./examples/exampleJS.js
+* mongoose: ./examples/exampleJS.js
+* install express-mongo-sanitize: ./examples/exampleJS.js
+* dotenv: ./examples/exampleJS.js
+* react: ./examples/exampleJSX.jsx
+* react-dom: ./examples/exampleJSX.jsx
+* chalk: ./examples/newJSexample.js
+* jsdom: ./examples/newJSexample.js
+* puppeteer: ./examples/newJSexample.js
+* ramda: ./examples/newJSexample.js
+* jquery: ./examples/newJSexample.js
+* lodash: ./examples/newJSexample.js
+* vscode: ./src/resources/commands/activate.ts
+* semver: ./src/resources/helpers/versioning.ts
+* lodash.merge: ./src/resources/icons/generator/fileGenerator.ts
+* open: ./src/resources/messages/outdated.ts
+ yarn global add vsce@latest
+
+ yarn add -D @types/dotenv@latest @types/express@latest @types/express-mongo-sanitize@latest @types/glob@latest @types/jsonwebtoken@latest @types/mocha@latest @types/mongoose@latest @types/node@latest @types/puppeteer@latest @types/react@latest @types/react-dom@latest @types/vscode@latest clean-webpack-plugin@latest glob@latest mocha@latest rimraf@latest snyk@latest standard-version@latest ts-loader@latest ts-node@latest tslib@latest tslint@latest tslint-config-airbnb@latest tslint-config-prettier@latest typescript@latest vsce@latest vscode-test@latest webpack@latest webpack-cli@latest
