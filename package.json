@@ -13,7 +13,7 @@
     "vscode": "^1.34"
   },
   "scripts": {
-    "vsce:update": "yarn global add vsce@latest",
+    "vsce:update": "yarn global add vsce@latest; vsce -V",
     "vsce:pak-pub": "vsce package --yarn && vsce publish --yarn",
     "package": "vsce package --yarn",
     "only:publish": "vsce publish --yarn",
