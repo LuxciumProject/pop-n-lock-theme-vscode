@@ -28,7 +28,7 @@
     "url": "https://github.com/luxcium/pop-n-lock-theme-vscode.git"
   },
   "engines": {
-    "vscode": "^1.26.0"
+    "vscode": "^1.40"
   },
   "categories": [
     "Programming Languages",
