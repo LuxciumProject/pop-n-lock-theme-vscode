@@ -12,7 +12,7 @@
     "gitDecoration.untrackedResourceForeground": "#5B2",
     "list.errorForeground": "#F25",
     "list.warningForeground": "#BF2",
-    "editorWarning.border": "#00AA",
+    "editorWarning.border": "#EA20",
     "editorWarning.foreground": "#BF2",
     "editorHint.border": "#FC64",
     "editorHint.foreground": "#FC5D",
