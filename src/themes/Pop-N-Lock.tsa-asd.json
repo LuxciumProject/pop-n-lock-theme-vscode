@@ -10,7 +10,8 @@
     "editorInfo.border": "#4AE5",
     "editorInfo.foreground": "#6BFB",
     "editorError.border": "#F154",
-    "editorError.foreground": "#F15B",
+    "editorError
+    .foreground": "#F15B",
     "editorMarkerNavigationError.background": "#B35B",
     "editorMarkerNavigationInfo.background": "#FC5D",
     "editorMarkerNavigationWarning.background": "#d8cdb4bb",
