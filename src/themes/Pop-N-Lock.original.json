@@ -350,8 +350,8 @@
     "welcomePage.background": "#1D1028",
     "welcomePage.buttonBackground": "#716C",
     "widget.shadow": "#112",
-    "icon.foreground": "#EB6D",
-    "editorGutter.foldingControlForeground": "#EA2E"
+    "icon.foreground": "#FC5D",
+    "editorGutter.foldingControlForeground": "#FC5D"
     // "activityBar.activeFocusBorder": "#ff0000",
     // "checkbox.background": "#ff0000",
     // "checkbox.border": "#ff0000",
