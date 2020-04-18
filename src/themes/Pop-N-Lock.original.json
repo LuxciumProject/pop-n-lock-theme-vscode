@@ -91,7 +91,7 @@
     "breadcrumb.activeSelectionForeground": "#EDEB",
     "list.activeSelectionBackground": "#38A7",
     "list.activeSelectionForeground": "#EDCD",
-    "editor.inactiveSelectionBackground": "#58E8",
+    "editor.inactiveSelectionBackground": "#38D7", // #58E8
     "list.inactiveSelectionBackground": "#33D7",
     "list.inactiveSelectionForeground": "#DCAD",
     "editor.selectionBackground": "#42E7",
