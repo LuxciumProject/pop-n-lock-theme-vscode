@@ -246,7 +246,7 @@
     "input.background": "#38A3",
     "input.border": "#EA28",
     "input.foreground": "#FEDD",
-    "input.placeholderForeground": "#FEDA",
+    "input.placeholderForeground": "#FED8",
     "list.dropBackground": "#38A3",
     "list.invalidItemForeground": "#F42C",
     "menu.background": "#2C203C",
