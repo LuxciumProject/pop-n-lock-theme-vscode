@@ -12,7 +12,7 @@
             "titleBar.activeForeground": "#DCAD",
             "activityBar.inactiveForeground": "#FEC8",
             "panelTitle.inactiveForeground": "#DCA8",
-            "titleBar.inactiveForeground": "#DCA8",
+            "titleBar.inactiveForeground": "#DCA8"
 
     }
 }
