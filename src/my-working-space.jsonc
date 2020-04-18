@@ -1,0 +1,18 @@
+{
+    "colors": {
+
+            "tab.activeForeground": "#DCAD",
+            "tab.unfocusedActiveForeground": "#DCAD",
+            "tab.inactiveForeground": "#DCA8",
+            "tab.unfocusedInactiveForeground": "#DCA8",
+            "editorLineNumber.activeForeground": "#DCAD",
+            "editorLink.activeForeground": "#DCAD",
+            "panelTitle.activeForeground": "#DCAD",
+            "textLink.activeForeground": "#64CD",
+            "titleBar.activeForeground": "#DCAD",
+            "activityBar.inactiveForeground": "#FEC8",
+            "panelTitle.inactiveForeground": "#DCA8",
+            "titleBar.inactiveForeground": "#DCA8",
+
+    }
+}
