@@ -352,7 +352,7 @@
     "widget.shadow": "#112",
     "icon.foreground": "#EC6C",
     "editorGutter.foldingControlForeground": "#EB6D",
-    // "editor.foldBackground": "#15E1"
+    "editor.foldBackground": "#15E2"
 
     // "activityBar.activeFocusBorder": "#ff0000",
     // "checkbox.background": "#ff0000",
