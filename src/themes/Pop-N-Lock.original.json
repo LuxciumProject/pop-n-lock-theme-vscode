@@ -65,8 +65,8 @@
     "editorOverviewRuler.selectionHighlightForeground": "#FC5D",
     "editor.hoverHighlightBackground": "#38A3",
     "editor.focusedStackFrameHighlightBackground": "#2355",
-    "editor.lineHighlightBackground": "#15E1",
-    "editor.lineHighlightBorder": "#E111",
+    "editor.lineHighlightBackground": "#15E2",
+    "editor.lineHighlightBorder": "#E112",
     "editor.rangeHighlightBackground": "#2355",
     "editor.rangeHighlightBorder": "#7161",
     "editor.snippetFinalTabstopHighlightBackground": "#2355",
@@ -350,8 +350,10 @@
     "welcomePage.background": "#1D1028",
     "welcomePage.buttonBackground": "#716C",
     "widget.shadow": "#112",
-    "icon.foreground": "#EC8C",
-    "editorGutter.foldingControlForeground": "#EB6D"
+    "icon.foreground": "#EC6C",
+    "editorGutter.foldingControlForeground": "#EB6D",
+    // "editor.foldBackground": "#15E1"
+
     // "activityBar.activeFocusBorder": "#ff0000",
     // "checkbox.background": "#ff0000",
     // "checkbox.border": "#ff0000",
@@ -381,7 +383,6 @@
     // "debugView.stateLabelBackground": "#ff0000",
     // "debugView.stateLabelForeground": "#ff0000",
     // "debugView.valueChangedHighlight": "#ff0000",
-    // "editor.foldBackground": "#ff0000",
     // "editor.symbolHighlightBackground": "#ff0000",
     // "editor.symbolHighlightBorder": "#ff0000",
     // "editorGroupHeader.border": "#ff0000",
