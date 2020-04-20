@@ -1,9 +1,9 @@
 {
-  "name": "pop-n-lock-theme-vscode",
-  "version": "3.21.2",
+  "name": "pop-n-lock-theme-vscode-rajin",
+  "version": "0.0.1",
   "publisher": "Luxcium",
   "license": "MIT",
-  "displayName": "Pop N' Lock Theme by Luxcium ✨",
+  "displayName": "Pop N' Lock Theme by Luxcium ✨ (Rajin's Fork)",
   "description": "🐲 Perfectly balanced TypeScript theme with vivid colours.",
   "preview": false,
   "markdown": "github",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/luxcium/pop-n-lock-theme-vscode.git"
+    "url": "https://github.com/rajin-s/pop-n-lock-theme-vscode.git"
   },
   "scripts": {
     "vsce:update": "yarn run --ignore-engines vsce:yarn; yarn run --ignore-engines vsce:local; vsce -V",
@@ -81,19 +81,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Pop N' Lock Theme by Luxcium ✨",
+        "label": "Pop N' Lock Theme by Luxcium ✨ (Rajin's Fork)",
         "uiTheme": "vs-dark",
         "path": "./src/themes/Pop-N-Lock.original.json"
-      },
-      {
-        "label": "Pop N' Lock Theme by Luxcium ✨ Alexis's Black ⛷",
-        "uiTheme": "vs-dark",
-        "path": "./src/themes/Pop-N-Lock.alexis-black.json"
-      },
-      {
-        "label": "Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩",
-        "uiTheme": "vs-dark",
-        "path": "./src/themes/Pop-N-Lock.tsa-asd.json"
       }
     ],
     "languages": [
