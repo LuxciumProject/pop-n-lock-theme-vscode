@@ -13,14 +13,14 @@
     "node": ">= 8",
     "vscode": "^1.34.0"
   },
-  "homepage": "https://github.com/luxcium/pop-n-lock-theme-vscode/#readme",
+  "homepage": "https://github.com/Luxcium/pop-n-lock-theme-vscode/tree/forks/rajin-s/#readme",
   "bugs": {
     "url": "https://github.com/luxcium/pop-n-lock-theme-vscode/issues",
     "email": "luxcium@neb401.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rajin-s/pop-n-lock-theme-vscode.git"
+    "url": "https://github.com/luxcium/pop-n-lock-theme-vscode.git"
   },
   "scripts": {
     "vsce:update": "yarn run --ignore-engines vsce:yarn; yarn run --ignore-engines vsce:local; vsce -V",
