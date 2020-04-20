@@ -1,7 +1,8 @@
 function format(color) {
   return Math.floor(color * 255)
     .toString(16)
-    .padStart(2, '0');
+    .padStart(2, '0')
+    .toUpperCase();
 }
 
 const myColors = [
@@ -211,47 +212,208 @@ const myColors = [
   R.Blue = format(I.Blue);
   R.Alpha = format(I.Alpha);
 
-  if (I.Alpha > 0) {
-    R.hexS_tring = `#${R.Red}${R.Green}${R.Blue}`;
+  if ((I.Alpha = 1)) {
+    R.hexS_tring = `#${R.Red}${R.Green}${R.Blue}`.toUpperCase();
     return R;
   }
-  R.hexS_tring = `#${R.Red}${R.Green}${R.Blue}${R.Alpha}`;
+  R.hexS_tring = `#${R.Red}${R.Green}${R.Blue}${R.Alpha}`.toUpperCase();
   return R;
 });
 
-console.log(myColors);
+console.log(myColors.map(R => R.hexS_tring));
+// [
+
+//   {
+//     'terminal.background': '#221E25',
+//     'terminal.ansiCyan': '#689E6A',
+//     'terminal.border': '#77116633',
+//     'terminal.ansiBrightCyan': '#8AE180',
+//     'terminal.ansiBrightBlack': '#928374',
+//     'terminal.ansiGreen': '#98971A',
+//     'terminal.ansiBrightBlue': '#99C6CA',
+//     'terminal.ansiMagenta': '#B16286',
+//     'terminal.ansiBrightGreen': '#B5C033',
+//     'terminal.ansiWhite': '#C0B0A0',
+//     'terminal.ansiRed': '#CC241D',
+//     'terminal.ansiBrightMagenta': '#D66282',
+//     'terminal.foreground': '#DDBC9A',
+//     'terminal.ansiBrightWhite': '#DDCCAA',
+//     'terminal.ansiYellow': '#E7A931',
+//     'terminal.ansiBrightRed': '#F42C3E',
+//     'terminal.ansiBrightYellow': '#FABE2F',
+//   },
+/*
+foregroundBackground
+Bold
+Links
+Cursor
+Cursor text
+Selection
+Selected textBadge
+Tab Color
+Underline Color
+Cursor guide
+
+black
+Red
+green
+yellow
+blue
+magenta
+cyan
+withe
+
+bright black
+bright Red
+bright green
+bright yellow
+bright blue
+bright magenta
+bright cyan
+bright withe
+
+ansiansiBright
+ansiBright
+
+
+
+"Ansi 0 Color",
+black
+"Ansi 1 Color",
+Red
+"Ansi 2 Color",
+green
+"Ansi 3 Color",
+yellow
+"Ansi 4 Color",
+blue
+"Ansi 5 Color",
+magenta
+"Ansi 6 Color",
+cyan
+"Ansi 7 Color",
+withe
+
+"Ansi 8 Color",
+bright black
+"Ansi 9 Color" ,
+bright Red
+"Ansi 10 Color",
+bright green
+"Ansi 11 Color",
+bright yellow
+"Ansi 12 Color",
+bright blue
+"Ansi 13 Color",
+bright magenta
+"Ansi 14 Color",
+bright cyan
+"Ansi 15 Color",
+bright withe
+
+"Ansi 0 Color",
+"Ansi 1 Color",
+"Ansi 2 Color",
+"Ansi 3 Color",
+"Ansi 4 Color",
+"Ansi 5 Color",
+"Ansi 6 Color",
+"Ansi 7 Color",
+
+"Ansi 8 Color",
+"Ansi 9 Color" ,
+"Ansi 10 Color",
+"Ansi 11 Color",
+"Ansi 12 Color",
+"Ansi 13 Color",
+"Ansi 14 Color",
+"Ansi 15 Color",
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [
- '#d9c0d9',
- '#fecb55',
- '#f2d5b9',
- '#331e7a',
- '#61bfd5',
- '#e599a0',
- '#a0e5a0',
- '#a099e5',
- '#e599e5',
- '#a0e5e5',
- '#ffaf00',
- '#ecb242',
- '#0090bb',
- '#fff8c6',
- '#9af1c2',
- '#b7b735',
- '#fd4051',
- '#b3dde0',
- '#28123d',
- '#cc2233',
- '#ca352f',
- '#837362',
- '#d5e148',
- '#ff2600',
- '#1f0c40',
- '#cfb8a0',
- '#2f73cd',
- '#f8ecdf',
- '#7ebc9c',
- '#030b24',
- '#d53f4e',
- '#ee799a',
- '#d18aaa',
-]
+  '#0090BB',
+  '#030B24',
+  '#1F0C40',
+  '#28123D',
+  '#2F73CD',
+  '#331E7A',
+  '#61BFD5',
+  '#7EBC9C',
+  '#837362',
+  '#9AF1C2',
+  '#A099E5',
+  '#A0E5A0',
+  '#A0E5E5',
+  '#B3DDE0',
+  '#B7B735',
+  '#CA352F',
+  '#CC2233',
+  '#CFB8A0',
+  '#D18AAA',
+  '#D53F4E',
+  '#D5E148',
+  '#D9C0D9',
+  '#E599A0',
+  '#E599E5',
+  '#ECB242',
+  '#EE799A',
+  '#F2D5B9',
+  '#F8ECDF',
+  '#FD4051',
+  '#FECB55',
+  '#FF2600',
+  '#FFAF00',
+  '#FFF8C6',
+];
+//   '#0090bb',
+//   '#030b24',
+//   '#1f0c40',
+//   '#28123d',
+//   '#2f73cd',
+//   '#331e7a',
+//   '#61bfd5',
+//   '#7ebc9c',
+//   '#837362',
+//   '#9af1c2',
+//   '#a099e5',
+//   '#a0e5a0',
+//   '#a0e5e5',
+//   '#b3dde0',
+//   '#b7b735',
+//   '#ca352f',
+//   '#cc2233',
+//   '#cfb8a0',
+//   '#d18aaa',
+//   '#d53f4e',
+//   '#d5e148',
+//   '#d9c0d9',
+//   '#e599a0',
+//   '#e599e5',
+//   '#ecb242',
+//   '#ee799a',
+//   '#f2d5b9',
+//   '#f8ecdf',
+//   '#fd4051',
+//   '#fecb55',
+//   '#ff2600',
+//   '#ffaf00',
+//   '#fff8c6',
+
+// ];
