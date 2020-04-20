@@ -10,7 +10,6 @@
         "notificationsErrorIcon.foreground": "#F45F",
         "editorOverviewRuler.errorForeground": "#F45F",
         "errorForeground": "#DCAB",
-        "errorForeground": "#DCAB",
         "list.errorForeground": "#F45F",
         "problemsErrorIcon.foreground": "#F45F",
         "minimap.errorHighlight": "#F45F",
