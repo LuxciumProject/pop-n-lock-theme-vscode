@@ -3,23 +3,78 @@
   "name": "Pop N Lock Theme by Luxcium",
   "type": "dark",
   "colors": {
-    "gitDecoration.addedResourceForeground": "#EE5",
-    "gitDecoration.modifiedResourceForeground": "#EA2",
-    "gitDecoration.conflictingResourceForeground": "#E22",
-    "gitDecoration.deletedResourceForeground": "#B25",
-    "gitDecoration.ignoredResourceForeground": "#29B",
-    "gitDecoration.submoduleResourceForeground": "#92B",
-    "gitDecoration.untrackedResourceForeground": "#5B2",
-    "list.errorForeground": "#F25",
-    "list.warningForeground": "#BF2",
+    /*
+3 6 9 C F
+
+#333 #336 #339 #33C #33F
+#633 #636 #639 #63C #63F
+#933 #936 #939 #93C #93F
+#C33 #C36 #C39 #C3C #C3F
+#F33 #F36 #F39 #F3C #F3F
+#363 #366 #369 #36C #36F
+#663 #666 #669 #66C #66F
+#963 #966 #969 #96C #96F
+#C63 #C66 #C69 #C6C #C6F
+#F63 #F66 #F69 #F6C #F6F
+#393 #396 #399 #39C #39F
+#693 #696 #699 #69C #69F
+#993 #996 #999 #99C #99F
+#C93 #C96 #C99 #C9C #C9F
+#F93 #F96 #F99 #F9C #F9F
+#3C3 #3C6 #3C9 #3CC #3CF
+#6C3 #6C6 #6C9 #6CC #6CF
+#9C3 #9C6 #9C9 #9CC #9CF
+#CC3 #CC6 #CC9 #CCC #CCF
+#FC3 #FC6 #FC9 #FCC #FCF
+#3F3 #3F6 #3F9 #3FC #3FF
+#6F3 #6F6 #6F9 #6FC #6FF
+#9F3 #9F6 #9F9 #9FC #9FF
+#CF3 #CF6 #CF9 #CFC #CFF
+#FF3 #FF6 #FF9 #FFC #FFF
+
+#333
+#666
+#999
+#CCC
+#FFF
+
+#F33#F63#F93#FC3#FF3
+
+#333#363#393#3C3#3F3
+
+#F33#F36#F39#F3C#F3F
+3 6 9 C F
+
+*/
+    "gitDecoration.addedResourceForeground": "#FC3",
+    "gitDecoration.modifiedResourceForeground": "#F93",
+    "gitDecoration.conflictingResourceForeground": "#F33",
+    "gitDecoration.deletedResourceForeground": "#936",
+    "gitDecoration.ignoredResourceForeground": "#39C",
+    "gitDecoration.submoduleResourceForeground": "#C3C",
+    "gitDecoration.untrackedResourceForeground": "#3C3",
+
+    "list.errorForeground": "#F36",
+    "minimap.errorHighlight": "#F36",
+    "editorError.foreground": "#F36",
+    "problemsErrorIcon.foreground": "#F36",
+    "notificationsErrorIcon.foreground": "#F36",
+    "tab.activeModifiedBorder": "#F36",
+    "editorOverviewRuler.errorForeground": "#F36",
+    "editorOverviewRuler.warningForeground": "#CF3",
+    "notificationsWarningIcon.foreground": "#CF3",
+    "problemsWarningIcon.foreground": "#CF3",
+    "tab.activeBorderTop": "#CF3",
+    "list.warningForeground": "#CF3",
+    "editorWarning.foreground": "#CF3",
+    "minimap.warningHighlight": "#CF3",
+
     "editorWarning.border": "#EA20",
-    "editorWarning.foreground": "#BF2",
     "editorHint.border": "#FC64",
     "editorHint.foreground": "#FC5D",
     "editorInfo.border": "#4AE5",
     "editorInfo.foreground": "#6BFB",
     "editorError.border": "#F154",
-    "editorError.foreground": "#F25",
     "editorMarkerNavigationError.background": "#B35B",
     "editorMarkerNavigationInfo.background": "#FC5D",
     "editorMarkerNavigationWarning.background": "#d8cdb4bb",
@@ -34,10 +89,8 @@
     "inputValidation.warningBorder": "#FC5D",
     "inputValidation.warningForeground": "#FEDB",
     "minimap.background": "#1D1C2F",
-    "minimap.errorHighlight": "#F25",
     "minimap.findMatchHighlight": "#F738",
     "minimap.selectionHighlight": "#8DA8",
-    "minimap.warningHighlight": "#BF2",
     "minimapGutter.addedBackground": "#8B3C",
     "minimapGutter.deletedBackground": "#B35C",
     "minimapGutter.modifiedBackground": "#38AC",
@@ -62,8 +115,6 @@
     "tab.hoverBackground": "#52A5",
     "tab.unfocusedHoverBackground": "#52A4",
     "tab.activeBorder": "#1D254500",
-    "tab.activeBorderTop": "#AE4F",
-    "tab.activeModifiedBorder": "#F45F",
     "tab.unfocusedActiveBorder": "#1D254500",
     "tab.unfocusedActiveBorderTop": "#AE49",
     "tab.unfocusedActiveModifiedBorder": "#F459",
@@ -72,19 +123,14 @@
     "tab.hoverBorder": "#38A",
     "tab.unfocusedHoverBorder": "#38AD",
     "tab.border": "#1C1C2E",
-    "notificationsErrorIcon.foreground": "#F45C",
     "notificationsInfoIcon.foreground": "#FC5D",
-    "notificationsWarningIcon.foreground": "#8D5C",
     "notifications.background": "#1D1028",
     "notifications.border": "#7161",
     "notifications.foreground": "#DCAB",
-    "editorOverviewRuler.errorForeground": "#F42B",
+
     "errorForeground": "#DCAB",
-    "problemsErrorIcon.foreground": "#F45C",
     "editorOverviewRuler.infoForeground": "#FC5D",
     "problemsInfoIcon.foreground": "#FC5D",
-    "editorOverviewRuler.warningForeground": "#694B",
-    "problemsWarningIcon.foreground": "#8D5C",
     "editor.findMatchHighlightBackground": "#38A4",
     "editor.findMatchHighlightBorder": "#38AD",
     "editor.findRangeHighlightBackground": "#2355",
@@ -5819,6 +5865,40 @@ source.css
     }
     // #endregion
   ]
-} /* "#63E" */
-/* "#B5F9" */
-/* "#41DB" */
+}
+
+/*
+3 6 9 C F
+
+#333 #336 #339 #33C #33F
+#633 #636 #639 #63C #63F
+#933 #936 #939 #93C #93F
+#C33 #C36 #C39 #C3C #C3F
+#F33 #F36 #F39 #F3C #F3F
+
+#363 #366 #369 #36C #36F
+#663 #666 #669 #66C #66F
+#963 #966 #969 #96C #96F
+#C63 #C66 #C69 #C6C #C6F
+#F63 #F66 #F69 #F6C #F6F
+
+#393 #396 #399 #39C #39F
+#693 #696 #699 #69C #69F
+#993 #996 #999 #99C #99F
+#C93 #C96 #C99 #C9C #C9F
+#F93 #F96 #F99 #F9C #F9F
+
+#3C3 #3C6 #3C9 #3CC #3CF
+#6C3 #6C6 #6C9 #6CC #6CF
+#9C3 #9C6 #9C9 #9CC #9CF
+#CC3 #CC6 #CC9 #CCC #CCF
+#FC3 #FC6 #FC9 #FCC #FCF
+
+#3F3 #3F6 #3F9 #3FC #3FF
+#6F3 #6F6 #6F9 #6FC #6FF
+#9F3 #9F6 #9F9 #9FC #9FF
+#CF3 #CF6 #CF9 #CFC #CFF
+#FF3 #FF6 #FF9 #FFC #FFF
+
+
+*/
