@@ -10,6 +10,29 @@
     "gitDecoration.ignoredResourceForeground": "#39C",
     "gitDecoration.submoduleResourceForeground": "#C3C",
     "gitDecoration.untrackedResourceForeground": "#3C3",
+    #DDCCAA #DCA
+    #D6CAAF
+    #CFC7B3 #DCB
+    #C9C5B8
+    #C2C2BC #CCC
+    #BBC0C1
+    #B4BDC5 #BCC
+
+    #DDCCAA #DCA
+    #D9CBAC #D9CBAC
+    #D6C9AF #D6C9AF
+    #D2C8B1 #D2C8B1
+    #CEC7B4 #CEC7B4
+    #CAC5B6 #CAC5B6
+    #C7C4B9 #C7C4B9
+    #C3C2BB #C3C2BB
+    #BFC1BE #BFC1BE
+    #BBC0C0 #BBC0C0
+    #B8BEC3 #B8BEC3
+    #B4BDC5 #BCC
+
+
+
   */
   "colors": {
     "editorWarning.border": "#EA20",
@@ -418,6 +441,11 @@
     // "symbolIcon.variableForeground": "#ff0000",
     // "tree.indentGuidesStroke": "#ff0000",
     // "debugTokenExpression.error": "#ff0000",
+
+    //
+    // #b4bdc5de
+    //
+
     /* editorLightBulb */
     "editorLightBulb.foreground": "#FC3",
     "editorLightBulbAutoFix.foreground": "#39C",
@@ -469,6 +497,21 @@
     "terminal.ansiWhite": "#C0B0A0",
     "terminal.ansiYellow": "#E7A931"
   },
+  /*
+  #B4BDC5
+  #BBBDBE
+  #C2BDB7
+  #C9BDB0
+  #CFBCA8
+  #D6BCA1
+  #DDBC9A
+
+#DDBC9A
+#D3BCA5
+#C9BDB0
+#BEBDBA
+#b4bdc5
+ */
   "tokenColors": [
     // "TypeScript main Tokens colors" -----------------------------------------
     // "#D25B","#E43D","#E67D","#E1AD","#7ADD",
