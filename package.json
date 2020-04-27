@@ -1,6 +1,6 @@
 {
   "name": "pop-n-lock-theme-vscode",
-  "version": "3.23.0",
+  "version": "3.25.0",
   "publisher": "Luxcium",
   "license": "MIT",
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
@@ -30,7 +30,7 @@
     "package": "vsce package --yarn",
     "only:publish": "vsce publish --yarn",
     "prepublish": "yarn run --ignore-engines vsce:update; yarn run --ignore-engines test",
-    "publish": "yarn version --no-git-tag-version --minor && yarn run --ignore-engines vsce:pak-pub && git add .",
+    "publish": "yarn version --no-git-tag-version --patch && yarn run --ignore-engines vsce:pak-pub && git add .",
     "test": "snyk test"
   },
   "dependencies": {},
