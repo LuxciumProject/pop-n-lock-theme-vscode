@@ -1,32 +1,8 @@
-
 {
   "$schema": "vscode://schemas/color-theme",
   "name": "Pop N Lock Theme by Luxcium DARK",
   "type": "dark",
   "colors": {
-    "gitDecoration.addedResourceForeground": "#FC3D",
-    "gitDecoration.modifiedResourceForeground": "#F93D",
-    "gitDecoration.conflictingResourceForeground": "#F33D",
-    "gitDecoration.deletedResourceForeground": "#936D",
-    "gitDecoration.ignoredResourceForeground": "#39CD",
-    "gitDecoration.submoduleResourceForeground": "#C3CD",
-    "gitDecoration.untrackedResourceForeground": "#3C3D",
-
-    "list.errorForeground": "#F36D",
-    "minimap.errorHighlight": "#F36D",
-    "editorError.foreground": "#F36D",
-    "problemsErrorIcon.foreground": "#F36D",
-    "notificationsErrorIcon.foreground": "#F36D",
-    "tab.activeModifiedBorder": "#F36D",
-    "editorOverviewRuler.errorForeground": "#F36D",
-    "editorOverviewRuler.warningForeground": "#CF3D",
-    "notificationsWarningIcon.foreground": "#CF3D",
-    "problemsWarningIcon.foreground": "#CF3D",
-    "tab.activeBorderTop": "#CF3D",
-    "list.warningForeground": "#CF3D",
-    "editorWarning.foreground": "#CF3D",
-    "minimap.warningHighlight": "#CF3D",
-
     "editorWarning.border": "#BD24",
     "editorHint.border": "#FC64",
     "editorHint.foreground": "#FC5D",
@@ -352,7 +328,7 @@
     "walkThrough.embeddedEditorBackground": "#2C203C55",
     "welcomePage.background": "#1D102855",
     "welcomePage.buttonBackground": "#7169",
-    "widget.shadow": "#112B"
+    "widget.shadow": "#112B",
     // "icon.foreground": "#00FF00",
     // "debugIcon.breakpointCurrentStackframeForeground": "#ff0000",
     // "debugIcon.breakpointDisabledForeground": "#ff0000",
@@ -416,6 +392,32 @@
     // "statusBarItem.remoteBackground": "#ff0000",
     // "statusBarItem.remoteForeground": "#ff0000",
     // "tree.indentGuidesStroke": "#ff0000",
+    /* editorLightBulb */
+    "editorLightBulb.foreground": "#FC3E",
+    "editorLightBulbAutoFix.foreground": "#39CE",
+    /* gitDecoration */
+    "gitDecoration.addedResourceForeground": "#FC3E",
+    "gitDecoration.modifiedResourceForeground": "#3C3E",
+    "gitDecoration.conflictingResourceForeground": "#F33E",
+    "gitDecoration.deletedResourceForeground": "#936E",
+    "gitDecoration.ignoredResourceForeground": "#39CE",
+    "gitDecoration.submoduleResourceForeground": "#C3CE",
+    "gitDecoration.untrackedResourceForeground": "#F93E",
+    /* error and warnings */
+    "list.errorForeground": "#F36E",
+    "minimap.errorHighlight": "#F36E",
+    "editorError.foreground": "#F36E",
+    "problemsErrorIcon.foreground": "#F36E",
+    "notificationsErrorIcon.foreground": "#F36E",
+    "tab.activeModifiedBorder": "#F36E",
+    "editorOverviewRuler.errorForeground": "#F36E",
+    "editorOverviewRuler.warningForeground": "#CF3E",
+    "notificationsWarningIcon.foreground": "#CF3E",
+    "problemsWarningIcon.foreground": "#CF3E",
+    "tab.activeBorderTop": "#CF3E",
+    "list.warningForeground": "#CF3E",
+    "editorWarning.foreground": "#CF3E",
+    "minimap.warningHighlight": "#CF3E"
   },
   "tokenColors": [
     // "TypeScript main Tokens colors" -----------------------------------------
