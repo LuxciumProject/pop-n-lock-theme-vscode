@@ -419,8 +419,8 @@
     "editorLightBulb.foreground": "#FC3E",
     "editorLightBulbAutoFix.foreground": "#39CE",
     /* gitDecoration */
-    "gitDecoration.addedResourceForeground": "#FC3E",
-    "gitDecoration.modifiedResourceForeground": "#3C3E",
+    "gitDecoration.addedResourceForeground": "#3C3E",
+    "gitDecoration.modifiedResourceForeground": "#FC3E",
     "gitDecoration.conflictingResourceForeground": "#F33E",
     "gitDecoration.deletedResourceForeground": "#936E",
     "gitDecoration.ignoredResourceForeground": "#39CE",
