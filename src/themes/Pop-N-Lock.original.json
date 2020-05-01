@@ -449,8 +449,8 @@
     // #B4BDC5
     /* terminal */
     "terminal.background": "#221E25",
-    "terminal.border": "#77116633",
-    "terminal.foreground": "#C4BDB5",
+    "terminal.border": "#77116655",
+    "terminal.foreground": "#C4BDB5DD",
     "terminalCursor.background": "#29153A",
     "terminalCursor.foreground": "#F33",
     "terminal.selectionBackground": "#3277",
