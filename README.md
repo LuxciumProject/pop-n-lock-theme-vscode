@@ -14,17 +14,13 @@ Colourful features are added and more languages will be included soon. This them
 
 ## **Make sure people know how you feel with a 5-star review on VS Code marketplace:**
 
-> **[I want to tell everyone about _Pop N' Lock Theme by Luxcium ✨_ ](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)**
->
+### **[I want to tell everyone about _Pop N' Lock Theme by Luxcium ✨_ ](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)**
+
 > [![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock)](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)
 
 ## ✨ Be Proud
 
 ### **Show us your workflow and setting send sugestions and more using our _Twitter Handle_ [@luxcium](https://twitter.com/Luxcium) and _Hash Tag_ [#Luxcium](https://twitter.com/hashtag/Luxcium)**
-
-## Because you want to tell the world about your experience
-
-### We would like to hear from you fellow user of the _Pop N' Lock Theme by Luxcium ✨_ take a screenshot of your workflow and show it on Twiter using **[@luxcium](https://twitter.com/Luxcium)** _Twitter Handle_ and **[#Luxcium](https://twitter.com/hashtag/Luxcium)** _Hash tag_ send us sugestions both by opening an **[Issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues)** on **[GitHub](https://github.com/luxcium/pop-n-lock-theme-vscode/)** and then sending a Tweet about it using our Handle or Hash tag!<br/><br/>
 
 ## Handpicked colors
 
@@ -35,6 +31,10 @@ Colourful features are added and more languages will be included soon. This them
 Your favourite streamlined code editor is getting more bright and radiant, optimized to work in the **Full-fledged Integrated Development Environment** or in **Text Editor sized mode**.
 
 The colours have been **handpicked** with great care to be the most intuitive possible and to use extensively all capacity of your IDE and text editor of choice.
+
+## Because you want to tell the world about your experience
+
+### We would like to hear from you fellow user of the _Pop N' Lock Theme by Luxcium ✨_ take a screenshot of your workflow and show it on Twiter using **[@luxcium](https://twitter.com/Luxcium)** _Twitter Handle_ and **[#Luxcium](https://twitter.com/hashtag/Luxcium)** _Hash tag_ send us sugestions both by opening an **[Issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues)** on **[GitHub](https://github.com/luxcium/pop-n-lock-theme-vscode/)** and then sending a Tweet about it using our Handle or Hash tag!<br/><br/>
 
 ## TypeScript
 
