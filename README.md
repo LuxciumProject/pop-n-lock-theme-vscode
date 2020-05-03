@@ -12,6 +12,12 @@
 
 Colourful features are added and more languages will be included soon. This theme is **STRONGLY OPINIONATED** to make sure to to be influencing the opinion request any changes you want by filling an issue to be part of the 17 000+ happy users.
 
+## Breaking Changes possible for `Luxcium Preview✨`
+
+> **⚠️ Themes marked `Luxcium Preview✨` are subject to change in a future release. You may have to manualy remove/reinstall the theme in your config file:**
+>
+> If you have an error: `🚫Cannot read property 'id' of undefined` Just go in config.json file remove the `"workbench.colorTheme"` then reload vscode and reinstall `Pop N' Lock Theme by Luxcium ✨`
+
 ## **Make sure people know how you feel with a 5-star review on VS Code marketplace:**
 
 ### **[I want to tell everyone about _Pop N' Lock Theme by Luxcium ✨_ ](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)**
