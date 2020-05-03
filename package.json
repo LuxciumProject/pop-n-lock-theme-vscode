@@ -96,7 +96,7 @@
         "path": "./src/themes/Pop-N-Lock.tsa-asd.json"
       },
       {
-        "label": "Luxcium Preview✨ BREAKING CHANGES MAY OCCURE -- USE AT YOUR OWN RISK",
+        "label": "Luxcium Preview ✨ Temporary Preview: [unstable | unsafe] & <BREAKING CHANGES> 🚧",
         "uiTheme": "vs-dark",
         "path": "./src/themes/Pop-N-Lock.matt.json"
       }
