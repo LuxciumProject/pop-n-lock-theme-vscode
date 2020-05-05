@@ -35,3 +35,8 @@ export $TERM=xterm-256color
 Your terminal emulator may also have a configuration option for this. Colors under the xterm 256 color protocol are indexed:
 
 https://en.wikipedia.org/wiki/Xterm#Protocols
+
+
+("#)([a-f0-9]{3})([a-f0-9]{1})(",)
+
+()
