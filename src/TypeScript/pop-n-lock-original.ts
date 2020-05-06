@@ -5,6 +5,7 @@ import { terminal } from './terminal';
 export const PopNLockOriginal = {
   schema: 'vscode://schemas/color-theme',
   name: 'Pop N Lock Theme by Luxcium',
+
   type: 'dark',
   colors: {},
 };
