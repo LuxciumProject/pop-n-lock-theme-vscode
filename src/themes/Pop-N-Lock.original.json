@@ -370,7 +370,7 @@
     // "symbolIcon.classForeground": "#ff0000",
     // "symbolIcon.colorForeground": "#ff0000",
     "symbolIcon.constantForeground": "#6BF",
-    // "symbolIcon.constructorForeground": "#ff0000",
+    "symbolIcon.constructorForeground": "#F90",
     // "symbolIcon.enumeratorForeground": "#ff0000",
     // "symbolIcon.enumeratorMemberForeground": "#ff0000",
     // "symbolIcon.eventForeground": "#ff0000",
