@@ -95,11 +95,6 @@
         "label": "Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩",
         "uiTheme": "vs-dark",
         "path": "./src/themes/Pop-N-Lock.tsa-asd.json"
-      },
-      {
-        "label": "Luxcium Preview ✨ Temporary Preview: [unstable | unsafe] & <BREAKING CHANGES> 🚧",
-        "uiTheme": "vs-dark",
-        "path": "./src/themes/Pop-N-Lock.matt.json"
       }
     ],
     "languages": [
