@@ -1,6 +1,11 @@
+import { errorsAndWarnings } from './error-warnings';
+import { gitDecoration } from './git-decoration';
+import { terminal } from './terminal';
+
 export const PopNLockOriginal = {
   schema: 'vscode://schemas/color-theme',
   name: 'Pop N Lock Theme by Luxcium',
+
   type: 'dark',
   colors: {},
 };
@@ -420,59 +425,11 @@ export const colors = {
   'editorLightBulb.foreground': '#FC3D',
   'editorLightBulbAutoFix.foreground': '#39CD',
   /* gitDecoration */
-  'gitDecoration.addedResourceForeground': '#3C0D',
-  'gitDecoration.modifiedResourceForeground': '#FB0D',
-  'gitDecoration.conflictingResourceForeground': '#F20D',
-  'gitDecoration.deletedResourceForeground': '#936F',
-  'gitDecoration.ignoredResourceForeground': '#09CD',
-  'gitDecoration.submoduleResourceForeground': '#C3CD',
-  'gitDecoration.untrackedResourceForeground': '#F90D',
+  ...gitDecoration,
   /* error and warnings */
-  'list.errorForeground': '#F36F',
-  'minimap.errorHighlight': '#F36F',
-  'editorError.foreground': '#F36F',
-  'problemsErrorIcon.foreground': '#F36F',
-  'notificationsErrorIcon.foreground': '#F36F',
-  'tab.activeModifiedBorder': '#F36F',
-  'editorOverviewRuler.errorForeground': '#F36F',
-  'editorOverviewRuler.warningForeground': '#CF3F',
-  'notificationsWarningIcon.foreground': '#CF3F',
-  'problemsWarningIcon.foreground': '#CF3F',
-  'tab.activeBorderTop': '#CF3F',
-  'list.warningForeground': '#CF3F',
-  'editorWarning.foreground': '#CF3F',
-  'minimap.warningHighlight': '#CF3F',
+  ...errorsAndWarnings,
   /* terminal */
-  // #DDBC9A
-  // #D3BCA5
-  // #C9BDB0
-  // #C4BDB5 //&
-  // #BEBDBA
-  // #B4BDC5
-  /* terminal */
-  'terminal.background': '#2E2A25',
-  'terminal.border': '#77116655',
-  'terminal.foreground': '#C4BDB5DD',
-  'terminalCursor.background': '#29153A',
-  'terminalCursor.foreground': '#F33',
-  'terminal.selectionBackground': '#3277',
-  /* terminal colors */
-  'terminal.ansiBlack': '#221B25',
-  'terminal.ansiBlue': '#458588',
-  'terminal.ansiCyan': '#689E6A',
-  'terminal.ansiGreen': '#98971A',
-  'terminal.ansiMagenta': '#B16286',
-  'terminal.ansiRed': '#CC241D',
-  'terminal.ansiWhite': '#C0B0A0',
-  'terminal.ansiYellow': '#E7A931',
-  'terminal.ansiBrightBlack': '#928374',
-  'terminal.ansiBrightBlue': '#99C6CA',
-  'terminal.ansiBrightCyan': '#8AE180',
-  'terminal.ansiBrightGreen': '#B5C033',
-  'terminal.ansiBrightMagenta': '#D66282',
-  'terminal.ansiBrightRed': '#F42C3E',
-  'terminal.ansiBrightWhite': '#DDCCAA',
-  'terminal.ansiBrightYellow': '#FABE2F',
+  ...terminal,
 };
 /*
   #C9BDB0
@@ -521,8 +478,7 @@ export const colors = {
 
 
   */
-colors//   "tokenColors": [
-//     // "TypeScript main Tokens colors" -----------------------------------------
+// colors; //     // "TypeScript main Tokens colors" ----------------------------------------- //   "tokenColors": [
 //     // "#D25B","#E43D","#E67D","#E1AD","#7ADD",
 //     // "#FC5D","#F91D","#C4BDB5","#A5BD","#ADCC",
 //     // "#CE5C","#7C2D","#4B9D","#55FD","#6BFC",
@@ -5968,5 +5924,5 @@ colors//   "tokenColors": [
 3 6 9 C F
 
 */
-.console
-  .log(colors);
+// .console
+// .log(colors);

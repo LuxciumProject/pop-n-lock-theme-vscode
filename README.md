@@ -3,8 +3,15 @@
 [![GitHub issues](https://img.shields.io/github/issues/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/issues)
 [![GitHub contributors](https://img.shields.io/github/contributors-anon/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/graphs/contributors)
 [![GitHub stars](https://img.shields.io/github/stars/luxcium/pop-n-lock-theme-vscode.svg?style=social)](https://github.com/luxcium/pop-n-lock-theme-vscode/stargazers)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ce09cc344aa144749755aa29d0f78f83)](https://www.codacy.com/manual/Luxcium/pop-n-lock-theme-vscode?utm_source=github.com&utm_medium=referral&utm_content=Luxcium/pop-n-lock-theme-vscode&utm_campaign=Badge_Grade)
 [![Known Vulnerabilities](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg)](https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode)
+
+<!-- [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ce09cc344aa144749755aa29d0f78f83)](https://www.codacy.com/manual/Luxcium/pop-n-lock-theme-vscode?utm_source=github.com&utm_medium=referral&utm_content=Luxcium/pop-n-lock-theme-vscode&utm_campaign=Badge_Grade) -->
+
+## Make sure people know how you feel with a 5-star review
+
+> ### **Click: [I want to tell everyone about _Pop N' Lock Theme by Luxcium ✨_ ](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)**
+>
+> [![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock)](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)
 
 ## 🐲 Perfectly balanced TypeScript theme with vivid colours
 
@@ -12,29 +19,35 @@
 
 Colourful features are added and more languages will be included soon. This theme is **STRONGLY OPINIONATED** to make sure to to be influencing the opinion request any changes you want by filling an issue to be part of the 17 000+ happy users.
 
-## **Make sure people know how you feel with a 5-star review on VS Code marketplace:**
-
-### **[I want to tell everyone about _Pop N' Lock Theme by Luxcium ✨_ ](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)**
-
-> [![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock)](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)
-
-## ✨ Be Proud
-
-### **Show us your workflow and setting send sugestions and more using our _Twitter Handle_ [@luxcium](https://twitter.com/Luxcium) and _Hash Tag_ [#Luxcium](https://twitter.com/hashtag/Luxcium)**
-
 ## Handpicked colors
 
 **You will be impressed how intutive it is when you will discover how each colour has its purpose**
 
-[<img width="90%" alt="[Preview of the IDE with Pop N’ Lock Theme]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png) > <br/>(v3.18)<br/>
+[<img width="90%" alt="[Preview of the IDE with Pop N’ Lock Theme]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/Pop%20N'%20Lock%20Theme%20by%20Luxcium%20%E2%9C%A8%20vs%20code%20typescript%20theme%20best%20colourful%20and%20top%2010.png) <br/>(v3.18)<br/>
 
 Your favourite streamlined code editor is getting more bright and radiant, optimized to work in the **Full-fledged Integrated Development Environment** or in **Text Editor sized mode**.
 
 The colours have been **handpicked** with great care to be the most intuitive possible and to use extensively all capacity of your IDE and text editor of choice.
 
+## ✨ Be Proud
+
+**Show us your workflow and setting send sugestions and more using our _Twitter Handle_ [@luxcium](https://twitter.com/Luxcium) and _Hash Tag_ [#Luxcium](https://twitter.com/hashtag/Luxcium)**
+
 ## Because you want to tell the world about your experience
 
-### We would like to hear from you fellow user of the _Pop N' Lock Theme by Luxcium ✨_ take a screenshot of your workflow and show it on Twiter using **[@luxcium](https://twitter.com/Luxcium)** _Twitter Handle_ and **[#Luxcium](https://twitter.com/hashtag/Luxcium)** _Hash tag_ send us sugestions both by opening an **[Issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues)** on **[GitHub](https://github.com/luxcium/pop-n-lock-theme-vscode/)** and then sending a Tweet about it using our Handle or Hash tag!<br/><br/>
+**Happy users of _Pop N' Lock Theme by Luxcium ✨_ are our best Ambasadors out there on the World Wide Web hyperspace...**
+
+We would like to hear from you fellow user of the _Pop N' Lock Theme by Luxcium ✨_ take a screenshot of your workflow and show it on Twiter using **[@luxcium](https://twitter.com/Luxcium)** _Twitter Handle_ and **[#Luxcium](https://twitter.com/hashtag/Luxcium)** _Hash tag_ send us sugestions both by opening an **[Issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues)** on **[GitHub](https://github.com/luxcium/pop-n-lock-theme-vscode/)** and then sending a Tweet about it using our Handle or Hash tag!<br/><br/>
+
+if you think something can be improved make sure to fill an issue on our GitHub page it's easy and will help us make Pop N' Lock the best theme available
+
+Please feel free to ask any question, to let us know about any problems that should be resolved and any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page.
+
+## Breaking Changes possible for `Luxcium Preview✨`
+
+> **⚠️ Themes marked `Luxcium Preview✨` are subject to change in a future release. You may have to manualy remove/reinstall the theme in your config file:**
+>
+> If you have an error: `🚫Cannot read property 'id' of undefined` Just go in config.json file remove the `"workbench.colorTheme"` then reload vscode and reinstall `Pop N' Lock Theme by Luxcium ✨`
 
 ## TypeScript
 
@@ -82,14 +95,6 @@ red on writing side / blue on the reading side
 
 [<img width="60%" alt="[Console highlight]" src="https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20javascript%20ecmascript%20vscode%20theme%20console%20log%20highlight.png">](https://raw.githubusercontent.com/Luxcium/pop-n-lock-theme-vscode/master/images/v3.18.0/typescript%20javascript%20ecmascript%20vscode%20theme%20console%20log%20highlight.png)
 <br/>(v3.18) When using Latest Typescipt Grammar support console.log / conso.error etc. highlight<br/>
-
-## Happy users of _Pop N' Lock Theme by Luxcium ✨_ are our best Ambasadors out there on the World Wide Web hyperspace...
-
-We would be happy to know more about the progaming language you are using, show us your Visual Studio Code Settings and what you like the most or work best for you and also what should be improoved next in _Pop N' Lock Theme by Luxcium ✨_
-
-if you think something can be improved make sure to fill an issue on our GitHub page it's easy and will help us make Pop N' Lock the best theme available
-
-Please feel free to ask any question, to let us know about any problems that should be resolved and any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page.
 
 ## IMPORTS
 
@@ -148,6 +153,8 @@ Will fall back to usig italic if the font doese not include support
 [![editor.rulers setting in vscode](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png)(v3.9.5) editor.rulers setting Screenshot](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png)
 
 Your favourite streamlined code editor is getting more bright and radiant, optimized to work in the Full-fledged _Integrated Development Environment_ or in _Text Editor sized_ mode. The colours have been handpicked with great care to be the most intuitive possible and to use extensively all capacity of your favourite IDE and text editor. This powerful theme of colour is always evolving. Colourful features are added and more languages will be included soon. This theme is STRONGLY OPINIONATED so make sure to request any changes you want by filling an issue if you want to be influencing the opinion.
+
+We would be happy to know more about the progaming language you are using, show us your Visual Studio Code Settings and what you like the most or work best for you and also what should be improoved next in _Pop N' Lock Theme by Luxcium ✨_
 
 ### **Suggested extensions**
 
@@ -249,10 +256,6 @@ Pop N' Lock Theme by Luxcium ✨ Alexis's Black ⛷ (PREVIEW may change in futur
 
 Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩 (PREVIEW may change in future release)
 
-## Breaking Changes possible
-
-If you have an error: `🚫Cannot read property 'id' of undefined` Just go in config.json file remove the `"workbench.colorTheme"` then reload vscode and reinstall `Pop N' Lock Theme by Luxcium ✨`
-
 ---
 
 ### **Originally based on**
@@ -285,7 +288,7 @@ Based on _Popping and Locking (VS Code Theme)_
 
 **THE LUXCIUM OWL LOGO IS A TRADEMARK OF BENJAMIN VINCENT KASAPOGLU ™ & © 2017-2020 ALL RIGHT RESERVED**
 
-**_POP N' LOCK THEME BY LUXCIUM ✨_ IS A TRADEMARK OF BENJAMIN VINCENT KASAPOGLU ™ & © 2018-2020 ALL RIGHT RESERVED**
+**« _POP N' LOCK THEME_ » & « _POP N' LOCK THEME BY LUXCIUM ✨_ » ARE TRADEMARKS OF BENJAMIN VINCENT KASAPOGLU ™ & © 2018-2020 ALL RIGHT RESERVED**
 
 ---
 
