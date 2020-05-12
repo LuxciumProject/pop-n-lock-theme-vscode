@@ -395,7 +395,7 @@
     //
     "symbolIcon.numberForeground": "#E67",
     "symbolIcon.keywordForeground": "#D25",
-    "symbolIcon.enumeratorForeground": "#F90",
+    "symbolIcon.enumeratorForeground": "#FB2",
     "symbolIcon.packageForeground": "#F90",
     "symbolIcon.textForeground": "#FC3",
     "symbolIcon.stringForeground": "#CE5",
