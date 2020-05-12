@@ -15,15 +15,9 @@ Colourful features are added and more languages will be included soon. This them
 
 ## Make sure people know how you feel with a 5-star review
 
-> ### **Click: [I want to tell everyone about _Pop N' Lock Theme by Luxcium ✨_ ](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)**
+> ### **Click: [I want to tell everyone about _Pop N' Lock Theme by Luxcium ✨_ ](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)** and read the **«_✨ Be Proud_»** section below
 >
 > [![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock)](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)
-
-## Breaking Changes possible for `Luxcium Preview✨`
-
-> **⚠️ Themes marked `Luxcium Preview✨` are subject to change in a future release. You may have to manualy remove/reinstall the theme in your config file:**
->
-> If you have an error: `🚫Cannot read property 'id' of undefined` Just go in config.json file remove the `"workbench.colorTheme"` then reload vscode and reinstall `Pop N' Lock Theme by Luxcium ✨`
 
 ## Handpicked colors
 
@@ -249,6 +243,12 @@ We would be happy to know more about the progaming language you are using, show 
 [![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.15.5/screen-captire-1.png)(v3.15.5) JS/TS Each section of code have a specific colour signature](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.15.5/screen-captire-1.png)
 
 [![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TS1.png)(v3.11.1) TypeScript Screenshot](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TS2.png)
+
+## Breaking Changes possible for `Luxcium Preview✨`
+
+> **⚠️ Themes marked `Luxcium Preview✨` are subject to change in a future release. You may have to manualy remove/reinstall the theme in your config file:**
+>
+> If you have an error: `🚫Cannot read property 'id' of undefined` Just go in config.json file remove the `"workbench.colorTheme"` then reload vscode and reinstall `Pop N' Lock Theme by Luxcium ✨`
 
 **⚠️ PREVIEWS are subject to change in a future release. It will be splited in separate themes. You may have to reinstall the themes after by removing from your config files and adding back...**
 
