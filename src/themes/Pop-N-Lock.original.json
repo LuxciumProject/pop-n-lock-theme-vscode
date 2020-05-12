@@ -372,7 +372,7 @@
     // #C27D1A, #652D90, #00539C, #388A34, #424242
     //
     // #C27D1A, (#F91) Class, Event
-    "symbolIcon.classForeground": "#F91",
+    "symbolIcon.classForeground": "#C27D1A",
     "symbolIcon.eventForeground": "#FC3",
     // #652D90, (#A5B) Extension Method, Method, Module, Delegate
     "symbolIcon.methodForeground": "#A5B",
