@@ -384,7 +384,7 @@
     "symbolIcon.enumeratorMemberForeground": "#6BF",
     "symbolIcon.structForeground": "#6BF",
     "symbolIcon.operatorForeground": "#6BF",
-    "symbolIcon.interfaceForeground": "#00539C",
+    "symbolIcon.interfaceForeground": "#6BF",
     // #388A34, (#7C2) Object
     "symbolIcon.objectForeground": "#7C2",
     "symbolIcon.arrayForeground": "#7C2",
