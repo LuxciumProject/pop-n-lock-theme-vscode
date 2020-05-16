@@ -1,6 +1,6 @@
 {
   "name": "pop-n-lock-theme-vscode",
-  "version": "3.27.0",
+  "version": "3.27.4",
   "publisher": "Luxcium",
   "license": "MIT",
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
@@ -32,6 +32,7 @@
     "vsce:prepublish": "yarn run --ignore-engines vsce:update; yarn run --ignore-engines test",
     "vsce:publish:minor": "yarn run --ignore-engines vsce:prepublish ; yarn version --ignore-engines  --no-git-tag-version --minor && yarn run --ignore-engines vsce:pak-pub && git add .",
     "vsce:publish:patch": "yarn run --ignore-engines vsce:prepublish ; yarn version --ignore-engines  --no-git-tag-version --patch && yarn run --ignore-engines vsce:pak-pub && git add .",
+    "vsce:publish": "yarn run --ignore-engines vsce:prepublish && yarn run --ignore-engines vsce:pak-pub && git add .",
     "test": "snyk test"
   },
   "dependencies": {},
@@ -95,11 +96,6 @@
         "label": "Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩",
         "uiTheme": "vs-dark",
         "path": "./src/themes/Pop-N-Lock.tsa-asd.json"
-      },
-      {
-        "label": "Luxcium Preview ✨ Temporary Preview: [unstable | unsafe] & <BREAKING CHANGES> 🚧",
-        "uiTheme": "vs-dark",
-        "path": "./src/themes/Pop-N-Lock.matt.json"
       }
     ],
     "languages": [

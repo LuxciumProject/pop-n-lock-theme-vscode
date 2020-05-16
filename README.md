@@ -7,17 +7,17 @@
 
 <!-- [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ce09cc344aa144749755aa29d0f78f83)](https://www.codacy.com/manual/Luxcium/pop-n-lock-theme-vscode?utm_source=github.com&utm_medium=referral&utm_content=Luxcium/pop-n-lock-theme-vscode&utm_campaign=Badge_Grade) -->
 
-## Make sure people know how you feel with a 5-star review
-
-> ### **Click: [I want to tell everyone about _Pop N' Lock Theme by Luxcium ✨_ ](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)**
->
-> [![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock)](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)
-
 ## 🐲 Perfectly balanced TypeScript theme with vivid colours
 
 **This powerful theme of colour is always evolving**
 
-Colourful features are added and more languages will be included soon. This theme is **STRONGLY OPINIONATED** to make sure to to be influencing the opinion request any changes you want by filling an issue to be part of the 17 000+ happy users.
+Colourful features are added and more languages will be included soon. This theme is **STRONGLY OPINIONATED** to make sure to to be influencing the opinion request any changes you want by filling an issue to be part of the 18&nbsp;000+ happy users.
+
+> ### Make sure people know how you feel with a 5-star review
+>
+> #### **Click: [I want to tell everyone about _Pop N' Lock Theme by Luxcium ✨_ ](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)** and read the **«✨ Be Proud»** section below
+>
+> [![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock)](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)
 
 ## Handpicked colors
 
@@ -42,12 +42,6 @@ We would like to hear from you fellow user of the _Pop N' Lock Theme by Luxcium 
 if you think something can be improved make sure to fill an issue on our GitHub page it's easy and will help us make Pop N' Lock the best theme available
 
 Please feel free to ask any question, to let us know about any problems that should be resolved and any improvement you would like to see by [filing an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub page.
-
-## Breaking Changes possible for `Luxcium Preview✨`
-
-> **⚠️ Themes marked `Luxcium Preview✨` are subject to change in a future release. You may have to manualy remove/reinstall the theme in your config file:**
->
-> If you have an error: `🚫Cannot read property 'id' of undefined` Just go in config.json file remove the `"workbench.colorTheme"` then reload vscode and reinstall `Pop N' Lock Theme by Luxcium ✨`
 
 ## TypeScript
 
@@ -249,6 +243,12 @@ We would be happy to know more about the progaming language you are using, show 
 [![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.15.5/screen-captire-1.png)(v3.15.5) JS/TS Each section of code have a specific colour signature](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.15.5/screen-captire-1.png)
 
 [![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TS1.png)(v3.11.1) TypeScript Screenshot](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.11.1/TS2.png)
+
+## Breaking Changes possible for `Luxcium Preview✨`
+
+> **⚠️ Themes marked `Luxcium Preview✨` are subject to change in a future release. You may have to manualy remove/reinstall the theme in your config file:**
+>
+> If you have an error: `🚫Cannot read property 'id' of undefined` Just go in config.json file remove the `"workbench.colorTheme"` then reload vscode and reinstall `Pop N' Lock Theme by Luxcium ✨`
 
 **⚠️ PREVIEWS are subject to change in a future release. It will be splited in separate themes. You may have to reinstall the themes after by removing from your config files and adding back...**
 
