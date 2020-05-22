@@ -234,6 +234,16 @@
   ],
   "badges": [
     {
+      "description": "Theme Downloads",
+      "href": "https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details",
+      "url": "https://img.shields.io/visual-studio-marketplace/d/Luxcium.pop-n-lock-theme-vscode?color=green"
+    },
+    {
+      "description": "Theme Installs",
+      "href": "https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details",
+      "url": "https://img.shields.io/visual-studio-marketplace/i/Luxcium.pop-n-lock-theme-vscode?color=green"
+    },
+    {
       "description": "Visual Studio Marketplace Rating (Stars)",
       "href": "https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details",
       "url": "https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock"
@@ -254,7 +264,7 @@
       "url": "https://img.shields.io/github/contributors-anon/luxcium/pop-n-lock-theme-vscode.svg?style=social"
     },
     {
-      "description": "Snyk.io Known Vulnerabilities",
+      "description": "Known Vulnerabilities (Snyk.io)",
       "href": "https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode",
       "url": "https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg"
     }
