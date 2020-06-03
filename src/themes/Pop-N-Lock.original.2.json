@@ -4168,107 +4168,108 @@ support.function.console.js
     // punctuation.separator.key-value.html
     /*
 
+    // working on issue #74
 
-comment.block
-comment.block.js
-comment.line.double-slash.js
+        comment.block
+        comment.block.js
+        comment.line.double-slash.js
 
-constant.character.entity.named
-constant.character.entity.numeric.decimal
-constant.character.entity.numeric.hexadecimal
+        constant.character.entity.named
+        constant.character.entity.numeric.decimal
+        constant.character.entity.numeric.hexadecimal
 
-entity.name.tag
-entity.other.attribute-name
+        entity.name.tag
+        entity.other.attribute-name
 
-HTML
+        HTML
 
-invalid.deprecated
-invalid.deprecated.entity.other.attribute-name
-invalid.illegal.ambiguous-ampersand
-invalid.illegal.bad-angle-bracket
-invalid.illegal.character-not-allowed-here
-invalid.illegal.characters-not-allowed-here
-invalid.illegal.no-longer-supported
-invalid.illegal.unexpected-equals-sign
-invalid.illegal.unrecognized-tag
+        invalid.deprecated
+        invalid.deprecated.entity.other.attribute-name
+        invalid.illegal.ambiguous-ampersand
+        invalid.illegal.bad-angle-bracket
+        invalid.illegal.character-not-allowed-here
+        invalid.illegal.characters-not-allowed-here
+        invalid.illegal.no-longer-supported
+        invalid.illegal.unexpected-equals-sign
+        invalid.illegal.unrecognized-tag
 
-meta.attribute
-meta.attribute.data-x
-meta.attribute.event-handler
-meta.attribute.style
-meta.attribute.unrecognized
+        meta.attribute
+        meta.attribute.data-x
+        meta.attribute.event-handler
+        meta.attribute.style
+        meta.attribute.unrecognized
 
-meta.element.inline.math
-meta.element.inline.svg
-meta.element.metadata.svg
-meta.element.object.math
-meta.element.object.svg
-meta.element.other.invalid
-meta.element.other.svg
-meta.element.structure
-meta.element.structure.math
-meta.element.structure.svg
+        meta.element.inline.math
+        meta.element.inline.svg
+        meta.element.metadata.svg
+        meta.element.object.math
+        meta.element.object.svg
+        meta.element.other.invalid
+        meta.element.other.svg
+        meta.element.structure
+        meta.element.structure.math
+        meta.element.structure.svg
 
-meta.embedded.block
-meta.embedded.line.css
-meta.embedded.line.js
+        meta.embedded.block
+        meta.embedded.line.css
+        meta.embedded.line.js
 
-punctuation.definition.comment
-punctuation.definition.comment.begin.js
-punctuation.definition.comment.end.js
-punctuation.definition.comment.js
-punctuation.definition.entity
-punctuation.definition.string.begin
-punctuation.definition.string.end
-punctuation.definition.tag
-punctuation.definition.tag.begin
-punctuation.definition.tag.end
+        punctuation.definition.comment
+        punctuation.definition.comment.begin.js
+        punctuation.definition.comment.end.js
+        punctuation.definition.comment.js
+        punctuation.definition.entity
+        punctuation.definition.string.begin
+        punctuation.definition.string.end
+        punctuation.definition.tag
+        punctuation.definition.tag.begin
+        punctuation.definition.tag.end
 
-punctuation.separator.key-value
+        punctuation.separator.key-value
 
-punctuation.whitespace.comment.leading.js
-punctuation.whitespace.embedded.leading
-punctuation.whitespace.embedded.trailing
+        punctuation.whitespace.comment.leading.js
+        punctuation.whitespace.embedded.leading
+        punctuation.whitespace.embedded.trailing
 
-source.css
-source.css-ignored-vscode
-source.js
-source.js-ignored-vscode
+        source.css
+        source.css-ignored-vscode
+        source.js
+        source.js-ignored-vscode
 
-source.unknown
+        source.unknown
 
-string.quoted.double
-string.quoted.single
-string.unquoted
+        string.quoted.double
+        string.quoted.single
+        string.unquoted
 
-text.basic
+        text.basic
 
-meta.tag.custom
+        meta.tag.custom
 
-meta.tag.inline
-meta.tag.inline.math
-meta.tag.inline.svg
+        meta.tag.inline
+        meta.tag.inline.math
+        meta.tag.inline.svg
 
-meta.tag.object
-meta.tag.object.math
-meta.tag.object.svg
+        meta.tag.object
+        meta.tag.object.math
+        meta.tag.object.svg
 
-meta.tag.other
-meta.tag.other.invalid
-meta.tag.other.svg
+        meta.tag.other
+        meta.tag.other.invalid
+        meta.tag.other.svg
 
-meta.tag.structure
-meta.tag.structure.math
-meta.tag.structure.svg
+        meta.tag.structure
+        meta.tag.structure.math
+        meta.tag.structure.svg
 
-meta.tag.metadata
-meta.tag.metadata.cdata
-meta.tag.metadata.doctype
-meta.tag.metadata.processing.xml
-meta.tag.metadata.script
-meta.tag.metadata.style
-meta.tag.metadata.svg
-    */
+        meta.tag.metadata
+        meta.tag.metadata.cdata
+        meta.tag.metadata.doctype
+        meta.tag.metadata.processing.xml
+        meta.tag.metadata.script
+        meta.tag.metadata.style
+        meta.tag.metadata.svg
+*/
     {
       "name": "Global attributes",
       "scope": [
