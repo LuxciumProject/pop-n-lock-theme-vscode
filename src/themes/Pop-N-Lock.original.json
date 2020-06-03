@@ -2501,8 +2501,6 @@ foreground	source.ts variable.other.object { "foreground": "#EDBD", "fontStyle":
     {
       "name": "Entitys",
       "scope": [
-        "source.js punctuation.definition.template-expression.begin",
-        "source.js punctuation.definition.template-expression.end",
         "source.js punctuation.definition.parameters.begin",
         "source.js punctuation.definition.parameters.end",
         "source.js meta.brace.angle",
@@ -3031,6 +3029,23 @@ support.function.console.js
         "fontStyle": "italic"
       }
     },
+    /*
+
+textmate scopes	punctuation.definition.template-expression.begin.js
+meta.template.expression.js
+string.template.js
+meta.object.member.js
+meta.objectliteral.js
+meta.var.expr.js
+meta.block.js
+meta.block.js
+meta.function.expression.js
+meta.export.default.js
+source.js
+foreground	source.js punctuation.definition.template-expression.begin { "foreground": "#E4D5ADDD", "fontStyle": "" }
+
+
+    */
     {
       "name": "Operators",
       "scope": [
@@ -5301,8 +5316,6 @@ source.css
     {
       "name": "Entitys",
       "scope": [
-        "source punctuation.definition.template-expression.begin",
-        "source punctuation.definition.template-expression.end",
         "source punctuation.definition.parameters.begin",
         "source punctuation.definition.parameters.end",
         "source meta.brace.angle",
@@ -6144,8 +6157,12 @@ source.css
     },
     {
       "scope": [
+        "source.js punctuation.definition.template-expression.begin",
+        "source.js punctuation.definition.template-expression.end",
         "source.ts string.template punctuation.definition.template-expression.begin",
-        "source.ts string.template punctuation.definition.template-expression.end"
+        "source.ts string.template punctuation.definition.template-expression.end",
+        "source punctuation.definition.template-expression.begin",
+        "source punctuation.definition.template-expression.end",
       ],
       "settings": {
         "foreground": "#E8DD" /*#E8DE*/,
