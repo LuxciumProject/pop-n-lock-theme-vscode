@@ -6272,3 +6272,88 @@ source.css
 3 6 9 C F
 
 */
+/*
+
+  #DDCCBB
+  #D9CBBC
+  #D6C9BD
+  #D2C8BE (#D2-C8-BE)
+  #CEC7BF
+  #CAC5C0
+  #C7C4C0
+  #C3C2C1
+  #BFC1C2
+  #BBC0C3
+  #B8BEC4
+  #B4BDC5
+
+  #DDCCBBDD
+  #D9CBBCDD
+  #D6C9BDDD
+  #D2C8BEDD
+  #CEC7BFDD
+  #CAC5C0DD
+  #C7C4C0DD
+  #C3C2C1DD
+  #BFC1C2DD
+  #BBC0C3DD
+  #B8BEC4DD
+  #B4BDC5DD
+
+  #B4BDC5
+  #DDCCBB
+  #DDCCBBDD
+  #C9BDB0
+  #BBBDBE
+  #C2BDB7
+  #C9BDB0
+  #CFBCA8
+  #D6BCA1
+  #DDBC9A
+// next version
+#DDBC9A
+#D3BCA5
+#C9BDB0
+#C9BDB0
+#C9BDB0
+ */
+/*
+    "gitDecoration.addedResourceForeground": "#FC3",
+    "gitDecoration.modifiedResourceForeground": "#F93",
+    "gitDecoration.conflictingResourceForeground": "#F33",
+    "gitDecoration.deletedResourceForeground": "#936",
+    "gitDecoration.ignoredResourceForeground": "#39C",
+    "gitDecoration.submoduleResourceForeground": "#C3C",
+    "gitDecoration.untrackedResourceForeground": "#3C3",
+    #DDCCAA #DCB
+    #D6CAAF
+    #CFC7B3 #DCB
+    #C9C5B8
+    #C2C2BC #CCC
+    #BBC0C1
+    #C9BDB0 #BCC
+
+    #DDCCAA #DCB
+    #D9CBAC #D9CBAC
+    #D6C9AF #D6C9AF
+    #D2C8B1 #D2C8B1
+    #CEC7B4 #CEC7B4
+    #CAC5B6 #CAC5B6
+    #C7C4B9 #C7C4B9
+    #C3C2BB #C3C2BB
+    #BFC1BE #BFC1BE
+    #BBC0C0 #BBC0C0
+    #B8BEC3 #B8BEC3
+    #B4BDC5 #B4BDC5
+    #C4BDB5 #BCC
+    #C9BDB0
+    #C4BDB5
+    #B4BDC5DE    (#B4-BD-C5-DE)
+%
+#EEDDAA #EDA #EDAD
+#E4D5AD
+#D9CDB0
+#C4BDB5
+#C4BDB5
+%
+  */
