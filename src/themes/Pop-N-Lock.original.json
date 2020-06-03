@@ -503,7 +503,7 @@
     // for large text.
     // Large text is defined as 14 point (typically 18.66px) and bold or larger, or 18 point (typically 24px)
     // or larger.
-  /*
+    /*
 
 
 
@@ -533,7 +533,7 @@ source.ts
 foreground	source.ts meta.type.declaration support.type.primitive { "foreground": "#FFCC55", "fontStyle": "" }
 
 
-  */
+    */
     {
       "name": "Interface and Type Aliase definition keyword",
       "scope": [
