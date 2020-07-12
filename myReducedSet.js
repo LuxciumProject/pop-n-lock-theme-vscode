@@ -1,4 +1,4 @@
-reduce color from,export const colorListReducedSet = [
+const colorListReducedSet = [
 '#001111',
 '#001133',
 '#00539c',
