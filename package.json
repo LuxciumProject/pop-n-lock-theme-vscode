@@ -35,7 +35,9 @@
     "vsce:publish": "yarn run --ignore-engines vsce:prepublish && yarn run --ignore-engines vsce:pak-pub && git add .",
     "test": "snyk test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "color-convert": "^2.0.1"
+  },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.6",
