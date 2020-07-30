@@ -15,7 +15,9 @@ Colourful features are added and more languages will be included soon. This them
 
 > ### Make sure people know how you feel with a 5-star review
 >
-> #### **Click: [I want to tell everyone about _Pop N' Lock Theme by Luxcium ✨_ ](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)** and read the **«✨ Be Proud»** section below
+> #### **Click: [I want to tell everyone about _Pop N' Lock Theme by Luxcium ✨_ ](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)**
+>
+> and read the **«✨ Be Proud»** section below
 >
 > [![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock)](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details)
 

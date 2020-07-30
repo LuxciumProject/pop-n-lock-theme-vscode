@@ -1,6 +1,8 @@
 {
   "name": "pop-n-lock-theme-vscode",
+
   "version": "3.29.6",
+
   "publisher": "Luxcium",
   "license": "MIT",
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
@@ -213,6 +215,26 @@
     "Cursive"
   ],
   "tags": [
+    "vscode",
+    "theme",
+    "balanced",
+    "popping-and-locking-vscode",
+    "js",
+    "jsx",
+    "css",
+    "scss",
+    "saturated",
+    "web-development",
+    "beautiful",
+    "dark-color-theme",
+    "dark",
+    "blue",
+    "italics",
+    "cursive-italics",
+    "cursive",
+    "operator-mono",
+    "victormono",
+    "fira-code-iscript",
     "Typescript Syntax",
     "Typescript Grammar",
     "TypeScript",
@@ -227,6 +249,7 @@
     "Night",
     "popular",
     "Pop",
+    "lock",
     "Luxcium",
     "Trending",
     "Popping and Locking Vscode",
@@ -240,11 +263,6 @@
     "Italic Theme"
   ],
   "badges": [
-    {
-      "description": "Visual Studio Marketplace Rating (Stars)",
-      "href": "https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details",
-      "url": "https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock"
-    },
     {
       "description": "GitHub stars",
       "href": "https://github.com/luxcium/pop-n-lock-theme-vscode/stargazers",
@@ -261,9 +279,24 @@
       "url": "https://img.shields.io/github/contributors-anon/luxcium/pop-n-lock-theme-vscode.svg?style=social"
     },
     {
-      "description": "Snyk.io Known Vulnerabilities",
+      "description": "Theme Installs",
+      "href": "https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details",
+      "url": "https://img.shields.io/visual-studio-marketplace/i/Luxcium.pop-n-lock-theme-vscode?color=green"
+    },
+    {
+      "description": "Theme Downloads",
+      "href": "https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details",
+      "url": "https://img.shields.io/visual-studio-marketplace/d/Luxcium.pop-n-lock-theme-vscode?color=green"
+    },
+    {
+      "description": "Known Vulnerabilities (Snyk.io)",
       "href": "https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode",
       "url": "https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg"
+    },
+    {
+      "description": "Visual Studio Marketplace Rating (Stars)",
+      "href": "https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&ssr=false#review-details",
+      "url": "https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&label=Pop%20N%27%20Lock"
     }
   ],
   "__metadata": {
