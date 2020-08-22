@@ -11,7 +11,9 @@
 
 **This powerful theme of colour is always evolving**
 
-Colourful features are added and more languages will be included soon. This theme is **STRONGLY OPINIONATED** to make sure to to be influencing the opinion request any changes you want by filling an issue to be part of the 18&nbsp;000+ happy users.
+Colourful features are added and more languages will be included soon. This theme is **STRONGLY OPINIONATED** to make sure to to be influencing the opinion request any changes you want by filling an issue to be part of the 26&nbsp;000+ happy users.
+
+> _The name of the theme contain emoticon and encoding of your config file must be set to "utf8"_
 
 > ### Make sure people know how you feel with a 5-star review
 >
@@ -260,6 +262,27 @@ Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩 (PREVIEW may change in future rele
 
 ---
 
+### **On the web**
+
+- [Pop n' Lock on Best VS Code Dark Themes - 2020 Edition](https://www.amitmerchant.com/vscode-dark-themes-2020/)
+- [Pop n' Lock on dev.to/pixelgoo](https://dev.to/pixelgoo/comment/eb31)
+- [Pop n' Lock on marketplace ](https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode)
+- [Pop n' Lock on vscodethemes ](https://vscodethemes.com/e/Luxcium.pop-n-lock-theme-vscode)
+- [Pop n' Lock on npmjs ](https://www.npmjs.com/package/pop-n-lock-theme-vscode)
+- [Pop n' Lock on github ](https://github.com/Luxcium/pop-n-lock-theme-vscode)
+- [Pop n' Lock on vsixhub ](https://www.vsixhub.com/vsix/381/)
+- [Pop n' Lock on xspdf ](https://www.xspdf.com/help/52355090.html)
+- [Pop n' Lock on gitmemory ](https://www.gitmemory.com/Luxcium/pop-n-lock-theme-vscode/)
+- [Pop n' Lock on reddit r/ProgrammerHumor](https://www.reddit.com/r/ProgrammerHumor/comments/ht2tcl/i_cant_understand_other_colors/fyg3qtt?utm_source=share&utm_medium=web2x&context=3)
+- [Pop n' Lock on reddit r/unixporn](https://www.reddit.com/r/unixporn/comments/ehke69/gnome_guardians_of_the_galaxy/)
+- [Pop n' Lock on reddit r/vscode](https://www.reddit.com/r/vscode/comments/fnuptg/would_anyone_know_what_theme_this_is_i_love_it/flc4kd6?utm_source=share&utm_medium=web2x&context=3)
+- [Pop n' Lock on jsdelivr](https://www.jsdelivr.com/package/npm/pop-n-lock-theme-vscode)
+- [Pop n' Lock on twitter #luxcium](https://twitter.com/hashtag/luxcium?src=hash)
+- [Pop n' Lock on cnpmjs... topics/blue](https://github.com.cnpmjs.org/topics/blue)
+- [Pop n' Lock on open-vsx](https://open-vsx.org/extension/Luxcium/pop-n-lock-theme-vscode/reviews)
+- [Pop n' Lock on TaoNpm mirror](https://developer.aliyun.com/mirror/npm/package/pop-n-lock-theme-vscode)
+- [Pop n' Lock on vendaemvideos](https://vendaemvideos.com.br/blog/vscode-themes-2020-8d3168)
+
 ### **Originally based on**
 
 This theme is based on the designs of Hedinne's _Popping And Locking_ a theme with vivid colours, they capture your attention but are easy on your eyes. His theme originally based on VS Dark+, Gruvbox Dark and One Dark has changed a lot since. It is currently designed with TypeScript grammar and web languages syntax in mind like HTML & CSS (Also includes support for JavaScript, JSON, YAML, React's JSX/TSX and more).
@@ -288,9 +311,9 @@ Based on _Popping and Locking (VS Code Theme)_
 
 ---
 
-**THE LUXCIUM OWL LOGO IS A TRADEMARK OF BENJAMIN VINCENT KASAPOGLU ™ & © 2017-2020 ALL RIGHT RESERVED**
+**THE LUXCIUM OWL LOGO IS A TRADEMARK OF BENJAMIN VINCENT KASAPOGLU (™ & © 2017-2020 ALL RIGHT RESERVED)**
 
-**« _POP N' LOCK THEME_ » & « _POP N' LOCK THEME BY LUXCIUM ✨_ » ARE TRADEMARKS OF BENJAMIN VINCENT KASAPOGLU ™ & © 2018-2020 ALL RIGHT RESERVED**
+**« _POP N' LOCK THEME_ » & « _POP N' LOCK THEME BY LUXCIUM ✨_ » ARE TRADEMARKS OF BENJAMIN VINCENT KASAPOGLU (™ & © 2018-2020 ALL RIGHT RESERVED)**
 
 ---
 

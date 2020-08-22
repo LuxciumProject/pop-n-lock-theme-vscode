@@ -1,6 +1,6 @@
 {
   "name": "pop-n-lock-theme-vscode",
-  "version": "3.30.0",
+  "version": "3.31.0",
   "publisher": "Luxcium",
   "license": "MIT",
   "displayName": "Pop N' Lock Theme by Luxcium ✨",
@@ -33,10 +33,10 @@
     "vsce:publish": "vsce publish --yarn",
     "vsce:package": "vsce package --yarn",
     "vsce:pak-pub": "vsce package --yarn && vsce publish --yarn",
-    "vsce:release": "yarn run --ignore-engines vsce:prepublish && yarn run --ignore-engines vsce:pak-pub && git add .",
     "vsce:prepublish": "yarn run --ignore-engines update:all; yarn run --ignore-engines test",
-    "vsce:release:minor": "yarn run --ignore-engines vsce:prepublish ; yarn version --ignore-engines  --no-git-tag-version --minor && yarn run --ignore-engines vsce:pak-pub  && git add .",
-    "vsce:release:patch": "yarn run --ignore-engines vsce:prepublish ; yarn version --ignore-engines  --no-git-tag-version --patch && yarn run --ignore-engines vsce:pak-pub && git add ."
+    "vsce:release": "yarn run --ignore-engines vsce:prepublish && yarn run --ignore-engines vsce:pak-pub && git add .  && yarn run npm:publish",
+    "vsce:release:minor": "yarn run --ignore-engines vsce:prepublish ; yarn version --ignore-engines  --no-git-tag-version --minor && yarn run --ignore-engines vsce:pak-pub  && git add . && yarn run npm:publish",
+    "vsce:release:patch": "yarn run --ignore-engines vsce:prepublish ; yarn version --ignore-engines  --no-git-tag-version --patch && yarn run --ignore-engines vsce:pak-pub && git add . && yarn run npm:publish"
   },
   "dependencies": {
     "color-convert": "^2.0.1"
@@ -61,7 +61,7 @@
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
     "mongoose": "^5.9.7",
-    "npm": "^6.14.7",
+    "npm": "^6.14.8",
     "prettier": "^2.0.4",
     "puppeteer": "^2.1.1",
     "ramda": "^0.27.0",
@@ -74,7 +74,7 @@
     "tslint": "^6.1.1",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.8.3",
-    "vsce": "^1.77.0",
+    "vsce": "^1.78.0",
     "vscode-languageclient": "^6.1.3",
     "yarn": "^1.22.4"
   },
