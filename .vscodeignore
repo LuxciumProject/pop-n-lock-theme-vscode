@@ -1,8 +1,15 @@
 *
 *.*
 **/*.*
-!README.md
+lib/**/*
+!images/**/*.*
 !package.json
+!README.md
+!Scientia-is-lux-principium-400px-TM.png
 !src/languages/**/*.*
 !src/themes/**/*.*
-!Scientia-is-lux-principium-400px-TM.png
+!*.ico
+!*.png
+!social-media*
+!LICENSE
+pop-n-lock*.tgz

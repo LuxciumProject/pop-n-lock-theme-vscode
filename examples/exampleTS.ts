@@ -1,31 +1,31 @@
-import { config } from "dotenv";
-import express from "express";
-import mongoose from "mongoose";
+import { config } from 'dotenv';
+import express from 'express';
+import mongoose from 'mongoose';
 
 config();
-const List = mongoose.model("List");
+const List = mongoose.model('List');
 const jwtSecret = process.env.JWTSECRET;
 const router = express.Router();
-const User = mongoose.model("User");
-const ListItem = mongoose.model("ListItem");
+const User = mongoose.model('User');
+const ListItem = mongoose.model('ListItem');
 const newReg = /r\eg[A-B]Exp/;
 function returnAllLists(userId: any, res: any) {
   return User.findById(userId)
     .populate({
-      path: "lists",
+      path: 'lists',
       populate: {
-        path: "listItems",
-        newReg
-      }
+        path: 'listItems',
+        newReg,
+      },
     })
     .exec((userErr, doc) => {
       if (!!userErr) {
-        console.error("User.populate Error", userErr);
+        console.error('User.populate Error', userErr);
       }
       return res.status(200).json({
         success: true,
-        successMessage: "Here is the page",
-        data: doc.collection
+        successMessage: 'Here is the page',
+        data: doc.collection,
       });
     });
 }
@@ -45,18 +45,18 @@ interface Arguments {
 enum Delays {
   Short = 500,
   Medium = 2000,
-  Long = 5000
+  Long = 5000,
 }
 
 (() => {
-  const objectLike = { propertyOne: 10, propertyTwo: "string" };
+  const objectLike = { propertyOne: 10, propertyTwo: 'string' };
   const { propertyOne } = objectLike;
   const myArray = [5, 10, 15, 20, 25];
   const [cinq, dix] = myArray;
-  global.console.log("Hello World");
+  global.console.log('Hello World');
   return { propertyOne, cinq, dix };
 })();
-export const value = "this";
+export const value = 'this';
 export type defined =
   | string
   | IInterface
@@ -73,7 +73,7 @@ class Greeter {
     this.greeting = message;
   }
   public greet() {
-    return "Hello, " + this.greeting;
+    return 'Hello, ' + this.greeting;
   }
 }
 
@@ -88,15 +88,16 @@ function sealed(constructor: any): void {
   Object.seal(constructor);
   Object.seal(constructor.prototype);
 }
-
+console.log('hello');
+Promise.resolve();
 async function asyncFunction(): Promise<any> {
-  const objectLike = { propertyOne: 10, propertyTwo: "string" };
+  const objectLike = { propertyOne: 10, propertyTwo: 'string' };
   const { propertyOne } = objectLike;
 
   const variable1 = 2 + 10;
-  let message: string = "this is a string indeed";
+  let message: string = 'this is a string indeed';
   message = 'this is a ${"string"}  indeed';
-  message = `this is a  ${"string"}   indeed`;
+  message = `this is a  ${'string'}   indeed`;
   const variable3 = new Greeter(message);
 
   const variable2 = variable1.toFixed(200 - 400);
@@ -115,17 +116,17 @@ export const asyncAnonymArowFunction = async () => {
   checker = false;
   checker.valueOf();
   const angel = checker ? 48 : 47;
-  const some = new ClassName({ value: "value", angel });
+  const some = new ClassName({ value: 'value', angel });
   const others = [
     some.otherMethodeValue,
     450,
     null,
     NaN,
     Infinity,
-    this._othervalue,
+    this?._othervalue,
     true,
     false,
-    undefined
+    undefined,
   ];
   return { some, variable1, others };
 };
@@ -166,7 +167,7 @@ export class ClassName extends ParentClass implements IInterface {
   private _othervalue: any;
   public constructor(parametre: Arguments) {
     super();
-    if (isNaN(parametre.angel) && typeof parametre.value === "number") {
+    if (isNaN(parametre.angel) && typeof parametre.value === 'number') {
       this.angel = Infinity;
     }
   }
@@ -175,7 +176,7 @@ export class ClassName extends ParentClass implements IInterface {
     checker = true;
     checker = false;
     const angel = checker ? 48 : 47;
-    const aNewClass = new ClassName({ value: "value", angel: angel });
+    const aNewClass = new ClassName({ value: 'value', angel: angel });
     console.log(aNewClass.value, checker, Math.PI);
     const others = [450, null, true, false, undefined];
     return { aNewClass, others };
@@ -185,10 +186,10 @@ export class ClassName extends ParentClass implements IInterface {
   }
   private _otherMethode() {
     try {
-      const popo: string = "ceci est un canon";
-      let mice = "jerry";
-      mice = "ichy";
-      console.log("mice", mice);
+      const popo: string = 'ceci est un canon';
+      let mice = 'jerry';
+      mice = 'ichy';
+      console.log('mice', mice);
       return {
         values: [
           null,
@@ -198,10 +199,10 @@ export class ClassName extends ParentClass implements IInterface {
           true,
           false,
           450 as number,
-          undefined as undefined
+          undefined as undefined,
         ],
         popo,
-        souris: mice
+        souris: mice,
       };
     } catch (error) {
       throw new global.GLOBAL.global.Error(error.message);
@@ -223,7 +224,7 @@ export function formatStockChartData(stockChartDataInfos: any[]): any[] {
         high: stockChartData.high,
         low: stockChartData.low,
         open: stockChartData.open,
-        close: stockChartData.close
+        close: stockChartData.close,
       },
       volume: stockChartData.volume,
       average: stockChartData.average,
@@ -238,7 +239,7 @@ export function formatStockChartData(stockChartDataInfos: any[]): any[] {
       marketOpen: stockChartData.marketOpen,
       marketClose: stockChartData.marketClose,
       changeOverTime: stockChartData.changeOverTime,
-      marketChangeOverTime: stockChartData.marketChangeOverTime
+      marketChangeOverTime: stockChartData.marketChangeOverTime,
     };
   });
 }
